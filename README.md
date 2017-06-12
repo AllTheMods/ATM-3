@@ -9,7 +9,7 @@ Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 #### Curse Links: 
 + [All The Mods](https://mods.curse.com/modpacks/minecraft/242462-all-the-mods)  
 + [All The Mods 2](https://mods.curse.com/modpacks/minecraft/253707-all-the-mods-2)  
-+ [All The Mods 3](https://mods.curse.com/modpacks/minecraft/253707-all-the-mods-3)  
++ [All The Mods 3](https://mods.curse.com/modpacks/minecraft/269708-all-the-mods-3)  
 + [All The Mods: Lite](https://mods.curse.com/modpacks/minecraft/250625-all-the-mods-lite)  
 + [All The Mods: Expert](https://mods.curse.com/modpacks/minecraft/252034-all-the-mods-expert)  
 + [All The Sky](https://mods.curse.com/modpacks/minecraft/252462-all-the-sky)  
