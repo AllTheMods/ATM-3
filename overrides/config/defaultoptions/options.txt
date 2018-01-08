@@ -1,0 +1,10 @@
+renderDistance:8
+resourcePacks:["ctp_1.2_MCv3.zip"]
+incompatibleResourcePacks:[]
+mipmapLevels:1
+reducedDebugInfo:false
+autoJump:false
+narrator:0
+tutorialStep:none
+soundCategory_master:0.5
+key_quark.keybind.toggleAutojump:0

@@ -1,0 +1,426 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
+        <planet name="Earth" DIMID="0" dimMapping="">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Luna" DIMID="3">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>128000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <biomeIds>186</biomeIds>
+            </planet>
+        </planet>
+        <planet name="Mars" DIMID="16">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.23552197,0.5528875,1.0</skyColor>
+            <gravitationalMultiplier>110</gravitationalMultiplier>
+            <orbitalDistance>195</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>18031</rotationalPeriod>
+            <atmosphereDensity>72</atmosphereDensity>
+            <biomeIds>114,117,24,69,60</biomeIds>
+                <planet name="Phobos" DIMID="1051">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.8,0.6596607,0.11383283</skyColor>
+                <gravitationalMultiplier>126</gravitationalMultiplier>
+                <orbitalDistance>90</orbitalDistance>
+                <orbitalPhi>-2</orbitalPhi>
+                <rotationalPeriod>11997</rotationalPeriod>
+                <atmosphereDensity>155</atmosphereDensity>
+                <biomeIds>188</biomeIds>
+            </planet>
+            <planet name="Deimos" DIMID="1052">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.8,0.6596607,0.11383283</skyColor>
+                <gravitationalMultiplier>126</gravitationalMultiplier>
+                <orbitalDistance>90</orbitalDistance>
+                <orbitalPhi>-2</orbitalPhi>
+                <rotationalPeriod>11997</rotationalPeriod>
+                <atmosphereDensity>155</atmosphereDensity>
+                <biomeIds>188</biomeIds>
+            </planet>
+        </planet>
+        <planet name="Saturn" DIMID="19">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.6596607,0.11383283</skyColor>
+            <gravitationalMultiplier>126</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalPhi>-2</orbitalPhi>
+            <rotationalPeriod>11997</rotationalPeriod>
+            <atmosphereDensity>155</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Mercery" DIMID="4">
+            <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>160</atmosphereDensity>
+        </planet>
+        <planet name="Venus" DIMID="20">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.82618,0.14542347</skyColor>
+            <gravitationalMultiplier>98</gravitationalMultiplier>
+            <orbitalDistance>35</orbitalDistance>
+            <orbitalPhi>-4</orbitalPhi>
+            <rotationalPeriod>25499</rotationalPeriod>
+            <atmosphereDensity>110</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Jupiter" DIMID="21">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.5878742,0.89389074,1.0</skyColor>
+            <gravitationalMultiplier>104</gravitationalMultiplier>
+            <orbitalDistance>126</orbitalDistance>
+            <orbitalPhi>-3</orbitalPhi>
+            <rotationalPeriod>20150</rotationalPeriod>
+            <atmosphereDensity>58</atmosphereDensity>
+            <biomeIds>76,20,87,195,135</biomeIds>
+        </planet>
+        <planet name="Saturn" DIMID="22">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.7824364,0.25267386</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>94</orbitalDistance>
+            <orbitalPhi>-4</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>144</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <biomeIds>141,44,22,147,149,192,190</biomeIds>
+            <planet name="Sol-22: 0" DIMID="23">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.073173106,0.5408215,1.0</skyColor>
+                <gravitationalMultiplier>66</gravitationalMultiplier>
+                <orbitalDistance>149</orbitalDistance>
+                <orbitalPhi>3</orbitalPhi>
+                <rotationalPeriod>83479</rotationalPeriod>
+                <atmosphereDensity>13</atmosphereDensity>
+                <biomeIds>186</biomeIds>
+            </planet>
+            <planet name="Sol-22: 1" DIMID="24">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.0,0.9059073,1.0</skyColor>
+                <gravitationalMultiplier>71</gravitationalMultiplier>
+                <orbitalDistance>183</orbitalDistance>
+                <orbitalPhi>-2</orbitalPhi>
+                <rotationalPeriod>67055</rotationalPeriod>
+                <atmosphereDensity>34</atmosphereDensity>
+                <biomeIds>86,193,104,132,17</biomeIds>
+            </planet>
+            <planet name="Sol-22: 2" DIMID="25">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.0,0.5875311,1.0</skyColor>
+                <gravitationalMultiplier>78</gravitationalMultiplier>
+                <orbitalDistance>188</orbitalDistance>
+                <orbitalPhi>-1</orbitalPhi>
+                <rotationalPeriod>50574</rotationalPeriod>
+                <atmosphereDensity>33</atmosphereDensity>
+                <biomeIds>149,125,34,91,136</biomeIds>
+            </planet>
+        </planet>
+        <planet name="Uranus" DIMID="26">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.5622388,0.620012</skyColor>
+            <gravitationalMultiplier>112</gravitationalMultiplier>
+            <orbitalDistance>91</orbitalDistance>
+            <orbitalPhi>-3</orbitalPhi>
+            <rotationalPeriod>17082</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <biomeIds>183,36,75,149,0</biomeIds>
+        </planet>
+        <planet name="Neptune" DIMID="12">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.85336864,0.0</skyColor>
+            <gravitationalMultiplier>95</gravitationalMultiplier>
+            <orbitalDistance>86</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>27992</rotationalPeriod>
+            <atmosphereDensity>200</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Pluto" DIMID="15" customIcon="IceWorld">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.0,0.5380826,1.0</skyColor>
+            <gravitationalMultiplier>69</gravitationalMultiplier>
+            <orbitalDistance>155</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>73057</rotationalPeriod>
+            <atmosphereDensity>13</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+    </star>
+    <star name="Fandom" temp="10" x="300" y="-200" size="1.0" numPlanets="0" numGasGiants="0">
+        <planet name="Transsexual" DIMID="32">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.8479778,0.0</skyColor>
+            <gravitationalMultiplier>98</gravitationalMultiplier>
+            <orbitalDistance>58</orbitalDistance>
+            <orbitalPhi>2</orbitalPhi>
+            <rotationalPeriod>25499</rotationalPeriod>
+            <atmosphereDensity>195</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Gallifrey" DIMID="33">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.6525768,0.8529489</skyColor>
+            <gravitationalMultiplier>99</gravitationalMultiplier>
+            <orbitalDistance>119</orbitalDistance>
+            <orbitalPhi>-1</orbitalPhi>
+            <rotationalPeriod>24734</rotationalPeriod>
+            <atmosphereDensity>109</atmosphereDensity>
+            <biomeIds>4,173,137,2,139</biomeIds>
+        </planet>
+        <planet name="Xandar" DIMID="36">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.0,0.7874744,1.0</skyColor>
+            <gravitationalMultiplier>44</gravitationalMultiplier>
+            <orbitalDistance>170</orbitalDistance>
+            <orbitalPhi>1</orbitalPhi>
+            <rotationalPeriod>281743</rotationalPeriod>
+            <atmosphereDensity>22</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Magrathea" DIMID="37">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.0,0.8110147,1.0</skyColor>
+            <gravitationalMultiplier>78</gravitationalMultiplier>
+            <orbitalDistance>165</orbitalDistance>
+            <orbitalPhi>-6</orbitalPhi>
+            <rotationalPeriod>50574</rotationalPeriod>
+            <atmosphereDensity>23</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Alderaan: 0" DIMID="35">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.21090013,0.9793546,1.0</skyColor>
+                <gravitationalMultiplier>54</gravitationalMultiplier>
+                <orbitalDistance>120</orbitalDistance>
+                <orbitalPhi>-3</orbitalPhi>
+                <rotationalPeriod>152415</rotationalPeriod>
+                <atmosphereDensity>15</atmosphereDensity>
+                <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Krypton" DIMID="38">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.8833487,0.5302347</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>139</orbitalDistance>
+            <orbitalPhi>2</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>157</atmosphereDensity>
+            <biomeIds>141,25,101,0,134,192,190</biomeIds>
+        </planet>
+        <planet name="Cybertron: 0" DIMID="39">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.27472103,0.6884029,1.0</skyColor>
+            <gravitationalMultiplier>87</gravitationalMultiplier>
+            <orbitalDistance>123</orbitalDistance>
+            <orbitalPhi>-3</orbitalPhi>
+            <rotationalPeriod>36446</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Raxicoricofallapatorius" DIMID="40">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.54600406,0.15856981</skyColor>
+            <gravitationalMultiplier>88</gravitationalMultiplier>
+            <orbitalDistance>38</orbitalDistance>
+            <orbitalPhi>-1</orbitalPhi>
+            <rotationalPeriod>35217</rotationalPeriod>
+            <atmosphereDensity>111</atmosphereDensity>
+            <biomeIds>88,141,147,163,146</biomeIds>
+        </planet>
+        <planet name="Skaro" DIMID="65">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.3264588,0.6182672,1.0</skyColor>
+            <gravitationalMultiplier>54</gravitationalMultiplier>
+            <orbitalDistance>139</orbitalDistance>
+            <orbitalPhi>2</orbitalPhi>
+            <rotationalPeriod>152415</rotationalPeriod>
+            <atmosphereDensity>31</atmosphereDensity>
+            <biomeIds>194,29,193,95,153</biomeIds>
+        </planet>
+        <planet name="Gazorpazorp" DIMID="57">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.52263427,0.8321105,1.0</skyColor>
+            <gravitationalMultiplier>79</gravitationalMultiplier>
+            <orbitalDistance>110</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>48677</rotationalPeriod>
+            <atmosphereDensity>34</atmosphereDensity>
+            <biomeIds>132,79,73,177,115</biomeIds>
+        </planet>
+        <planet name="Vulcan" DIMID="58">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.24270767,0.6875137,1.0</skyColor>
+            <gravitationalMultiplier>58</gravitationalMultiplier>
+            <orbitalDistance>151</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>123006</rotationalPeriod>
+            <atmosphereDensity>32</atmosphereDensity>
+            <biomeIds>74,146,130,6,35</biomeIds>
+        </planet>
+        <planet name="Phobos" DIMID="42">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.26757395,0.7063006,1.0</skyColor>
+            <gravitationalMultiplier>62</gravitationalMultiplier>
+            <orbitalDistance>141</orbitalDistance>
+            <orbitalPhi>-2</orbitalPhi>
+            <rotationalPeriod>100701</rotationalPeriod>
+            <atmosphereDensity>25</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Titan" DIMID="43">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.3092326,0.5720936,1.0</skyColor>
+            <gravitationalMultiplier>73</gravitationalMultiplier>
+            <orbitalDistance>126</orbitalDistance>
+            <orbitalPhi>-3</orbitalPhi>
+            <rotationalPeriod>61693</rotationalPeriod>
+            <atmosphereDensity>20</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+        <planet name="Charon" DIMID="44">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.20450503,0.85322654,1.0</skyColor>
+            <gravitationalMultiplier>75</gravitationalMultiplier>
+            <orbitalDistance>136</orbitalDistance>
+            <orbitalPhi>-3</orbitalPhi>
+            <rotationalPeriod>56888</rotationalPeriod>
+            <atmosphereDensity>15</atmosphereDensity>
+            <biomeIds>186</biomeIds>
+        </planet>
+    </star>
+    <star name="Norse Mythology" temp="170" x="-200" y="80" size="1.0" numPlanets="0" numGasGiants="0">
+        <planet name="Asgard" DIMID="34">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.37350494,0.9763119,1.0</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>127</orbitalDistance>
+            <orbitalPhi>-4</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>41</atmosphereDensity>
+            <biomeIds>108,92,109,165,146</biomeIds>
+        </planet>
+        <planet name="Niflheim" DIMID="55">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.9520757,0.24259794</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>169</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>200</atmosphereDensity>
+            <biomeIds>3</biomeIds>
+        </planet>
+        <planet name="Muspelheim" DIMID="56">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.92411935,0.0</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>14</orbitalDistance>
+            <orbitalPhi>2</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>141</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Jotunheim" DIMID="41">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.5706563,0.0</skyColor>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>1</orbitalDistance>
+            <orbitalPhi>-2</orbitalPhi>
+            <rotationalPeriod>10923</rotationalPeriod>
+            <atmosphereDensity>125</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+        </planet>
+        <planet name="Vanaheim" DIMID="59">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.3339157,0.65636075,1.0</skyColor>
+            <gravitationalMultiplier>129</gravitationalMultiplier>
+            <orbitalDistance>140</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>11180</rotationalPeriod>
+            <atmosphereDensity>32</atmosphereDensity>
+            <biomeIds>55,64,91,178,1</biomeIds>
+        </planet>
+        <planet name="Alfheim" DIMID="60">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.81756777,0.21550864</skyColor>
+            <gravitationalMultiplier>126</gravitationalMultiplier>
+            <orbitalDistance>161</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>11997</rotationalPeriod>
+            <atmosphereDensity>200</atmosphereDensity>
+            <biomeIds>98,0,93,141,99,192,190</biomeIds>
+        </planet>
+        <planet name="Helheim" DIMID="46">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.18705499,0.6102761,1.0</skyColor>
+            <gravitationalMultiplier>78</gravitationalMultiplier>
+            <orbitalDistance>149</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>50574</rotationalPeriod>
+            <atmosphereDensity>28</atmosphereDensity>
+            <biomeIds>106,144,14,142,143</biomeIds>
+        </planet>
+        <planet name="Svartalfheim" DIMID="45">
+            <isKnown>false</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>0.8,0.94028854,0.1609962</skyColor>
+            <gravitationalMultiplier>116</gravitationalMultiplier>
+            <orbitalDistance>77</orbitalDistance>
+            <orbitalPhi>1</orbitalPhi>
+            <rotationalPeriod>14984</rotationalPeriod>
+            <atmosphereDensity>133</atmosphereDensity>
+            <biomeIds>102,147,106,47,23,192,190</biomeIds>
+        </planet>
+    </star>
+</galaxy>

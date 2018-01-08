@@ -1,0 +1,8 @@
+{
+  "item": "minecraft:rotten_flesh",
+  "mana_drain": 500,
+  "burnout_fill": 500,
+  "primary_color": "381700",
+  "secondary_color": "8e0000",
+  "cooldown_time": 500
+}

@@ -1,0 +1,213 @@
+{
+	"dependencies": ["tconstruct", "techreborn", "rftools", "cyclicmagic", "draconicevolution", "bigreactors"],
+	"populate": {
+		"tconstruct": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "tconstruct:ore",
+						"metadata": 0,
+						"weight": 50
+					},
+					{
+						"name": "tconstruct:ore",
+						"metadata": 1,
+						"weight": 50
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 132,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"techreborn": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "techreborn:ore",
+						"metadata": 7,
+						"weight": 33
+					},
+					{
+						"name": "techreborn:ore",
+						"metadata": 6,
+						"weight": 33
+					},
+					{
+						"name": "techreborn:ore",
+						"metadata": 5,
+						"weight": 33
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 5
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 132,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"rftools": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "rftools:dimensional_shard_ore",
+						"metadata": 1,
+						"weight": 100
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 1
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"cyclicbasic": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "cyclicmagic:nether_iron_ore",
+						"metadata": 0,
+						"weight": 100
+					},
+					{
+						"name": "cyclicmagic:nether_gold_ore",
+						"metadata": 0,
+						"weight": 100
+					},
+					{
+						"name": "cyclicmagic:nether_coal_ore",
+						"metadata": 0,
+						"weight": 100
+					},
+					{
+						"name": "cyclicmagic:nether_redstone_ore",
+						"metadata": 0,
+						"weight": 100
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 12
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 132,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"cyclicrare": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "cyclicmagic:nether_emerald_ore",
+						"metadata": 0,
+						"weight": 50
+					},
+					{
+						"name": "cyclicmagic:nether_lapis_ore",
+						"metadata": 0,
+						"weight": 100
+					},
+					{
+						"name": "cyclicmagic:nether_diamond_ore",
+						"metadata": 0,
+						"weight": 75
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 132,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"draconic": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "draconicevolution:draconium_ore",
+						"metadata": 1,
+						"weight": 100
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 1
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		},
+		"bigreactors": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "bigreactors:brore",
+						"metadata": 2,
+						"weight": 100
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 6,
+			"min-height": 100,
+			"max-height": 132,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6]
+			}
+		}
+	}
+}

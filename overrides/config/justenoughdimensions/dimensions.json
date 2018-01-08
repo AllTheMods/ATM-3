@@ -1,0 +1,24 @@
+{
+    "dimensions": [
+        {
+            "dim": 6,
+            "override": false,
+			"dimensiontype":
+            {
+                "id": 6,
+                "name": "Nether Mining Dimension",
+                "suffix": "_dim6",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderHellJED"
+            }
+        },
+        {
+            "dim": 1,
+			"worldinfo": {
+				"BorderCenterX": 0,
+				"BorderCenterZ": 0,
+				"BorderSize": 320000
+            }
+        }
+    ]
+}
