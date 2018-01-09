@@ -6,10 +6,8 @@ import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 #packmode normal simplified
 #modloaded quark rustic
 
-//      ==================================================
 print(" ========= Quark vs Rustic colored planks ========= ");
 print(" ================================================== ");
-
 // instead of changing any recipes just add an option for them to be "convert" crafted to one another
 //
 	convertRecipe(<quark:stained_planks:0>, <rustic:painted_wood_white:0>);
@@ -28,7 +26,6 @@ print(" ================================================== ");
 	convertRecipe(<quark:stained_planks:7>, <rustic:painted_wood_gray:0>);
 	convertRecipe(<quark:stained_planks:8>, <rustic:painted_wood_silver:0>);
 	convertRecipe(<quark:stained_planks:9>, <rustic:painted_wood_cyan:0>);
-
 	convertRecipe(<rustic:painted_wood_black:0>, <quark:stained_planks:15>);
 	convertRecipe(<rustic:painted_wood_blue:0>, <quark:stained_planks:11>);
 	convertRecipe(<rustic:painted_wood_brown:0>, <quark:stained_planks:12>);
@@ -45,12 +42,12 @@ print(" ================================================== ");
 	convertRecipe(<rustic:painted_wood_silver:0>, <quark:stained_planks:8>);
 	convertRecipe(<rustic:painted_wood_white:0>, <quark:stained_planks:0>);
 	convertRecipe(<rustic:painted_wood_yellow:0>, <quark:stained_planks:4>);
-	
+
 
 //====== Function to convert wood ======
 //
-    function convertRecipe(x as IIngredient, y as IItemStack){
+	function convertRecipe(x as IIngredient, y as IItemStack){
 	//                     x = input         y = output
-	
-        recipes.addShapeless(y*9, [x,x,x,x,x,x,x,x,x]);
-    }
+		
+		recipes.addShapeless(y*9, [x,x,x,x,x,x,x,x,x]);
+	}
