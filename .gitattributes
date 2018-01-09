@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text eol=crlf
+
+# Make ZenScript files format like Java
 *.zs linguist-language=Java
