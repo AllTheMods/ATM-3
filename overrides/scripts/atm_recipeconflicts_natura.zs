@@ -1,7 +1,7 @@
-import crafttweaker.item.IIngredient as IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
-import crafttweaker.oredict.IOreDict as IOreDict;
-import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 #modloaded natura
 
