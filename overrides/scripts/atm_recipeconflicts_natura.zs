@@ -218,8 +218,8 @@ print(" ===================================== ");
 
 		//define output quantity based on type
 		var outQty = 1 as byte;
-		if(itemKind = "bowl") { var outQty = 2; }
-		if(itemKind = "stick") { var outQty = 4; }
+		if(itemKind == "bowl") { var outQty = 2; }
+		if(itemKind == "stick") { var outQty = 4; }
 		
 		//remove recipe first
 		recipes.remove(itemNatura);
