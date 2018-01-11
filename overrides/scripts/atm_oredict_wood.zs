@@ -162,6 +162,8 @@ print(" ========================================================== ");
 	] as IItemStack[];
 	<ore:craftingTableWood>.addItems(TablesToAdd);
 	<ore:crafterWood>.addItems(TablesToAdd);
+	<ore:craftingTableWood>.addAll(<ore:crafterWood>);
+	<ore:crafterWood>.addAll(<ore:craftingTableWood>);
 
 
 //======Add to chest======

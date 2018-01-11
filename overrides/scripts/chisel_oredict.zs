@@ -2,11 +2,16 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict as IOreDict;
 import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
+
 #packmode normal simplified
 #priority 1
+
 //      ==============================================================
 print(" ======================== Chisel Fixes ======================== ");
 print(" ============================================================== ");
+
+print("Chisel Fixes currently disabled");
+/*
 
 
 //====== OreDict to be fully chiselable ======
@@ -103,3 +108,6 @@ print(" ============================================================== ");
 			mods.chisel.Groups.addVariation(odName, x);
 		}
 	}
+
+
+*/

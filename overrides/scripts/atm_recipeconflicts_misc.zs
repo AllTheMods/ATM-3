@@ -65,7 +65,7 @@ print(" ======================================================== ");
 
 
 //====== Plantball conflicts ======
-// default Plants2 recipes for 4x4 conflict with many mods, this resoles most/all
+// default Plants2 recipes for 2x2 conflict with many mods, this resoles most/all
 //
 	recipes.remove(<plants2:plantball>);
 	recipes.addShapeless(<plants2:plantball>, [
@@ -73,6 +73,25 @@ print(" ======================================================== ");
 		<ore:plant>, <ore:plant>, <ore:plant>,
 		<ore:plant>, <ore:plant>, <ore:plant>
 	]);
+	
+	//remove Botania petals from oredict so Petal Blocks don't conflict with plantball
+	<ore:plant>.remove(<botania:petal:0>);
+	<ore:plant>.remove(<botania:petal:1>);
+	<ore:plant>.remove(<botania:petal:2>);
+	<ore:plant>.remove(<botania:petal:3>);
+	<ore:plant>.remove(<botania:petal:4>);
+	<ore:plant>.remove(<botania:petal:5>);
+	<ore:plant>.remove(<botania:petal:6>);
+	<ore:plant>.remove(<botania:petal:7>);
+	<ore:plant>.remove(<botania:petal:8>);
+	<ore:plant>.remove(<botania:petal:9>);
+	<ore:plant>.remove(<botania:petal:10>);
+	<ore:plant>.remove(<botania:petal:11>);
+	<ore:plant>.remove(<botania:petal:12>);
+	<ore:plant>.remove(<botania:petal:13>);
+	<ore:plant>.remove(<botania:petal:14>);
+	<ore:plant>.remove(<botania:petal:15>);
+
 
 
 //====== Forestry gears redundant ======
@@ -95,11 +114,6 @@ print(" ======================================================== ");
 		[[strings, null, null],
 		[null, strings, null],
 		[null, null, strings]]);
-	recipes.removeShaped(<quark:marble:1>);
-	recipes.addShaped("marble", <quark:marble:1> * 9,
-		[[marble, marble, marble],
-		[marble, marble, marble],
-		[marble, marble, marble]]);
 
 
 //====== Charcoal ======

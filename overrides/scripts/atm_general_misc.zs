@@ -275,7 +275,7 @@ print(" ============================================================== ");
 
 		var blockSkyS = <appliedenergistics2:sky_stone_block>;
 		var dustSkySt = <appliedenergistics2:material:45>;
-		var pressurePlate = <minecraft:heavy_weighted_pressure_plate>
+		var pressurePlate = <minecraft:heavy_weighted_pressure_plate>;
 		
 		mods.actuallyadditions.Empowerer.addRecipe(y, pressurePlate, x, blockSkyS, dustSkySt, dustSkySt, 5000, 200, z);
 		mods.actuallyadditions.Empowerer.addRecipe(y, pressurePlate, x, blockSkyS, dustSkySt, dustSkySt, 5000, 200, z);

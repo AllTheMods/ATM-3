@@ -197,20 +197,21 @@ print(" ===================================== ");
 			sakura : <natura:overworld_planks:7>,
 			silverbell : <natura:overworld_planks:1>,
 			tiger : <natura:overworld_planks:3>,
-			willow : <natura:overworld_planks:4>
+			willow : <natura:overworld_planks:4>,
+			oak : <minecraft:planks:0>
 		} as IItemStack[string];
 
 		//Define "Associative Array" for Item Types
 		val itemTypes = {
-			bookshelf : <minecraft:bookshelf>, 
-			bowl : <minecraft:bowl>, 
+			bookshelf : <ore:bookshelf>, 
+			bowl : <ore:bowlWood>, 
 			button : <minecraft:wooden_button>, 
 			axe : <minecraft:wooden_axe>, 
 			hoe : <minecraft:wooden_hoe>, 
 			pickaxe : <minecraft:wooden_pickaxe>, 
 			plate : <minecraft:wooden_pressure_plate>, 
 			shovel : <minecraft:wooden_shovel>, 
-			stick : <minecraft:stick>, 
+			stick : <ore:stickWood>, 
 			sword : <minecraft:wooden_sword>, 
 			trapdoor : <ore:trapdoorWood>, 
 			workbench : <ore:crafterWood>

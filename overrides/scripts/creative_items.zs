@@ -219,13 +219,13 @@ print(" ====================================================== ");
 	recipes.addShapeless(<thermalexpansion:capacitor:32000>, [
 		atmStarReturnOrb, <thermalexpansion:capacitor:4>, <thermalexpansion:capacitor:4>
 		]);
-	<thermalexpansion:capacitor:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<thermalexpansion:capacitor:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Thermal Watering Can
 	recipes.addShapeless(<thermalcultivation:watering_can:32000>, [
 		atmStarReturnOrb, <thermalcultivation:watering_can:4>
 		]);
-	<thermalcultivation:watering_can:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<thermalcultivation:watering_can:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Mek Energy Cube
 	var creativeMekCube = <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}});
@@ -234,7 +234,7 @@ print(" ====================================================== ");
 		[<mekanism:energycube>, atmStarReturnOrb, <mekanism:energycube>],
 		[<mekanism:machineblock2:13>, <mekanism:energycube>, <mekanism:machineblock2:13>]
 		]);
-	creativeMekCube.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	creativeMekCube.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Mek Creative FLUID Tank
 	// Disabled due to infinite vending not being appropriate
@@ -253,7 +253,7 @@ print(" ====================================================== ");
 		[<draconicevolution:infused_obsidian>, atmStarReturnOrb, <draconicevolution:infused_obsidian>],
 		[<draconicevolution:energy_infuser>, <draconicevolution:infused_obsidian>, <draconicevolution:energy_infuser>]
 		]);
-	<draconicevolution:creative_rf_source>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<draconicevolution:creative_rf_source>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Draconic Evo RF Capacitor
 	recipes.addShapedMirrored(<draconicevolution:draconium_capacitor:2>.withTag({Energy: 1073741823}), [
@@ -261,7 +261,7 @@ print(" ====================================================== ");
 		[null, atmStarReturnOrb, null],
 		[<draconicevolution:draconium_capacitor:1>, null, <draconicevolution:draconium_capacitor:1>]
 		]);
-	<draconicevolution:draconium_capacitor:2>.withTag({Energy: 1073741823}).addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<draconicevolution:draconium_capacitor:2>.withTag({Energy: 1073741823}).addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// RFTools Creative Powercell
 	recipes.addShapedMirrored(<rftools:powercell_creative>, [
@@ -269,25 +269,25 @@ print(" ====================================================== ");
 		[<rftools:powercell_card>, atmStarReturnOrb, <rftools:powercell_card>],
 		[<rftools:powercell_advanced>, <rftools:powercell_card>, <rftools:powercell_advanced>]
 		]);
-	<rftools:powercell_creative>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<rftools:powercell_creative>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Best Creative Item Ever.
 	recipes.addShapeless(<waterstrainer:super_worm>, [
 		<atmtweaks:item_material>.giveBack(), <waterstrainer:worm>, <waterstrainer:worm>]
 		); //Ever.
-	<waterstrainer:super_worm>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<waterstrainer:super_worm>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// CompuCraft Case
 	recipes.addShapeless(<opencomputers:casecreative>, [
 		<atmtweaks:item_material>.giveBack(), <opencomputers:case2>, <opencomputers:material:21>
 		]);
-	<opencomputers:casecreative>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<opencomputers:casecreative>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Creative Builder's Wand
 	recipes.addShapeless(<extrautils2:itemcreativebuilderswand>, [
 		<atmtweaks:item_material>.giveBack(), <extrautils2:itembuilderswand>, <betterbuilderswands:wandunbreakable>
 		]);
-	<extrautils2:itemcreativebuilderswand>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<extrautils2:itemcreativebuilderswand>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Embers Creative Ember Source
 	recipes.addShapedMirrored(<embers:creative_ember_source>, [
@@ -295,7 +295,7 @@ print(" ====================================================== ");
 		[<embers:copper_cell>, atmStarReturnIndustrium, <embers:copper_cell>],
 		[null, <embers:glimmer_shard>, null]
 		]);
-	<embers:creative_ember_source>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted")
+	<embers:creative_ember_source>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted");
 		
 	// Tinker's Creative Modifier
 	recipes.addShapedMirrored(<tconstruct:materials:50>, [
@@ -303,7 +303,7 @@ print(" ====================================================== ");
 		[<tconstruct:moms_spaghetti>, atmStarReturnOrb, <tconstruct:moms_spaghetti>],
 		[<tconstruct:ingots:2>, <tconstruct:firewood:1>, <tconstruct:ingots:2>]
 		]);
-	<tconstruct:materials:50>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<tconstruct:materials:50>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Storage Drawers Creative STORAGE
 	recipes.addShapedMirrored(<storagedrawers:upgrade_creative>, [
@@ -311,7 +311,7 @@ print(" ====================================================== ");
 		[<storagedrawers:compdrawers>, atmStarReturnOrb, <storagedrawers:compdrawers>],
 		[<storagedrawers:upgrade_redstone:1>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_redstone:1>]
 		]);
-	<storagedrawers:upgrade_creative>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<storagedrawers:upgrade_creative>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Psi Creative CAD
 	recipes.addShapedMirrored(<psi:cad_assembly:5>, [
@@ -319,7 +319,7 @@ print(" ====================================================== ");
 		[null, <psi:cad_assembly:1>, <psi:exosuit_controller>],
 		[null, <psi:cad_assembler>, <psi:cad_core:4>]
 		]);
-	<psi:cad_assembly:5>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted")
+	<psi:cad_assembly:5>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted");
 		
 	// Botania Creative Mana POOL
 	recipes.addShapedMirrored(<botania:pool:1>, [
@@ -327,7 +327,7 @@ print(" ====================================================== ");
 		[<botania:pool:3>, atmStarReturnIndustrium, <botania:pool:3>],
 		[<botania:bellows>, <botania:pool:3>, <botania:bellows>]
 		]);
-	<botania:pool:1>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted")
+	<botania:pool:1>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted");
 		
 	// Botania Creative Mana TABLET
 	recipes.addShapedMirrored(<botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}), [
@@ -335,7 +335,7 @@ print(" ====================================================== ");
 		[<botania:manatablet:*>, atmStarReturnIndustrium, <botania:manatablet:*>],
 		[<botania:manatablet:*>, <botania:manatablet:*>, <botania:manatablet:*>]
 		]);
-	<botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}).addTooltip("Does not consume the Industrium portion of the ATM Star when crafted")
+	<botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}).addTooltip("Does not consume the Industrium portion of the ATM Star when crafted");
 		
 	// EXU2 Creative GP mill
 	recipes.addShapeless(<extrautils2:passivegenerator:6>, [
@@ -343,7 +343,7 @@ print(" ====================================================== ");
 		<extrautils2:passivegenerator:4>, <extrautils2:passivegenerator:5>, <extrautils2:passivegenerator:8>,
 		<extrautils2:passivegenerator:7>
 		]);
-	<extrautils2:passivegenerator:6>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted")
+	<extrautils2:passivegenerator:6>.addTooltip("Does not consume the Industrium portion of the ATM Star when crafted");
 		
 	// RS Creative Controller
 	recipes.addShapedMirrored(<refinedstorage:controller:1>, [
@@ -351,7 +351,7 @@ print(" ====================================================== ");
 		[<refinedstorage:quartz_enriched_iron_block>, atmStarReturnOrb, <refinedstorage:quartz_enriched_iron_block>],
 		[<refinedstorage:quartz_enriched_iron_block>, <refinedstorage:quartz_enriched_iron_block>, <refinedstorage:quartz_enriched_iron_block>]
 		]);
-	<refinedstorage:controller:1>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<refinedstorage:controller:1>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// RS Creative FLUID Disk
 	recipes.addShapedMirrored(<refinedstorage:fluid_storage_disk:4>, [
@@ -359,7 +359,7 @@ print(" ====================================================== ");
 		[<refinedstorage:fluid_storage_part:3>, atmStarReturnOrb, <refinedstorage:fluid_storage_part:3>],
 		[<refinedstorage:storage_housing>, <refinedstorage:fluid_storage_part:3>, <refinedstorage:storage_housing>]
 		]);
-	<refinedstorage:fluid_storage_disk:4>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<refinedstorage:fluid_storage_disk:4>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// RS Creative ITEM Disk
 	recipes.addShapedMirrored(<refinedstorage:storage_disk:4>, [
@@ -367,7 +367,7 @@ print(" ====================================================== ");
 		[<refinedstorage:storage_part:3>, atmStarReturnOrb, <refinedstorage:storage_part:3>],
 		[<refinedstorage:storage_housing>, <refinedstorage:storage_part:3>, <refinedstorage:storage_housing>]
 		]);
-	<refinedstorage:storage_disk:4>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<refinedstorage:storage_disk:4>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// AE2 Creative ITEM Disk
 	// Disabled due to infinite vending not being appropriate
@@ -385,7 +385,7 @@ print(" ====================================================== ");
 		[<appliedenergistics2:dense_energy_cell>, atmStarReturnOrb, <appliedenergistics2:dense_energy_cell>],
 		[<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>]
 		]);
-	<appliedenergistics2:creative_energy_cell>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<appliedenergistics2:creative_energy_cell>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// IC2 Creative EU Generator
 	recipes.addShapedMirrored(<ic2:te:86>, [
@@ -393,7 +393,7 @@ print(" ====================================================== ");
 		[<ore:circuitAdvanced>, <ic2:te:75>, <ore:circuitAdvanced>],
 		[<ore:machineBlockAdvanced>, <ore:circuitAdvanced>, <ore:machineBlockAdvanced>]
 		]);
-	<ic2:te:86>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<ic2:te:86>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Steve's Carts Creative ENGINE
 	recipes.addShapedMirrored(<stevescarts:cartmodule:61>, [
@@ -401,7 +401,7 @@ print(" ====================================================== ");
 		[<stevescarts:modulecomponents:22>, <atmtweaks:item_material>.giveBack(), <stevescarts:modulecomponents:22>],
 		[<stevescarts:modulecomponents:22>, <stevescarts:cartmodule:70>, <stevescarts:modulecomponents:22>]
 		]);
-	<stevescarts:cartmodule:61>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<stevescarts:cartmodule:61>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Steve's Carts Creative Assembler Upgrade
 	recipes.addShapedMirrored(<stevescarts:upgrade:14>, [
@@ -409,7 +409,7 @@ print(" ====================================================== ");
 		[<stevescarts:modulecomponents:16>, <atmtweaks:item_material>.giveBack(), <stevescarts:modulecomponents:16>],
 		[<stevescarts:blockcartassembler>, <stevescarts:modulecomponents:16>, <stevescarts:blockcartassembler>]
 		]);
-	<stevescarts:upgrade:14>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<stevescarts:upgrade:14>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Steve's Carts Creative HULL
 	recipes.addShapedMirrored(<stevescarts:cartmodule:76>, [
@@ -417,12 +417,12 @@ print(" ====================================================== ");
 		[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>.giveBack(), <stevescarts:modulecomponents:22>],
 		[<stevescarts:modulecomponents:1>, <atmtweaks:item_material>, <stevescarts:modulecomponents:1>]
 		]);
-	<stevescarts:cartmodule:76>.addTooltip("Does not consume the ATM Star at all when crafted")
+	<stevescarts:cartmodule:76>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Overloaded infinite capacitor
 	recipes.remove(<overloaded:infinite_capacitor>);
 	recipes.addShapeless(<overloaded:infinite_capacitor>, [atmStarReturnOrb, energyCore]);
-	<overloaded:infinite_capacitor>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:infinite_capacitor>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 	
 	// Overloaded Tool
 	recipes.remove(<overloaded:multi_tool>);
@@ -431,7 +431,7 @@ print(" ====================================================== ");
 		[<minecraft:iron_ingot>, atmStarReturnOrb, <overloaded:nether_star_block>],
 		[null, <overloaded:nether_star_block>, <minecraft:iron_block>]
 		]);
-	<overloaded:multi_tool>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:multi_tool>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Overloaded Armor Legs
 	recipes.remove(<overloaded:multi_leggings>);
@@ -440,7 +440,7 @@ print(" ====================================================== ");
 		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
 		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
 		]);
-	<overloaded:multi_leggings>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:multi_leggings>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Overloaded Armor Helm
 	recipes.remove(<overloaded:multi_helmet>);
@@ -448,7 +448,7 @@ print(" ====================================================== ");
 		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
 		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>]
 		]);
-	<overloaded:multi_helmet>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:multi_helmet>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Overloaded Armor Chest
 	recipes.remove(<overloaded:multi_chestplate>);
@@ -457,7 +457,7 @@ print(" ====================================================== ");
 		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>],
 		[<overloaded:nether_star_block>, <overloaded:nether_star_block>, <overloaded:nether_star_block>]
 		]);
-	<overloaded:multi_chestplate>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:multi_chestplate>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Overloaded Armor Feet
 	recipes.remove(<overloaded:multi_boots>);
@@ -465,4 +465,4 @@ print(" ====================================================== ");
 		[<overloaded:nether_star_block>, null, <overloaded:nether_star_block>],
 		[<overloaded:nether_star_block>, atmStarReturnOrb, <overloaded:nether_star_block>]
 		]);
-	<overloaded:multi_boots>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted")
+	<overloaded:multi_boots>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");

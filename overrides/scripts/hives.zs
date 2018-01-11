@@ -25,7 +25,6 @@ print(" ============================================= ");
 	val hiveTropical = <forestry:beehives:3> as IItemStack; // Tropical hive
 	val hiveWater = <extrabees:hive:0> as IItemStack; // Water hive
 	val hiveWintry = <forestry:beehives:5> as IItemStack; // Wintry hive
-	var GrowEssence = <atmtweaks:item_material:1>;
 
 
 //====== hive Oredict ======
@@ -73,6 +72,8 @@ print(" ============================================= ");
 			C = "casing"
 			N = "net"
 		*/
+		var GrowEssence = <atmtweaks:item_material:1>;
+		
 		recipes.addShaped(hive, [
 			[special, casing, special],
 			[casing, GrowEssence, casing],

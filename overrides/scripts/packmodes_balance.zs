@@ -408,19 +408,19 @@ print(" ====================================================== ");
 	<tconstruct:throwball:1>.addTooltip(
 				format.underline(format.red(
 				"Disabled due to potential griefing"
-				))
+				)));
 	//Cyclic Dynamite
 	recipes.remove(<cyclicmagic:dynamite_mining>);			
 	<cyclicmagic:dynamite_mining>.addTooltip(
 				format.underline(format.red(
 				"Disabled due to potential griefing"
-				))
+				)));
 	//Abyssalcraft Oblivion Deathbomb
 	recipes.remove(<abyssalcraft:odb>);
 	<abyssalcraft:odb>.addTooltip(
 				format.underline(format.red(
 				"Disabled due to potential griefing"
-				))
+				)));
 
 
 //====== Spike Mod Qty Adjust ======
