@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+
+"""
+This script will download all files specificed in a list of 
+download URLs into the current (script) directory
+"""
+
+__author__ = "Ordinator"
+__license__ = "https://github.com/AllTheMods/Server-Scripts/blob/master/LICENSE.md"
+
 import os
 import errno
 import urllib.request
