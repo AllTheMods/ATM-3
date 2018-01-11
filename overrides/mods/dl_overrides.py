@@ -1,29 +1,29 @@
 #!/usr/bin/env python
 
+
 """
 This script will download all files specificed in a plaintext
 file containing download URLs into the current (script) directory
 """
 
+
 __author__ = "Ordinator"
 __license__ = "https://github.com/AllTheMods/Server-Scripts/blob/master/LICENSE.md"
 
-import os
-import errno
-import urllib.request
-import urllib.parse
-import shutil
+
+import os, errno, shutil
+from urllib import request, parse
 
 
-#file with list of URLs do download
+#name of file with list of URLs do download
 override_list = "override_mods.txt"
 
 
 def file_lines_list(file):
     """ Reads a plaintext file, retuns a list of all non-blank whitespace-trimmed lines"""
     lines = []
-    with open(file) as fp:
-        for i, line in enumerate(fp):
+    with open(file) as file_object:
+        for i, line in enumerate(file_object):
             the_line = line.strip()
             if the_line:
                 lines.append(the_line)
@@ -31,7 +31,10 @@ def file_lines_list(file):
 
 
 def remove_file(filename):
-    """ Safe way to "delete" a file (no error if file doesn't exist) """
+    """
+	Safe way to "delete" a file (no error if file doesn't exist)
+	CREDIT: https://stackoverflow.com/questions/10840533/most-pythonic-way-to-delete-a-file-which-may-not-exist
+	"""
     try:
         os.remove(filename)
     except OSError as e: # this would be "except OSError, e:" before Python 2.6
@@ -42,7 +45,7 @@ def remove_file(filename):
 def download(url, filename=None):
     """ 
     Downloads a file from url without needing to specify destination filename
-    Credit: https://stackoverflow.com/questions/862173/how-to-download-a-file-using-python-in-a-smarter-way 
+    CREDIT: https://stackoverflow.com/questions/862173/how-to-download-a-file-using-python-in-a-smarter-way 
     """
     def get_filename(url, open_url):
         if 'Content-Disposition' in open_url.info():
