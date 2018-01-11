@@ -5,6 +5,10 @@ import urllib.parse
 import shutil
 
 
+#file with list of URLs do download
+override_list = "override_mods.txt"
+
+
 def file_lines_list(file):
     """ Reads a plaintext file, retuns a list of all non-blank whitespace-trimmed lines"""
     lines = []
@@ -52,11 +56,8 @@ def download(url, filename=None):
         r.close()
 
 
-#file with list of URLs do download
-override_list = "override_mods.txt"
-
-
 #read file into list of urls and download each one
 for url in file_lines_list(override_list):
     download(url)
+
 #
