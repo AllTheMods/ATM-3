@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 """
-This script will download all files specificed in a list of 
-download URLs into the current (script) directory
+This script will download all files specificed in a plaintext
+file containing download URLs into the current (script) directory
 """
 
 __author__ = "Ordinator"
