@@ -2,6 +2,7 @@
 
 ### Config/Misc:
 + Nature's Compass range doubled
++ Re-enabled Quantum Quarry recipes (normal packmode) -- please report any performance issues (if any)
 + Crop Recollector (Industrial Foregoing's 'harvester') sludge output doubled
 + IE Cloche rates buffed when using fertilizer, but also consumes RF/t and fertilizer faster
 + Disabled IC2 machines from exploding from overvoltage (cables will still "meltdown")
