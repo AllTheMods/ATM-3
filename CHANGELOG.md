@@ -12,6 +12,7 @@
 + Cyclic Iron/Diamond spikes can't be crafted except for converting from the ExU2 equavilent (Normal Packmode Only)
 + Fixed intended Quantum Disk gating by gating the entire quantum crafter (Normal Packmode Only)
 + Removed extra seeds from "seed" oredict (should fix TE Insolator issues)
++ Tweaked TechReborn scrapbox loot table, make TR/IC2 scrapboxes interchangeable
 + Blacklisted Mystical Agriculture from "Plantball" duplication
 + Fixed/Tweaked some conflicting recipes:
 	+ Quark/Rustic colored planks tweaked a little more
