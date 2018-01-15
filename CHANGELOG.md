@@ -51,7 +51,7 @@ ALWAYS BACKUP BEFORE YOU UPDATE
   
 <br/>  
 
-[For an in-depth list of updated-mods changes see this log](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)  
+[For an in-depth list of updated-mods changes see this log](https://github.com/AllTheMods/ATM-3/blob/master/changelogs_detail/changelog_atm3_5.7_full.txt)  
 *(Thanks to ChangelogGenerator by TheRandomLabs for this)*
   
   
