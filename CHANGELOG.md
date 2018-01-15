@@ -9,11 +9,17 @@
 + Added crafting recipe for Elytra
 + Added informational tooltips to some items (i.e. Dragon Scale, IC2 ChunkLoader, craftable creative items)
 + Added the "all books included" Akashic Tome book to Initial Inventory (starting item)
-+ Cyclic Iron/Diamond spikes can't be crafted except for converting from the ExU2 equavilent (Normal Packmode Only)
++ Cyclic Iron/Diamond spikes now can't be crafted except for converting from the ExU2 equavilent (Normal Packmode Only)
 + Fixed intended Quantum Disk gating by gating the entire quantum crafter (Normal Packmode Only)
 + Removed extra seeds from "seed" oredict (should fix TE Insolator issues)
 + Tweaked TechReborn scrapbox loot table, make TR/IC2 scrapboxes interchangeable
 + Blacklisted Mystical Agriculture from "Plantball" duplication
++ Added more stuff to Iron Rod (stickIron) oredict
++ Buffed XNet: Controller shouldn't need RF anymore and max rates increased by 5x to 10x more than before
++ Re-added a vanilla(ish) recipe for cookies
++ Tweaked compressed block recipes to "prefer" ExU2 variants, removed conflicting recipes
++ Gave compressed logs and compressed blocks of coal proper burn times
++ Added crafting recipe for End Dragon mob dimlet (Dragon syringe still disabled)
 + Fixed/Tweaked some conflicting recipes:
 	+ Quark/Rustic colored planks tweaked a little more
 	+ Quark-specific wooden items
