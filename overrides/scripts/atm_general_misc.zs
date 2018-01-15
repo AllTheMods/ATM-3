@@ -44,15 +44,6 @@ print(" ============================================================== ");
 	furnace.setFuel(<quark:blaze_lantern>, 12800);
 
 
-//====== Glider Not Sided (QoL) ======
-//
-	recipes.remove(<openglider:hang_glider_basic>);
-	<ore:gliderWings>.add(<openglider:hang_glider_part:0>);
-	<ore:gliderWings>.add(<openglider:hang_glider_part:1>);
-	recipes.addShapedMirrored("crtglidersided", <openglider:hang_glider_basic>, [
-		[<ore:gliderWings>, <openglider:hang_glider_part:2>, <ore:gliderWings>]
-		]);
-
 
 //====== Bag of holding warning ======
 //
@@ -296,15 +287,6 @@ print(" ============================================================== ");
 					)));
 	mods.jei.JEI.addDescription(<quark:enderdragon_scale>, "By crafting an Elytra and a Dragon Scale together, the Dragon Scale will take the form of the Elytra","",
 															"","This does not consume nor damage the original Elytra");
-
-
-//====== Add new not-so-bad recipe for elytra ======
-//
-	recipes.addShaped(<minecraft:elytra>, [
-		[<harvestcraft:hardenedleatheritem>, <extrautils2:chickenring>, <harvestcraft:hardenedleatheritem>],
-		[<openglider:hang_glider_part>, <openglider:hang_glider_part:2>, <openglider:hang_glider_part:1>],
-		[<cyclicmagic:tool_warp_home>, <botania:spellcloth>, <cyclicmagic:tool_warp_home>]
-		]);
 
 
 //====== Pressure Pipes Gas ======

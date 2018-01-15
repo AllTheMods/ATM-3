@@ -200,6 +200,8 @@ function fixMetals (
 	<ore:blockBronze>.add(<techreborn:storage:14>);
 	recipes.addShapeless(<thermalfoundation:material:163>*9, [<techreborn:storage:14>]);
 	recipes.remove(<mekanism:nugget:2>);
+	recipes.remove(<mekanism:ingot:2>);
+	recipes.remove(<mekanism:basicblock:1>);
 
 
 //====== Process Metals ======
