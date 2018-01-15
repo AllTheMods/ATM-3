@@ -25,6 +25,7 @@
 	+ Quark-specific wooden items
 	+ Natura-specific wooden items
 	+ Botania petal blocks vs plantball conflict
+	+ Compressed Moss Stone and TiCo Moss
 	
 
 ### Mods:
