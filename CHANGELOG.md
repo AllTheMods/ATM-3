@@ -9,7 +9,9 @@ ALWAYS BACKUP BEFORE YOU UPDATE
 + Added DiscordSuite
 + Removed Elevator Mod (Openblocks has it)
 + Removed OpenGlider (Openblocks has it)
-+ Removed Gravestones (Openblocks has it)
++ Removed Gravestones (Openblocks has it)  
+  
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
 
 
 ### Config/Misc:  
@@ -46,7 +48,9 @@ ALWAYS BACKUP BEFORE YOU UPDATE
 ### And of course...  
 + Updated All the Mods
 
-
+ 
+[For an in-depth list of updated-mods changes see this log](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)
+*(Thanks to ChangelogGenerator by TheRandomLabs for this)*
   
   
   
