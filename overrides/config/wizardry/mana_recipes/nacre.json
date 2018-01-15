@@ -1,0 +1,5 @@
+{
+	"type": "block",
+	"output": { "name": "wizardry:nacre" },
+	"input": { "type": "forge:ore_dict", "ore": "nuggetGold" }
+}
