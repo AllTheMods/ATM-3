@@ -37,7 +37,7 @@ print(" ===================================== ");
 	recipeNaturaChange("bloodwood","bookshelf",<natura:nether_bookshelves:1>); 
 	recipeNaturaChange("bloodwood","button",<natura:bloodwood_button:0>); 
 	recipeNaturaChange("bloodwood","axe",<natura:bloodwood_axe:0>); 
-	recipeNaturaChange("bloodwood","hoe",<natura:bloodwood_hoe:0>); 
+	recipeNaturaChange("bloodwood","hoe",<natura:bloodwood_kama:0>); 
 	recipeNaturaChange("bloodwood","pickaxe",<natura:bloodwood_pickaxe:0>); 
 	recipeNaturaChange("bloodwood","plate",<natura:bloodwood_pressure_plate:0>); 
 	recipeNaturaChange("bloodwood","shovel",<natura:bloodwood_shovel:0>); 
@@ -54,7 +54,7 @@ print(" ===================================== ");
 	recipeNaturaChange("darkwood","bookshelf",<natura:nether_bookshelves:2>); 
 	recipeNaturaChange("darkwood","button",<natura:darkwood_button:0>); 
 	recipeNaturaChange("darkwood","axe",<natura:darkwood_axe:0>); 
-	recipeNaturaChange("darkwood","hoe",<natura:darkwood_hoe:0>); 
+	recipeNaturaChange("darkwood","hoe",<natura:darkwood_kama:0>); 
 	recipeNaturaChange("darkwood","pickaxe",<natura:darkwood_pickaxe:0>); 
 	recipeNaturaChange("darkwood","plate",<natura:darkwood_pressure_plate:0>); 
 	recipeNaturaChange("darkwood","shovel",<natura:darkwood_shovel:0>); 
@@ -80,7 +80,7 @@ print(" ===================================== ");
 	recipeNaturaChange("fusewood","bookshelf",<natura:nether_bookshelves:3>); 
 	recipeNaturaChange("fusewood","button",<natura:fusewood_button:0>); 
 	recipeNaturaChange("fusewood","axe",<natura:fusewood_axe:0>); 
-	recipeNaturaChange("fusewood","hoe",<natura:fusewood_hoe:0>); 
+	recipeNaturaChange("fusewood","hoe",<natura:fusewood_kama:0>); 
 	recipeNaturaChange("fusewood","pickaxe",<natura:fusewood_pickaxe:0>); 
 	recipeNaturaChange("fusewood","plate",<natura:fusewood_pressure_plate:0>); 
 	recipeNaturaChange("fusewood","shovel",<natura:fusewood_shovel:0>); 
@@ -96,7 +96,7 @@ print(" ===================================== ");
 	recipeNaturaChange("ghostwood","bookshelf",<natura:nether_bookshelves:0>); 
 	recipeNaturaChange("ghostwood","button",<natura:ghostwood_button:0>); 
 	recipeNaturaChange("ghostwood","axe",<natura:ghostwood_axe:0>); 
-	recipeNaturaChange("ghostwood","hoe",<natura:ghostwood_hoe:0>); 
+	recipeNaturaChange("ghostwood","hoe",<natura:ghostwood_kama:0>); 
 	recipeNaturaChange("ghostwood","pickaxe",<natura:ghostwood_pickaxe:0>); 
 	recipeNaturaChange("ghostwood","plate",<natura:ghostwood_pressure_plate:0>); 
 	recipeNaturaChange("ghostwood","shovel",<natura:ghostwood_shovel:0>); 
@@ -205,7 +205,7 @@ print(" ===================================== ");
 		val itemTypes = {
 			bookshelf : <ore:bookshelf>, 
 			bowl : <ore:bowlWood>, 
-			button : <minecraft:wooden_button>, 
+			button : <ore:buttonWood>, 
 			axe : <minecraft:wooden_axe>, 
 			hoe : <minecraft:wooden_hoe>, 
 			pickaxe : <minecraft:wooden_pickaxe>, 

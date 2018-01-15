@@ -14,11 +14,11 @@ print(" ============================================================== ");
 
 //====== Marble Conversion ======
 //
+	var marble = <astralsorcery:blockmarble>;
 	recipes.removeShaped(<quark:marble:1>);
-	recipes.addShapeless("marble", <quark:marble:1> * 8,
-		[[marble, marble, marble],
-		[marble, marble, marble],
-		[marble, marble]]);
+	recipes.addShapeless(<quark:marble:1> * 8,
+		[marble, marble, marble, marble, marble, marble, marble, marble]
+		);
 
 
 //====== Acacia "Flavors" ======

@@ -540,8 +540,8 @@ print(" ====================================================== ");
 		]);
 	<ic2:te:82>.addTooltip(
 					format.underline(format.aqua(
-					"Needs 8192 EU per loaded chunk -- see transformer and energy upgrades"
-					));
+					"Needs high quantity of EU per loaded chunk per tick -- see transformer and energy upgrades"
+					)));
 	mods.jei.JEI.addDescription(<ic2:te:82>, "This chunkloader has been configured to require massive amounts of power per chunk loaded",
 											 "Energy Storage upgrades are mandatory and so are Transformer Upgrades most likely",
 											 "If the chunkloader is 'flashing' red/green it does not have enough power -- reduce number of chunks loaded or provide more power");

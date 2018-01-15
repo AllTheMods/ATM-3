@@ -183,13 +183,6 @@ print(" ============================================================== ");
 		[<minecraft:cobblestone>, <appliedenergistics2:material>, <minecraft:cobblestone>]]);
 
 
-//====== Ahashic Tome ======
-//
-	var completeTome = <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, "akashictome:data": {tconstruct: {id: "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, industrialforegoing: {id: "industrialforegoing:book_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "industrialforegoing"}, Damage: 0 as short}, integratedtunnels: {id: "integrateddynamics:on_the_dynamics_of_integration", Count: 1 as byte, tag: {"akashictome:definedMod": "integratedtunnels"}, Damage: 0 as short}, astralsorcery: {id: "astralsorcery:itemjournal", Count: 1 as byte, tag: {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, immersiveengineering: {id: "immersiveengineering:tool", Count: 1 as byte, tag: {"akashictome:definedMod": "immersiveengineering"}, Damage: 3 as short}, embers: {id: "embers:codex", Count: 1 as byte, tag: {"akashictome:definedMod": "embers"}, Damage: 0 as short}, roots: {id: "roots:spellcraft_book", Count: 1 as byte, tag: {"akashictome:displayName": "Book of Spellcraft", "akashictome:definedMod": "roots", "akashictome:is_morphing": 1 as byte, display: {Name: "§rAkashic Tome (§aBook of Spellcraft§r)"}}, Damage: 0 as short}, rftools: {id: "rftoolsdim:rftoolsdim_manual", Count: 1 as byte, tag: {"akashictome:displayName": "RFTools Dimension Manual", "akashictome:definedMod": "rftools", "akashictome:is_morphing": 1 as byte, display: {Name: "§rAkashic Tome (§aRFTools Dimension Manual§r)"}}, Damage: 0 as short}, rftools1: {id: "rftools:rftools_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools1"}, Damage: 0 as short}, rftools2: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools2"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, guideapi: {id: "guideapi:cyclicmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "guideapi"}, Damage: 0 as short}, guideapi1: {id: "guideapi:mb-magic_books_guide", Count: 1 as byte, tag: {"akashictome:definedMod": "guideapi1"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short}, spiceoflife: {id: "spiceoflife:bookfoodjournal", Count: 1 as byte, tag: {"akashictome:definedMod": "spiceoflife"}, Damage: 0 as short}, draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag: {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, roots1: {id: "roots:herblore_book", Count: 1 as byte, tag: {"akashictome:definedMod": "roots1"}, Damage: 0 as short}, opencomputers: {id: "opencomputers:tool", Count: 1 as byte, tag: {"akashictome:definedMod": "opencomputers"}, Damage: 4 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}}});
-	recipes.addShapeless(completeTome, [<minecraft:dirt>]);
-	mods.initialinventory.InvHandler.addStartingItem(completeTome);
-
-
 //====== Bauxite -> Aluminum ======
 //
 	mods.mekanism.infuser.addRecipe("REDSTONE", 10, <techreborn:dust:5>, <thermalfoundation:material:68>);
@@ -221,9 +214,16 @@ print(" ============================================================== ");
 	<ore:plateCarbon>.add(<ic2:crafting:15>);
 	<ore:plateCarbon>.add(<techreborn:plates:2>);
 	<ore:oreIridium>.remove(<ic2:misc_resource:1>);
+	
+	//reinforced glass
 	<ore:glassReinforced>.addItems([<techreborn:reinforced_glass>, <ic2:glass:0>]);
 	recipes.addShapeless(<techreborn:reinforced_glass>, [<ic2:glass>]);
 	recipes.addShapeless(<ic2:glass>, [<techreborn:reinforced_glass>]);
+
+	//solar
+	recipes.addShapeless(<techreborn:solar_panel>, [<ic2:te:8>]);
+	recipes.addShapeless(<ic2:te:8>, [<techreborn:solar_panel>]);
+
 
 
 //====== Black Quartz Block ======
@@ -293,7 +293,7 @@ print(" ============================================================== ");
 	<quark:enderdragon_scale>.addTooltip(
 					format.underline(format.aqua(
 					"Can be used to DUPLICATE an Elytra"
-					));
+					)));
 	mods.jei.JEI.addDescription(<quark:enderdragon_scale>, "By crafting an Elytra and a Dragon Scale together, the Dragon Scale will take the form of the Elytra","",
 															"","This does not consume nor damage the original Elytra");
 
@@ -340,3 +340,25 @@ print(" ============================================================== ");
 		[mekGasPipe, <pressure:input>, mekGasPipe],
 		[mekGasUpgr, mekGasPipe, mekGasUpgr]
 		]);
+
+
+//====== Vanilla-ish Cookie recipe ======
+//
+	recipes.addShaped(<minecraft:cookie>, [[<minecraft:wheat>, <minecraft:dye:3>, <minecraft:wheat>]]);
+
+
+//====== End Dragon Dimlet ======
+//
+	val dimletDragon = <rftoolsdim:known_dimlet:3>.withTag({dkey: "minecraft:ender_dragon"});
+	recipes.addShaped(dimletDragon, [
+		[<atmtweaks:item_material:1>, <mysticalagradditions:stuff:2>, <astralsorcery:itemcraftingcomponent:1>],
+		[<rftoolsdim:dimlet_control_circuit:6>, <minecraft:dragon_egg>, <minecraft:skull:5>],
+		[<atmtweaks:item_material:1>, <mysticalagradditions:stuff:2>, <astralsorcery:itemcraftingcomponent:1>]
+		]);
+
+	//metadata to item
+	dimletDragon.addTooltip(format.aqua("NOT crafted in the dimlet workbench"));
+	mods.jei.JEI.addDescription(dimletDragon, "Syringe has been disabled for ender dragons. Instead, a dragon mob dimlet can be crafted with a normal recipe instead");
+
+	//add the full book to JEI as it's own entry
+	mods.jei.JEI.addItem(dimletDragon);

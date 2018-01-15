@@ -25,6 +25,7 @@ print(" ========================================================== ");
 	val Plank = <ore:plankWood>;
 	val WoodSlab = <ore:slabWood>;
 	val WoodStair = <ore:stairWood>;
+	val WoodButton = <ore:buttonWood>;
 	val Stick = <ore:stickWood>;
 	val Fence = <ore:fenceWood>;
 	val Gate = <ore:fenceGateWood>;
@@ -226,6 +227,30 @@ print(" ========================================================== ");
 		<cyclicmagic:sleeping_mat:32767>
 	] as IItemStack[];
 	Bed.addItems(BedToAdd);
+
+
+//======Add to ore:buttonWood======
+//
+	var ButtonsToAdd = [
+		<natura:darkwood_button>,
+		<natura:sakura_button>,
+		<natura:hopseed_button>,
+		<natura:eucalyptus_button>,
+		<natura:willow_button>,
+		<natura:tiger_button>,
+		<natura:amaranth_button>,
+		<natura:silverbell_button>,
+		<natura:maple_button>,
+		<natura:nether_button>,
+		<abyssalcraft:dltbutton>,
+		<minecraft:wooden_button>,
+		<natura:darkwood_button>,
+		<natura:fusewood_button>,
+		<natura:bloodwood_button>,
+		<natura:ghostwood_button>,
+		<natura:redwood_button>
+	] as IItemStack[];
+	WoodButton.addItems(ButtonsToAdd);
 
 
 //======Add to Trapdoor======

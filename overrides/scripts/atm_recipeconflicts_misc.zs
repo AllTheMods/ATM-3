@@ -299,3 +299,9 @@ print(" ======================================================== ");
 	recipes.removeShapeless(<minecraft:paper>, [<ore:dustWood>], true);
 	recipes.addShapeless(<minecraft:paper>*1, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
 	recipes.addShapeless(<minecraft:paper>*6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:listAllWater>]);
+
+
+//====== TiCo Moss ======
+//
+	recipes.remove(<tconstruct:materials:18>);
+	recipes.addShapeless(<tconstruct:materials:18>, [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>]);

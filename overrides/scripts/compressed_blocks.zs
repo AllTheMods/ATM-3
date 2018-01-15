@@ -9,22 +9,105 @@ import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 print(" =================== Compressed Blocks  =================== ");
 print(" ========================================================== ");
 
-compressRecipes(
-	<ore:cobblestone>,
-	<minecraft:cobblestone:0>,
-	<overloaded:compressed_cobblestone:0>,
-	<overloaded:compressed_cobblestone:1>,
-	<overloaded:compressed_cobblestone:2>,
-	<overloaded:compressed_cobblestone:3>
-	);
-compressRecipes(
-	<ore:sand>,
-	<minecraft:sand:0>,
-	<overloaded:compressed_sand:0>,
-	<overloaded:compressed_sand:1>,
-	<overloaded:compressed_sand:2>,
-	<overloaded:compressed_sand:3>
-	);
+
+//Burn Times
+var logsBurn = furnace.getFuel(<minecraft:log:0>) as int; 
+var coalBurn = furnace.getFuel(<minecraft:coal_block:0>) as int; 
+
+furnace.setFuel(<overloaded:compressed_log:0>, 2700);
+furnace.setFuel(<overloaded:compressed_log:1>, 5400);
+furnace.setFuel(<overloaded:compressed_log:2>, 8100);
+furnace.setFuel(<overloaded:compressed_log:3>, 10800);
+
+furnace.setFuel(<overloaded:compressed_coal_block:0>, 14400);
+furnace.setFuel(<overloaded:compressed_coal_block:1>, 28800);
+furnace.setFuel(<overloaded:compressed_coal_block:2>, 43200);
+furnace.setFuel(<overloaded:compressed_coal_block:3>, 57600);
+
+
+//if ExU2 is NOT loaded make cobble, dirt, netherrack
+if !(loadedMods in "extrautils2") {
+	compressRecipes(
+		<ore:cobblestone>,
+		<minecraft:cobblestone:0>,
+		<overloaded:compressed_cobblestone:0>,
+		<overloaded:compressed_cobblestone:1>,
+		<overloaded:compressed_cobblestone:2>,
+		<overloaded:compressed_cobblestone:3>
+		);
+	compressRecipes(
+		<ore:netherrack>,
+		<minecraft:netherrack:0>,
+		<overloaded:compressed_netherrack:0>,
+		<overloaded:compressed_netherrack:1>,
+		<overloaded:compressed_netherrack:2>,
+		<overloaded:compressed_netherrack:3>
+		);
+	compressRecipes(
+		<ore:dirt>,
+		<minecraft:dirt:0>,
+		<overloaded:compressed_dirt:0>,
+		<overloaded:compressed_dirt:1>,
+		<overloaded:compressed_dirt:2>,
+		<overloaded:compressed_dirt:3>
+		);
+	compressRecipes(
+		<ore:sand>,
+		<minecraft:sand:0>,
+		<overloaded:compressed_sand:0>,
+		<overloaded:compressed_sand:1>,
+		<overloaded:compressed_sand:2>,
+		<overloaded:compressed_sand:3>
+		);
+	compressRecipes(
+		<ore:gravel>,
+		<minecraft:gravel:0>,
+		<overloaded:compressed_gravel:0>,
+		<overloaded:compressed_gravel:1>,
+		<overloaded:compressed_gravel:2>,
+		<overloaded:compressed_gravel:3>
+		);
+}
+
+//if ExU2 IS loaded prefer EXU2 stuff
+if !(loadedMods in "extrautils2") {
+
+	recipes.remove(<overloaded:compressed_cobblestone:0>);
+	recipes.remove(<overloaded:compressed_cobblestone:1>);
+	recipes.remove(<overloaded:compressed_cobblestone:2>);
+	recipes.remove(<overloaded:compressed_cobblestone:3>);
+
+	recipes.remove(<overloaded:compressed_netherrack:0>);
+	recipes.remove(<overloaded:compressed_netherrack:1>);
+	recipes.remove(<overloaded:compressed_netherrack:2>);
+	recipes.remove(<overloaded:compressed_netherrack:3>);
+
+	recipes.remove(<overloaded:compressed_dirt:0>);
+	recipes.remove(<overloaded:compressed_dirt:1>);
+	recipes.remove(<overloaded:compressed_dirt:2>);
+	recipes.remove(<overloaded:compressed_dirt:3>);
+
+	compressRecipes(
+		<ore:sand>,
+		<minecraft:sand:0>,
+		<extrautils2:compressedsand:0>,
+		<extrautils2:compressedsand:1>,
+		<overloaded:compressed_sand:2>,
+		<overloaded:compressed_sand:3>
+		);
+	compressRecipes(
+		<ore:gravel>,
+		<minecraft:gravel:0>,
+		<extrautils2:compressedgravel:0>,
+		<extrautils2:compressedgravel:1>,
+		<overloaded:compressed_gravel:2>,
+		<overloaded:compressed_gravel:3>
+		);
+}
+
+
+
+
 compressRecipes(
 	<ore:stone>,
 	<minecraft:stone:0>,
@@ -40,30 +123,6 @@ compressRecipes(
 	<overloaded:compressed_obsidian:1>,
 	<overloaded:compressed_obsidian:2>,
 	<overloaded:compressed_obsidian:3>
-	);
-compressRecipes(
-	<ore:netherrack>,
-	<minecraft:netherrack:0>,
-	<overloaded:compressed_netherrack:0>,
-	<overloaded:compressed_netherrack:1>,
-	<overloaded:compressed_netherrack:2>,
-	<overloaded:compressed_netherrack:3>
-	);
-compressRecipes(
-	<ore:dirt>,
-	<minecraft:dirt:0>,
-	<overloaded:compressed_dirt:0>,
-	<overloaded:compressed_dirt:1>,
-	<overloaded:compressed_dirt:2>,
-	<overloaded:compressed_dirt:3>
-	);
-compressRecipes(
-	<ore:gravel>,
-	<minecraft:gravel:0>,
-	<overloaded:compressed_gravel:0>,
-	<overloaded:compressed_gravel:1>,
-	<overloaded:compressed_gravel:2>,
-	<overloaded:compressed_gravel:3>
 	);
 compressRecipes(
 	<ore:sandstone>,
@@ -416,13 +475,14 @@ compressRecipes(
 
 
 //====== Fix EXU2 recipes ======
-//
+// 
+/*
 	recipes.addShapeless(<minecraft:dirt>*9,[<extrautils2:compresseddirt>]);
 	recipes.addShapeless(<minecraft:cobblestone>*9,[<extrautils2:compressedcobblestone>]);
 	recipes.addShapeless(<minecraft:sand>*9,[<extrautils2:compressedsand>]);
 	recipes.addShapeless(<minecraft:gravel>*9,[<extrautils2:compressedgravel>]);
 	recipes.addShapeless(<minecraft:netherrack>*9,[<extrautils2:compressednetherrack>]);
-
+*/
 
 //====== Function for all crafting recipes ======
 //
