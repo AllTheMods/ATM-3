@@ -414,8 +414,8 @@ print(" ====================================================== ");
 	// Steve's Carts Creative HULL
 	recipes.addShapedMirrored(<stevescarts:cartmodule:76>, [
 		[<stevescarts:modulecomponents:22>, <stevescarts:cartmodule:62>, <stevescarts:modulecomponents:22>],
-		[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>.giveBack(), <stevescarts:modulecomponents:22>],
-		[<stevescarts:modulecomponents:1>, <atmtweaks:item_material>, <stevescarts:modulecomponents:1>]
+		[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
+		[<stevescarts:modulecomponents:1>, <atmtweaks:item_material>.giveBack(), <stevescarts:modulecomponents:1>]
 		]);
 	<stevescarts:cartmodule:76>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
