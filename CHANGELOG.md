@@ -1,3 +1,45 @@
+# ATM3 v5.8
+*The Back in Action Update*  
+ALWAYS BACKUP BEFORE YOU UPDATE  
+ 
+### Mods Changed
+* Added Simply Jetpacks
+* Added YNot
+* Added Woot
+* Added Real Filing Cabinet
+* Added Reliquary
+* Added RandomTweaks
+* Added OC XNet Driver
+* Removed Simple Sponge
+  
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
+
+ 
+### Config/Misc:  
++ Open Block elevators now extend from 4 to 16 I:maxPassThrough=16
++ Removed Environmental Tech configs to allow fresh generation for new
++ Fixed Certus Quartz Crystal and Fluix Crystal Crusher Recipe - Issue #326
++ Mechanical Squeezer Wool to String Recipe Change - Fixed Issue #411
++ Gendustry Mutagen Producer Not Accepting IC2 Uranium - Fixed #399
++ Fixed Issue #410
+
+### New Forge  
++ 2617
+
+### And of course...  
+* Updated All the Mods! (Almost literally this time) 
+
+<br/>  
+
+[For an in-depth list of updated-mods changes see this log](https://github.com/AllTheMods/ATM-3/blob/master/changelogs_detail/changelog_atm3_5.8_full.txt)  
+*(Thanks to ChangelogGenerator by TheRandomLabs for this)*
+
+<br/>  
+<br/>  
+
+
+
+
 # ATM3 v5.7
 *So we heard you like changelogs...*  
 ALWAYS BACKUP BEFORE YOU UPDATE  
