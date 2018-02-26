@@ -14,7 +14,7 @@ print(" ============================================================== ");
 //
 	var planks = <ore:plankWood>;
 	val logs = <ore:logWood>;
-	
+
 
 //====== Cyclic Remove Item ======
 //
@@ -239,10 +239,6 @@ print(" ============================================================== ");
 	mods.mekanism.crusher.addRecipe(blockSkyS, dustSkySt);
 	mods.thermalexpansion.Pulverizer.addRecipe(dustSkySt, blockSkyS, 400);
 	mods.actuallyadditions.Crusher.addRecipe(dustSkySt, blockSkyS);
-
-	//Certus Quartz Crystal and Fluix Crystal to Dusts
-	mods.mekanism.crusher.addRecipe(<appliedenergistics2:material:0>, <appliedenergistics2:material:2>);
-	mods.mekanism.crusher.addRecipe(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>);
 	
 	//Mek Infuser recipes
 	mods.mekanism.infuser.addRecipe("CARBON",   80, dustSkySt, pressSili);
