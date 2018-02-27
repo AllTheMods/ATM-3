@@ -46,9 +46,19 @@
       "id": "minecraft:sand:0"
     },
     {
-      "target": "yellow",
+      "target": "red",
       "weight": 24,
       "id": "minecraft:sand:1"
+    },
+    {
+      "target": "yellow",
+      "weight": 10,
+      "id": "minecraft:sandstone:0"
+    },
+    {
+      "target": "red",
+      "weight": 10,
+      "id": "minecraft:red_sandstone:0"
     },
     {
       "target": "gray",
@@ -81,14 +91,14 @@
       "id": "minecraft:soul_sand"
     },
     {
-      "target": "",
+      "target": "purple",
       "weight": 8,
       "id": "minecraft:mycelium"
     },
     {
-      "target": "",
+      "target": "yellow",
       "weight": 13,
-      "id": "minecraft:end_stone"
+      "id": "minecraft:end_stone:0"
     },
     {
       "target": "orange",
@@ -176,88 +186,88 @@
       "id": "minecraft:stained_hardened_clay:15"
     },
     {
-      "target": "3",
+      "target": "yellow",
       "weight": 28,
       "id": "minecraft:sponge"
     },
     {
       "target": "white",
-      "weight": 4,
+      "weight": 12,
       "id": "environmentalmaterials:alabaster:0"
     },
     {
       "target": "orange",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:1"
     },
     {
       "target": "magenta",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:2"
     },
     {
       "target": "light_blue",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:3"
     },
     {
       "target": "yellow",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:4"
     },
     {
       "target": "lime",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:5"
     },
     {
       "target": "pink",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:6"
     },
     {
       "target": "gray",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:7"
     },
     {
       "target": "silver",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:8"
     },
     {
       "target": "cyan",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:9"
     },
     {
       "target": "purple",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:10"
     },
     {
       "target": "blue",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:11"
     },
     {
       "target": "brown",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:12"
     },
     {
       "target": "green",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:13"
     },
     {
       "target": "red",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:14"
     },
     {
       "target": "black",
-      "weight": 4,
+      "weight": 6,
       "id": "environmentalmaterials:alabaster:15"
     },
     {
@@ -274,6 +284,16 @@
       "target": "brown",
       "weight": 20,
       "id": "chisel:brownstone"
+    },
+    {
+      "target": "light_blue",
+      "weight": 8,
+      "id": "OD_PREFIX:ice"
+    },
+    {
+      "target": "light_blue",
+      "weight": 8,
+      "id": "minecraft:packed_ice"
     },
     {
       "target": "white",

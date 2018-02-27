@@ -30,7 +30,7 @@ print(" ================================================ ");
 //====== Change TR scrap loot ======
 //
 	// matches closely with cyclic magic bean custom drops table
-	scrapbox.removeAllRecipes();
+	scrapbox.removeAll();
 	scrapbox.addScrapboxDrop(<aroma1997sdimension:dimensionchanger>); 
 	scrapbox.addScrapboxDrop(<aroma1997sdimension:portalframe>); 
 	scrapbox.addScrapboxDrop(<aroma1997sdimension:miningmultitool>); 
