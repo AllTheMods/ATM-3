@@ -11,11 +11,13 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 */
 
 
-//ATM Star
+//====== ATM Star ======
+//
 	<ore:creativeATMStar>.add(<atmtweaks:item_material>);
 
-	
-//Astral Sorcery
+
+//====== Astral Sorcery ======
+//
 	<ore:astralGemCrystals>.add(<astralsorcery:itemcraftingcomponent:4>);
 	<ore:astralGemCrystals>.add(<astralsorcery:itemtunedrockcrystal>);
 	<ore:astralGemCrystals>.add(<astralsorcery:itemcelestialcrystal>);
@@ -77,7 +79,10 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 	<ore:circuitBasic>.add(<forestry:chipsets:1>);
 	<ore:circuitBasic>.add(<forestry:chipsets:2>);
 	<ore:circuitBasic>.add(<forestry:chipsets:3>);
-	
+
+
+//====== Worms ======
+//
 	recipes.addShapeless(<actuallyadditions:item_worm>, [<waterstrainer:worm>]);
 	recipes.addShapeless(<waterstrainer:worm>, [<actuallyadditions:item_worm>]);
 
@@ -93,5 +98,22 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 		[<ore:dustSalt>, <ore:dustSalt>],
 		[<ore:dustSalt>, <ore:dustSalt>]
 		]);
+
+
+//====== Marble ======
+//
 	<ore:blockMarble>.addAll(<ore:stoneMarble>);
 	<ore:stoneMarble>.addAll(<ore:blockMarble>);
+
+
+//====== Slate ======
+//
+	<ore:blockSlate>.addItems([
+		<rustic:slate_chiseled>,
+		<rustic:slate_brick>,
+		<rustic:slate_tile>, 
+		<rustic:slate_roof>, 
+		<rustic:slate_pillar>, 
+		<rustic:slate>
+		]);
+	<ore:stoneSlate>.addAll(<ore:blockSlate>);
