@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 
 #packmode normal simplified
 
@@ -295,10 +296,17 @@ print(" ======================================================== ");
 
 //====== Sawdust Paper ======
 //
-	recipes.removeShaped(<minecraft:paper>, [[<mekanism:sawdust>, <mekanism:sawdust>, <mekanism:sawdust>]]);
-	recipes.removeShapeless(<minecraft:paper>, [<ore:dustWood>], true);
+	recipes.remove(<mekanism:cardboardbox>);
+	recipes.remove(<minecraft:paper>);
+
 	recipes.addShapeless(<minecraft:paper>*1, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
-	recipes.addShapeless(<minecraft:paper>*6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:listAllWater>]);
+	recipes.addShaped(<minecraft:paper>*1, [[<ore:sugarcane>, <ore:sugarcane>, <ore:sugarcane>]]);
+	recipes.addShapedMirrored(<minecraft:paper>*3, [
+		[<ore:cropRice>, null, null],
+		[null, <ore:cropRice>, null],
+		[null, null, <ore:cropRice>]
+		]);
+	recipes.addShapeless(<minecraft:paper>*6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <liquid:water>*1000]);
 
 
 //====== TiCo Moss ======
