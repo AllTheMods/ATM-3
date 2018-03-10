@@ -294,9 +294,8 @@ print(" ======================================================== ");
 		]);
 
 
-//====== Sawdust Paper ======
+//====== Sawdust Paper CardboardBox ======
 //
-	recipes.remove(<mekanism:cardboardbox>);
 	recipes.remove(<minecraft:paper>);
 
 	recipes.addShapeless(<minecraft:paper>*1, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
@@ -307,6 +306,13 @@ print(" ======================================================== ");
 		[null, null, <ore:cropRice>]
 		]);
 	recipes.addShapeless(<minecraft:paper>*6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <liquid:water>*1000]);
+
+	recipes.remove(<mekanism:cardboardbox>);
+	recipes.addShaped(<mekanism:cardboardbox>, [
+		[null, <storagedrawers:tape>.anyDamage(), null],
+		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>],
+		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>]
+		]);
 
 
 //====== TiCo Moss ======
