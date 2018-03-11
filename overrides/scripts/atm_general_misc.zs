@@ -357,7 +357,12 @@ print(" ============================================================== ");
 		[<ore:string>, <ore:string>, <ore:string>],
 		[<ore:fieryItem>, <ore:fieryBlock>, <ore:fieryItem>]
 		]);
-	
-	
-	
-	
+
+
+//====== Morph-o-Tool ======
+//
+	recipes.addShaped(<morphtool:tool>*1, [
+		[null, <ore:dyeGreen>, <ore:dyeBlue>],
+		[null, <ore:ingotIron>, <ore:dyeRed>],
+		[<ore:ingotIron>, null, null]
+		]);
