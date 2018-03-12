@@ -344,3 +344,25 @@ print(" ============================================================== ");
 
 	//add the full book to JEI as it's own entry
 	mods.jei.JEI.addItem(dimletDragon);
+
+
+//====== Natura Flamestring ======
+//
+	<ore:fieryItem>.addAll(<slimecrystalMagma>);
+	<ore:fieryItem>.add(<mysticalagriculture:fire_essence>);
+	<ore:fieryBlock>.add(<tconstruct:firewood:1>);
+	<ore:fieryBlock>.addAll(<ore:blockBlaze>);
+	recipes.addShaped(<natura:materials:7>*3, [
+		[<ore:string>, <ore:string>, <ore:string>],
+		[<ore:string>, <ore:string>, <ore:string>],
+		[<ore:fieryItem>, <ore:fieryBlock>, <ore:fieryItem>]
+		]);
+
+
+//====== Morph-o-Tool ======
+//
+	recipes.addShaped(<morphtool:tool>*1, [
+		[null, <ore:dyeGreen>, <ore:dyeBlue>],
+		[null, <ore:ingotIron>, <ore:dyeRed>],
+		[<ore:ingotIron>, null, null]
+		]);

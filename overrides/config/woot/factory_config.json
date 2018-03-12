@@ -11,7 +11,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -28,7 +28,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -50,7 +50,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -174,7 +174,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -191,7 +191,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -208,7 +208,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {
@@ -221,7 +221,7 @@
         {
           "tag": "spawn_ticks",
           "value": 1000
-        },
+        }
       ]
     },
     {

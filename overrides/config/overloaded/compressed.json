@@ -462,18 +462,16 @@
     "depth": 4,
     "hardnessMultiplier": 2.0,
     "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "rustic:slate",
+    "compressedPathRegistryName": "compressed_slate",
+    "meta": 0,
+    "texturePath": "rustic:textures/blocks/slate.png",
+    "depth": 4,
+    "hardnessMultiplier": 2.0,
+    "recipeEnabled": false
   }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
 ]

@@ -468,7 +468,18 @@ compressRecipes(
 	<overloaded:compressed_uranium:2>,
 	<overloaded:compressed_uranium:3>
 	);
-	
+compressRecipes(
+	<ore:blockSlate>,
+	<rustic:slate:0>,
+	<overloaded:compressed_slate:0>,
+	<overloaded:compressed_slate:1>,
+	<overloaded:compressed_slate:2>,
+	<overloaded:compressed_slate:3>
+	);
+
+
+
+
 //====== Compressed Nether Stars ======
 //
 	recipes.addShapeless(<minecraft:nether_star>*9, [<overloaded:nether_star_block>]);

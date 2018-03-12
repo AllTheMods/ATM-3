@@ -530,12 +530,22 @@ print(" ====================================================== ");
 		[<opencomputers:component:15>, <abyssalcraft:transmutationgem>, <opencomputers:component:15>],
 		[<ic2:plate:11>, <thermalfoundation:material:833>, <ic2:plate:11>]
 		]);
-		
+
+	//First level, MEK Anchor Upgrade
+	recipes.remove(<mekanism:anchorupgrade>);
+	recipes.addShaped(<mekanism:anchorupgrade>, [
+		[<opencomputers:upgrade:14>, <ic2:plate:17>, <opencomputers:upgrade:14>],
+		[<ic2:plate:17>, <abyssalcraft:transmutationgem>, <ic2:plate:17>],
+		[<thermalfoundation:material:295>, <ic2:plate:17>, <thermalfoundation:material:295>]
+		]);
+	
+	<ore:chunkloaderUpgrade>.addItems([<opencomputers:upgrade:4>, <mekanism:anchorupgrade>]);
+
 	//Second level, IC2 chunkloader
 	recipes.remove(<ic2:te:82>);
 	recipes.addShaped(<ic2:te:82>, [
 		[<atmtweaks:item_material:2>, <rftools:infused_enderpearl>, <atmtweaks:item_material:2>],
-		[<opencomputers:upgrade:4>, <techreborn:machine_casing:2>, <opencomputers:upgrade:4>],
+		[<ore:chunkloaderUpgrade>, <techreborn:machine_casing:2>, <ore:chunkloaderUpgrade>],
 		[<atmtweaks:item_material:2>, <rftools:infused_enderpearl>, <atmtweaks:item_material:2>]
 		]);
 	<ic2:te:82>.addTooltip(
