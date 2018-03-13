@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 1,
+    "ingredients": [
+        {
+            "item": "minecraft:netherrack"
+        }
+    ],
+    "result_count": 64
+}

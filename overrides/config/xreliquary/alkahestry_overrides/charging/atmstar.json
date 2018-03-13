@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_charging",
+    "charge": 9999,
+    "ingredients": [
+        {
+            "item": "atmtweaks:item_material",
+			"data": 0
+        }
+    ]
+}
