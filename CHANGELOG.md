@@ -1,3 +1,58 @@
+# ATM3 v5.9
+*The "It's STILL not 6.0!? update*  
+ALWAYS BACKUP BEFORE YOU UPDATE  
+
+
+### Mods Changed
+* Added Blood Magic
+* Added Dismantler
+* Added RandomPatches
+* Added Reborn Storage
+* Added RFTools Power
+* Added Unloader  
+  
+  
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
+
+
+### Config/Misc:  
++ Tweak paper recipes somewhat (can craft with sugarcane again but not very efficiently)
++ Nerfed Cardboard Box recipe to not be so blatantly easy
++ Added a recipe to craft Natura's Flamestring (useful for TiCo bows)
++ Added compressed Slate and added slate variations to their own oredictionary
++ Fixed/tweaked Woot configs (and lowered base RF costs slightly, augments still very expensive)
++ Added an oredictionary recipe for the Morph-O-Tool (minor, quality of life)
++ Enabled Mek anchor upgrade (with custom recipe)
++ Reduced EU-per-tick-per-chunk cost of IC2 chunkloader slightly to make it more practical
++ Fixed some scripts due to Exchangers mod changing some item names
++ Increased JEI max "subtypes" to hopefully show useful things like Tinker's stations and bees, but still hide covers and other spam
+
+
+### New Forge  
++ 2629
+
+
+### And of course...  
+* Updated All the Mods!
+  
+    
+[For an in-depth list of updated-mods changes see this log](https://github.com/AllTheMods/ATM-3/blob/master/changelogs_detail/changelog_atm3_5.9_full.txt)  
+*(Thanks to ChangelogGenerator by TheRandomLabs for this)*
+
+
+### Premium Supporters
+Special thanks to the current (at time of this update) [Patreon](https://www.patreon.com/allthemods) "supporter" tier:
+* DaePrice
+* Prezpaul 
+* Gefailter71 
+
+<br/>  
+<br/>   
+  
+  
+
+
+
 # ATM3 v5.8
 *The Back in Action Update*  
 ALWAYS BACKUP BEFORE YOU UPDATE  
