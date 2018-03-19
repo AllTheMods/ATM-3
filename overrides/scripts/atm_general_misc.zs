@@ -348,7 +348,7 @@ print(" ============================================================== ");
 
 //====== Natura Flamestring ======
 //
-	<ore:fieryItem>.addAll(<slimecrystalMagma>);
+	<ore:fieryItem>.addAll(<ore:slimecrystalMagma>);
 	<ore:fieryItem>.add(<mysticalagriculture:fire_essence>);
 	<ore:fieryBlock>.add(<tconstruct:firewood:1>);
 	<ore:fieryBlock>.addAll(<ore:blockBlaze>);

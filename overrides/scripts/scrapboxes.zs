@@ -667,7 +667,7 @@ print(" ================================================ ");
 	scrapbox.addScrapboxDrop(<exchangers:diamond_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
 	scrapbox.addScrapboxDrop(<exchangers:emerald_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
 	scrapbox.addScrapboxDrop(<exchangers:golden_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
-	scrapbox.addScrapboxDrop(<<exchangers:hardened_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
+	scrapbox.addScrapboxDrop(<exchangers:hardened_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
 	scrapbox.addScrapboxDrop(<exchangers:iron_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
 	scrapbox.addScrapboxDrop(<exchangers:leadstone_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
 	scrapbox.addScrapboxDrop(<exchangers:obsidian_exchanger>.withTag({mode: 0, forceDropItems: 0 as byte, meta: 0, block: "minecraft:air"})); 
