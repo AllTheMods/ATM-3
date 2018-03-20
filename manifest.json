@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "All the Mods 3 5.9",
+  "name": "All the Mods 3",
   "version": "v5.9",
   "author": "atmteam",
   "projectID": 269708,
@@ -1043,11 +1043,6 @@
     {
       "projectID": 285385,
       "fileID": 2540127,
-      "required": true
-    },
-    {
-      "projectID": 244651,
-      "fileID": 2487959,
       "required": true
     },
     {
