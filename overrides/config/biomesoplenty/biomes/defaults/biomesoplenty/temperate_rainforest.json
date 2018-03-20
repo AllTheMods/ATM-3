@@ -72,7 +72,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.6,
+      "amountPerChunk": 0.2,
       "enable": true
     },
     "brown_mushrooms": {
@@ -93,7 +93,7 @@
           "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
+      "generationAttempts": 16,
       "amountPerChunk": 30.0,
       "maxHeight": 5,
       "enable": true,

@@ -1,7 +1,7 @@
 {
   "canGenerateRivers": false,
-  "skyColor": 9477744,
-  "fogDensity": 0.3,
+  "skyColor": -1,
+  "fogDensity": 0.5,
   "hasBiomeEssence": true,
   "variationBelow": 1.0,
   "variationAbove": 5.0,
@@ -18,7 +18,7 @@
     "block": "biomesoplenty:dried_sand",
     "properties": {}
   },
-  "fogColor": 12106885,
+  "fogColor": 14409153,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
   "generators": {
@@ -85,7 +85,7 @@
           "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
+      "generationAttempts": 16,
       "amountPerChunk": 30.0,
       "maxHeight": 5,
       "enable": true,

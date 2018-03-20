@@ -92,7 +92,7 @@
         }
       },
       "generationAttempts": 64,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "stone_formations": {
@@ -104,7 +104,7 @@
           "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
+      "generationAttempts": 16,
       "amountPerChunk": 30.0,
       "maxHeight": 5,
       "enable": true,
