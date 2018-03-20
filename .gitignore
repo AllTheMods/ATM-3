@@ -1,2 +1,3 @@
 overrides/config/shadowfacts/DiscordChat/DiscordChat.conf
+overrides/config/Chikachi/discordintegration.json
 *.jar

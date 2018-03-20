@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_charging",
+    "charge": 50,
+    "ingredients": [
+        {
+            "item": "minecraft:item_material",
+			"data": 1
+        }
+    ]
+}
