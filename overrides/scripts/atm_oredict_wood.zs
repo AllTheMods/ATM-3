@@ -88,7 +88,6 @@ print(" ========================================================== ");
 		<forestry:logs.fireproof.7:32767>,
 		<forestry:logs.vanilla.fireproof.0:32767>,
 		<forestry:logs.vanilla.fireproof.1:32767>,
-		<forestry:wood_pile:32767>,
 		<harvestcraft:pamcinnamon:32767>,
 		<harvestcraft:pammaple:32767>,
 		<minecraft:log:32767>,
