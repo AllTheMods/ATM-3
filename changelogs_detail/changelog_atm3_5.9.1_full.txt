@@ -1,0 +1,583 @@
+All the Mods 3 v5.9 to All the Mods 3 v5.9.1
+
+Added:
+	- FastWorkbench
+
+Updated:
+	Advanced Rocketry (went from [Archived file] to AdvancedRocketry 1.12.2-1.3.0-62-UNSTABLE build -62 for 1.12.2):
+		AdvancedRocketry 1.12.2-1.3.0-62-UNSTABLE build -62 for 1.12.2:
+			 Highly untested and may break world
+
+			Current release 1.12.2-1.3.0-62
+
+			 * [ Update RU_ru, thanks Foxgreat!](https://github.com/zmaster587/AdvancedRocketry/commit/205dacd242f868c) 
+			 * [ Added option to ignore atmosphere check when respawning on a planet (#1193) * added config option to ignore breathability check on bed respawn, fixes #1192 * fixed plausible NPE on accessing 'AtmosphereHandler'](https://github.com/zmaster587/AdvancedRocketry/commit/b9c3d7222a7d026) 
+			 * [ should fix #1202](https://github.com/zmaster587/AdvancedRocketry/commit/0b9e9c9b3d3b488) 
+			 * [ Added a proper .gitignore](https://github.com/zmaster587/AdvancedRocketry/commit/e2a3cd34cfffe42) 
+			 * [ Updated Forge to 1.12.2-14.23.2.2623](https://github.com/zmaster587/AdvancedRocketry/commit/faae39fd64ca95e) 
+			 * [ Clear-Out Unused Imports](https://github.com/zmaster587/AdvancedRocketry/commit/2163a6852b6e331) 
+			 * [ Clear-Out Unused Imports](https://github.com/zmaster587/AdvancedRocketry/commit/37da790f87035d4) 
+			 * [ Switched model registration over to the ModelRegistryEvent](https://github.com/zmaster587/AdvancedRocketry/commit/6f35a1bed9d7056) 
+			 * [ #1170 actually fix terraforming on earth](https://github.com/zmaster587/AdvancedRocketry/commit/b6c9d6db186fa56) 
+			 * [ Waterproof (ha, get it?) #1179 #1177 #1178](https://github.com/zmaster587/AdvancedRocketry/commit/b4fefb2da9903d1) 
+			 * [ fix sealers crashing with atmoshperes disabled](https://github.com/zmaster587/AdvancedRocketry/commit/a8c3c61eb89eeca) 
+			 * [ fix #1177](https://github.com/zmaster587/AdvancedRocketry/commit/ee0a9b8961863d0) 
+			 * [ default config changes](https://github.com/zmaster587/AdvancedRocketry/commit/49fce4d8debac6f) 
+			 * [ a suprise in every box](https://github.com/zmaster587/AdvancedRocketry/commit/4511497030bf6c8) 
+			 * [ add feedback for linking with transcievers](https://github.com/zmaster587/AdvancedRocketry/commit/5a95a85cc69864b) 
+			 * [ deprecating pipes, added wireless transciever, closes #1075 #1034 #771 #757](https://github.com/zmaster587/AdvancedRocketry/commit/48610953627a05a) 
+			 * [ fix fluid blocks](https://github.com/zmaster587/AdvancedRocketry/commit/dee6981ac3ece87) 
+			 * [ KO bedbugs](https://github.com/zmaster587/AdvancedRocketry/commit/afc486210358662) 
+			 * [ fix #1112, 1.12 build doesn't use tesla anyway](https://github.com/zmaster587/AdvancedRocketry/commit/f9c0a86722265ba) 
+			 * [ fix duplicate guidance computer](https://github.com/zmaster587/AdvancedRocketry/commit/44464bf4a0ae547) 
+			 * [ fix missing gas tag as per #900](https://github.com/zmaster587/AdvancedRocketry/commit/094cb7ec66778f6) 
+			 * [ fix #1134](https://github.com/zmaster587/AdvancedRocketry/commit/0991dfeb987aa7c) 
+			 * [ prevent crash in #1136, add logging](https://github.com/zmaster587/AdvancedRocketry/commit/e35186134cd6698) 
+			 * [ add block blacklist for rockets, #1147](https://github.com/zmaster587/AdvancedRocketry/commit/90f9e209ac015a5) 
+			 * [ update lang, #1142](https://github.com/zmaster587/AdvancedRocketry/commit/ab985dbfe34650f) 
+			 * [ implements config for #1137](https://github.com/zmaster587/AdvancedRocketry/commit/a7f05f94c893337) 
+			 * [ fixes #1151](https://github.com/zmaster587/AdvancedRocketry/commit/fadad0a715cb97b) 
+			 * [ Fix get charge pads so the wait is not painfully long](https://github.com/zmaster587/AdvancedRocketry/commit/cee21e55953d184) 
+			 * [ fixes #1106](https://github.com/zmaster587/AdvancedRocketry/commit/2fe8d8acc768c7c) 
+			 * [ fix #800, #1103](https://github.com/zmaster587/AdvancedRocketry/commit/19c92ba3b3b8cea) 
+			 * [ use up to date libvulpes](https://github.com/zmaster587/AdvancedRocketry/commit/ef6b1f6dabe38bd) 
+			 * [ fix #1104](https://github.com/zmaster587/AdvancedRocketry/commit/e6adea65848ab17) 
+			 * [ implement #1068](https://github.com/zmaster587/AdvancedRocketry/commit/139845b04c5db85) 
+			 * [ Fix 'wenttothemoon' advancement](https://github.com/zmaster587/AdvancedRocketry/commit/7ea351ec8c62378) 
+			 * [ fix #1081](https://github.com/zmaster587/AdvancedRocketry/commit/8c6a4b22a44be81) 
+			 * [ fix #1069](https://github.com/zmaster587/AdvancedRocketry/commit/67922db3d7cb6c3) 
+			 * [ fix sunset not existing, new sun texture](https://github.com/zmaster587/AdvancedRocketry/commit/e11282fb8a40b26) 
+			 * [ artifacts can now have minimum stacksize](https://github.com/zmaster587/AdvancedRocketry/commit/432337568162920) 
+			 * [ Add oredict entry for lunar soil, #1087](https://github.com/zmaster587/AdvancedRocketry/commit/c5eef8f532ec371) 
+			 * [ fix #1088](https://github.com/zmaster587/AdvancedRocketry/commit/1dac50ec6aad1b2) 
+			 * [ fix badly implemented patch for #1077](https://github.com/zmaster587/AdvancedRocketry/commit/3836c56ce0e216d) 
+			 * [ fix #1080](https://github.com/zmaster587/AdvancedRocketry/commit/27f055371f85407) 
+			 * [ address #1077](https://github.com/zmaster587/AdvancedRocketry/commit/766442b1e176576) 
+			 * [ possible fix for #1074](https://github.com/zmaster587/AdvancedRocketry/commit/b02f692d98546a3) 
+			 * [ fix moon size](https://github.com/zmaster587/AdvancedRocketry/commit/54437f34379672d) 
+			 * [ add advancements back in](https://github.com/zmaster587/AdvancedRocketry/commit/7e089cddde76cd9) 
+			 * [ fix rocket newline](https://github.com/zmaster587/AdvancedRocketry/commit/4faab8c843b0333) 
+			 * [ update German translation, thanks Jummit!](https://github.com/zmaster587/AdvancedRocketry/commit/be0104615de8a00) 
+			 * [ fix newlines in locale](https://github.com/zmaster587/AdvancedRocketry/commit/b894ad2c67c3b6a) 
+			 * [ fix #1066, CMe](https://github.com/zmaster587/AdvancedRocketry/commit/6aca49c320bd164) 
+			 * [ fix bug with O2 vent were the seal status was not properly set, add O2 tracing for finding leaks](https://github.com/zmaster587/AdvancedRocketry/commit/36a9932f88199e3) 
+			 * [ make sure seal blocks unregister properly, fix for #1038](https://github.com/zmaster587/AdvancedRocketry/commit/db6dbb509facbba) 
+			 * [ Update ru_RU.lang](https://github.com/zmaster587/AdvancedRocketry/commit/2291e8577e80777) 
+			 * [ Update ru_RU.lang Updated full russian desc. Added new items and corrected untranslated words.](https://github.com/zmaster587/AdvancedRocketry/commit/bad27887bdd0765) 
+			 * [ remove spaces from biome names, resolve #1061](https://github.com/zmaster587/AdvancedRocketry/commit/55a4b815cc34dc7) 
+			 * [ Massive localization changes, progress for #1012](https://github.com/zmaster587/AdvancedRocketry/commit/9e1b0fec7e14c22) 
+			 * [ implement #1052](https://github.com/zmaster587/AdvancedRocketry/commit/dea20a838cdd670) 
+			 * [ fix #1056](https://github.com/zmaster587/AdvancedRocketry/commit/155cb23354c17a3) 
+			 * [ fix for #1049](https://github.com/zmaster587/AdvancedRocketry/commit/26e64f28ffa3837) 
+			 * [ resolve #1044](https://github.com/zmaster587/AdvancedRocketry/commit/64ecf0fdb420858) 
+			 * [ possible fix for #911](https://github.com/zmaster587/AdvancedRocketry/commit/2dcf58dfcfee28b) 
+			 * [ attempt to fix NPE with buildcraft, #992, #972](https://github.com/zmaster587/AdvancedRocketry/commit/3d8fd79f1c7a88d) 
+			 * [ Sneaky debug thingy you, scram](https://github.com/zmaster587/AdvancedRocketry/commit/b44b50cfe46cee2) 
+			 * [ Curse this plauge of mispellings, die once and for all! Tonight you will be struck down](https://github.com/zmaster587/AdvancedRocketry/commit/4d3dc5f8acc7efa) 
+			 * [ fix #958](https://github.com/zmaster587/AdvancedRocketry/commit/1cfda23ac5bb173) 
+			 * [ add localization for #960](https://github.com/zmaster587/AdvancedRocketry/commit/d2ad731cb9cd863) 
+			 * [ resolve #925](https://github.com/zmaster587/AdvancedRocketry/commit/ae2e948760f1018) 
+			 * [ handle and print debug for cable CME, addresses #1032](https://github.com/zmaster587/AdvancedRocketry/commit/9ab47e2685cddca) 
+			 * [ add support for itemCapability handlers for rockets, resolves #1001](https://github.com/zmaster587/AdvancedRocketry/commit/325f9f834c91d80) 
+			 * [ fix getting booted from invs #1001](https://github.com/zmaster587/AdvancedRocketry/commit/ce6a32add519679) 
+			 * [ Rockets now notify landing pad when dismantled #1038](https://github.com/zmaster587/AdvancedRocketry/commit/40bb52132ccf086) 
+			 * [ Add iridum ore gen option #964](https://github.com/zmaster587/AdvancedRocketry/commit/ce2e20f35e4cc5b) 
+			 * [ fix #1031](https://github.com/zmaster587/AdvancedRocketry/commit/15aa500e1cf13e1) 
+			 * [ fix #1029](https://github.com/zmaster587/AdvancedRocketry/commit/9b609e597ed265b) 
+			 * [ Mitigate #1004 #941 #956 #816 #760, prevent world save in case of corruption](https://github.com/zmaster587/AdvancedRocketry/commit/5f9c19c21c2542e) 
+			 * [ fix #1030](https://github.com/zmaster587/AdvancedRocketry/commit/ffb992ef7c56be5) 
+			 * [ resolves #1023](https://github.com/zmaster587/AdvancedRocketry/commit/a9d5bcc80251c2c) 
+			 * [ sea level is 63 not 64](https://github.com/zmaster587/AdvancedRocketry/commit/5f2ca793a06de56) 
+			 * [ add config to change oceantype and sealevel](https://github.com/zmaster587/AdvancedRocketry/commit/84ecc08b74c6548) 
+			 * [ fix same world docking pads #1019](https://github.com/zmaster587/AdvancedRocketry/commit/31d634391abac7a) 
+			 * [ goto command no longer dumps players underground](https://github.com/zmaster587/AdvancedRocketry/commit/449c4099d0171b4) 
+			 * [ Fix more null stack checks](https://github.com/zmaster587/AdvancedRocketry/commit/6dc3f2027fd8375) 
+			 * [ fix #1019, fire rocket land event on clients](https://github.com/zmaster587/AdvancedRocketry/commit/ad48931941ab081) 
+			 * [ fix the fix for #1005 wrong load event](https://github.com/zmaster587/AdvancedRocketry/commit/e036fb405b84718) 
+			 * [ possible fix to #1005](https://github.com/zmaster587/AdvancedRocketry/commit/be21436edc4a6ac) 
+			 * [ fix mistake in fixing #1007 causing rockets to crash too, fix #1011](https://github.com/zmaster587/AdvancedRocketry/commit/2fc8ec95c85a8b0) 
+			 * [ Commands can be used in console](https://github.com/zmaster587/AdvancedRocketry/commit/3f645e4942b0cf8) 
+			 * [ add configurable power multiplier for oxygen vent, implements #1010](https://github.com/zmaster587/AdvancedRocketry/commit/415a22f46fc80f2) 
+			 * [ Fixes #1007](https://github.com/zmaster587/AdvancedRocketry/commit/7e84d1d4130a945) 
+			 * [ Biome Loader now uses resource locations for biomes](https://github.com/zmaster587/AdvancedRocketry/commit/cff635b5031bb72) 
+			 * [ fix space elevator failing to update client](https://github.com/zmaster587/AdvancedRocketry/commit/6b878e8e6b45d8d) 
+			 * [ warp times now vary between planets](https://github.com/zmaster587/AdvancedRocketry/commit/de4eeaf56e2f4eb) 
+			 * [ min battery size of 1](https://github.com/zmaster587/AdvancedRocketry/commit/7caea0afa1c6b02) 
+			 * [ Update fr_FR.lang](https://github.com/zmaster587/AdvancedRocketry/commit/1ff7847af0faf5d) 
+			 * [ Fixes #995 in vanilla dimensions and low gravity dimensions](https://github.com/zmaster587/AdvancedRocketry/commit/0950322e192f219) 
+			 * [ Fix #998](https://github.com/zmaster587/AdvancedRocketry/commit/47c2beae8221c3a) 
+			 * [ fix chemical reactor crash in #999 and #997](https://github.com/zmaster587/AdvancedRocketry/commit/15dec4e856e4ae5) 
+			 * [ fix typo, 4192, 4096 and 8192 had a baby somehow](https://github.com/zmaster587/AdvancedRocketry/commit/84b80585d364536) 
+			 * [ Fix observatory #928](https://github.com/zmaster587/AdvancedRocketry/commit/8b17c76da840281) 
+			 * [ fix client method called on server in biomeScanner #985](https://github.com/zmaster587/AdvancedRocketry/commit/6b2ccaff8cf76d5) 
+			 * [ Disable seal enchant recipe if oxygen is disabled](https://github.com/zmaster587/AdvancedRocketry/commit/45742b2e606a24b) 
+			 * [ Move recipe registration to init from post init, possible fix for https://github.com/Darkosto/SevTech-Ages/issues/284](https://github.com/zmaster587/AdvancedRocketry/commit/9d157ede15c3012) 
+			 * [ fix libvulpes dep](https://github.com/zmaster587/AdvancedRocketry/commit/b123213f06b106e) 
+			 * [ Adding the spaceBreathing enchant in the chemical reactor no longer removes existing NBT data, sorry for your loss of items MushroomDynamo](https://github.com/zmaster587/AdvancedRocketry/commit/02ffbed265cb322) 
+			 * [ fix crash on client when in invalid space station location](https://github.com/zmaster587/AdvancedRocketry/commit/f71106e830c016c) 
+			 * [ Rethrow exceptions instead of calling System.exit With Forge, you're never supposed to call System.exit. It won't work anyway (they disable it), and even having it in your code makes a big warning in the log. Change this to the right way of dealing with a checked exception you can't just propagate: wrap it in an unchecked exception.](https://github.com/zmaster587/AdvancedRocketry/commit/a161c412782a791) 
+			 * [ Fixes #961](https://github.com/zmaster587/AdvancedRocketry/commit/5a4aa7d44ff1b95) 
+			 * [ Fix expand to grow for BB boxes](https://github.com/zmaster587/AdvancedRocketry/commit/58a71d5db4d3032) 
+			 * [ "expand" method name changed to "grow" in 1.12](https://github.com/zmaster587/AdvancedRocketry/commit/a375fe35e79f9cc) 
+			 * [ update build data](https://github.com/zmaster587/AdvancedRocketry/commit/6a23ffc38429f29) 
+			 * [ Band-aid for chisel crash in #952](https://github.com/zmaster587/AdvancedRocketry/commit/344682a31c5d62d) 
+			 * [ sync](https://github.com/zmaster587/AdvancedRocketry/commit/0a3ca715fdc8298) 
+			 * [ remove need to get bambooShortPlanName](https://github.com/zmaster587/AdvancedRocketry/commit/a3f818274141093) 
+			 * [ update curseforge task to have deobf jar and libvulpes dependency](https://github.com/zmaster587/AdvancedRocketry/commit/df248149dd42a76) 
+			 * [ move gradle tasks to one line](https://github.com/zmaster587/AdvancedRocketry/commit/b75dac22f1a1fc7) 
+			 * [ add curseforge upload task to Jenkinsfile](https://github.com/zmaster587/AdvancedRocketry/commit/7d8c3a4dec99a56) 
+			 * [ possible fix for #937](https://github.com/zmaster587/AdvancedRocketry/commit/49d7cd18f783ec0) 
+			 * [ Fix snow on observetory](https://github.com/zmaster587/AdvancedRocketry/commit/783f117483572dc) 
+			 * [ fixes #934](https://github.com/zmaster587/AdvancedRocketry/commit/70a6b58e6e7a9b6) 
+			 * [ Avoiding lookup of GitHub issues (#936) Not looking for GitHub issue titles when creating changelog.](https://github.com/zmaster587/AdvancedRocketry/commit/045aa429224a1df) 
+			 * [ sync](https://github.com/zmaster587/AdvancedRocketry/commit/2215a1218681562) 
+			 * [ Move block/item registration over to events, fix load order issues with libvulpes, fix #908](https://github.com/zmaster587/AdvancedRocketry/commit/12705d308b8994c) 
+			 * [ Add config for discovery probability](https://github.com/zmaster587/AdvancedRocketry/commit/915a27a57510821) 
+			 * [ Add fuel indicator, #923](https://github.com/zmaster587/AdvancedRocketry/commit/1f0667fc9f4ea6d) 
+			 * [ Prevent players from changing direction midflight, #923](https://github.com/zmaster587/AdvancedRocketry/commit/b0887a9e839150f) 
+			 * [ fix nulls when should be checking for empty](https://github.com/zmaster587/AdvancedRocketry/commit/e5746664794a912) 
+			 * [ update build number](https://github.com/zmaster587/AdvancedRocketry/commit/052d1237d14e83c) 
+			 * [ Add thermite torches](https://github.com/zmaster587/AdvancedRocketry/commit/df0167c296ad977) 
+			 * [ fix datatype issue, i expect this from C, but not java](https://github.com/zmaster587/AdvancedRocketry/commit/3ed985db99e173a) 
+			 * [ Add config to change number of blocks per tick during terraform #909](https://github.com/zmaster587/AdvancedRocketry/commit/c5d489f87fd4270) 
+			 * [ fix mining missions](https://github.com/zmaster587/AdvancedRocketry/commit/02fb83223475c11) 
+			 * [ Fix https://github.com/zmaster587/libVulpes/issues/25 locally O2 warning](https://github.com/zmaster587/AdvancedRocketry/commit/c28c79d20ecf743) 
+			 * [ fix misnamed function](https://github.com/zmaster587/AdvancedRocketry/commit/9a22b6fe621aff0) 
+			 * [ Fix order of operations](https://github.com/zmaster587/AdvancedRocketry/commit/44d843f264d686c) 
+			 * [ potential fix for #917](https://github.com/zmaster587/AdvancedRocketry/commit/d75684dba09c574) 
+			 * [ fixes #916](https://github.com/zmaster587/AdvancedRocketry/commit/0c9fab0c6ddeffa) 
+			 * [ change default biome IDs #910](https://github.com/zmaster587/AdvancedRocketry/commit/30185a43ee619d2) 
+			 * [ Don't apply gravity to entities with no gravity entities with no gravity shouldn't have their gravity modified](https://github.com/zmaster587/AdvancedRocketry/commit/916a4f5dad40e40) 
+			 * [ Revert "fix biome registration for pumpkin" This reverts commit ffb38181c79109c659589884c7b5e78c541d705d.](https://github.com/zmaster587/AdvancedRocketry/commit/9a948d8c8ca0663) 
+			 * [ Revert "Add holiday event" This reverts commit 308bae71576f47c39efcda58b6f842ec38b2fd43.](https://github.com/zmaster587/AdvancedRocketry/commit/428440fcc708e88) 
+			 * [ update textures for blast furnace](https://github.com/zmaster587/AdvancedRocketry/commit/32a8396c41f0235) 
+			 * [ update build num](https://github.com/zmaster587/AdvancedRocketry/commit/38124122f75788b) 
+			 * [ fix #875](https://github.com/zmaster587/AdvancedRocketry/commit/666ef429400798c) 
+			 * [ Fix #892](https://github.com/zmaster587/AdvancedRocketry/commit/bdce5d0725bd415) 
+			 * [ fix biome registration for pumpkin](https://github.com/zmaster587/AdvancedRocketry/commit/ffb38181c79109c) 
+			 * [ Add holiday event](https://github.com/zmaster587/AdvancedRocketry/commit/308bae71576f47c) 
+			 * [ remember the resources](https://github.com/zmaster587/AdvancedRocketry/commit/2f3f8596ca588e0) 
+			 * [ possible fix for #883](https://github.com/zmaster587/AdvancedRocketry/commit/8602681c36865c9) 
+			 * [ fix #880](https://github.com/zmaster587/AdvancedRocketry/commit/83a75fd11ce1bc4) 
+			 * [ Fix insane speed in prec assembler #881](https://github.com/zmaster587/AdvancedRocketry/commit/f03b74e348f2ede) 
+			 * [ Fixes #885, Fix crash when trying to add recipe for mod compat where an ingot exists but a plate does not](https://github.com/zmaster587/AdvancedRocketry/commit/305526d23ef4316) 
+			 * [ fix #871](https://github.com/zmaster587/AdvancedRocketry/commit/4d4fe9cc518a9f6) 
+			 * [ fix broken cartrige recipes, I blame datatypes](https://github.com/zmaster587/AdvancedRocketry/commit/b274a50865319b2) 
+			 * [ Fix fluid tooltips JEI](https://github.com/zmaster587/AdvancedRocketry/commit/4e7b6b0e1a30a23) 
+			 * [ fixes the auto-genned recipes, removed the manual ones added last commit Currently seems to have a bug where it registers the ingot rolling twice though.](https://github.com/zmaster587/AdvancedRocketry/commit/c934be60f5b0296) 
+			 * [ fixes a bunch of missing rolling machine recipes.](https://github.com/zmaster587/AdvancedRocketry/commit/0c6a81c13e6e23e) 
+			 * [ Add more documention to ASM calls](https://github.com/zmaster587/AdvancedRocketry/commit/d0a899b99c54625) 
+			 * [ Fixes #860](https://github.com/zmaster587/AdvancedRocketry/commit/747ca9589dd8517) 
+			 * [ Fix ASM mappings for 1.12.2](https://github.com/zmaster587/AdvancedRocketry/commit/f5dc4c43d29ccba) 
+			 * [ fixes reference to wrong inventory from previous commit. Also cleans up some un-needed imports.](https://github.com/zmaster587/AdvancedRocketry/commit/ae0159b320ddac6) 
+			 * [ Fixes some null references to itemstacks.](https://github.com/zmaster587/AdvancedRocketry/commit/6921f6f2035f15f) 
+			 * [ Build scripts for 1.12](https://github.com/zmaster587/AdvancedRocketry/commit/11cd098fb8f7b37) 
+			 * [ re-arrange some ore dictionary and recipe stuff. this fixes an issue with precision assembler ore dictionary support for circuit making.](https://github.com/zmaster587/AdvancedRocketry/commit/1acc2246f65f2b0) 
+			 * [ fixes some ore registry locations. This was causing some crashes due to where libvulpes registers items in the item registry events. Should probably move the item and block registrtations here to the proper events as well.](https://github.com/zmaster587/AdvancedRocketry/commit/82b1de54cb09304) 
+			 * [ fixes crashing while loading dedicated server, fixes some gravity issues fixes double gravity on overworld on dedicated servers, this fix might need to be reworked if ASM is used again for non-item gravity.](https://github.com/zmaster587/AdvancedRocketry/commit/ce920eb74a00f73) 
+			 * [ cleanup access transformers. Will figure out which will be needed later, currently Entity * seems to be sufficient in my tests.](https://github.com/zmaster587/AdvancedRocketry/commit/e3b1549ab8012ca) 
+			 * [ remove some debug spam.](https://github.com/zmaster587/AdvancedRocketry/commit/4993eecd9df51ca) 
+			 * [ implement recipes for 1.12](https://github.com/zmaster587/AdvancedRocketry/commit/b9c585906db0b94) 
+			 * [ make non-item gravity use update event instead of asm](https://github.com/zmaster587/AdvancedRocketry/commit/52148f986f0a4be) 
+			 * [ initial update for 1.12](https://github.com/zmaster587/AdvancedRocketry/commit/622a14f26761ecc) 
+			 * [ fix changelog](https://github.com/zmaster587/AdvancedRocketry/commit/7aae76af57b5261) 
+
+	Aroma1997s Dimensional World (went from [Archived file] to Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b67.jar):
+		Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b67.jar:
+			Release 2.0.0.2.b67
+
+			 * Bump forge version. (Aroma1997) 
+
+	Binnie's Mods (went from [Archived file] to binnie-mods-1.12.2-2.5.0.130.jar):
+		Changelog retrieved from binnie-mods-1.12.2-2.5.0.130.jar:
+			 Alpha version. Do not create a world you care about with this version, it may break things severely.
+			 Please help the project by trying it out and [reporting issues here.](https://github.com/ForestryMC/Binnie/issues)
+
+			Current release 2.5.0.130
+
+			 * Use correct import javax.annotation.Nullable; - RusTit 
+			 * Add root checking for null. - RusTit 
+			 * Fix #446 Crash on server join after updating Binnie to latest - Nedelosk 
+			 * Fix #445 Acclimitiser - Lava increases humidity tolerance - Nedelosk 
+			 * fix version installation in jar package (#444) - Russkih Anatoly 
+			 * Localization improvement (#438) - Russkih Anatoly 
+			 * Add version to each sub-mod. (#441) - Russkih Anatoly 
+			 * Add ectoplasm model. (#442) - Russkih Anatoly 
+			 * i18 regression fix. (#440) - Russkih Anatoly 
+			 * Register ItemHoneyComb, ItemHoneyDrop research suitability for Botany - ??????? ???????? 
+			 * Register ItemHoneyDrop research suitability for BeeManager, TreeManager and ButterflyManager - ??????? ???????? 
+			 * Register ItemHoneyComb research suitability for BeeManager, TreeManager and ButterflyManager - ??????? ???????? 
+			 * Fix #435 Add missing annotation data - Nedelosk 
+			 * Should fix issue #435, improve pull request #432 - RusTit 
+			 * Refactor deprecated I18N (#432) - Russkih Anatoly 
+			 * Fix decorative blocks to have consistent texture rotation on all sides #366 (#426) - Russkih Anatoly 
+			 * Minor code cleanup: suppress deprecation warnings (AlleleEffectNone). (#430) - Russkih Anatoly 
+			 * Minor code cleanup: suppress deprecation warnings (BlockFlower.java). (#429) - Russkih Anatoly 
+			 * Minor code cleanup: suppress deprecation warnings (#428) - Russkih Anatoly 
+			 * Add missing NBT Handling - Nedelosk 
+			 * Fix #420 Frames In Frame Housing Disappear after Relogging - Nedelosk 
+			 * Fix Russian localization (#416) - Russkih Anatoly 
+			 * Fix "Unable to resolve texture due to upward reference" warning at startup (#418) - Russkih Anatoly 
+			 * Fix punnett_square and red_banana model. (#421) - Russkih Anatoly 
+			 * Fix duplicate hammer registration. (#422) - Russkih Anatoly 
+			 * Fix Embittered bees refuse to work in the nether - Nedelosk 
+			 * Fix #370 Acclimated bee crash game - Nedelosk 
+			 * Fix #381 `TileEntityMachine` sometimes fires IC2's `EnergyTileUnloadEvent` from client side - Nedelosk 
+			 * Fix #406 Can't make wine or liqueur - Nedelosk 
+			 * Clean Up Machine Components - Nedelosk 
+			 * Fix incorrent "No space in Tank" when making enzymes (#395) - Philip Standt 
+			 * Fix #331 Crash on launching when butterflies are disabled in forestry. - Nedelosk 
+			 * Validate ItemFieldKit to avoid metadata manipulations with items. (#375) - mezz 
+			 * Create & Update zh_CN.lang(s) (#376) - SihenZhang 
+			 * #347 Various issues with the brewery - mezz 
+			 * Fix #359 remove oredict "gearWood" for scented and proven gears - mezz 
+			 * Create ru_RU.lang for Binnie Genetics (#358) - Mr-Krab 
+			 * Create ru_RU.lang for Binnie Extrabees (#355) - Mr-Krab 
+			 * Create ru_RU.lang for Binnie Botany (#354) - Mr-Krab 
+			 * Create ru_RU.lang for Binnie Extratrees (#357) - Mr-Krab 
+			 * Create ru_RU.lang for Binnie Core (#353) - Mr-Krab 
+			 * Create ru_RU.lang for Binnie Design (#356) - Mr-Krab 
+			 * Make Binnie's stained glass non-flammable - mezz 
+			 * Update dependencies - mezz 
+			 * Fix #344 Networking issue with latest Forge - mezz 
+			 * Fix Ceramic Brick pick block - DrManganese 
+			 * Fix #350 Crash on dedicated server - mezz 
+			 * Fix localization error - mezz 
+			 * Remove unused imports - mezz 
+			 * Fix #345 Prevent shift-clicking into recipe slots - mezz 
+			 * Improve tooltips on machines, show some basic help Close #216 make the help key configurable - mezz 
+			 * Fix #343 TOPAddons shows 6 tanks for each real tank - mezz 
+			 * Fix ArrayIndexOutOfBoundsException on invalid soil metadata (#317) - Gamebuster 
+			 * Add Item Capability support to Alveary Frame Housing (#325) - mcenderdragon 
+			 * Fix #298 Most trees support apples when they shouldn't. - mezz 
+			 * Fix #294 Nerf fruit saturation - mezz 
+			 * Fix #340 Inoculate and Splicer cannot apply bee effect alleles - mezz 
+			 * Fix #341 Analyst turns tree pollen into sapling - mezz 
+			 * Fix #335 Fix lab stand, render items over some machines - mezz 
+			 * Fix #337 Breeding System Crash - mezz 
+			 * Create zh_CN.lang(s) (#334) - SihenZhang 
+			 * Expand accepted blocks for Redstone, Leaves, and Wood flower type bees - mezz 
+			 * Fix #336 Ecstatic Bee effect crashes - mezz 
+			 * Prevent 2-tall flowers from breaking blocks when grown - mezz 
+			 * Enable JEI lookup of items and fluids in all guis - mezz 
+			 * Fix automated extraction from machines pulling all items out - mezz 
+			 * Fix machine particles - mezz 
+			 * Fix crash from CraftTweaker ASM version issue - mezz 
+
+	Cooking for Blockheads (went from [Archived file] to CookingForBlockheads_1.12.1-6.3.17.jar):
+		CookingForBlockheads_1.12.1-6.3.17.jar:
+			Fixed CraftTweaker recipe changes being ignored by the cooking table (properly this time, I was sloppy before)
+
+			Update Chinese Translation (thanks to TartaricAcid) 
+
+			Added "this item can not be eaten but is an ingredient for further foods" icon to the recipe book
+
+			Added Actually Additions support
+
+			Added support for piping out milk from the Milk Jar
+
+			Fixed kitchen floor recipe output (12 instead of 1)
+
+			Fixed bottles not being filled from a sink
+
+			Fixed items in the recipe book shifting around when scrolled after selection
+
+			Fixed crash when trying to put something in a spice rack from the side
+
+			Move compatibility to load from JSON files instead
+
+	Crafting Tweaks (went from [Archived file] to CraftingTweaks_1.12.1-8.1.6.jar):
+		CraftingTweaks_1.12.1-8.1.6.jar:
+			Fixed right-click crafting no longer working
+
+	Cyclic (went from [Archived file] to Cyclic-1.12.2-1.14.3.jar):
+		Cyclic-1.12.2-1.14.3.jar:
+			 * Fixed errored ores sometimes generating in nether, it now correctly respects config file. 
+			 * Fixed visibility and homing vector of Spirit Seeker missiles. 
+			 * Fixed stone minecart starting non-empty. 
+
+	Immersive Petroleum (went from [Archived file] to immersivepetroleum-1.12.2-1.1.7.jar):
+		immersivepetroleum-1.12.2-1.1.7.jar:
+			1.1.7
+
+			--------------------------------------- 
+
+			+ Added Napalm, created using Gasoline and Aluminum Grit
+
+			+ Added CraftTweaker support, thanks to Lanse505!
+			! Corrected resource amounts needed for the Distillation Tower in the Engineer's Manual
+
+			1.1.6
+
+			--------------------------------------- 
+
+			+ Added ability to have multiple solid item outputs from the Distillation Tower
+
+			~ Altered the Distillation Tower's texture slightly
+
+			! Alter Distillation Tower fluid routing behavior to make outputs easier to manage
+
+			1.1.5
+
+			--------------------------------------- 
+
+			~ Distillation Tower now requires scaffolding slabs instead of full-block scaffolding
+
+			! Fix rendering of Distillation Tower and Pumpjack in Engineer's Manual
+
+			! Fix potential crash related to FakePlayers and changing dimensions
+
+			! Fix crash related to Automatic Lubricator
+
+			! Fix graphical issues with Distillation Tower GUI
+
+			! Fix problems related to accessing the Distillation Tower and Pumpjack with other mod's pipes (ie Thermal Dynamics)
+
+			1.1.4
+
+			--------------------------------------- 
+
+			! Fix crash related to the Motorboat on newer versions of Immersive Engineering
+
+			~ Update Russian translation, thanks to lBlitzl!
+
+			1.1.3
+
+			--------------------------------------- 
+
+			+ Added Emergency Paddles for the Motorboat
+
+			+ Added config option to require pipes to Bedrock for pumpjacks (default off)
+
+			~ Lubricant extra ticks now consume power
+
+			~ Motorboat and Automatic Lubricator store fluids when broken
+
+			~ Distillation Tower no longer flickers during operation
+
+			~ Biome configs for reservoirs now use the biome type dictionary instead of biome names
+
+			! Added additional safechecks to config file
+
+			! Fixed typo
+
+			1.1.2
+
+			--------------------------------------- 
+
+			+ Added fuel meter to the Motorboat
+
+			! Fixed visual issue with Distillation Tower
+
+			1.1.1
+
+			--------------------------------------- 
+
+			! Remedied FPS drops related to Portable Generator and Automatic Lubricator
+
+			! Fixed visual artifact related to Automatic Lubricator
+			1.1.0
+
+			--------------------------------------- 
+
+			+ Distillation Tower now produces Gasoline and Lubricant
+
+			+ Added the Lubricant Can and lubricating ability to the Chemical Thrower
+
+			+ Added the Automatic Lubricator
+
+			+ Added the Portable Generator
+
+			+ Added the Motorboat and Motorboat upgrades
+
+			+ Distillation Tower recipes can now be configured through the config file
+
+			~ Made a number of large config changes to fluid consumption and output
+
+			! Fixed Distillation Tower flipping redstone status on creation
+
+			! Fixed IE manual related crash [1.12 only]
+
+			! Fixed IP items' creative menu placement [1.12 only]
+
+			1.0.12 [1.12 only]
+
+			--------------------------------------- 
+
+			! Fixed crash related to the IE manual
+
+			! Fixed a Pumpjack crash
+
+			1.0.11 [1.12 only]
+
+			--------------------------------------- 
+
+			! Fixed bug with Immersive Engineering build 67
+
+			1.0.10 [1.12 only]
+
+			--------------------------------------- 
+
+			! Fixed 1.12 server crash
+
+			1.0.9 [1.12 only]
+
+			--------------------------------------- 
+
+			! Fixed items appearing in the wrong creative tab in 1.12
+
+			1.0.8 [1.12 only]
+
+			--------------------------------------- 
+
+			Update to 1.12
+
+			1.0.7
+
+			--------------------------------------- 
+
+			! Fixed issue where empty chunks would display as having replenishing oil
+
+			1.0.6
+
+			--------------------------------------- 
+
+			! Fixed Distillation Tower not outputting correctly in some orientations
+
+			! Fixed crash related to Projectors
+
+			1.0.5
+
+			--------------------------------------- 
+
+			+ Added Multiblock Projectors, templates that show how to build specific multiblocks
+
+			+ Reworked fluid reservoir system, added Aquifers and Magma Chambers
+
+			+ Fluid reservoir system is now highly configurable for modpack makers
+
+			+ Core samples now display a chunk's liquids in their model
+
+			! Fixed distillation tower resource numbers in the manual
+
+			! Fixed mirrored multiblock I/O locations
+
+			1.0.4
+
+			---------------------------------------
+
+			+ Added default values to config files
+
+			+ Added Japanese and Russian localizations, thanks to aiun and McModder!
+
+			~ Changed default Pumpjack power consumption to 1024 flux/tick - make sure to change/reset config if using an older version of the mod.
+
+			! Update model render distance to match IE machines
+
+			1.0.3
+
+			---------------------------------------
+
+			! Fixed problem with mod's langfile
+
+			1.0.2
+
+			---------------------------------------
+
+			! Fixed lack of localization for multiblock blocks, seen in WAILA/TOP
+
+			! Fixed another dedicated server crash 
+			1.0.1
+
+			---------------------------------------
+
+			+ Added German and Chinese localizations. Thanks to Vexatos and 3TUSK!
+
+			! Fixed a dedicated server crash 
+
+			1.0.0
+
+			---------------------------------------
+
+			Initial release
+
+	Industrial Craft (went from [Archived file] to industrialcraft-2-2.8.66-ex112.jar):
+		industrialcraft-2-2.8.66-ex112.jar:
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997) 
+
+	Just Enough Dimensions (went from [Archived file] to justenoughdimensions-1.12.2-1.6.0-dev.20171225.032648.jar):
+		justenoughdimensions-1.12.2-1.6.0-dev.20171225.032648.jar:
+			 * Re-use existing DimensionType entries as much as possible, to try to avoid some issues with some other mods (at least Optifine crashes in certain situations). There are two new config options to override/revert this new behaviour. 
+			 * Add more logging (unloaded chunk counts) to the unload-empty-dimensions command  whoops I uploaded the wrong/older build, this isn't in this build yet >_> 
+
+	McJtyLib (went from [Archived file] to mcjtylib-1.12-2.6.6.jar):
+		mcjtylib-1.12-2.6.6.jar:
+			2.6.6:
+
+			 * Joseph C. Sible fixed various things including wrench usage 
+			 * Added new IBigPower API for RFTools Power 
+
+	Minecolonies (went from [Archived file] to minecolonies-universal-1.12.2-0.8.7809.jar):
+		minecolonies-universal-1.12.2-0.8.7809.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.7809
+
+			 * hotfix (#2318) 
+
+	Minecraft Forge (went from 1.12.2-14.23.2.2629 to 1.12.2-14.23.2.2632):
+		Changelog retrieved from files.minecraftforge.net:
+			Build 2632:
+				mezz: Update docs for ItemTooltipEvent
+
+			Build 1.12.2-14.23.2.2631:
+				ichttt: Fix some IResources being leaked (#4806)
+
+			Build 1.12.2-14.23.2.2630:
+				mezz:
+					Fix server console logging issues
+					Closes #4808
+
+	ModTweaker (went from [Archived file] to modtweaker-4.0.8):
+		modtweaker-4.0.8:
+			Refined Storage removal Fixed #600
+
+			Added support for Turntable to output nothing (Closes #601)
+
+			Optionals are meant to go at the end... Closes #602
+
+			Change in TiCon handlers, they now accept IIngredients (#605)
+
+			Fixed script breaking. BWM methods are marked as deprecated
+
+			Fixed kiln recipe adding. Closes #607
+
+			Added chisel support
+
+			Added blood magic support
+
+			Fixed BWM stooked crucible removal (closes #608)
+
+			Made Blood magic use ingredients
+
+	Placebo (went from [Archived file] to Placebo-1.12.2-1.3.1.jar):
+		Placebo-1.12.2-1.3.1.jar:
+			Fixes a bug with shapless recipes in placebo-dependent mods.
+
+	Reborn Core (went from [Archived file] to RebornCore-1.12.2-3.6.11.220-universal.jar):
+		RebornCore-1.12.2-3.6.11.220-universal.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Added TileEntity aware constructor to RebornContainer
+
+	Tech Reborn (went from [Archived file] to TechReborn-1.12.2-2.12.5.501-universal.jar):
+		TechReborn-1.12.2-2.12.5.501-universal.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Fix compile
+			(modmuss50) Add stone variants for the other end ores.
+			(modmuss50) Add extractor support to craft tweaker
+			(modmuss50) Add a config option to change the textures of the end ores to use the stone background.
+
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator
