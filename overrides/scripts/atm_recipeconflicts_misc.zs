@@ -313,6 +313,10 @@ print(" ======================================================== ");
 		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>],
 		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>]
 		]);
+	
+	//Rice Dough
+	recipes.remove(<actuallyadditions:item_misc:9>);
+	recipes.addShapeless(<actuallyadditions:item_misc:9>*2, [<ore:cropRice>, <ore:cropRice>, <ore:cropRice>, <ore:cropRice>]);
 
 
 //====== TiCo Moss ======
