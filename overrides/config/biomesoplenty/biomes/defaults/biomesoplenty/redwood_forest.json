@@ -51,7 +51,7 @@
         }
       },
       "generationAttempts": 64,
-      "amountPerChunk": 0.3,
+      "amountPerChunk": 0.2,
       "enable": true
     },
     "miners_delight": {
@@ -84,7 +84,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.3,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "double_fern": {
@@ -126,7 +126,7 @@
           "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
+      "generationAttempts": 16,
       "amountPerChunk": 30.0,
       "maxHeight": 5,
       "enable": true,

@@ -41,7 +41,7 @@
           "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
+      "generationAttempts": 16,
       "amountPerChunk": 30.0,
       "maxHeight": 7,
       "enable": true,

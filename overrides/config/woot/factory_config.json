@@ -283,16 +283,8 @@
     "twilightforest:giant_miner",
     "twilightforest:armored_giant"
   ],
-  "entitywhitelist": [
-	"draconicevolution:chaosguardian",
-	"thermalfoundation:basalz",
-	"thermalfoundation:blitz",
-	"thermalfoundation:blizz"
-  ],
-  "itemmodblacklist": [
-  ],
-  "itemblacklist": [
-
-  ]
+  "entitywhitelist": [  ],
+  "itemmodblacklist": [  ],
+  "itemblacklist": [  ]
 }
 

@@ -1,5 +1,55 @@
+# ATM3 v5.9.1
+*Is it a hotfix? Is it a pack update? Nobody knows!*  
+ALWAYS BACKUP BEFORE YOU UPDATE   
+  
+  
+### Mods Changed
+* Added FastWorkbench  
+
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*  
+  
+  
+### Config/Misc:  
++ Fixed Woot whitelist/blacklist config (for real this time)
++ Added Blood Magic guide to "default" Akashic tome collection (currently no normal crafting recipe for BM guide)
++ Added tooltips for books included in Akashic tome to guide more people to use the tome if they didn't know about it
++ Fixed OreDict issue on Forestry wood piles (prevented charcoal pits from working)
++ Rice dough decided to get all-up in paper's recipes. Nipped that in the bud.  
++ People really really don't like getting chiseled ice from void resource miners. Fixed this game-breaking bug.
+  
+  
+### New Forge
++ 2632
+    
+  
+### And of course...  
+* Updated All the Mods!
+  
+      
+[For an in-depth list of updated-mods changes see this log](https://github.com/AllTheMods/ATM-3/blob/master/changelogs_detail/changelog_atm3_5.9.1_full.txt)  
+*(Thanks to ChangelogGenerator by TheRandomLabs for this)*
+  
+  
+### Premium Supporters
+Special thanks to the current (at time of this update) [Patreon](https://www.patreon.com/allthemods) "supporter" tier:
+* DaePrice
+* Prezpaul 
+* Gefailter71 
+  
+<br/>  
+<br/>   
+  
+
+
+
+
+
+
+
+
+
 # ATM3 v5.9
-*The "It's STILL not 6.0!?" update*  
+*The "It's STILL not 6.0!? update*  
 ALWAYS BACKUP BEFORE YOU UPDATE  
 
 
