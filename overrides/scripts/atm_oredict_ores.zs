@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 #packmode normal simplified
 
-print(" =================== ATC OreDict (ores) =================== ");
+print(" =================== ATM OreDict (ores) =================== ");
 print(" ========================================================== ");
 
 //====== Unify ores into oredicts =======
@@ -138,6 +138,13 @@ print(" ========================================================== ");
 		<techreborn:ore:10>
 		]);
 	recipes.addShapeless("peridotconvert", <techreborn:ore:10>*2, [<ore:orePeridot>, <ore:orePeridot>]);
+	//PROSPERITY
+	<ore:oreProsperity>.addItems([
+		<mysticalagriculture:prosperity_ore>,
+		<mysticalagriculture:nether_prosperity_ore>,
+		<mysticalagriculture:end_prosperity_ore>
+		]);
+	recipes.addShapeless("prosperityconvert", <mysticalagriculture:prosperity_ore>*2, [<ore:oreProsperity>, <ore:oreProsperity>]);
 	//GEM RUBY
 	<ore:oreRuby>.addItems([
 		<biomesoplenty:gem_ore:1>,
