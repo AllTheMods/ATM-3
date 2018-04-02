@@ -367,5 +367,11 @@ print(" ============================================================== ");
 		[<ore:ingotIron>, null, null]
 		]);
 
-
-
+//====== TR LED Lamp ======
+//
+recipes.remove(<techreborn:lamp_led>);
+	recipes.addShaped(<techreborn:lamp_led>, [
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+		[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <minecraft:glowstone_dust>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})],
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+		]);
