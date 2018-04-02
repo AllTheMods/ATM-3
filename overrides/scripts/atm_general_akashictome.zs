@@ -229,6 +229,14 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			woot: {
+				id: "guideapi:woot-guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "woot"
+				},
+				Damage: 0 as short
+			},
 			openblocks: {
 				id: "openblocks:info_book",
 				Count: 1 as byte,
@@ -286,7 +294,8 @@ print(" ==================================================== ");
 		<embers:codex>, 
 		<rftools:rftools_shape_manual>, 
 		<guideapi:mobtotems-mobtotems_guide>, 
-		<openblocks:info_book>
+		<openblocks:info_book>,
+		<guideapi:woot-guide>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
