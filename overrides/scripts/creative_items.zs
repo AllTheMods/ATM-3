@@ -222,10 +222,10 @@ print(" ====================================================== ");
 	<thermalexpansion:capacitor:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Thermal Watering Can
-	recipes.addShapeless(<thermalcultivation:watering_can:32000>, [
+	recipes.addShapeless(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [
 		atmStarReturnOrb, <thermalcultivation:watering_can:4>
 		]);
-	<thermalcultivation:watering_can:32000>.addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
+	<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}).addTooltip("Does not consume the Orb portion of the ATM Star when crafted");
 		
 	// Mek Energy Cube
 	var creativeMekCube = <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}});
@@ -278,10 +278,10 @@ print(" ====================================================== ");
 	<waterstrainer:super_worm>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// CompuCraft Case
-	recipes.addShapeless(<opencomputers:casecreative>, [
-		<atmtweaks:item_material>.giveBack(), <opencomputers:case2>, <opencomputers:material:21>
-		]);
-	<opencomputers:casecreative>.addTooltip("Does not consume the ATM Star at all when crafted");
+	// recipes.addShapeless(<opencomputers:casecreative>, [
+	//	<atmtweaks:item_material>.giveBack(), <opencomputers:case2>, <opencomputers:material:21>
+	//	]);
+	//  <opencomputers:casecreative>.addTooltip("Does not consume the ATM Star at all when crafted");
 		
 	// Creative Builder's Wand
 	recipes.addShapeless(<extrautils2:itemcreativebuilderswand>, [
