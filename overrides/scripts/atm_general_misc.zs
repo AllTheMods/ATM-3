@@ -375,3 +375,13 @@ recipes.remove(<techreborn:lamp_led>);
 		[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <minecraft:glowstone_dust>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})],
 		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
 		]);
+
+//====== Enderman Skull ======
+//
+    var enderEssence = <mysticalagriculture:enderman_essence>;
+    var blankSkull = <mysticalagriculture:crafting:15>;
+    recipes.addShaped(<enderio:block_enderman_skull>, [
+        [enderEssence, enderEssence, enderEssence],
+        [enderEssence, blankSkull,   enderEssence], 
+        [enderEssence, enderEssence, enderEssence]
+        ]);
