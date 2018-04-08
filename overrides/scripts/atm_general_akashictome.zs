@@ -237,6 +237,14 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			forestry: {
+				id: "forestry:book_forester",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "forestry"
+				},
+				Damage: 0 as short
+			},
 			openblocks: {
 				id: "openblocks:info_book",
 				Count: 1 as byte,
@@ -295,6 +303,7 @@ print(" ==================================================== ");
 		<rftools:rftools_shape_manual>, 
 		<guideapi:mobtotems-mobtotems_guide>, 
 		<openblocks:info_book>,
+		<forestry:book_forester>,
 		<guideapi:woot-guide>
 		] as IItemStack[];
 
