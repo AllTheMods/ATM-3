@@ -385,3 +385,12 @@ recipes.remove(<techreborn:lamp_led>);
         [enderEssence, blankSkull,   enderEssence], 
         [enderEssence, enderEssence, enderEssence]
         ]);
+
+//====== Super-Frame Corner ======
+//
+recipes.remove(<funkylocomotion:mass_frame_corner>);
+	recipes.addShaped(<funkylocomotion:mass_frame_corner>, [
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>],
+		[null, <funkylocomotion:pusher:1>, null], 
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>]
+		]);
