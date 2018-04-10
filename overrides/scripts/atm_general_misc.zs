@@ -367,5 +367,30 @@ print(" ============================================================== ");
 		[<ore:ingotIron>, null, null]
 		]);
 
+//====== TR LED Lamp ======
+//
+recipes.remove(<techreborn:lamp_led>);
+	recipes.addShaped(<techreborn:lamp_led>, [
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+		[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <minecraft:glowstone_dust>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})],
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+		]);
 
+//====== Enderman Skull ======
+//
+    var enderEssence = <mysticalagriculture:enderman_essence>;
+    var blankSkull = <mysticalagriculture:crafting:15>;
+    recipes.addShaped(<enderio:block_enderman_skull>, [
+        [enderEssence, enderEssence, enderEssence],
+        [enderEssence, blankSkull,   enderEssence], 
+        [enderEssence, enderEssence, enderEssence]
+        ]);
 
+//====== Super-Frame Corner ======
+//
+recipes.remove(<funkylocomotion:mass_frame_corner>);
+	recipes.addShaped(<funkylocomotion:mass_frame_corner>, [
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>],
+		[null, <funkylocomotion:pusher:1>, null], 
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>]
+		]);
