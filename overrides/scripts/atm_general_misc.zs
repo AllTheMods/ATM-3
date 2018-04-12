@@ -400,6 +400,6 @@ recipes.remove(<funkylocomotion:mass_frame_corner>);
 recipes.remove(<environmentaltech:modifier_creative_flight>);
 	recipes.addShaped(<environmentaltech:modifier_creative_flight>, [
 		[<minecraft:elytra>, <simplyjetpacks:itemjetpack:18>, <minecraft:elytra>],
-		[<actuallyadditions:item_wings_of_the_bats>, <flyringbaublemod:angelring>, <actuallyadditions:item_wings_of_the_bats>], 
+		[<actuallyadditions:item_wings_of_the_bats>, <extrautils2:angelring:0>, <actuallyadditions:item_wings_of_the_bats>], 
 		[<advancedrocketry:itemupgrade:1>, <rftools:flight_module>, <advancedrocketry:itemupgrade:1>]
 		]);
