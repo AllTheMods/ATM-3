@@ -394,3 +394,12 @@ recipes.remove(<funkylocomotion:mass_frame_corner>);
 		[null, <funkylocomotion:pusher:1>, null], 
 		[<ore:ingotElectrum>, null, <ore:ingotElectrum>]
 		]);
+
+//====== Creative Flight Modifier ======
+//
+recipes.remove(<environmentaltech:modifier_creative_flight>);
+	recipes.addShaped(<environmentaltech:modifier_creative_flight>, [
+		[<minecraft:elytra>, <simplyjetpacks:itemjetpack:18>, <minecraft:elytra>],
+		[<actuallyadditions:item_wings_of_the_bats>, <flyringbaublemod:angelring>, <actuallyadditions:item_wings_of_the_bats>], 
+		[<advancedrocketry:itemupgrade:1>, <rftools:flight_module>, <advancedrocketry:itemupgrade:1>]
+		]);
