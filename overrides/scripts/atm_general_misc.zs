@@ -403,3 +403,12 @@ recipes.remove(<environmentaltech:modifier_creative_flight>);
 		[<actuallyadditions:item_wings_of_the_bats>, <extrautils2:angelring:0>, <actuallyadditions:item_wings_of_the_bats>], 
 		[<advancedrocketry:itemupgrade:1>, <rftools:flight_module>, <advancedrocketry:itemupgrade:1>]
 		]);
+
+//====== Readding the Chest Variances ======
+//
+recipes.remove(<minecraft:chest>);
+	recipes.addShaped(<minecraft:chest>, [
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+		[<ore:plankWood>, null, <ore:plankWood>], 
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]);
