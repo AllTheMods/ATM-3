@@ -5,7 +5,7 @@
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 4.0,
-  "variationAbove": 15.0,
+  "variationAbove": 6.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -43,19 +43,8 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "leafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 5.0,
-      "enable": true
-    },
     "flowers": {
-      "amountPerChunk": 0.6,
+      "amountPerChunk": 0.4,
       "enable": true,
       "generators": {}
     },
@@ -80,6 +69,27 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
       "enable": true
+    },
+    "doublegrass": {
+      "with": {
+        "block": "minecraft:double_plant",
+        "properties": {
+          "facing": "north",
+          "half": "lower",
+          "variant": "double_grass"
+        }
+      },
+      "generationAttempts": 128,
+      "amountPerChunk": 0.5,
+      "enable": true,
+      "withTop": {
+        "block": "minecraft:double_plant",
+        "properties": {
+          "facing": "north",
+          "half": "upper",
+          "variant": "sunflower"
+        }
+      }
     },
     "stone_formations": {
       "minHeight": 1,
@@ -108,35 +118,9 @@
       "enable": true
     },
     "trees": {
-      "minHeight": 8,
-      "logState": {
-        "block": "minecraft:log",
-        "properties": {
-          "axis": "y",
-          "variant": "oak"
-        }
-      },
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 0.3,
       "enable": true,
-      "trunkWidth": 1,
-      "leavesState": {
-        "block": "minecraft:leaves",
-        "properties": {
-          "check_decay": "false",
-          "decayable": "true",
-          "variant": "oak"
-        }
-      },
-      "vinesState": {
-        "block": "minecraft:vine",
-        "properties": {
-          "east": "false",
-          "north": "false",
-          "south": "false",
-          "up": "false",
-          "west": "false"
-        }
-      }
+      "generators": {}
     },
     "water_reeds": {
       "with": {
@@ -147,17 +131,6 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.0,
-      "enable": true
-    },
-    "portobellos": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "portobello"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.5,
       "enable": true
     },
     "sand": {
@@ -195,15 +168,15 @@
       "enable": true,
       "generators": {}
     },
-    "berry_bushes": {
+    "goldenrods": {
       "with": {
-        "block": "biomesoplenty:plant_0",
+        "block": "biomesoplenty:flower_1",
         "properties": {
-          "variant": "berrybush"
+          "variant": "goldenrod"
         }
       },
-      "generationAttempts": 8,
-      "amountPerChunk": 0.25,
+      "generationAttempts": 64,
+      "amountPerChunk": 1.0,
       "enable": true
     },
     "peridot": {

@@ -43,7 +43,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 50.0,
+      "amountPerChunk": 45.0,
       "enable": true,
       "generators": {}
     },
@@ -59,7 +59,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 25.0,
       "enable": true,
       "generators": {}
     },

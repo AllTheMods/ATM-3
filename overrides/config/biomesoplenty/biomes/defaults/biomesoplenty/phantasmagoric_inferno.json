@@ -33,23 +33,18 @@
       "emptyChance": 0.25,
       "layerSize": 3
     },
-    "magma_splatter": {
-      "with": {
-        "block": "minecraft:magma",
+    "lava_lakes": {
+      "lineWith": {
+        "block": "biomesoplenty:ash_block",
         "properties": {}
       },
-      "generationAttempts": 128,
-      "amountPerChunk": 2.0,
-      "enable": true
-    },
-    "lava_lakes": {
       "liquid": {
         "block": "minecraft:lava",
         "properties": {
           "level": "0"
         }
       },
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 3.0,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",
@@ -71,7 +66,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 6.0,
       "enable": true
     }
   },
