@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:beef",
+  "mana": { "base": 100 },
+  "burnout": { "base": 50 },
+  "cooldown": { "base": 30 }
+}
