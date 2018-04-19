@@ -252,6 +252,14 @@ print(" ==================================================== ");
 					"akashictome:definedMod": "openblocks"
 				},
 				Damage: 0 as short
+			},
+			thebetweenlands: {
+				id: "thebetweenlands:manual_hl",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "thebetweenlands"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -304,7 +312,8 @@ print(" ==================================================== ");
 		<guideapi:mobtotems-mobtotems_guide>, 
 		<openblocks:info_book>,
 		<forestry:book_forester>,
-		<guideapi:woot-guide>
+		<guideapi:woot-guide>,
+		<thebetweenlands:manual_hl>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
