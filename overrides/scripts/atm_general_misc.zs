@@ -412,3 +412,15 @@ recipes.remove(<minecraft:chest>);
 		[<ore:plankWood>, null, <ore:plankWood>], 
 		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]);
+
+//====== Fixing Unbaked Talisman ======
+//
+var unbaked_talisman = <terraqueous:item_main:3>;
+var clay_ball = <minecraft:clay_ball>;
+var feather = <ore:feather>;
+var endium = <ore:gemEndimium>;
+recipes.remove(unbaked_talisman);
+	recipes.addShaped(unbaked_talisman, [
+		[feather, endium, feather],
+		[clay_ball, clay_ball, clay_ball]
+		]);
