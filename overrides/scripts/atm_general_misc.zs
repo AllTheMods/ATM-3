@@ -437,4 +437,4 @@ recipes.remove(unbaked_talisman);
 	mods.mekanism.crusher.addRecipe(correct_steel, correct_steelDust);
 	mods.mekanism.crusher.addRecipe(iron, correct_ironDust);
 	mods.actuallyadditions.Crusher.removeRecipe(correct_steel);
-	mods.actuallyadditions.Crusher.addRecipe(correct_steel, correct_steelDust);
+	mods.actuallyadditions.Crusher.addRecipe(correct_steelDust, correct_steel);
