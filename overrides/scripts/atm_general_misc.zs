@@ -424,3 +424,17 @@ recipes.remove(unbaked_talisman);
 		[feather, endium, feather],
 		[clay_ball, clay_ball, clay_ball]
 		]);
+
+//====== Fixing Crushing Steel ======
+//	
+	var ore_ironDust = <ore:dustIron>;
+	var iron = <minecraft:iron_ingot>;
+	var correct_steel = <thermalfoundation:material:160>;
+	var correct_ironDust = <thermalfoundation:material:0>;
+	var correct_steelDust = <thermalfoundation:material:96>;
+	mods.mekanism.crusher.removeRecipe(ore_ironDust);
+	mods.mekanism.crusher.removeRecipe(correct_steelDust);
+	mods.mekanism.crusher.addRecipe(correct_steel, correct_steelDust);
+	mods.mekanism.crusher.addRecipe(iron, correct_ironDust);
+	mods.actuallyadditions.Crusher.removeRecipe(correct_steel);
+	mods.actuallyadditions.Crusher.addRecipe(correct_steelDust, correct_steel);
