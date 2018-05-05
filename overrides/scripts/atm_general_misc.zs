@@ -413,6 +413,12 @@ recipes.remove(<minecraft:chest>);
 		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]);
 
+	recipes.addShaped(<minecraft:chest>*4, [
+		[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+		[<ore:logWood>, null, <ore:logWood>], 
+		[<ore:logWood>, <ore:logWood>, <ore:logWood>]
+		]);
+
 //====== Fixing Unbaked Talisman ======
 //
 var unbaked_talisman = <terraqueous:item_main:3>;
