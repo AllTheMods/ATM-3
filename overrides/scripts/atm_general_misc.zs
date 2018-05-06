@@ -14,7 +14,7 @@ print(" ============================================================== ");
 //
 	var planks = <ore:plankWood>;
 	val logs = <ore:logWood>;
-
+	var ingot_cast = <tconstruct:cast_custom:0>;
 
 //====== Cyclic Remove Item ======
 //
@@ -438,3 +438,19 @@ recipes.remove(unbaked_talisman);
 	mods.mekanism.crusher.addRecipe(iron, correct_ironDust);
 	mods.actuallyadditions.Crusher.removeRecipe(correct_steel);
 	mods.actuallyadditions.Crusher.addRecipe(correct_steelDust, correct_steel);
+
+//====== Add Invar Casting Recipes ======
+//	
+	var invar = <thermalfoundation:material:162>;
+	var invar_block = <thermalfoundation:storage_alloy:2>;
+	var molten_invar = <liquid:invar>;
+	mods.tconstruct.Casting.addTableRecipe(invar, ingot_cast, molten_invar, 144);
+	mods.tconstruct.Casting.addBasinRecipe(invar_block, invar_block, molten_invar, 1296);
+	
+//====== Add Iridium Casting Recipes ======
+//
+	var iridium = <thermalfoundation:material:135>;
+	var iridium_block = <thermalfoundation:storage:7>;
+	var molten_iridium = <liquid:iridium>;
+	mods.tconstruct.Casting.addTableRecipe(iridium, ingot_cast, molten_iridium, 144);
+	mods.tconstruct.Casting.addBasinRecipe(iridium_block, iridium_block, molten_iridium, 1296);
