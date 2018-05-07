@@ -116,6 +116,7 @@ print(" ====================================================== ");
 		<ore:basicPump>.add(<rangedpumps:pump>);
 		<ore:basicPump>.add(<mekanism:machineblock:12>);
 		<ore:basicPump>.add(<immersiveengineering:metal_device0:5>);
+		<ore:basicPump>.add(<industrialforegoing:fluid_pump>);
 	
 	//====== Mek Digital Miner ======
 	//
