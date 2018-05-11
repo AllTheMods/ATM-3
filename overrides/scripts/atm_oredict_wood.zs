@@ -99,7 +99,30 @@ print(" ========================================================== ");
 		//<ic2:rubber_wood>,
 		<traverse:fir_log:32767>,
 		<terraqueous:trunk1:32767>,
-		<terraqueous:trunk2:32767>
+		<terraqueous:trunk2:32767>,
+		<biomesoplenty:log_0:32767>,
+		<biomesoplenty:log_1:32767>,
+		<biomesoplenty:log_2:32767>,
+		<biomesoplenty:log_3:32767>,
+		<biomesoplenty:log_4:32767>,
+		<natura:overworld_logs:32767>,
+		<natura:overworld_logs2:32767>,
+		<natura:redwood_logs:32767>,
+		<natura:nether_logs:32767>,
+		<natura:nether_logs2:32767>,
+		<plants2:logs_0:32767>,
+		<plants2:crystal_log:32767>,
+		<thaumcraft:log_greatwood:32767>,
+		<thaumcraft:log_silverwood:32767>,
+		<thaumcraft:taint_log:32767>,
+		<thebetweenlands:log_hearthgrove:32767>,
+		<thebetweenlands:log_nibbletwig:32767>,
+		<thebetweenlands:weedwood:32767>,
+		<thebetweenlands:log_sap:32767>,
+		<twilightforest:twilight_log:32767>,
+		<twilightforest:magic_log:32767>,
+		<twilightforest:giant_log:32767>,
+		<twilightforest:cinder_log:32767>
 	] as IItemStack[];
 	Log.addItems(LogsToAdd);
 	
