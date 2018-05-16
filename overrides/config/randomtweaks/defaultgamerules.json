@@ -1,0 +1,11 @@
+//Example configuration - game does not need to be restarted when changing this
+{
+//	"commandBlockOutput": false, //These are for all game modes
+//	"keepInventory": true,
+//	"1:flat,void": { //Creative flat/void world. Game modes and world types can be separated with commas (no spaces). These are the same as the world types in server.properties.
+//		"doDaylightCycle": false,
+//		"doWeatherCycle": false,
+//		"doMobSpawning": false,
+//		"rtWorldBorderSize": 10000 //Sets the world border (in blocks) from chunk (0, 0)
+//	}
+}
