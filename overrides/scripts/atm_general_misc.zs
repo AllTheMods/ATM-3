@@ -460,3 +460,12 @@ recipes.remove(unbaked_talisman);
 	var molten_iridium = <liquid:iridium>;
 	mods.tconstruct.Casting.addTableRecipe(iridium, ingot_cast, molten_iridium, 144);
 	mods.tconstruct.Casting.addBasinRecipe(iridium_block, iridium_block, molten_iridium, 1296);
+	
+//====== Add Xnet Description ======
+//	
+		<xnet:controller>.addTooltip(
+					format.underline(format.aqua(
+					"Does not need any power to operate or work."
+					)));
+	mods.jei.JEI.addDescription(<xnet:controller>, "Xnet controller has been configured to not use any power at all",
+											 "However it has 100k of internal capacity for RF power, which you can ignore, it does not need to be charged");
