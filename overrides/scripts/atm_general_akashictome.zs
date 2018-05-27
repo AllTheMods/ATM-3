@@ -253,6 +253,14 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			conarm: {
+				id: "conarm:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "conarm"
+				},
+				Damage: 0 as short
+			},
 			thebetweenlands: {
 				id: "thebetweenlands:manual_hl",
 				Count: 1 as byte,
@@ -313,7 +321,8 @@ print(" ==================================================== ");
 		<openblocks:info_book>,
 		<forestry:book_forester>,
 		<guideapi:woot-guide>,
-		<thebetweenlands:manual_hl>
+		<thebetweenlands:manual_hl>,
+		<conarm:book>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
