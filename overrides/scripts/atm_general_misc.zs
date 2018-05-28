@@ -233,6 +233,7 @@ print(" ============================================================== ");
 	var crystalCertusPure = <appliedenergistics2:material:10>;
 	var siliconAE = <appliedenergistics2:material:5>;
 	var siliconRS = <refinedstorage:silicon>;
+	var siliconEIO = <enderio:item_material:5>;
 	
 	//QoL new ways to get SkyStone Dust
 	mods.mekanism.enrichment.addRecipe(blockSkyS, dustSkySt);
@@ -252,7 +253,8 @@ print(" ============================================================== ");
 	recipes.addShapeless(pressEngi, [pressCalc, dustSkySt, dustSkySt]);
 	recipes.addShapeless(pressCalc, [pressSili, dustSkySt, dustSkySt]);
 	recipes.addShapeless(siliconAE, [siliconRS]);
-	recipes.addShapeless(siliconRS, [siliconAE]);
+	recipes.addShapeless(siliconRS, [siliconEIO]);
+	recipes.addShapeless(siliconEIO, [siliconAE]);
 	
 	//Empowerer recipes (using function to make 4x recipes to accept any press as input)
 	empPressRecipe(siliconAE,                 pressSili, [48,  55,  73]);
