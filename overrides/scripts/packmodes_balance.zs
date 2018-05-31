@@ -67,7 +67,7 @@ print(" ====================================================== ");
 		recipes.remove(<draconicevolution:wyvern_chest>);
 		recipes.addShaped(<draconicevolution:wyvern_chest>, [
 			[<ore:blockDraconium>,    <draconicevolution:wyvern_core:*>,        <ore:blockDraconium>],
-			[<minecraft:nether_star>, normalRing.reuse(),                               <minecraft:nether_star>],
+			[<minecraft:nether_star>, normalRing,                               <minecraft:nether_star>],
 			[<ore:blockDraconium>,    <draconicevolution:wyvern_energy_core:*>, <ore:blockDraconium>]
 			]);
 			
