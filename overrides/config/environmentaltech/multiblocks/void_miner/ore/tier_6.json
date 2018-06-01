@@ -158,27 +158,27 @@
     {
       "target": "black",
       "weight": 128,
-      "id": "OD:oreFluidCrudeOilSand"
+      "id": "OD:oreClathrateOilSand"
     },
     {
       "target": "black",
       "weight": 120,
-      "id": "OD:oreFluidCrudeOilShale"
+      "id": "OD:oreClathrateOilShale"
     },
     {
       "target": "green",
       "weight": 118,
-      "id": "OD:oreFluidEnder"
+      "id": "OD:oreClathrateEnder"
     },
     {
       "target": "yellow",
       "weight": 145,
-      "id": "OD:oreFluidGlowstone"
+      "id": "OD:oreClathrateGlowstone"
     },
     {
       "target": "red",
       "weight": 137,
-      "id": "OD:oreFluidRedstone"
+      "id": "OD:oreClathrateRedstone"
     },
     {
       "target": "yellow",
@@ -241,7 +241,7 @@
       "id": "OD:oreThorium"
     },
     {
-      "target": "siver",
+      "target": "silver",
       "weight": 199,
       "id": "OD:oreBoron"
     },
@@ -289,6 +289,51 @@
       "target": "silver",
       "weight": 155,
       "id": "OD:oreProsperity"
+    },
+    {
+      "target": "blue",
+      "weight": 414,
+      "id": "OD:oreElectrotine"
+    },
+    {
+      "target": "lime",
+      "weight": 223,
+      "id": "OD:oreBrainstone"
+    },
+    {
+      "target": "yellow",
+      "weight": 111,
+      "id": "OD:oreCrystalAir"
+    },
+    {
+      "target": "orange",
+      "weight": 111,
+      "id": "OD:oreCrystalFire"
+    },
+    {
+      "target": "light_blue",
+      "weight": 111,
+      "id": "OD:oreCrystalWater"
+    },
+    {
+      "target": "lime",
+      "weight": 111,
+      "id": "OD:oreCrystalEarth"
+    },
+    {
+      "target": "white",
+      "weight": 111,
+      "id": "OD:oreCrystalOrder"
+    },
+    {
+      "target": "black",
+      "weight": 111,
+      "id": "OD:oreCrystalEntropy"
+    },
+    {
+      "target": "purple",
+      "weight": 111,
+      "id": "OD:oreCrystalTaint"
     },
     {
       "target": "lime",
