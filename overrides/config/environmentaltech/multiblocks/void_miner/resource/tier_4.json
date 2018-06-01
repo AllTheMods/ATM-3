@@ -288,12 +288,22 @@
     {
       "target": "light_blue",
       "weight": 8,
-      "id": "minecraft:ice"
+      "id": "OD_PREFIX:ice"
     },
     {
       "target": "light_blue",
       "weight": 8,
       "id": "minecraft:packed_ice"
+    },
+    {
+      "target": "light_blue",
+      "weight": 8,
+      "id": "immersivehempcraft:hemcraft_hardened"
+    },
+    {
+      "target": "brown",
+      "weight": 15,
+      "id": "biomesoplenty:dirt"
     },
     {
       "target": "white",
