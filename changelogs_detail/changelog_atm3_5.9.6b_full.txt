@@ -1,0 +1,39 @@
+All the Mods 3 9.6 v5.9.6 to All the Mods 3 v5.9.6b
+
+Added:
+	- Thaumic JEI
+
+Downgraded:
+	Thaumcraft (went from Thaumcraft-1.12.2-6.1.BETA15.jar to Thaumcraft-1.12.2-6.1.BETA13.jar):
+		Thaumcraft-1.12.2-6.1.BETA15.jar:
+			- fix for chunk loading errors on server start
+			- fix for seeking projectiles causing client crash
+			- possible fix for pedestal desync issues during infusion
+			- fixed moon phase descriptions
+			- alembic can once again be emptied on shift-right click with an empty hand
+			- creative flux sponge can now also remove flux rifts
+			- fixed armor dyes
+			- fixed arcane bore dupe bug and made its digger radius a bit more accurate when stationary
+			- vis batteries will now drop when harvested
+			- pattern crafter now removes the proper amount of items
+			- fixed possible dupe bug with certain mods combined with arcane bore, seals and breaker focus
+		Thaumcraft-1.12.2-6.1.BETA14.jar:
+			6.1.BETA14
+			- new stuff: vis batteries, vis generator, stabilizer, stock seal
+			- fixed arcane pattern crafter
+			- relaxed nbt checking in crucible recipes, infusion recipes and research hand ins to account for other mods that add custom nbt tags
+			- fixed mod compatibility load order
+			- fixed an edge case bug where custom recipes from other mods could cause strange results in the arcane workbench
+			- tweaked amber block/brick recipes
+			- fixed seal filters to allow non-standard stack sizes. You might want to check all your seal filters to make sure they behave as they should
+			- API: seal filters now store stack sizes independently of the itemstacks themselves. New methods added to get and set those numbers.
+			- increased experimentation inspiration cost to 2, but also increased the amount of progress it gives
+			- fixed custom gui toggle buttons
+			- seeking focus projectiles are now 56% more seeky
+			- bouncing focus projectiles can now only bounce off solid blocks
+			- revamped infusion crafting stability mechanics
+			- infusion recipes now properly recognize damaged items and will transfer the damage to crafting results where appropriate
+			- toned down taint poison spawned by certain things
+			- loads of balance tweaks
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.3)

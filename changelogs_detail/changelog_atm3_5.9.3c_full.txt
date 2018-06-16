@@ -1,0 +1,6 @@
+All the Mods 3 9.3b v5.9.3b to All the Mods 3 v5.9.3c
+
+Removed:
+	- DiscordSuite
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.3)
