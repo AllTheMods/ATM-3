@@ -22,7 +22,7 @@
 			}
 		},
 		"aluminum": {
-			"enabled": true
+			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
