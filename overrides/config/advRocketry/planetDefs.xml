@@ -80,7 +80,7 @@
             <atmosphereDensity>160</atmosphereDensity>
             <biomeIds>advancedrocketry:hotdryrock</biomeIds>
         </planet>
-        <planet name="Venus" DIMID="20">
+        <planet name="Venus" DIMID="54">
             <isKnown>false</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.82618,0.14542347</skyColor>
