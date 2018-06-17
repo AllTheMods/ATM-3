@@ -441,6 +441,7 @@ recipes.remove(unbaked_talisman);
 	recipes.remove(<mekanism:basicblock:12>);
 	recipes.remove(<mekanism:basicblock:13>);
 	recipes.remove(<actuallyadditions:block_misc:5>);
+	recipes.remove(<chisel:block_charcoal2:1>);
 
 //====== Add Invar Casting Recipes ======
 //	
