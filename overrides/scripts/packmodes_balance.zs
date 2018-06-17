@@ -528,7 +528,7 @@ print(" ====================================================== ");
 	recipes.remove(<opencomputers:upgrade:4>);
 	recipes.addShaped(<opencomputers:upgrade:4>, [
 		[<ic2:plate:11>, <thermalfoundation:material:833>, <ic2:plate:11>],
-		[<opencomputers:component:15>, <abyssalcraft:transmutationgem>, <opencomputers:component:15>],
+		[<opencomputers:component:15>, <abyssalcraft:transmutationgem:*>, <opencomputers:component:15>],
 		[<ic2:plate:11>, <thermalfoundation:material:833>, <ic2:plate:11>]
 		]);
 
@@ -536,7 +536,7 @@ print(" ====================================================== ");
 	recipes.remove(<mekanism:anchorupgrade>);
 	recipes.addShaped(<mekanism:anchorupgrade>, [
 		[<opencomputers:upgrade:14>, <ic2:plate:17>, <opencomputers:upgrade:14>],
-		[<ic2:plate:17>, <abyssalcraft:transmutationgem>, <ic2:plate:17>],
+		[<ic2:plate:17>, <abyssalcraft:transmutationgem:*>, <ic2:plate:17>],
 		[<thermalfoundation:material:295>, <ic2:plate:17>, <thermalfoundation:material:295>]
 		]);
 	
