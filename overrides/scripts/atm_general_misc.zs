@@ -433,6 +433,15 @@ recipes.remove(unbaked_talisman);
 		[clay_ball, clay_ball, clay_ball]
 		]);
 
+//====== Removing Wrong Blocks ======
+//	
+	recipes.remove(<mekanism:basicblock:1>);
+	recipes.remove(<mekanism:basicblock:3>);
+	recipes.remove(<mekanism:basicblock:5>);
+	recipes.remove(<mekanism:basicblock:12>);
+	recipes.remove(<mekanism:basicblock:13>);
+	recipes.remove(<actuallyadditions:block_misc:5>);
+
 //====== Add Invar Casting Recipes ======
 //	
 	var invar = <thermalfoundation:material:162>;
