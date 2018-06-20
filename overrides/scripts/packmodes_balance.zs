@@ -227,6 +227,7 @@ print(" ====================================================== ");
 		var BRAngelsite = <bigreactors:minerals:0>;
 		var BRBentonite = <bigreactors:minerals:1>;
 		var BRGraphite = <bigreactors:ingotmetals:2>;
+		var MAGraphite = <mysticalagriculture:graphite_essence>;
 		var BRLudicrite = <bigreactors:blockmetals:4>;
 		var BRCyanDust = <bigreactors:dustmetals:1>;
 		var BRBlueDust = <bigreactors:dustmetals:3>;
@@ -313,6 +314,11 @@ print(" ====================================================== ");
 	//Graphite
 		 recipes.remove(BRGraphite);
 		 recipes.addShaped("crtgraphite", BRGraphite, [[TRCarbonPlate, TRCarbonPlate]]);
+		 recipes.addShaped(BRGraphite, [
+		[MAGraphite, MAGraphite, MAGraphite],
+		[null, null ,null ],
+		[MAGraphite, MAGraphite, MAGraphite]
+		]);
 	
 	//Blutonium Processing
 		recipes.removeShaped(BRBlutonium);
