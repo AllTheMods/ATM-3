@@ -117,3 +117,19 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 		<rustic:slate>
 		]);
 	<ore:stoneSlate>.addAll(<ore:blockSlate>);
+
+
+//====== Iron Stick ======
+//
+	recipes.remove(<immersiveengineering:material:1>);
+	recipes.remove(<rustic:chain>);
+	recipes.addShaped(<immersiveengineering:material:1>*4, [
+		[null, <ore:ingotIron>, null],
+		[null, <ore:ingotIron>, null],
+		[null, <ore:ingotIron>, null]
+		]);	
+	recipes.addShaped(<rustic:chain>*12, [
+		[null, <ore:ingotIron>, null],
+		[<ore:ingotIron>, null, null],
+		[null, <ore:ingotIron>, null]
+		]);
