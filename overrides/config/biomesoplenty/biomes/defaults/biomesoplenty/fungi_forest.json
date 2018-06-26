@@ -47,7 +47,7 @@
         }
       },
       "generationAttempts": 16,
-      "amountPerChunk": 2.5,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "brown_mushrooms": {
@@ -98,6 +98,6 @@
     }
   },
   "weights": {
-    "hell": 75
+    "hell": 5
   }
 }

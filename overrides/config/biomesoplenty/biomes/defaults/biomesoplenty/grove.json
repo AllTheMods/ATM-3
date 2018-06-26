@@ -80,60 +80,6 @@
       "amountPerChunk": 0.6,
       "enable": true
     },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
-    "amber": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "amber"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 3.0,
-      "enable": true,
-      "generators": {}
-    },
     "berry_bushes": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -161,6 +107,29 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
+    "amber": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "amber"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": true
+    },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -171,6 +140,11 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
       "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 3.0,
+      "enable": true,
+      "generators": {}
     }
   },
   "weights": {

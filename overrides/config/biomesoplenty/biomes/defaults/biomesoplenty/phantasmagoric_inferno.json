@@ -33,18 +33,23 @@
       "emptyChance": 0.25,
       "layerSize": 3
     },
-    "lava_lakes": {
-      "lineWith": {
-        "block": "biomesoplenty:ash_block",
+    "blue_fire": {
+      "with": {
+        "block": "biomesoplenty:blue_fire",
         "properties": {}
       },
+      "generationAttempts": 32,
+      "amountPerChunk": 2.5,
+      "enable": true
+    },
+    "lava_lakes": {
       "liquid": {
         "block": "minecraft:lava",
         "properties": {
           "level": "0"
         }
       },
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 4.0,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",
@@ -66,11 +71,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 2.5,
       "enable": true
     }
   },
   "weights": {
-    "hell": 75
+    "hell": 5
   }
 }

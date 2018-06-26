@@ -42,21 +42,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 7,
-      "enable": true,
-      "randomDirection": true
-    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",

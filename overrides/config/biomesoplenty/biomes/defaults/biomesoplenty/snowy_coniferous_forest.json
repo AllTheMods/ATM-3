@@ -43,6 +43,15 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "leaf_piles": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -81,17 +90,6 @@
       "amountPerChunk": 2.0,
       "enable": true
     },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.05,
-      "enable": true
-    },
     "brown_mushrooms": {
       "with": {
         "block": "minecraft:brown_mushroom",
@@ -101,20 +99,10 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
+    "grass": {
+      "amountPerChunk": 1.0,
       "enable": true,
-      "randomDirection": true
+      "generators": {}
     },
     "roots": {
       "with": {
@@ -125,6 +113,15 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "red_mushrooms": {
+      "with": {
+        "block": "minecraft:red_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "trees": {
@@ -142,29 +139,6 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
-    },
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.0,
-      "enable": true,
-      "generators": {}
-    },
-    "red_mushrooms": {
-      "with": {
-        "block": "minecraft:red_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
       "enable": true
     }
   },

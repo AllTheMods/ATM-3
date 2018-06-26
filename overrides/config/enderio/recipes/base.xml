@@ -255,7 +255,7 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
 
   <recipe name="Alloy: End Steel" required="true">
-    <alloying energy="10000" exp="0.5">
+    <alloying energy="20000" exp="0.5">
       <input name="oredict:endstone"/>
       <input name="ingotDarkSteel"/>
       <input name="obsidian"/>
@@ -477,7 +477,7 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Alloy: Brown Dye, Variant" required="true">
     <alloying energy="1500" exp="0.125">
       <input name="itemPlantbrown" amount="6"/>
-      <input name="minecraft:mushroom_stew"/>
+      <input name="oredict:egg"/>
       <output name="ORGANIC_BROWN_DYE"/>
     </alloying>
   </recipe>
@@ -494,7 +494,7 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Alloy: Brown Dye, Oredict Variant" required="true">
     <alloying energy="1500" exp="0.125">
       <input name="dyeBrown"/>
-      <input name="minecraft:mushroom_stew"/>
+      <input name="oredict:egg"/>
       <input name="dustCoal"/>
       <output name="ORGANIC_BROWN_DYE"/>
     </alloying>
@@ -645,7 +645,7 @@ XML editor will display that as tooltips when editing this file.
     <alloying energy="4000" exp="0">
       <input name="ingotLead" amount="3"/>
       <input name="ingotPlatinum"/>
-      <input name="ordecit:enderpearl" amount="4"/>
+      <input name="oredict:enderpearl" amount="4"/>
       <output name="ingotEnderiumBase" amount="4"/>
     </alloying>
   </recipe>
@@ -655,6 +655,14 @@ XML editor will display that as tooltips when editing this file.
       <input name="ingotEnderiumBase" amount="2"/>
       <input name="oredict:sand"/>
       <output name="ingotEnderium" amount="2"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Steel (Oredict)" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="ingotIron"/>
+      <input name="fuelCoke"/>
+      <output name="ingotSteel"/>
     </alloying>
   </recipe>
 

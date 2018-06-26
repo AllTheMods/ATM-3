@@ -42,6 +42,29 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "bamboo": {
+      "minHeight": 1,
+      "with": {
+        "block": "biomesoplenty:bamboo",
+        "properties": {
+          "age": "0"
+        }
+      },
+      "generationAttempts": 24,
+      "amountPerChunk": 0.2,
+      "maxHeight": 3,
+      "enable": true,
+      "randomDirection": false
+    },
+    "sand": {
+      "with": {
+        "block": "biomesoplenty:white_sand",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 10.0,
+      "enable": true
+    },
     "leaf_piles": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -78,71 +101,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 25.0,
-      "enable": true,
-      "generators": {}
-    },
-    "bamboo": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:bamboo",
-        "properties": {
-          "age": "0"
-        }
-      },
-      "generationAttempts": 24,
-      "amountPerChunk": 0.2,
-      "maxHeight": 3,
-      "enable": true,
-      "randomDirection": false
-    },
-    "sand": {
-      "with": {
-        "block": "biomesoplenty:white_sand",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 10.0,
-      "enable": true
-    },
     "grass": {
       "amountPerChunk": 3.5,
       "enable": true,
@@ -160,6 +118,17 @@
       "maxHeight": 32,
       "enable": true
     },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -170,6 +139,11 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
       "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 25.0,
+      "enable": true,
+      "generators": {}
     }
   },
   "weights": {}

@@ -80,17 +80,6 @@
       "amountPerChunk": 2.5,
       "enable": true
     },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
     "brown_mushrooms": {
       "with": {
         "block": "minecraft:brown_mushroom",
@@ -99,21 +88,6 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.2,
       "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
     },
     "amber": {
       "minHeight": 4,

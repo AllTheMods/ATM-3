@@ -23,6 +23,25 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
     "flowers": {
       "amountPerChunk": 0.1,
       "enable": true,
@@ -61,20 +80,10 @@
       "amountPerChunk": 0.05,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 7,
+    "grass": {
+      "amountPerChunk": 0.5,
       "enable": true,
-      "randomDirection": true
+      "generators": {}
     },
     "amber": {
       "minHeight": 4,
@@ -120,30 +129,6 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
-    },
-    "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
-    },
-    "grass": {
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "generators": {}
     }
   }
 }
