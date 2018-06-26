@@ -98,35 +98,6 @@ print(" ============================================================== ");
 		[null, <ore:stickSteel>, null],
 		[null, <ore:stickSteel>, null]
 		]);
-		
-	//Obsidian
-	var obsidianAxes = [
-		<actuallyadditions:item_axe_obsidian>,
-		<mekanismtools:obsidianaxe>,
-		<tconstruct:axe_head>.withTag({Material: "obsidian"}),
-		<tconstruct:broad_axe_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianAxe>.addItems(obsidianAxes);
-	var obsidianPickaxes = [
-		<actuallyadditions:item_pickaxe_obsidian>,
-		<mekanismtools:obsidianpickaxe>,
-		<tconstruct:pick_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianPickaxe>.addItems(obsidianPickaxes);
-	var obsidianShovels = [
-		<actuallyadditions:item_shovel_obsidian>,
-		<mekanismtools:obsidianshovel>,
-		<tconstruct:excavator_head>.withTag({Material: "obsidian"}),
-		<tconstruct:shovel_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianShovel>.addItems(obsidianShovels);
-	recipes.remove(<mekanismtools:obsidianpaxel>);
-	recipes.addShaped(<mekanismtools:obsidianpaxel>, [
-		[<ore:obsidianAxe>, <ore:obsidianPickaxe>, <ore:obsidianShovel>],
-		[null, <ore:stickWood>, null],
-		[null, <ore:stickWood>, null]
-	]);
-	
 	//Bronze
 	var bronzeAxes = [
 		<ic2:bronze_axe>,
