@@ -329,15 +329,16 @@ print(" ======================================================== ");
 //
 	recipes.remove(<immersiveengineering:material:1>);
 	recipes.remove(<rustic:chain>);
+	recipes.remove(<ore:stickIron>);
+	recipes.addShaped(<rustic:chain>*12, [
+		[<ore:ingotIron>, null, null],
+		[<ore:ingotIron>, null, null],
+		[<ore:ingotIron>, null, null]
+		]);	
 	recipes.addShaped(<immersiveengineering:material:1>*4, [
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null]
 		]);	
-	recipes.addShaped(<rustic:chain>*12, [
-		[null, <ore:ingotIron>, null],
-		[<ore:ingotIron>, null, null],
-		[null, <ore:ingotIron>, null]
-		]);
 
 	<ore:stickIron>.add(<tconstruct:tool_rod>.withTag({Material: "iron"}));
