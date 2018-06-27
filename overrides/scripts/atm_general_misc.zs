@@ -21,12 +21,6 @@ print(" ============================================================== ");
 	//remove corrupted chorus fruit to balance flight
 	recipes.remove(<cyclicmagic:corrupted_chorus>);
 
-//====== Fused Quartz Fix ======
-//
-	<ore:blockGlassHardened>.remove(<enderio:block_fused_quartz:*>);
-	<ore:blockGlassHardened>.add(<enderio:block_fused_quartz:0>);
-
-
 //====== Marble Dust ======
 //
 	var marble = <astralsorcery:blockmarble>;
