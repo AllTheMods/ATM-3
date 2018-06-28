@@ -257,6 +257,34 @@ Updated:
 			 * [ Add some variation in lunar spawning, liquid oxygen lakes](https://github.com/zmaster587/AdvancedRocketry/commit/17ed80ec9fee2f9)
 			 * [ terrain gen revamp, added cave planets, they are very slow](https://github.com/zmaster587/AdvancedRocketry/commit/09c8b2552afceb2)
 
+	Applied Energistics 2 (went from appliedenergistics2-rv5-stable-11.jar to appliedenergistics2-rv6-alpha-1.jar):
+		appliedenergistics2-rv6-alpha-1.jar:
+			Feature #3232: Rework custom recipe system - fscan
+			Feature #3510: Initial Fluid Integration. Cells, Import/Export/Storage Bus, Fluid Terminal - BrockWS, DrummerMC
+			Feature #3543: Added fluid models  - yueh
+			Feature #3564: Added ME Fluid Interface - fscan
+			Changes #3383: Updated Cell Registry safety and docs. - yueh
+			Changes #3384: IAEStack#fuzzyComparison now compares the same subtypes. - yueh
+			Changes #3392: Replaced LinkedList with ArrayList or ArrayDeque when applicable. - yueh
+			Changes #3399: Updated Grid API - yueh
+			Changes #3434: Replaces all custom number comparisons with java provided ones. - yueh
+			Changes #3539: Changed fluid cells to better match the item ones. - yueh
+			Changes #3567: Updated fluid interface GUI and other fluid related textures. - yueh
+			Fixes #3449: Fix CellInventory to not mess with the item definition - fscan
+			Fixes #3459: Just open the inventory if raytrace misses. - fscan
+			Fixes #3462: Remove call to neighborChanged() - kylev
+			Fixes #3476: Correctly handle an empty top namepress. - yueh
+			Fixes #3478: Changes the way xp drops from Certus Ore blocks - fscan
+			Fixes #3490: Use cached recipe before reaching out to CraftingManager - yueh
+			Fixes #3504: Fixes issue with Fluid Channel not being sent changes. - BrockWS
+			Fixes #3520: Correct order for sort by mod and general code cleanup - yueh
+			Fixes #3535, Fixes #3486: Fixes crash when either quartz types are disabled and prevent cascading worldgen. - fscan
+			Fixes #3544: Fixes interface shift-clicking to generate correct onChangeInventory events - fscan
+			Fixes #3545: Fixes DriveBakedModel to not crash when SLOT_STATE is null  - fscan
+			Fixes #3548: Fix AEBaseTile to respect overridden markDirty implementations. - fscan
+			Fixes #3556: Only extract insertable fluid amount. - yueh
+			Fixes #3560: Render the fluid stacksize for ME fluid slots. - yueh 
+
 	Astral Sorcery (went from AstralSorcery-1.12.2-1.8.10.jar to AstralSorcery-1.12.2-1.9.1.jar):
 		AstralSorcery-1.12.2-1.9.1.jar:
 			Additions:
@@ -1811,6 +1839,14 @@ Updated:
 			 * Changed how the book entries are displayed when hovered
 			 * Fixed cells only being processed 1 by 1
 			 * Fixed BHU accepting items where they dont supposed to
+
+	Industrial Wires (went from 1.6-25 (MC 1.12.x) to 1.7-26 (MC 1.12.x)):
+		1.7-26 (MC 1.12.x):
+			 * Added Mechanical Multiblocks (energy storage and EU<->FE conversion)
+			 * There will be an explanation video for these once I have time to make one
+			 * Fixed the small mechanical converter blowing up tin wires
+			 * Fixed wires not joining their outputs correctly
+			 * Fixed wire connectors not breaking when the block they're on is broken
 
 	Integrated Dynamics (went from IntegratedDynamics-1.12.2-0.11.12.jar to IntegratedDynamics-1.12.2-0.11.13.jar):
 		IntegratedDynamics-1.12.2-0.11.13.jar:
