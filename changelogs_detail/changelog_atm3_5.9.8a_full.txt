@@ -1,0 +1,2218 @@
+All the Mods 3 v5.9.7b to All the Mods 3 v5.9.8a
+
+Added:
+	- Armory Expansion
+	- Better Advancements
+	- BetterFps
+	- Forge MultiPart CBE
+	- Gotta Go Fast
+	- Immersive Tech
+	- Inventory Generators
+	- KJLib
+	- MrTJPCore
+	- Practical Logistics 2
+	- Project Red - Base
+	- Project Red - Compat
+	- Project Red - Fabrication
+	- Project Red - Integration
+	- Project Red - Lighting
+	- Project Red - Mechanical
+	- Project Red - World
+	- Sonar Core
+	- Thaumic Inventory Scanning (Thaumcraft Addon)
+
+Updated:
+	AbyssalCraft (went from AbyssalCraft-1.12.2-1.9.4.9.jar to AbyssalCraft-1.12.2-1.9.4.10.jar):
+		AbyssalCraft-1.12.2-1.9.4.10.jar:
+			 * A bunch of textures have been revamped (courtesy of Dylan4ever)
+			 * Lesser Shoggoths can no longer break Bedrock (or other unbreakable blocks) with their acid
+			 * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
+			 * Scaled down the model of the baby Lesser Shoggoth (to be more proportional with the hitbox, also made the eyes a bit bigger)
+			 * Slowed down the initial velocity of the Acid Projectile, increased the time between each projectile being fired, and made it so baby Lesser Shoggoths won't fire them
+			 * Added a config option for changing the frequency at which Lesser Shoggoths spit acid
+			 * J'zahar now respects the mobGriefing gamerule with his explosion
+			 * Fixed a dupe bug in the Materializer GUI
+			 * Mobs spawned through a summoning ritual now have their portal cooldown set to max
+			 * Increased the time it takes for a Greater Dread Spawn and Lesser Dreadbeast to spawn a regular Dread Spawn
+			 * Increased the time it takes for Cha'garoth to spawn the various things he spawns, and removed the direct physical damage dealt by his fireballs
+			 * Reduced the range of Cha'garoth's melee attacks
+			 * Fixed the pick block for Calcified Stone
+
+	AbyssalCraft Integration (went from AbyssalCraft Integration-1.12.2-1.6.2.jar to AbyssalCraft Integration-1.12.2-1.6.5.jar):
+		AbyssalCraft Integration-1.12.2-1.6.5.jar:
+			 * Thaumcraft Aspects are now registered in preinit
+		AbyssalCraft Integration-1.12.2-1.6.4.jar:
+			 * Thaumcraft integration actually loads now
+		AbyssalCraft Integration-1.12.2-1.6.3.jar:
+			 * Bump to AbyssalCraft 1.9.4.10
+			 * Re-added Thaumcraft aspects to Items, Blocks and Mobs
+			 * Reimplemented the Thaumcraft warp integration
+			 * Fixed a small typo in one of the Tinkers' modifier tooltips
+			 * CraftTweaker task processing is now done in post-init instead of init
+
+	Advanced Rocketry (went from AdvancedRocketry 1.12.2-1.4.0-84-UNSTABLE build -84 for 1.12.2 to AdvancedRocketry 1.12.2-1.4.0-88-UNSTABLE build -88 for 1.12.2):
+		AdvancedRocketry 1.12.2-1.4.0-88-UNSTABLE build -88 for 1.12.2:
+			 Highly untested and may break world
+
+			Current release 1.12.2-1.4.0-88
+
+			 * [ Fix space elevator not working between planet/moon](https://github.com/zmaster587/AdvancedRocketry/commit/92c760b91ea0479)
+			 * [ fix #1340](https://github.com/zmaster587/AdvancedRocketry/commit/39f901de1f98191)
+			 * [ fix crash with hitting the up button](https://github.com/zmaster587/AdvancedRocketry/commit/54a435a4032aa09)
+			 * [ change invalid planet from -1 to something else, address #1320](https://github.com/zmaster587/AdvancedRocketry/commit/098669b5e12ed28)
+			 * [ fix #1325](https://github.com/zmaster587/AdvancedRocketry/commit/d5e1e5350688505)
+			 * [ Fixes #1248, #1326](https://github.com/zmaster587/AdvancedRocketry/commit/01317ec7d329b04)
+			 * [ Fix rolling machine not being able to take recipies without water, fix bad recipies, fixes #1313](https://github.com/zmaster587/AdvancedRocketry/commit/961fc5502de1cf2)
+			 * [ remove extraneous file](https://github.com/zmaster587/AdvancedRocketry/commit/be00b019c4a69a7)
+			 * [ fix #1302](https://github.com/zmaster587/AdvancedRocketry/commit/345f0de430fff25)
+			 * [ don't unregister dims that aren't registered this seemed to cause issues on Sponge, simple check that shouldn't hurt anyone](https://github.com/zmaster587/AdvancedRocketry/commit/5f174ff6d160832)
+			 * [ build deobf](https://github.com/zmaster587/AdvancedRocketry/commit/cfbb75f8af7257c)
+			 * [ possible fix for #1279](https://github.com/zmaster587/AdvancedRocketry/commit/0f64b012179ee83)
+			 * [ fix railguns not working station => planet](https://github.com/zmaster587/AdvancedRocketry/commit/3159f949f2574d1)
+			 * [ resolves #1059 #987 #1002](https://github.com/zmaster587/AdvancedRocketry/commit/ff3741bd6d7a059)
+			 * [ Fix for duplicated artifact slots on Warp Controller (#1266)](https://github.com/zmaster587/AdvancedRocketry/commit/2d0331558820eaf)
+			 * [ Fix for custom gas config not showing on GasGiatns (#1267)](https://github.com/zmaster587/AdvancedRocketry/commit/cd6c61b302244f9)
+			 * [ fixes #1254](https://github.com/zmaster587/AdvancedRocketry/commit/3e82485098687ac)
+			 * [ fix accidental removal of GC handling](https://github.com/zmaster587/AdvancedRocketry/commit/5c90a74654032c2)
+			 * [ fix gas mining rockets only half connect to infrastructure, #1256](https://github.com/zmaster587/AdvancedRocketry/commit/9e05b3a761d369d)
+			 * [ add extraneous load for world #1257](https://github.com/zmaster587/AdvancedRocketry/commit/11789f5ce9d38c0)
+			 * [ fix spelling error in config comments](https://github.com/zmaster587/AdvancedRocketry/commit/de72308146917f6)
+			 * [ Update GC handling for 1.12, should fix #1135](https://github.com/zmaster587/AdvancedRocketry/commit/54345b555f9f4df)
+			 * [ orbitalTheta, icon now transfer from config folder when resetFromConfig](https://github.com/zmaster587/AdvancedRocketry/commit/934ecbc3619251c)
+			 * [ improvements to the tranciever](https://github.com/zmaster587/AdvancedRocketry/commit/0abbb673ffc02cc)
+			 * [ planet loading fixes, things and stuff](https://github.com/zmaster587/AdvancedRocketry/commit/e48525e4f85cfdb)
+			 * [ fix crash when trying to store data to non existant chip in the warp controller](https://github.com/zmaster587/AdvancedRocketry/commit/87aa196c0fcff46)
+			 * [ fix random world crash when opening rocket contents](https://github.com/zmaster587/AdvancedRocketry/commit/77096646c69c03f)
+			 * [ Fix pressure tanks returning wrong capability Fair warning: this was written on github, so you might want to double check the syntax. This fixes crashes like [this one](https://pastebin.com/NTsgib8A) when getCapability is queried with a capability other than IFluidHandlerItem.](https://github.com/zmaster587/AdvancedRocketry/commit/10476a779f24afc)
+			 * [ Jetpacks massivly improved](https://github.com/zmaster587/AdvancedRocketry/commit/388891e87d415c9)
+			 * [ fix jetpack not deactivating in certain conditions, fly speed interference](https://github.com/zmaster587/AdvancedRocketry/commit/9b894763984a263)
+			 * [ fix crash with recent forge builds #1235](https://github.com/zmaster587/AdvancedRocketry/commit/e44e4c4a2d10df3)
+			 * [ fix issue with jetpack recipe not working in chemical assembler](https://github.com/zmaster587/AdvancedRocketry/commit/a2c62ef29276179)
+			 * [ Fix #1228](https://github.com/zmaster587/AdvancedRocketry/commit/2ad2f540cb2ce7c)
+			 * [ Fix #1215 #1199, make sure planets know where they're going](https://github.com/zmaster587/AdvancedRocketry/commit/e9b86eb64e21f84)
+			 * [ fix gravity becoming gravy, +1 if you get the reference, #1211](https://github.com/zmaster587/AdvancedRocketry/commit/f6b6b7ee7b29711)
+			 * [ fix name in pressurized tank](https://github.com/zmaster587/AdvancedRocketry/commit/fbd747356461ffb)
+			 * [ fix bad localization with solar collector](https://github.com/zmaster587/AdvancedRocketry/commit/0ce1864fdc6cffc)
+			 * [ fix white screen with rocket builder, with AR only](https://github.com/zmaster587/AdvancedRocketry/commit/68cc272b8a4f761)
+			 * [ fix #1210](https://github.com/zmaster587/AdvancedRocketry/commit/d74dece36aeb2c0)
+			 * [ add sizes to artifacts](https://github.com/zmaster587/AdvancedRocketry/commit/46c917e19ab6b75)
+			 * [ fix #1165](https://github.com/zmaster587/AdvancedRocketry/commit/0e6e58c9886650d)
+			 * [ Don't push default values to XML](https://github.com/zmaster587/AdvancedRocketry/commit/6a47627d752245a)
+			 * [ prevent crash if a planet is removed](https://github.com/zmaster587/AdvancedRocketry/commit/cf206d27a58401d)
+			 * [ fix a few mistakes](https://github.com/zmaster587/AdvancedRocketry/commit/660f0583e148e6d)
+			 * [ update minor version number](https://github.com/zmaster587/AdvancedRocketry/commit/03b3c080c4ce86b)
+			 * [ Address #1205](https://github.com/zmaster587/AdvancedRocketry/commit/e6b1e919bacb2e5)
+			 * [ Add some variation in lunar spawning, liquid oxygen lakes](https://github.com/zmaster587/AdvancedRocketry/commit/17ed80ec9fee2f9)
+			 * [ terrain gen revamp, added cave planets, they are very slow](https://github.com/zmaster587/AdvancedRocketry/commit/09c8b2552afceb2)
+		AdvancedRocketry 1.12.2-1.4.0-87-UNSTABLE build -87 for 1.12.2:
+			 Highly untested and may break world
+
+			Current release 1.12.2-1.4.0-87
+
+			 * [ fix crash with hitting the up button](https://github.com/zmaster587/AdvancedRocketry/commit/54a435a4032aa09)
+			 * [ change invalid planet from -1 to something else, address #1320](https://github.com/zmaster587/AdvancedRocketry/commit/098669b5e12ed28)
+			 * [ fix #1325](https://github.com/zmaster587/AdvancedRocketry/commit/d5e1e5350688505)
+			 * [ Fixes #1248, #1326](https://github.com/zmaster587/AdvancedRocketry/commit/01317ec7d329b04)
+			 * [ Fix rolling machine not being able to take recipies without water, fix bad recipies, fixes #1313](https://github.com/zmaster587/AdvancedRocketry/commit/961fc5502de1cf2)
+			 * [ remove extraneous file](https://github.com/zmaster587/AdvancedRocketry/commit/be00b019c4a69a7)
+			 * [ fix #1302](https://github.com/zmaster587/AdvancedRocketry/commit/345f0de430fff25)
+			 * [ don't unregister dims that aren't registered this seemed to cause issues on Sponge, simple check that shouldn't hurt anyone](https://github.com/zmaster587/AdvancedRocketry/commit/5f174ff6d160832)
+			 * [ build deobf](https://github.com/zmaster587/AdvancedRocketry/commit/cfbb75f8af7257c)
+			 * [ possible fix for #1279](https://github.com/zmaster587/AdvancedRocketry/commit/0f64b012179ee83)
+			 * [ fix railguns not working station => planet](https://github.com/zmaster587/AdvancedRocketry/commit/3159f949f2574d1)
+			 * [ resolves #1059 #987 #1002](https://github.com/zmaster587/AdvancedRocketry/commit/ff3741bd6d7a059)
+			 * [ Fix for duplicated artifact slots on Warp Controller (#1266)](https://github.com/zmaster587/AdvancedRocketry/commit/2d0331558820eaf)
+			 * [ Fix for custom gas config not showing on GasGiatns (#1267)](https://github.com/zmaster587/AdvancedRocketry/commit/cd6c61b302244f9)
+			 * [ fixes #1254](https://github.com/zmaster587/AdvancedRocketry/commit/3e82485098687ac)
+			 * [ fix accidental removal of GC handling](https://github.com/zmaster587/AdvancedRocketry/commit/5c90a74654032c2)
+			 * [ fix gas mining rockets only half connect to infrastructure, #1256](https://github.com/zmaster587/AdvancedRocketry/commit/9e05b3a761d369d)
+			 * [ add extraneous load for world #1257](https://github.com/zmaster587/AdvancedRocketry/commit/11789f5ce9d38c0)
+			 * [ fix spelling error in config comments](https://github.com/zmaster587/AdvancedRocketry/commit/de72308146917f6)
+			 * [ Update GC handling for 1.12, should fix #1135](https://github.com/zmaster587/AdvancedRocketry/commit/54345b555f9f4df)
+			 * [ orbitalTheta, icon now transfer from config folder when resetFromConfig](https://github.com/zmaster587/AdvancedRocketry/commit/934ecbc3619251c)
+			 * [ improvements to the tranciever](https://github.com/zmaster587/AdvancedRocketry/commit/0abbb673ffc02cc)
+			 * [ planet loading fixes, things and stuff](https://github.com/zmaster587/AdvancedRocketry/commit/e48525e4f85cfdb)
+			 * [ fix crash when trying to store data to non existant chip in the warp controller](https://github.com/zmaster587/AdvancedRocketry/commit/87aa196c0fcff46)
+			 * [ fix random world crash when opening rocket contents](https://github.com/zmaster587/AdvancedRocketry/commit/77096646c69c03f)
+			 * [ Fix pressure tanks returning wrong capability Fair warning: this was written on github, so you might want to double check the syntax. This fixes crashes like [this one](https://pastebin.com/NTsgib8A) when getCapability is queried with a capability other than IFluidHandlerItem.](https://github.com/zmaster587/AdvancedRocketry/commit/10476a779f24afc)
+			 * [ Jetpacks massivly improved](https://github.com/zmaster587/AdvancedRocketry/commit/388891e87d415c9)
+			 * [ fix jetpack not deactivating in certain conditions, fly speed interference](https://github.com/zmaster587/AdvancedRocketry/commit/9b894763984a263)
+			 * [ fix crash with recent forge builds #1235](https://github.com/zmaster587/AdvancedRocketry/commit/e44e4c4a2d10df3)
+			 * [ fix issue with jetpack recipe not working in chemical assembler](https://github.com/zmaster587/AdvancedRocketry/commit/a2c62ef29276179)
+			 * [ Fix #1228](https://github.com/zmaster587/AdvancedRocketry/commit/2ad2f540cb2ce7c)
+			 * [ Fix #1215 #1199, make sure planets know where they're going](https://github.com/zmaster587/AdvancedRocketry/commit/e9b86eb64e21f84)
+			 * [ fix gravity becoming gravy, +1 if you get the reference, #1211](https://github.com/zmaster587/AdvancedRocketry/commit/f6b6b7ee7b29711)
+			 * [ fix name in pressurized tank](https://github.com/zmaster587/AdvancedRocketry/commit/fbd747356461ffb)
+			 * [ fix bad localization with solar collector](https://github.com/zmaster587/AdvancedRocketry/commit/0ce1864fdc6cffc)
+			 * [ fix white screen with rocket builder, with AR only](https://github.com/zmaster587/AdvancedRocketry/commit/68cc272b8a4f761)
+			 * [ fix #1210](https://github.com/zmaster587/AdvancedRocketry/commit/d74dece36aeb2c0)
+			 * [ add sizes to artifacts](https://github.com/zmaster587/AdvancedRocketry/commit/46c917e19ab6b75)
+			 * [ fix #1165](https://github.com/zmaster587/AdvancedRocketry/commit/0e6e58c9886650d)
+			 * [ Don't push default values to XML](https://github.com/zmaster587/AdvancedRocketry/commit/6a47627d752245a)
+			 * [ prevent crash if a planet is removed](https://github.com/zmaster587/AdvancedRocketry/commit/cf206d27a58401d)
+			 * [ fix a few mistakes](https://github.com/zmaster587/AdvancedRocketry/commit/660f0583e148e6d)
+			 * [ update minor version number](https://github.com/zmaster587/AdvancedRocketry/commit/03b3c080c4ce86b)
+			 * [ Address #1205](https://github.com/zmaster587/AdvancedRocketry/commit/e6b1e919bacb2e5)
+			 * [ Add some variation in lunar spawning, liquid oxygen lakes](https://github.com/zmaster587/AdvancedRocketry/commit/17ed80ec9fee2f9)
+			 * [ terrain gen revamp, added cave planets, they are very slow](https://github.com/zmaster587/AdvancedRocketry/commit/09c8b2552afceb2)
+		AdvancedRocketry 1.12.2-1.4.0-86-UNSTABLE build -86 for 1.12.2:
+			 Highly untested and may break world
+
+			Current release 1.12.2-1.4.0-86
+
+			 * [ fix crash with hitting the up button](https://github.com/zmaster587/AdvancedRocketry/commit/54a435a4032aa09)
+			 * [ change invalid planet from -1 to something else, address #1320](https://github.com/zmaster587/AdvancedRocketry/commit/098669b5e12ed28)
+			 * [ fix #1325](https://github.com/zmaster587/AdvancedRocketry/commit/d5e1e5350688505)
+			 * [ Fixes #1248, #1326](https://github.com/zmaster587/AdvancedRocketry/commit/01317ec7d329b04)
+			 * [ Fix rolling machine not being able to take recipies without water, fix bad recipies, fixes #1313](https://github.com/zmaster587/AdvancedRocketry/commit/961fc5502de1cf2)
+			 * [ remove extraneous file](https://github.com/zmaster587/AdvancedRocketry/commit/be00b019c4a69a7)
+			 * [ fix #1302](https://github.com/zmaster587/AdvancedRocketry/commit/345f0de430fff25)
+			 * [ don't unregister dims that aren't registered this seemed to cause issues on Sponge, simple check that shouldn't hurt anyone](https://github.com/zmaster587/AdvancedRocketry/commit/5f174ff6d160832)
+			 * [ build deobf](https://github.com/zmaster587/AdvancedRocketry/commit/cfbb75f8af7257c)
+			 * [ possible fix for #1279](https://github.com/zmaster587/AdvancedRocketry/commit/0f64b012179ee83)
+			 * [ fix railguns not working station => planet](https://github.com/zmaster587/AdvancedRocketry/commit/3159f949f2574d1)
+			 * [ resolves #1059 #987 #1002](https://github.com/zmaster587/AdvancedRocketry/commit/ff3741bd6d7a059)
+			 * [ Fix for duplicated artifact slots on Warp Controller (#1266)](https://github.com/zmaster587/AdvancedRocketry/commit/2d0331558820eaf)
+			 * [ Fix for custom gas config not showing on GasGiatns (#1267)](https://github.com/zmaster587/AdvancedRocketry/commit/cd6c61b302244f9)
+			 * [ fixes #1254](https://github.com/zmaster587/AdvancedRocketry/commit/3e82485098687ac)
+			 * [ fix accidental removal of GC handling](https://github.com/zmaster587/AdvancedRocketry/commit/5c90a74654032c2)
+			 * [ fix gas mining rockets only half connect to infrastructure, #1256](https://github.com/zmaster587/AdvancedRocketry/commit/9e05b3a761d369d)
+			 * [ add extraneous load for world #1257](https://github.com/zmaster587/AdvancedRocketry/commit/11789f5ce9d38c0)
+			 * [ fix spelling error in config comments](https://github.com/zmaster587/AdvancedRocketry/commit/de72308146917f6)
+			 * [ Update GC handling for 1.12, should fix #1135](https://github.com/zmaster587/AdvancedRocketry/commit/54345b555f9f4df)
+			 * [ orbitalTheta, icon now transfer from config folder when resetFromConfig](https://github.com/zmaster587/AdvancedRocketry/commit/934ecbc3619251c)
+			 * [ improvements to the tranciever](https://github.com/zmaster587/AdvancedRocketry/commit/0abbb673ffc02cc)
+			 * [ planet loading fixes, things and stuff](https://github.com/zmaster587/AdvancedRocketry/commit/e48525e4f85cfdb)
+			 * [ fix crash when trying to store data to non existant chip in the warp controller](https://github.com/zmaster587/AdvancedRocketry/commit/87aa196c0fcff46)
+			 * [ fix random world crash when opening rocket contents](https://github.com/zmaster587/AdvancedRocketry/commit/77096646c69c03f)
+			 * [ Fix pressure tanks returning wrong capability Fair warning: this was written on github, so you might want to double check the syntax. This fixes crashes like [this one](https://pastebin.com/NTsgib8A) when getCapability is queried with a capability other than IFluidHandlerItem.](https://github.com/zmaster587/AdvancedRocketry/commit/10476a779f24afc)
+			 * [ Jetpacks massivly improved](https://github.com/zmaster587/AdvancedRocketry/commit/388891e87d415c9)
+			 * [ fix jetpack not deactivating in certain conditions, fly speed interference](https://github.com/zmaster587/AdvancedRocketry/commit/9b894763984a263)
+			 * [ fix crash with recent forge builds #1235](https://github.com/zmaster587/AdvancedRocketry/commit/e44e4c4a2d10df3)
+			 * [ fix issue with jetpack recipe not working in chemical assembler](https://github.com/zmaster587/AdvancedRocketry/commit/a2c62ef29276179)
+			 * [ Fix #1228](https://github.com/zmaster587/AdvancedRocketry/commit/2ad2f540cb2ce7c)
+			 * [ Fix #1215 #1199, make sure planets know where they're going](https://github.com/zmaster587/AdvancedRocketry/commit/e9b86eb64e21f84)
+			 * [ fix gravity becoming gravy, +1 if you get the reference, #1211](https://github.com/zmaster587/AdvancedRocketry/commit/f6b6b7ee7b29711)
+			 * [ fix name in pressurized tank](https://github.com/zmaster587/AdvancedRocketry/commit/fbd747356461ffb)
+			 * [ fix bad localization with solar collector](https://github.com/zmaster587/AdvancedRocketry/commit/0ce1864fdc6cffc)
+			 * [ fix white screen with rocket builder, with AR only](https://github.com/zmaster587/AdvancedRocketry/commit/68cc272b8a4f761)
+			 * [ fix #1210](https://github.com/zmaster587/AdvancedRocketry/commit/d74dece36aeb2c0)
+			 * [ add sizes to artifacts](https://github.com/zmaster587/AdvancedRocketry/commit/46c917e19ab6b75)
+			 * [ fix #1165](https://github.com/zmaster587/AdvancedRocketry/commit/0e6e58c9886650d)
+			 * [ Don't push default values to XML](https://github.com/zmaster587/AdvancedRocketry/commit/6a47627d752245a)
+			 * [ prevent crash if a planet is removed](https://github.com/zmaster587/AdvancedRocketry/commit/cf206d27a58401d)
+			 * [ fix a few mistakes](https://github.com/zmaster587/AdvancedRocketry/commit/660f0583e148e6d)
+			 * [ update minor version number](https://github.com/zmaster587/AdvancedRocketry/commit/03b3c080c4ce86b)
+			 * [ Address #1205](https://github.com/zmaster587/AdvancedRocketry/commit/e6b1e919bacb2e5)
+			 * [ Add some variation in lunar spawning, liquid oxygen lakes](https://github.com/zmaster587/AdvancedRocketry/commit/17ed80ec9fee2f9)
+			 * [ terrain gen revamp, added cave planets, they are very slow](https://github.com/zmaster587/AdvancedRocketry/commit/09c8b2552afceb2)
+		AdvancedRocketry 1.12.2-1.4.0-85-UNSTABLE build -85 for 1.12.2:
+			 Highly untested and may break world
+
+			Current release 1.12.2-1.4.0-85
+
+			 * [ change invalid planet from -1 to something else, address #1320](https://github.com/zmaster587/AdvancedRocketry/commit/098669b5e12ed28)
+			 * [ fix #1325](https://github.com/zmaster587/AdvancedRocketry/commit/d5e1e5350688505)
+			 * [ Fixes #1248, #1326](https://github.com/zmaster587/AdvancedRocketry/commit/01317ec7d329b04)
+			 * [ Fix rolling machine not being able to take recipies without water, fix bad recipies, fixes #1313](https://github.com/zmaster587/AdvancedRocketry/commit/961fc5502de1cf2)
+			 * [ remove extraneous file](https://github.com/zmaster587/AdvancedRocketry/commit/be00b019c4a69a7)
+			 * [ fix #1302](https://github.com/zmaster587/AdvancedRocketry/commit/345f0de430fff25)
+			 * [ don't unregister dims that aren't registered this seemed to cause issues on Sponge, simple check that shouldn't hurt anyone](https://github.com/zmaster587/AdvancedRocketry/commit/5f174ff6d160832)
+			 * [ build deobf](https://github.com/zmaster587/AdvancedRocketry/commit/cfbb75f8af7257c)
+			 * [ possible fix for #1279](https://github.com/zmaster587/AdvancedRocketry/commit/0f64b012179ee83)
+			 * [ fix railguns not working station => planet](https://github.com/zmaster587/AdvancedRocketry/commit/3159f949f2574d1)
+			 * [ resolves #1059 #987 #1002](https://github.com/zmaster587/AdvancedRocketry/commit/ff3741bd6d7a059)
+			 * [ Fix for duplicated artifact slots on Warp Controller (#1266)](https://github.com/zmaster587/AdvancedRocketry/commit/2d0331558820eaf)
+			 * [ Fix for custom gas config not showing on GasGiatns (#1267)](https://github.com/zmaster587/AdvancedRocketry/commit/cd6c61b302244f9)
+			 * [ fixes #1254](https://github.com/zmaster587/AdvancedRocketry/commit/3e82485098687ac)
+			 * [ fix accidental removal of GC handling](https://github.com/zmaster587/AdvancedRocketry/commit/5c90a74654032c2)
+			 * [ fix gas mining rockets only half connect to infrastructure, #1256](https://github.com/zmaster587/AdvancedRocketry/commit/9e05b3a761d369d)
+			 * [ add extraneous load for world #1257](https://github.com/zmaster587/AdvancedRocketry/commit/11789f5ce9d38c0)
+			 * [ fix spelling error in config comments](https://github.com/zmaster587/AdvancedRocketry/commit/de72308146917f6)
+			 * [ Update GC handling for 1.12, should fix #1135](https://github.com/zmaster587/AdvancedRocketry/commit/54345b555f9f4df)
+			 * [ orbitalTheta, icon now transfer from config folder when resetFromConfig](https://github.com/zmaster587/AdvancedRocketry/commit/934ecbc3619251c)
+			 * [ improvements to the tranciever](https://github.com/zmaster587/AdvancedRocketry/commit/0abbb673ffc02cc)
+			 * [ planet loading fixes, things and stuff](https://github.com/zmaster587/AdvancedRocketry/commit/e48525e4f85cfdb)
+			 * [ fix crash when trying to store data to non existant chip in the warp controller](https://github.com/zmaster587/AdvancedRocketry/commit/87aa196c0fcff46)
+			 * [ fix random world crash when opening rocket contents](https://github.com/zmaster587/AdvancedRocketry/commit/77096646c69c03f)
+			 * [ Fix pressure tanks returning wrong capability Fair warning: this was written on github, so you might want to double check the syntax. This fixes crashes like [this one](https://pastebin.com/NTsgib8A) when getCapability is queried with a capability other than IFluidHandlerItem.](https://github.com/zmaster587/AdvancedRocketry/commit/10476a779f24afc)
+			 * [ Jetpacks massivly improved](https://github.com/zmaster587/AdvancedRocketry/commit/388891e87d415c9)
+			 * [ fix jetpack not deactivating in certain conditions, fly speed interference](https://github.com/zmaster587/AdvancedRocketry/commit/9b894763984a263)
+			 * [ fix crash with recent forge builds #1235](https://github.com/zmaster587/AdvancedRocketry/commit/e44e4c4a2d10df3)
+			 * [ fix issue with jetpack recipe not working in chemical assembler](https://github.com/zmaster587/AdvancedRocketry/commit/a2c62ef29276179)
+			 * [ Fix #1228](https://github.com/zmaster587/AdvancedRocketry/commit/2ad2f540cb2ce7c)
+			 * [ Fix #1215 #1199, make sure planets know where they're going](https://github.com/zmaster587/AdvancedRocketry/commit/e9b86eb64e21f84)
+			 * [ fix gravity becoming gravy, +1 if you get the reference, #1211](https://github.com/zmaster587/AdvancedRocketry/commit/f6b6b7ee7b29711)
+			 * [ fix name in pressurized tank](https://github.com/zmaster587/AdvancedRocketry/commit/fbd747356461ffb)
+			 * [ fix bad localization with solar collector](https://github.com/zmaster587/AdvancedRocketry/commit/0ce1864fdc6cffc)
+			 * [ fix white screen with rocket builder, with AR only](https://github.com/zmaster587/AdvancedRocketry/commit/68cc272b8a4f761)
+			 * [ fix #1210](https://github.com/zmaster587/AdvancedRocketry/commit/d74dece36aeb2c0)
+			 * [ add sizes to artifacts](https://github.com/zmaster587/AdvancedRocketry/commit/46c917e19ab6b75)
+			 * [ fix #1165](https://github.com/zmaster587/AdvancedRocketry/commit/0e6e58c9886650d)
+			 * [ Don't push default values to XML](https://github.com/zmaster587/AdvancedRocketry/commit/6a47627d752245a)
+			 * [ prevent crash if a planet is removed](https://github.com/zmaster587/AdvancedRocketry/commit/cf206d27a58401d)
+			 * [ fix a few mistakes](https://github.com/zmaster587/AdvancedRocketry/commit/660f0583e148e6d)
+			 * [ update minor version number](https://github.com/zmaster587/AdvancedRocketry/commit/03b3c080c4ce86b)
+			 * [ Address #1205](https://github.com/zmaster587/AdvancedRocketry/commit/e6b1e919bacb2e5)
+			 * [ Add some variation in lunar spawning, liquid oxygen lakes](https://github.com/zmaster587/AdvancedRocketry/commit/17ed80ec9fee2f9)
+			 * [ terrain gen revamp, added cave planets, they are very slow](https://github.com/zmaster587/AdvancedRocketry/commit/09c8b2552afceb2)
+
+	Astral Sorcery (went from AstralSorcery-1.12.2-1.8.10.jar to AstralSorcery-1.12.2-1.9.1.jar):
+		AstralSorcery-1.12.2-1.9.1.jar:
+			Additions:
+			- Illumination-Powder-Lights spawned with the illumination wand can now be removed with the illumination wand (rightclick a block in such a way that where it'd normally try to place a light there already is a light and it will remove the one that's already there)
+
+			- For a given position the ritual is at + the constellation you're channeling the ritual of, the lens positions for the ritual enhancement are going to be the same
+
+			Fixes:
+
+			- Fixed translucent rendering bug on observatory
+
+			- Fixed icons in sextant gui cutting into the sextant frame
+
+			- Fixed Knowledge sharing application on fakeplayers (which would previously crash)
+
+			- Fixed bootes ritual not working on non-fed animals
+
+			- Fixed constellation cycles being broken for negative seeds (specifically for the 4 new ones)
+
+			- Fixed dropmodifier accidentally being obtainable through mobs
+
+			- Fixed accidental printing of ASM debug classes
+
+			- Fixed ritual pedestal not dropping crystal after being broken
+
+			- Tried To Fix (since i couldn't reproduce it) gateway sky-shield still being there after gateway being broken with a 3x3 or larger block breaking device across chunk borders
+
+			- Fixed evorsio ritual not being functional when ritual anchor'd
+
+			- Fixed attunement altar accepting trait-application on non-attuned crystal (which previously resulted in the crystal being voided)
+		AstralSorcery-1.12.2-1.9.0.jar:
+			BACK UP your worlds before updating from 1.8.X to 1.9.0! Things changed internally which MIGHT break things; Unlikely as it didn't do so during testing, but stuff *can* happen.
+
+			If you want to get sneak peeks, custom fancy stuff or want to show your support, consider visiting my [Patreon page](https://www.patreon.com/hellfirepvp/overview) - Support is greatly appreciated.
+
+			Additions:
+			- Add Sextant
+
+			- Add Observatory
+
+			- Add Infused Wood
+
+			- Add Resplendent Prism
+
+			- Add Fysallidic Prime
+
+			- Add 'Faint' Constellation-Tier
+
+			- Add 4 new Constellations to the 'Faint' Constellation-Tier
+
+			- Added 'Fracturing' as a new mechanic to rituals
+
+			- Added '/as slnetwork' to allow for single-block starlight-network debugging
+
+			- (Re-)Added Sky-darkening effect during a solar eclipse
+			Changes:
+
+			- Changed visuals/models on several models (massive thanks to wiiv)
+
+			- Adjusted strength of several mantle effects, perks and ritual effects
+
+			- Adjusted strength/efficiency of crystal tools
+
+			- Higher level altars will craft lower level recipes faster
+
+			- Horologium will be... harder to find - Flares are no longer push-able; they also cannot push the player anymore
+
+			- The infused pickaxe will now properly handle changes made on clientside by orestages/gamestages
+
+			- Adjust some refraction table enchantments
+
+			- Allow for additional blockstates being configurable to replace with rock crystal ore during world generation
+
+			Fixes:
+
+			- Fixed severeal issues regarding constellation-distribution mapping
+
+			- Fixed severeal network concurrency issues
+
+			- Fixed formation and conversion wand not handling blockstates correctly
+
+			- Fix/Added special rockcrystal IIngredient for crafttweaker scripts
+
+			- Fixed problematic botania mod integration
+
+			- Fixed rendering and consistency bug with grindstone
+
+			[... probably some more ...]
+
+	AutoRegLib (went from AutoRegLib-1.3-17.jar to AutoRegLib-1.3-18.jar):
+		AutoRegLib-1.3-18.jar:
+			- Added item tick event hook for Quark and Alquimia
+
+	Bad Wither No Cookie - Reloaded (went from badwithernocookiereloaded-1.12.2-2.12.jar to badwithernocookiereloaded-1.12.2-3.1.14.jar):
+		badwithernocookiereloaded-1.12.2-3.1.14.jar:
+			NOTE: You might have to copy over your settings from the previous version.
+
+			Changes:
+
+			A GUI for the client side config using the new Forge Config Annotation System that became available in 1.12.
+
+			The Listen command now indicates if it is listening or not when used. Useful for when sounds are not self-evident.
+
+			Built against FORGE build 2708.
+
+	BiblioCraft (went from BiblioCraft v2.4.4 to BiblioCraft v2.4.5):
+		BiblioCraft v2.4.5:
+			v2.4.5
+			*Fixed a crash that keeps occuring with the clipboard
+			*Fixed a crash with framed fancy signs that came up after the previous update
+			*Fixed a nullpointer crash that could occur with the atlas, canvas, compass, map tool, marker pole, and seak backs.
+			*Fixed the reading enchantment so it can be applied to helmets and helmets function like the reading glasses again.
+			*Fixed enchantments on books not showing up with the reading glasses or a helmet with reading enchantment
+			*Added support for new Mystcraft books and such on bookcases.
+
+	Binnie's Mods (went from binnie-mods-1.12.2-2.5.0.165.jar to binnie-mods-1.12.2-2.5.0.167.jar):
+		2.5.0:
+			* add configuration for genetics machines (#531) - temp1011
+			* Npe compartment (#527) - temp1011
+			* Cache result of ComponentInventorySlots.getSlotsForFace (#520) - Christian Mesh
+			* Prototype: BlockLiquid (#487) - Russkih Anatoly
+			* Clean up Osagne-Orange translation keys (#508) - Russkih Anatoly
+			* Fix Compartment Labeling cursor position. (#512) - Russkih Anatoly
+			* Small code clean up (#511) - Russkih Anatoly
+			* Fix osage/osange orange localisation (#507) - temp1011
+			* Clean Up Code (#505) - Russkih Anatoly
+			* Fix regression (#503) - Russkih Anatoly
+			* Code bugs. (#502) - Russkih Anatoly
+			* Refactor Acclimatiser (#498) - Russkih Anatoly
+			* On display tick improve perf (#496) - Russkih Anatoly
+			* Improve #490 and fix regression with model (#499) - Russkih Anatoly
+			* Fix extrabeeseffect bonemeal loc (#500) - Russkih Anatoly
+			* Various Idea perfomance optimizations. (#501) - Russkih Anatoly
+			* ExtraBee translating improvement. (#489) - Russkih Anatoly
+			* fix invalid properties (#490) - temp1011
+			* I18n-localise_improve. (#497) - Russkih Anatoly
+			* Remove rand.nextFloat - RusTit
+			* Refactor value to use constant (SLOT id) - RusTit
+			* Remove methods (double invoke). - RusTit
+			* Close #491 - ??????? ????????
+			* Implement wither bee effect (#481) - Russkih Anatoly
+			* Add localization to misc fluids (#485) - Russkih Anatoly
+			* Clean up code in HiveDrop - implementation for ignoble custom settings. (#482) - Russkih Anatoly
+			* Fix AlcoholDrinking implementation (#484) - Russkih Anatoly
+			* ToDo - implementation - RusTit
+			* I18n botany api refactoring (#479) - Russkih Anatoly
+			* Improve ru localization. (#480) - Russkih Anatoly
+			* Improve Food and Alcohol (#478) - Russkih Anatoly
+			* Code Clean Up (#472) - temp1011
+			* Improve analyzer localization for Flowers (#470) - Russkih Anatoly
+			* Improve food ore dictionary registration. (#477) - Russkih Anatoly
+			* Localization fixes (#475) - Russkih Anatoly
+			* Add logging for localization issues in dev environment (#473) - Russkih Anatoly
+			* Localize liquid names (#474) - Russkih Anatoly
+			* Improve in-game tooltip for flower block (#471) - Russkih Anatoly
+			* Add Oredictionary for food items. Fix #283 (#469) - Russkih Anatoly
+			* Register stained glass in ore dictionary with "blockGlass" key (#468) - Russkih Anatoly
+			* Improve Incubator logic (#460) - Russkih Anatoly
+			* Minor code cleanup in extrabees (#467) - Russkih Anatoly
+			* Fix Tileworker graphic error #368 (#466) - Russkih Anatoly
+			* Fix localization for flower effect-None (#465) - Russkih Anatoly
+			* Remove sided input/output logic for extratree machines (#464) - Russkih Anatoly
+			* Small code cleanup (#458) - Russkih Anatoly
+			* Fix Wrong Translation Key for Genetic Decay #383 (#463) - Russkih Anatoly
+			* Fix gui interactions with view-only slots (#462) - Russkih Anatoly
+			* Update to use newer FluidUtil method from Forge (#461) - Russkih Anatoly
+			* Reduce minimum amount of fluid required to run the incubator #392 (#456) - Russkih Anatoly
+			* Update to use latest Forge api (#452) - Russkih Anatoly
+			* Suppress deprecated block warnings (#454) - Russkih Anatoly
+			* Gardening manager update to latest Forestry api (#453) - Russkih Anatoly
+			* Update Garden logic for newest version of Forestry api (#451) - Russkih Anatoly
+			* Fix Fungal bee mutation #394 (#450) - Russkih Anatoly
+			* Fix shift-clicking items into the Incubator (#449) - Russkih Anatoly
+			* Fix bee effect localization (#448) - Russkih Anatoly
+			* Fix #447 Client crash after updating Binnie and Clean Up Alveary Parts - Nedelosk
+			* Use correct import javax.annotation.Nullable; - RusTit
+			* Add root checking for null. - RusTit
+			* Fix #446 Crash on server join after updating Binnie to latest - Nedelosk
+			* Fix #445 Acclimitiser - Lava increases humidity tolerance - Nedelosk
+			* fix version installation in jar package (#444) - Russkih Anatoly
+			* Localization improvement (#438) - Russkih Anatoly
+			* Add version to each sub-mod. (#441) - Russkih Anatoly
+			* Add ectoplasm model. (#442) - Russkih Anatoly
+			* i18 regression fix. (#440) - Russkih Anatoly
+			* Register ItemHoneyComb, ItemHoneyDrop research suitability for Botany - ??????? ????????
+			* Register ItemHoneyDrop research suitability for BeeManager, TreeManager and ButterflyManager - ??????? ????????
+			* Register ItemHoneyComb research suitability for BeeManager, TreeManager and ButterflyManager - ??????? ????????
+			* Fix #435 Add missing annotation data - Nedelosk
+			* Should fix issue #435, improve pull request #432 - RusTit
+			* Refactor deprecated I18N (#432) - Russkih Anatoly
+			* Fix decorative blocks to have consistent texture rotation on all sides #366 (#426) - Russkih Anatoly
+			* Minor code cleanup: suppress deprecation warnings (AlleleEffectNone). (#430) - Russkih Anatoly
+			* Minor code cleanup: suppress deprecation warnings (BlockFlower.java). (#429) - Russkih Anatoly
+			* Minor code cleanup: suppress deprecation warnings (#428) - Russkih Anatoly
+			* Add missing NBT Handling - Nedelosk
+			* Fix #420 Frames In Frame Housing Disappear after Relogging - Nedelosk
+			* Fix Russian localization (#416) - Russkih Anatoly
+			* Fix "Unable to resolve texture due to upward reference" warning at startup (#418) - Russkih Anatoly
+			* Fix punnett_square and red_banana model. (#421) - Russkih Anatoly
+			* Fix duplicate hammer registration. (#422) - Russkih Anatoly
+			* Fix Embittered bees refuse to work in the nether - Nedelosk
+			* Fix #370 Acclimated bee crash game - Nedelosk
+			* Fix #381 `TileEntityMachine` sometimes fires IC2's `EnergyTileUnloadEvent` from client side - Nedelosk
+			* Fix #406 Can't make wine or liqueur - Nedelosk
+			* Clean Up Machine Components - Nedelosk
+			* Fix incorrent "No space in Tank" when making enzymes (#395) - Philip Standt
+			* Fix #331 Crash on launching when butterflies are disabled in forestry. - Nedelosk
+			* Validate ItemFieldKit to avoid metadata manipulations with items. (#375) - mezz
+			* Create & Update zh_CN.lang(s) (#376) - SihenZhang
+			* #347 Various issues with the brewery - mezz
+			* Fix #359 remove oredict "gearWood" for scented and proven gears - mezz
+			* Create ru_RU.lang for Binnie Genetics (#358) - Mr-Krab
+			* Create ru_RU.lang for Binnie Extrabees (#355) - Mr-Krab
+			* Create ru_RU.lang for Binnie Botany (#354) - Mr-Krab
+			* Create ru_RU.lang for Binnie Extratrees (#357) - Mr-Krab
+			* Create ru_RU.lang for Binnie Core (#353) - Mr-Krab
+			* Create ru_RU.lang for Binnie Design (#356) - Mr-Krab
+			* Make Binnie's stained glass non-flammable - mezz
+			* Update dependencies - mezz
+			* Fix #344 Networking issue with latest Forge - mezz
+			* Fix Ceramic Brick pick block - DrManganese
+			* Fix #350 Crash on dedicated server - mezz
+			* Fix localization error - mezz
+			* Remove unused imports - mezz
+			* Fix #345 Prevent shift-clicking into recipe slots - mezz
+			* Improve tooltips on machines, show some basic help Close #216 make the help key configurable - mezz
+			* Fix #343 TOPAddons shows 6 tanks for each real tank - mezz
+			* Fix ArrayIndexOutOfBoundsException on invalid soil metadata (#317) - Gamebuster
+			* Add Item Capability support to Alveary Frame Housing (#325) - mcenderdragon
+			* Fix #298 Most trees support apples when they shouldn't. - mezz
+			* Fix #294 Nerf fruit saturation - mezz
+			* Fix #340 Inoculate and Splicer cannot apply bee effect alleles - mezz
+			* Fix #341 Analyst turns tree pollen into sapling - mezz
+			* Fix #335 Fix lab stand, render items over some machines - mezz
+			* Fix #337 Breeding System Crash - mezz
+			* Create zh_CN.lang(s) (#334) - SihenZhang
+			* Expand accepted blocks for Redstone, Leaves, and Wood flower type bees - mezz
+			* Fix #336 Ecstatic Bee effect crashes - mezz
+			* Prevent 2-tall flowers from breaking blocks when grown - mezz
+			* Enable JEI lookup of items and fluids in all guis - mezz
+			* Fix automated extraction from machines pulling all items out - mezz
+			* Fix machine particles - mezz
+			* Fix crash from CraftTweaker ASM version issue - mezz
+			* Update Version - Nedelosk
+			* Update top Forestry 5.7 - Nedelosk
+			* Fix #324, Fix #330 Ecstatic and absolute bees are unobtainable - Nedelosk
+			* Fix #326 Rocky hives spawning too often and causing lag - mezz
+			* Fix #244, Fix #296 Crash when disabling extratrees module - Nedelosk
+			* Fix #320 Disabled module causes crash on startup - Nedelosk
+			* Fix #322 Leaves in inventory client crash - Nedelosk
+			* Revert "Downgrade gradle to 2.14" This reverts commit f13bfc0a633a99713f9ee2fb1123f6c3c7d5ee96. - mezz
+			* Downgrade gradle to 2.14 - mezz
+			* Cleanup - mezz
+			* Fix #293 Crash when opening Arborist database - mezz
+			* Disable gradle daemon - mezz
+			* Revert "Update gradle to 4.1" This reverts commit f1e7a198e5e4d05d91107e5957cde34a6f9813df. - mezz
+			* Update gradle to 4.1 - mezz
+			* Try adding more ram for gradle - mezz
+			* Update dependencies - mezz
+			* Update Forestry - Nedelosk
+			* Fix #274 Fix stone hive generation, increase water hive generation. (Thanks to @p-schneider) - mezz
+			* Fix #288 Fix compartments have two tabs selected when first opened - mezz
+			* Cleanup unused imports - mezz
+			* Fix errors when placing fruit press - mezz
+			* Fix #290 Compartment Crash on Opening - mezz
+			* Try increasing gradle ram - mezz
+			* Try disabling the gradle daemon - mezz
+			* Fix #287 Missing design project from main jar - mezz
+			* Register error states explicitly - mezz
+			* Convert anonymous inner classes to static inner classes. Should fix the build issue, which is caused by the bug described here: [https://github.com/MinecraftForge/Srg2Source/pull/17](https://github.com/MinecraftForge/Srg2Source/pull/17) - mezz
+			* #284 Fix hive pickblock (fixes Just Enough Resources worldgen recipes) - mezz
+			* Remove ExtraTrees dependency from Botany Move shared code to a new Design library mod - mezz
+			* Add 1.12 to accepted Forge versions - mezz
+			* Move some block classes from core-api to core - mezz
+			* Update to 1.12.1 - mezz
+			* Improve lumber mill recipe handling - mezz
+			* Fix #273 Crash with Dimensional Control mod - mezz
+			* Fix #272 Fruit Name Issue - Nedelosk
+			* Remove genetics-main dependency from extrabees and extratrees - mezz
+			* Fix missing Planks - Nedelosk
+			* Fix #264 Move recipe registration from postInit to init - Nedelosk
+			* Fix #263 It Crashes (game won't start) MC1.12 Forge 2443 - Nedelosk
+			* Mark as working on 1.12.1 on CurseForge - mezz
+			* Remove the genetics dependency on botany-api - mezz
+			* Fix a broken translation format string - mezz
+			* Fix cases where we use the Forestry log - mezz
+			* Move the apiarist database out of genetics and in to extrabees - mezz
+			* Remove extrabees-api - mezz
+			* Remove genetics dependency on extrabees - mezz
+			* Untangle the Genetics Analyst from the other modules - mezz
+			* Clean Up Extra Trees Planks - Nedelosk
+			* Clean Up Extra Trees - Nedelosk
+			* Clean Up StyleSheets - Nedelosk
+			* Create punnett stylesheet json file - Nedelosk
+			* Clean Up Stylesheet loading - Nedelosk
+			* Move Tree Breeding System - Nedelosk
+			* Split "api" into one api module for every module - mezz
+			* Fix missing core api from output jar - mezz
+			* Make core only depend on its own api, nothing else - mezz
+			* Clean up IBorder - mezz
+			* Remove Unused Import - Nedelosk
+			* Clean Up Gui - Nedelosk
+			* Clean up EnumFlowerColor - mezz
+			* Update Readme.md - Nedelosk
+			* Fix #261 Ceramic block issues - Nedelosk
+			* Clean Up Cocktail Liquid - Nedelosk
+			* Clean Up Fluids - Nedelosk
+			* Clean Up Extra Trees Modules - Nedelosk
+			* Fix Extra Trees Config property - Nedelosk
+			* Remove duplicated mcmod.info files - Nedelosk
+			* Add config handler to the module system - Nedelosk
+			* Move Mutation Item Registration to the Mutation Handler - Nedelosk
+			* Fix #258 Crash With Thermal Dynamics - Nedelosk
+			* Fix Hive Name - Nedelosk
+			* Clean Up Extra Bee Products - Nedelosk
+			* Fix #259 All Hives drop the same bee - Nedelosk
+			* Fix #259 All Hives drop the same bee - Nedelosk
+			* Fix design item models - Nedelosk
+			* Split mcmod.info and add logos - Nedelosk
+
+	Biomes O' Plenty (went from BiomesOPlenty-1.12.2-7.0.1.2391-universal.jar to BiomesOPlenty-1.12.2-7.0.1.2393-universal.jar):
+		1.12.2-7.0.1.2393:
+			github: Update zh_CN.lang
+		1.12.2-7.0.1.2392:
+			GirafiStudios:
+			Fixed Blue Fire inventory render Fixed Earth item not having
+			localization Fixed client SideOnlys on a few getPickBlock methods
+
+	Bookshelf (went from Bookshelf-1.12.2-2.3.550.jar to Bookshelf-1.12.2-2.3.553.jar):
+		Bookshelf-1.12.2-2.3.553.jar:
+			 * Added some missing JavaDocs. - Tyler Hancock
+			 * Added a method for running code with persistent player nbt data. - Tyler Hancock
+		Bookshelf-1.12.2-2.3.552.jar:
+			 * Added basic support for German. - Tyler Hancock
+			 * Cleaned up language files, removed unused lines. - Tyler Hancock
+		Bookshelf-1.12.2-2.3.551.jar:
+			 * Applied formatting. - Tyler Hancock
+			 * Moved to auto-generated enchantment level translations. Greatly reduces the file size. - Tyler Hancock
+
+	Brandon's Core (went from Brandon's Core 1.12-2.4.2.157-universal to Brandon's Core 1.12.2-2.4.3.168-universal):
+		Brandon's Core 1.12.2-2.4.3.168-universal:
+			No changelog provided.
+
+	Chisels & Bits (went from chiselsandbits-14.17.jar to chiselsandbits-14.18.jar):
+		chiselsandbits-14.18.jar:
+			 * #390 - Call Block.canHarvestBlock instead of returning true, and additional permission related checks.
+			 * Fix, #392 - send texture to consumer in pipe logic.
+			 * Add keybinding for off grid placement, this defaults to unset, but uses sneak when unset. (#377)
+
+	CodeChicken Lib 1.8.+ (went from CodeChicken Lib 1.12.2-3.1.9.344-universal to CodeChicken Lib 1.12.2-3.2.0.345-universal):
+		CodeChicken Lib 1.12.2-3.2.0.345-universal:
+			No changelog provided.
+
+	Construct's Armory (went from conarm-1.12.2-0.0.22-rc2.jar to conarm-1.12.2-1.0.1.1.jar):
+		conarm-1.12.2-1.0.1.1.jar:
+			## [1.0.1.1] - 2018.06.26
+			### Fixed
+			- Crash when loading with CraftTweaker without ContentTweaker [#71](https://github.com/TheIllusiveC4/ConstructsArmory/issues/71)
+		conarm-1.12.2-1.0.1.jar:
+			## [1.0.1] - 2018.06.26
+			### Added
+			- Turkish translation (thank you atlj_)
+			- Russian translation (thank you vizmarios)
+			- ContentTweaker integration (please refer to the GitHub wiki for documentation)
+			### Fixed
+			- High Stride modifier not being restricted to boots [#67](https://github.com/TheIllusiveC4/ConstructsArmory/issues/67)
+			- Armor Defense reduction being way too much
+		conarm-1.12.2-1.0.0.jar:
+			## [1.0.0] - 2018.06.15
+			### Added
+			- GPL license file to accompany the LGPL license
+			- Config option for Bouncy trait durability usage
+			### Changed
+			- Updated zh_cn.lang (thank you DYColdWind)
+			- Leveling now ignores all unblockable damage
+			- Deprecated usage of registerTileEntity now uses the updated method
+			### Fixed
+			- Crashes when adding potion effects from the Vengeful trait to FakePlayer entities [#63]([https://github.com/TheIllusiveC4/ConstructsArmory/issues/63](https://github.com/TheIllusiveC4/ConstructsArmory/issues/63))
+			### Removed
+			- Boots accessory keybinding since it's currently unused
+		conarm-1.12.2-0.0.23-rc3.jar:
+			## [0.0.23-rc3] - 2018.06.12
+			### Changed
+			- License for Construct's Armory changed from GPLv3 to LGPLv3
+			- Updated Tinkers' Construct dependency to 1.12.2-2.10.1.87
+			- Modifier model texture code now determined by modifier rather than armor, this should be the correct abstraction to allow for add-on modifiers to show up correctly but I really have no idea so if you're an add-on developer and you want to add a modifier and nothing works for you as is, contact me please.
+
+	CraftTweaker (went from CraftTweaker2-1.12-4.1.8 to CraftTweaker2-1.12-4.1.9):
+		CraftTweaker2-1.12-4.1.9:
+			fixed biome names on servers, close #526
+
+			update wiki command to point to the new docs
+
+			fixed forge complaining about duplicate ASM
+
+			fixed legacy oredict code close #541
+
+			========================================================
+
+			ZSLint!!! Run /ct zslint and open visual studio on the script folder!
+
+			========================================================
+
+			Fixed duplicating Close #543
+
+			Added biome types.
+
+	Cyclic (went from Cyclic-1.12.2-1.15.8.jar to Cyclic-1.12.2-1.15.15.jar):
+		Cyclic-1.12.2-1.15.15.jar:
+			 * Extractor cable model is now dynamic just like normal cables, and it has the same block feature using a redstone torch.
+			 * Extractor cable no longer suffocate you if you get too close.
+		Cyclic-1.12.2-1.15.14.jar:
+			 * Fixed Controlled Miner Whitelist mode getting stuck and not mining.
+			 * Fixed some of the buttons in Experience Pylon not working when it is exactly empty.
+			 * Reduced item-model size of Extractor cables.
+			 * Added new config file entries AppleGrowthTicks and AppleLightLevel to control apple sprout growth.
+			 * Wooden pickaxes are now able to mine furnaces again even if Stardew Furnaces config is enabled.
+			 * Added a few endgame sales for sage and druid villager.
+			 * Added a recipe for Red Sand in the Hydrator (can be changed with crafttweaker as always).
+			 * Projectiles from Rainbow Cannon can now pass through non-solid blocks (such as torches and tallgrass).
+			 * Fixed balance of Netherbrick tools, they now sit roughly in between stone and iron.
+		Cyclic-1.12.2-1.15.13.jar:
+			 * If a hydrator is set to have its recipe locked, it will no longer accept automated input into empty slots; this allows easier automation for 1x1 and other small recipes.
+			 * Fixed some Ender Book crashes if you teleport while flying or while too many sounds are playing (also it now plays the default enderman sound instead of custom).
+			 * Items now smoothly ride the angled Conveyors and no longer bounce around when going up and down.
+			 * Optimized some minor flow issues when content moves from Extractors to Cables (water, energy, and items).
+		Cyclic-1.12.2-1.15.12.jar:
+			 * Fixed unpowered cables causing a crash in some cases (possibly WAILA related).
+			 * Fixed a NBT data-loss compatibility glitch with bows from other mods (Tinkers, silents gems, etc).
+			 * Ender Wing no longer plays its sound doubled-up.
+			 * Added an early-game recipe for Biomass that does not require Hydrator.
+			 * zh_CN.lang Updated by sandtechnology
+		Cyclic-1.12.2-1.15.11.jar:
+			 * Fixed an internal crash that broke bows shooting arrows.
+			 * ru_RU.lang updated by kellixon.
+		Cyclic-1.12.2-1.15.10.jar:
+			 * Fixed empty NBT tags getting added to held or crafted items which caused numerous issues.
+			 * Fixed a compatibility crash related to cyclic cables and many other mods (Mekanism, Fairy Lights, and others).
+
+
+			See previous changelog as well [https://github.com/PrinceOfAmber/Cyclic/issues/841](https://github.com/PrinceOfAmber/Cyclic/issues/841)
+		Cyclic-1.12.2-1.15.9.jar:
+			UPDATE: Users have reported several strange issues with this version so I have downgraded it to alpha status. Download 1.15.10 instead
+
+			 * Ender Library now faces a specific direction and only renders books on that side (Use wooden wrench if you need to rotate any already placed).
+			 * Improved connected-ness of Fluid storage tank: if the bottom tank is full, using a full bucket on it will fill tanks above.
+			 * New block: Dice.
+			 * New block: Imbue Station.
+			 * New item: Rainbow Cannon.
+			 * Placing a bucket into a lower tank will fill a tank connected above it.
+			 * Pattern Builder now has two new ways to render the copied building: Phantom and Solid render, both preview a fake version of the actual block in the world.
+			 * Storage Bag can now be tweaked into 16 colours.
+			 * Fixed issue where you hold down right-click on a toggle item for it to spam between on-off rapidly (climbing gloves, charms, etc).
+			 * Fixed Energy Cables and blocks not outputting to some machines that only accept power on one single side in some cases (such as mekanism cables in corner shape, or IE Charging Station).
+			 * Fixed Excavate enchant not working on tools with multiple types (such as the Mattock or paxels).
+			 * Battery now renders its energy contents on the block face in world, and also as a durability bar.
+			 * Battery is registered as an itemstack capability, meaning it can be charged up while in item form.
+			 * Updated zh_CN.lang thanks to user sandtechnology.
+			 * Rotating Conveyors using a Wooden Wrench (or other tools with similar function) now lets you toggle between all variations such as straight, corner, angle.
+			 * Added basic tools crafted from Netherbricks.
+			 * Fixed an issue where disabled cable sides (the yellow square from a redstone torch) still was accepting input from the other side.
+			 * You can now disconnect cables by hitting the middle of the connection with a redstone torch.
+			 * Added slider controls to the Fluid & Energy extractor cables to change flow speed.
+			 * Removed TRANSFER_FLUID_PER_TICK and TRANSFER_ENERGY_PER_TICK from cable config file since it is now controlled by the pump.
+
+	Dark Utilities (went from DarkUtils-1.12.2-1.8.210.jar to DarkUtils-1.12.2-1.8.211.jar):
+		DarkUtils-1.12.2-1.8.211.jar:
+			 * Added a config option to allow charms in any bauble slot. - Tyler Hancock
+
+	Draconic Evolution (went from Draconic Evolution 1.12-2.3.11.290-universal to Draconic Evolution 1.12.2-2.3.12.297-universal):
+		Draconic Evolution 1.12.2-2.3.12.297-universal:
+			-Dropped support for mc 1.12 (Now requires mc 1.12.2)
+			-Fixed spawner not spawning slime outside of slime chunks.
+			-Fixed broken crystal logic causing unintended chunk loading.
+			-Fixed issue with contributor downloader throwing errors
+			-Fixed generator consuming fuel container items.
+			-Reduced NBT clutter on tiles when harvested.
+			-Fixed jei fusion recipe integer overflow with expensive custom recipes.
+			-Added configs to disable the armor hit sound and renderer.
+			-Added optional key binding to toggle item dislocator.
+			-DE now forcibly sets the thrower of item stacks where forge for whatever reason does not (can be disabled) This is needed for the Item Dislocator.
+			-Tweaked Draconic Helmet NV logic. Helmet will now only clear NV effect if lock mode is enabled end night vision is disabled.
+			-Added "Layer" view to the energy core build guide.
+			-Reduced the rate at which the armor shield can be attacked to once every 4 ticks.
+			-Fixed EIO broken spawner -&gt; stabilized spawner conversion recipe.
+			-Attempted to fix issue with enchantment config toggling the wrong enchantment.
+			-Added config option to enable recipes that clear nbt from crystals, injectors, etc..
+
+	Ender Storage 1.8.+ (went from Ender Storage 1.12.2-2.4.3.131-universal to Ender Storage 1.12.2-2.4.4.132-universal):
+		Ender Storage 1.12.2-2.4.4.132-universal:
+			No changelog provided.
+
+	ExtraCells2 (went from ExtraCells-1.12.2-2.5.13 to ExtraCells-1.12.2-2.5.13):
+		ExtraCells-1.12.2-2.5.13:
+			Fixed OreDictExportBus again. Fixes #563
+			Fixed issue with Gas Storage. Fixes #550
+			Fixed FluidIO not sending the current redstone mode. Fixes #558
+			Fixed Tooltips. Fixes #561
+			Fixed Duplication Glitch with Fluid Interface. Fixes #562
+
+	FTB Utilities (went from FTBUtilities-5.1.0.27.jar to FTBUtilities-5.2.0.28.jar):
+		FTBUtilities-5.2.0.28.jar:
+			[https://www.reddit.com/r/latmod/comments/8nmldq/june_news/](https://minecraft.curseforge.com/linkout?remoteUrl=https%253a%252f%252fwww.reddit.com%252fr%252flatmod%252fcomments%252f8nmldq%252fjune_news%252f)
+
+	FTBLib (went from FTBLib-5.1.0.22.jar to FTBLib-5.2.0.23.jar):
+		FTBLib-5.2.0.23.jar:
+			[https://www.reddit.com/r/latmod/comments/8nmldq/june_news/](https://minecraft.curseforge.com/linkout?remoteUrl=https%253a%252f%252fwww.reddit.com%252fr%252flatmod%252fcomments%252f8nmldq%252fjune_news%252f)
+
+	Forestry (went from forestry_1.12.2-5.8.0.295.jar to forestry_1.12.2-5.8.0.308.jar):
+		5.8.0:
+			* prevent effect damage underwater (#2149) - temp1011
+			* fix broken texture in butterfly model #2171 (#2173) - temp1011
+			* add kill count to butterfly kill command (#2174) - temp1011
+			* Update zh_cn.lang (#2169) - Urey. Xue
+			* Fix broken Flower Cache synchronisation to the client and disk - Nedelosk
+			* fix a bug in hasFlowersCache (#2168) - temp1011
+			* fix log not formatting correctly #2023 (#2164) - temp1011
+			* Clean Up Analyzer Provider - Nedelosk
+			* Fix #2159 Minecart Apiary Gui Crash - Nedelosk
+			* Update ForestryPacket.java - Nedelosk
+			* Fix #2157 Crash on attempt to break Dehumidifier while camouflaged as block from Chisel - Nedelosk
+			* Fix #2160 Remove @SideOnly(Side.CLIENT) from IAlyzerPlugin - Nedelosk
+			* Better zh_cn.lang translation file update. (#2146) Better zh_cn.lang translation file update. - src_resources
+			* Add config for global biome blacklisting for trees and bees (#2150) - temp1011
+			* clean up some config comments (#2153) - temp1011
+			* Cleanup (#2138) - temp1011
+			* Improve and Clean Up Gui Elements - Nedelosk
+			* fixed the localization names for the StorageJeiPlugin - rosebeats
+			* fix ic2 crash with apiculture #2139 - temp1011
+			* use new maven for teslaAPI (#2133) - temp1011
+			* Improve Industrialcraft2 plugin (#2057) - temp1011
+			* Update frames.json (#2137) - Jason Carrete
+			* Fix Manual Multi-Farms placing humus - Nedelosk
+			* Fix #1525 Balance Electric Engine Circuits - Nedelosk
+			* Fix #1914 Forestry Not Playing Right with Fast Leaf Rendering Options. - Nedelosk
+			* Fix #2021 Multifarm configurable without board bug - Nedelosk
+			* Add configuration for crates (#2047) - temp1011
+			* Fixed Backpacks Localization (#2120) - Dmitriy Medvedev
+			* use mod log rather than fml log (#2129) - temp1011
+			* Fix #2130 Can't insert Immersive engineering industrial hemp into crop multifarm block - Nedelosk
+			* Fix #2113 Conduits / Itemducts not working with alveary - Nedelosk
+			* Fix #2114 Limit crafting operations to 64 crafts per shift-click - mezz
+			* Clean up code (#2053) - temp1011
+			* Make tree gen be configurable (#2046) - temp1011
+			* small fix for a JEI log error (#2110) - temp1011
+			* small fix comb recipes (#2112) - temp1011
+			* Fix #2082 Unable to put fuel into the fermenter - Nedelosk
+			* Add lang file back - Nedelosk
+			* Remove lang files - Nedelosk
+			* Remove outdated lang files and lowercase the names of the other files - Nedelosk
+			* Update Lang files to 1.12 - Nedelosk
+			* Update README.md - mezz
+			* Rename LANG.md to README.md - mezz
+			* Move lang files in to the main project (#2104) - temp1011
+			* Fix Machine Hit Particles - Nedelosk
+			* Fix #1503 Machine Breaking Particle Speed - Nedelosk
+			* Start removing metadata from code in preparation for 1.13 (#2068) - temp1011
+			* Add config to let capsules be reusable (#2066) * Add config option to make capsules non consumable * Fix naming - temp1011
+			* Tweak ash texture (#1902) * Make ash less confusing * Updated textures - Jose
+			* Add IMC for registering flowers (#2027) - temp1011
+			* Tech reborn plugin (#2078) * Add Plugin Tech Reborn - temp1011
+			* fix crash when raytrace result is null #2090 (#2105) - temp1011
+			* fix wrong localisation key for habitat locator #2100 (#2106) - temp1011
+			* Add missing code - Nedelosk
+			* Fix book entry loading after reloading the resource manager - Nedelosk
+			* Fix #2094, Fix #2096 Wrong entry order and Clean Up resource loading - Nedelosk
+			* Fix #2095 Duplicated Book Entries - Nedelosk
+			* Fix #2087 Issue with guide book - Nedelosk
+			* Update README (#2080) - temp1011
+			* Optimise Worldgen Hives (#2063) - temp1011
+			* Fix #2077 Crash from disabling the Arboriculture Module - Nedelosk
+			* Add more methods to ModuleHelper - Nedelosk
+			* Clean Up Book - Nedelosk
+			* Add missing Side Only Annotations Fix #2076 - Nedelosk
+			* Fix extra drop from greenhouse window (#2072) - temp1011
+			* Update Forge and Mappings (#2075) - temp1011
+			* Add Guide Book and Analyzer Screen (#2073) - Nedelosk
+			* Make butterflies obey mob spawning gamerules - temp1011
+			* Don't drop xp orbs into world directly - temp1011
+			* Remove Chisel Plugin - temp1011
+			* Replace Forestry IRC link with discord badge - mezz
+			* resolve conflict - temp1011
+			* Fix #2037 Add Comparator Support for Engines - Nedelosk
+			* Fix #2042 Another crash with butterflies - Nedelosk
+			* Fix #2040 Villager AI Crashes Server - Nedelosk
+			* Add AI for Apiarist to Replace Bees in Village Bee Houses (#2001) - temp1011
+			* Fix Broken Ore Dictionary Registration - temp1011
+			* Fix JEI errors for disabled modules - temp1011
+			* Register Charcoal Block with Ore Dictionary - temp1011
+			* Remove test, use Enum instead of ordinal - temp1011
+			* Add potted plants as flowers for bees - temp1011
+			* Stop peat fired engine outputting ash through power side - temp1011
+			* Improve logic - temp1011
+			* Make Apiarist Armour Repairable - temp1011
+			* formatting, re-include config - temp1011
+			* Move self pollination into main pollination method - Only happens if normal pollination can't occur - Will not cause return otherwise would worsen chance for cross pollination - temp1011
+			* Add self-pollination of leaves near bees - temp1011
+			* minor ShapedRecipeCustom optimization - Adrian Siekierka
+			* Fix #1997 Actually Additions Integration - Nedelosk
+			* Close #1859, Close #1858 Add Natura huge glowshrooms farm support - Nedelosk
+			* Update Lang - Nedelosk
+			* Fix "X-Ray" Leaves and wrong leaf particle color - Nedelosk
+			* Fix #1959 Forestry leaves causing server crash - Nedelosk
+			* Fix #1962 Wood Pile fire spread might be a bit too aggressive - Nedelosk
+			* Fix #1974 Add Support for Animania wool types in recipes - Nedelosk
+			* Fix #1982 Wrong drop Greenhouse Window - Nedelosk
+			* Fix #1975 Farm blocks change type on world reload - Nedelosk
+			* Fix #1963 Forestry leaves confuse minimap mods - Nedelosk
+			* Fix #1984 Server crash when placing an arboretum - Nedelosk
+			* Fix #1993, Fix #1972 Managed Succulent Farm doesn't work and Farm multiblock causing chunks to be loaded - Nedelosk
+			* Fix #1988 Arborist's Chests causing suffocation damage - Nedelosk
+			* Fix #1989 "X-Ray" Leaves - Nedelosk
+			* More correct method - temp1011
+			* formatting - temp1011
+			* Fix crash if HarvestCraft present but Apiculture disabled - temp1011
+			* Add oredict for bronze gear in sorting pipe recipe - temp1011
+			* Fix #1969 Multiblock farms server-crash - Nedelosk
+			* Fix return statement - temp1011
+			* Woops - temp1011
+			* Added whitelist for dimension generation too - temp1011
+			* merge (#1) * Reintroduce the old-style farm * Remove Unused Files * Fix #1945 Database duping trees / bees * Fix broken model baker uvs * Improve Farm Logic System and add ring farm layout * Rebalance electron tubes and add ender farm * Improve fertilizer config and Clean Up * Clean Up API * Add missing farm logic localisation * Add missing fluid handler capability to the planter * Remove unneeded GL state changes * Update Lang * Fix #1955 Add Filter Sorting to fix a server sided bug * Make cultivation farms more expensive * Round fertilizer values * Add deprecated circuit replacement and Version 5.8 - temp1011
+			* Add deprecated circuit replacement and Version 5.8 - Nedelosk
+			* fix imports - temp1011
+			* Add IMC messages for mods to blacklist dimensions in - temp1011
+			* Round fertilizer values - Nedelosk
+			* Make cultivation farms more expensive - Nedelosk
+			* Fix #1955 Add Filter Sorting to fix a server sided bug - Nedelosk
+			* Update Lang - Nedelosk
+			* Remove unneeded GL state changes - Nedelosk
+			* Add missing fluid handler capability to the planter - Nedelosk
+			* Add missing farm logic localisation - Nedelosk
+			* Clean Up API - Nedelosk
+			* Improve fertilizer config and Clean Up - Nedelosk
+			* Pull from branch 'mc-1.12' - Nedelosk
+			* Rebalance electron tubes and add ender farm - Nedelosk
+			* Improve Farm Logic System and add ring farm layout - Nedelosk
+			* Fix broken model baker uvs - Nedelosk
+			* Fix #1945 Database duping trees / bees - Nedelosk
+			* Update Lang - Nedelosk
+			* Improve genetic filter implementation - Nedelosk
+			* Move the filter logic to a separate interface - Nedelosk
+			* Change default filter rule - Nedelosk
+			* Improve Filter collision box - Nedelosk
+			* Remove unused texture - Nedelosk
+			* Add sorting block (Genetic Filter) - Nedelosk
+			* Add more Dimension Config Blacklists for world generation (#1942) - temp1011
+			* Removing overworked bees mechanic, cap production modifier at 16x (#1946) - temp1011
+			* Remove Unused Files - Nedelosk
+			* Reintroduce the old-style farm - Nedelosk
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Move the worktable into a separate module - Nedelosk
+			* Should be all of them (hopefully) - temp1011
+			* Add power config for analyzer - temp1011
+			* Fix #1061 Squeezer is very "liberal" regarding oredict in Recipes - Nedelosk
+			* Update Lang Git-Module - Nedelosk
+			* Fix #1937 Backpacks do not hold previously defined items - Nedelosk
+			* Fix #1399 Add Hive Generation Blacklist - Nedelosk
+			* Fix #1884 Tin can / wax capsule cannot pick up fluid blocks in world - Nedelosk
+			* Fix Crate Registration - Nedelosk
+			* Fix #1916 Client Crash with new version - Nedelosk
+			* Fix #1874 Crash when adding bee to BQM quest / chestloot - Nedelosk
+			* Fix #1920 Crate registration only on client side - Nedelosk
+			* No biome check - temp1011
+			* Fix #1919 Butterfly Model throws NullPointerException - Nedelosk
+			* Improve Database Recipe - Nedelosk
+			* Fix hive flammability Hive placed in the overworld burned whereas hive placed in nether did not in my tests. Hopefully this works better. - temp1011
+			* Fix #1932 Client Tile Updates Depending On Apiculture Module - Nedelosk
+			* Woops - temp1011
+			* add damage option to hives based on config - temp1011
+			* update config in apiculture - temp1011
+			* make non hellish hives flammable - temp1011
+			* Fix "Invalid property value detected" error logs from Buildcraft - mezz
+			* Fix #1918 Fix #1912 packet handler issue with latest Forge (14.23.1.2574+) - Nedelosk
+			* Fix Broken Sockets - Nedelosk
+			* Fix #1907 Electric engine doesn't update configuration properly - Nedelosk
+			* Fix #1901 Custom Backpack Model Registration - Nedelosk
+			* Fix #1906 Willow leaves can be used to create an x-ray - Nedelosk
+			* Fix resurrected ender dragons having no AI (#1908) - Remy A
+			* Revert "Slightly improve render performance of genetic items (bee, trees, etc)" This reverts commit 3df3d9121e51fca16e8a02b19ddb8e1a2b1d5bc6. - mezz
+			* Fix #1893 False Module Container ID - Nedelosk
+			* Slightly improve render performance of genetic items (bee, trees, etc) - mezz
+			* Stop viscous fluids from making water flowing sounds - mezz
+			* Fix #1890 NPE with Quark - Nedelosk
+			* Fix backward compatibility - Nedelosk
+			* Clean Up Module System - Nedelosk
+			* Fix Module System - Nedelosk
+			* Fix Api - Nedelosk
+			* Improve Module System - Nedelosk
+			* Fix GreenhouseEventHandler - Nedelosk
+			* Change the plugin system to a module system and split up modules -Changed plugin system to a module -Renamed forestry plugins to modules -Mod integration plugins are still called plugins -Moved the woodpile from the arboriculture module to the charcoal module -Moved the backpacks from the storage module to the backpacks module -Moved the crates from the storage module to the creates module -Added the database module with a new storage block for individuals -Added a species plugin interface to handle the database gui -Added some alyzer methods to the species plugin to move the alyzer integration later to it - Nedelosk
+			* Update Lang - Nedelosk
+			* Move some classes to the api and fix broken api classes - Nedelosk
+			* Remove experimental code - Nedelosk
+			* Remove unused resources - Nedelosk
+			* Change the plugin system to a module system and slit up modules -Moved the woodpile from the arboriculture module to the charcoal module -Moved the backpacks from the storage module to the backpacks module -Moved the crates from the storage module to the creates module -Added the database module with a new storage for individuals -Added a gui element system to improve the alyzer api -Added a species plugin interface to handle the database gui -Added some alyzer methods to the species plugin to move the alyzer integration later to it - Nedelosk
+			* Fix #1866 Block State Interaction Issues With Pokecube and Forestry - Nedelosk
+			* Fix Mystical Agriculture Inferium Seeds and update Integration - Nedelosk
+			* Fix #1860 Mystical Agriculture Integration (Could not find item) - Nedelosk
+			* Fix #1856 Non Glass Fluids in Thermionic Fabricator are not getting used up. - Nedelosk
+			* Fix #1863 Bottler does not empty bottles - Nedelosk
+
+	Industrial Craft (went from industrialcraft-2-2.8.81-ex112.jar to industrialcraft-2-2.8.90-ex112.jar):
+		industrialcraft-2-2.8.90-ex112.jar:
+			jenkins-IC2_112-90
+
+			 * Updated JEIHandler. (Aroma1997)
+			jenkins-IC2_112-89
+
+			 * Fix recipe loading crash (Chocohead)
+			jenkins-IC2_112-88
+
+			 * Fix the air compressing recipe taking precedence over others (Chocohead)
+			 * Add IRecipeInput for exact NBT tag matching (Chocohead)
+			 * Removed unnecessary @Deprecated annotations (Chocohead)
+			jenkins-IC2_112-87
+
+			 * Add recipe removing back Properly splits disable to IC2 recipes and purge for everything else (Chocohead)
+			jenkins-IC2_112-86
+
+			 * Add a noise to gas vapourisation (Chocohead)
+			 * Temporary fix for painter cleaning in JEI Fixes #2384 (Chocohead)
+			 * Fix the old compressed air cell emptying recipe Fixes #2274 (Chocohead)
+			 * Ensure foam and colour changes always save Fixes #2268 (Chocohead)
+			 * Fix machine recipes with inputs that have containers Fixes #2385 (Chocohead)
+			jenkins-IC2_112-85
+
+			 * Fix the painter cleaning recipe not working Fixes #2338 (Chocohead)
+			 * Nerf obsidian in the block cutting machine Handles #2189 (Chocohead)
+			 * Fix foamed cables not rendering the block behind them Fixes #2337 (Chocohead)
+			 * Handle invalid meta values for classic cells Fixes #2383 (Chocohead)
+			 * Pause IC2 sounds whilst the game is also paused Fixes #2343 (Chocohead)
+			 * Add ItemHandler capability to reactor access hatches Fixes #2349 (Chocohead)
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.89-ex112.jar:
+			jenkins-IC2_112-89
+
+			 * Fix recipe loading crash (Chocohead)
+			jenkins-IC2_112-88
+
+			 * Fix the air compressing recipe taking precedence over others (Chocohead)
+			 * Add IRecipeInput for exact NBT tag matching (Chocohead)
+			 * Removed unnecessary @Deprecated annotations (Chocohead)
+			jenkins-IC2_112-87
+
+			 * Add recipe removing back Properly splits disable to IC2 recipes and purge for everything else (Chocohead)
+			jenkins-IC2_112-86
+
+			 * Add a noise to gas vapourisation (Chocohead)
+			 * Temporary fix for painter cleaning in JEI Fixes #2384 (Chocohead)
+			 * Fix the old compressed air cell emptying recipe Fixes #2274 (Chocohead)
+			 * Ensure foam and colour changes always save Fixes #2268 (Chocohead)
+			 * Fix machine recipes with inputs that have containers Fixes #2385 (Chocohead)
+			jenkins-IC2_112-85
+
+			 * Fix the painter cleaning recipe not working Fixes #2338 (Chocohead)
+			 * Nerf obsidian in the block cutting machine Handles #2189 (Chocohead)
+			 * Fix foamed cables not rendering the block behind them Fixes #2337 (Chocohead)
+			 * Handle invalid meta values for classic cells Fixes #2383 (Chocohead)
+			 * Pause IC2 sounds whilst the game is also paused Fixes #2343 (Chocohead)
+			 * Add ItemHandler capability to reactor access hatches Fixes #2349 (Chocohead)
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.87-ex112.jar:
+			jenkins-IC2_112-87
+
+			 * Add recipe removing back Properly splits disable to IC2 recipes and purge for everything else (Chocohead)
+			jenkins-IC2_112-86
+
+			 * Add a noise to gas vapourisation (Chocohead)
+			 * Temporary fix for painter cleaning in JEI Fixes #2384 (Chocohead)
+			 * Fix the old compressed air cell emptying recipe Fixes #2274 (Chocohead)
+			 * Ensure foam and colour changes always save Fixes #2268 (Chocohead)
+			 * Fix machine recipes with inputs that have containers Fixes #2385 (Chocohead)
+			jenkins-IC2_112-85
+
+			 * Fix the painter cleaning recipe not working Fixes #2338 (Chocohead)
+			 * Nerf obsidian in the block cutting machine Handles #2189 (Chocohead)
+			 * Fix foamed cables not rendering the block behind them Fixes #2337 (Chocohead)
+			 * Handle invalid meta values for classic cells Fixes #2383 (Chocohead)
+			 * Pause IC2 sounds whilst the game is also paused Fixes #2343 (Chocohead)
+			 * Add ItemHandler capability to reactor access hatches Fixes #2349 (Chocohead)
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.86-ex112.jar:
+			jenkins-IC2_112-86
+
+			 * Add a noise to gas vapourisation (Chocohead)
+			 * Temporary fix for painter cleaning in JEI Fixes #2384 (Chocohead)
+			 * Fix the old compressed air cell emptying recipe Fixes #2274 (Chocohead)
+			 * Ensure foam and colour changes always save Fixes #2268 (Chocohead)
+			 * Fix machine recipes with inputs that have containers Fixes #2385 (Chocohead)
+			jenkins-IC2_112-85
+
+			 * Fix the painter cleaning recipe not working Fixes #2338 (Chocohead)
+			 * Nerf obsidian in the block cutting machine Handles #2189 (Chocohead)
+			 * Fix foamed cables not rendering the block behind them Fixes #2337 (Chocohead)
+			 * Handle invalid meta values for classic cells Fixes #2383 (Chocohead)
+			 * Pause IC2 sounds whilst the game is also paused Fixes #2343 (Chocohead)
+			 * Add ItemHandler capability to reactor access hatches Fixes #2349 (Chocohead)
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.85-ex112.jar:
+			jenkins-IC2_112-85
+
+			 * Fix the painter cleaning recipe not working Fixes #2338 (Chocohead)
+			 * Nerf obsidian in the block cutting machine Handles #2189 (Chocohead)
+			 * Fix foamed cables not rendering the block behind them Fixes #2337 (Chocohead)
+			 * Handle invalid meta values for classic cells Fixes #2383 (Chocohead)
+			 * Pause IC2 sounds whilst the game is also paused Fixes #2343 (Chocohead)
+			 * Add ItemHandler capability to reactor access hatches Fixes #2349 (Chocohead)
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.84-ex112.jar:
+			jenkins-IC2_112-84
+
+			 * Fix EventReceivers not working. (Aroma1997)
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+		industrialcraft-2-2.8.83-ex112.jar:
+			jenkins-IC2_112-83
+
+			 * Hopefully fix sparadic crashes from packet releasing It was experimental after all (Chocohead)
+			 * Stop using a private field as a local variable (Chocohead)
+			jenkins-IC2_112-82
+
+			 * Add additional information for bad fluid containers Should help with diagnosing #2375 further (Chocohead)
+			 * Fix the nano sabre breaking blocks in creative Now matches how other swords in vanilla work Fixes #2350 (Chocohead)
+			 * Experimental packet payload releasing Should fix #2352 without side effects (Chocohead)
+			 * Fix hand held container item switching (Chocohead)
+			jenkins-IC2_112-81
+
+			 * Add Item#isEnchantable override to electric armour (Chocohead)
+			 * Fixed rotor stacks being flagged as empty if over damaged Fixes #2190, #2326, #2373 (Chocohead)
+			 * Fixed generic warning (Chocohead)
+			jenkins-IC2_112-80
+
+			 * Updated some translations. (Aroma1997)
+			jenkins-IC2_112-79
+
+			 * Fix charging cropnalyzers with non-single use items (Chocohead)
+			jenkins-IC2_112-78
+
+			 * Add/Correct solid UU recipes (Chocohead)
+			 * Improve the windmeter to actually help with wind mills and turbines A right click shall reveal useful information why (or why not) it is working (Chocohead)
+			 * Avoid wrapping conflicting recipe exceptions (Chocohead)
+			jenkins-IC2_112-77
+
+			 * Improve JEI Item transfer in Industrial Workbench. (Aroma1997)
+			jenkins-IC2_112-76
+
+			 * Fix block breaking crashing without a tile entity Fixes #2367 (Chocohead)
+			 * Update Russian translation, thanks safron03 and QuantumStatement (Chocohead)
+			 * Defensively assume whether a connected server IC2 has or not Fixes #2363, among others previously (Chocohead)
+			jenkins-IC2_112-75
+
+			 * Fix crash when a BlockTileEntities is passed the wrong location Fixes #2360 (Chocohead)
+			jenkins-IC2_112-74
+
+			 * Default out ITeBlock place handlers (Chocohead)
+			 * Block#getSubBlocks isn't client side only anymore (Chocohead)
+			jenkins-IC2_112-73
+
+			 * Hopefully fix loading errors once and for all (Chocohead)
+			jenkins-IC2_112-72
+
+			 * Fix SMP (Chocohead)
+			jenkins-IC2_112-71
+
+			 * Hopefully fix edge URISyntaxException cases (Chocohead)
+			 * Fix torch placement on fences (Chocohead)
+			jenkins-IC2_112-70
+
+			 * Fix splitter cable inconsistency (Chocohead)
+			 * Improve finding the recipe owner of invalid recipes (Chocohead)
+			 * Fix torches being placeable on cables (Chocohead)
+			jenkins-IC2_112-69
+
+			 * This'll help (Chocohead)
+			jenkins-IC2_112-68
+
+			 * Move recycler blacklist patch somewhere more sensible (Chocohead)
+			 * Better handling of the Industrial Credit config (Chocohead)
+			 * Allow the fun to never stop (Chocohead)
+			 * Final fork for now (Chocohead)
+			 * Hide some more extra items (Chocohead)
+			 * Midly fork the cropmatron at the expense of a little bit of sanity elsewhere (Chocohead)
+			 * Fork that canning machine Not those two, the third one (Chocohead)
+			 * Provide alternative recipe set Doesn't cover all blocks/items Adds warning for when a shaped recipe overwrites its own character definition (Chocohead)
+			 * Provide an alternative CF sprayer (Chocohead)
+			 * Add back 2 old reactor components (Chocohead)
+			 * Annotate remaining tile entities (Chocohead)
+			 * Fork cables (Chocohead)
+			 * Allow electrolyzer picking (Chocohead)
+			 * Fork MFE and MFSUs (Chocohead)
+			 * Play about with texture substitution (Chocohead)
+			 * Initial concept for TeBlock filtering (Chocohead)
+			 * Concept for picking tile entities based on the config Persists between loads with different settings The config really just changes what an item will place (Chocohead)
+			 * Add back the old weed-ex can (Chocohead)
+			 * Add back extra ingots to acheive ingot parity (Chocohead)
+			 * Make old cells work similar to buckets (Chocohead)
+			 * Begin joint existance process (Chocohead)
+			 * Add compressed plants and fuel cans back (Chocohead)
+			 * Add near-depleted and re-enriched uranium back (Chocohead)
+			 * Annotate other multi-items (Chocohead)
+			 * Add back old cells (Chocohead)
+			jenkins-IC2_112-67
+
+			 * Try patch old pre-1.8 configs rather than crashing loading them (Chocohead)
+			 * Item#addInformation is client side only (Chocohead)
+			 * Switch reactor GUI to use proper output method (Chocohead)
+			jenkins-IC2_112-66
+
+			 * Rework redstone and comparator handling. (Aroma1997)
+			jenkins-IC2_112-65
+
+			 * Fix personal chests not opening when looking inside (Chocohead)
+			 * Allow the nano saber to cut cobwebs (Chocohead)
+			jenkins-IC2_112-64
+
+			 * Reverse test stuff (Aroma1997)
+			 * Test changelog autogeneration (Aroma1997)
+
+	Industrial Foregoing (went from industrialforegoing-1.12.2-1.10.0-173.jar to industrialforegoing-1.12.2-1.10.2-178.jar):
+		industrialforegoing-1.12.2-1.10.2-178.jar:
+			 * Fluid interaction has potion effects now
+			 * You can no longer crush stone to cobblestone in the StoneWork Factory
+			 * Fixed Dye Mixer not accepting white lenses
+			 * Lenses can now be recolored
+			 * The meat feeder can now be used as a bauble
+		industrialforegoing-1.12.2-1.10.1-176.jar:
+			 * If the black hole controller is lock the black hole units won't loose the filter
+			 * Insertion and extraction conveyor upgrades can now extract from entites
+			 * Right clicking conveyors with plastic will prevent items from being picked up
+			 * Changed how the book entries are displayed when hovered
+			 * Fixed cells only being processed 1 by 1
+			 * Fixed BHU accepting items where they dont supposed to
+
+	Integrated Dynamics (went from IntegratedDynamics-1.12.2-0.11.12.jar to IntegratedDynamics-1.12.2-0.11.13.jar):
+		IntegratedDynamics-1.12.2-0.11.13.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 0.11.6 or higher.
+
+			Changes:
+			* Update zh_cn.lang
+
+			Fixes:
+			* Fix inexact scaling of energy bars on batteries
+			* Make energy handlers safe to integer overflows, Closes #587
+
+	Integration Foregoing (went from IntegrationForegoing-1.12.2-1.6.jar to IntegrationForegoing-1.12.2-1.7.jar):
+		IntegrationForegoing-1.12.2-1.7.jar:
+			 * Requires Industrial Foregoing (at least 1.6.5)
+			 * Corrected the version number (1.12 to 1.12.2) internally
+			 * Fixed a bug with recent versions of Immersive Engineering crashing players when they drink certain fluids
+			 * Added the mod logo to the info screen
+			 * Code cleanups and refactors
+			Added integration(s):
+
+			 *
+			Ender IO: Straw drinking
+
+			 *
+			Immersive Petroleum: Straw drinking
+
+			 *
+			Requested Feature(s)
+
+			 * Silent's Gems: Laser Drill entries and Bioreactor entries (Closes [#24](https://github.com/JackyyTV/IntegrationForegoing/issues/24))
+			 * AgriCraft: Plant Gatherer handlers and Bioreactor entries (Closes [#27](https://github.com/JackyyTV/IntegrationForegoing/issues/27))
+
+	Iron Chests (went from ironchest-1.12.2-7.0.42.827.jar to ironchest-1.12.2-7.0.44.829.jar):
+		ironchest-1.12.2-7.0.44.829.jar:
+			New:
+
+			 * Added a configuration option to disable the crafting recipes of Shulker Boxes
+			 * Added a configuration option to disable adding Shulker Boxes to the creative menu
+			Bugfixes:
+
+			 * CraftTweaker will now work with any recipe added by Iron Chests
+		ironchest-1.12.2-7.0.43.828.jar:
+			New:
+
+			 * Added support for the JA_JP language.
+			 * Added support for the EN_UD language.
+			 * Datafixer will now be ran on the chests.
+			Bugfixes:
+
+			 * The server will no longer send the entire NBT information to the client.
+			 * Shulker Boxes will now no longer break when dropped.
+
+	JAOPCA (went from JAOPCA-1.12.2-2.2.8.89.jar to JAOPCA-1.12.2-2.2.8.90.jar):
+		JAOPCA-1.12.2-2.2.8.90.jar:
+			Recompile against latest GTCE
+
+	Just Enough Dimensions (went from justenoughdimensions-1.12.2-1.6.0-dev.20180527.185104.jar to justenoughdimensions-1.12.2-1.6.0-dev.20180619.124018.jar):
+		justenoughdimensions-1.12.2-1.6.0-dev.20180619.124018.jar:
+			 * Fix the ChunkGenerator re-creation check not checking the isMapFeaturesEnabled value of the Overworld
+
+	Just Enough Items (JEI) (went from jei_1.12.2-4.9.2.196.jar to jei_1.12.2-4.10.0.200.jar):
+		4.10.0:
+			* Updated Polish translation (#1273)
+			* Fix spacing between search field and config button
+			* Fix support for adding/hiding recipes at runtime
+			* Remove accidental file
+			* GUI refactor. Draw borders around recipes. Recipes GUI scales to screen height.
+			* Fix #1245 Ghost ingredient dragging continues after gui is closed, causing issues
+			* Fix #1186 Ghost items from JEI overlap items held on the player cursor
+
+	McJtyLib (went from McJtyLib - 1.12-3.0.0 to McJtyLib - 1.12-3.0.2):
+		McJtyLib - 1.12-3.0.2:
+			 - Fixed a problem with default opaqueness of all blocks
+		McJtyLib - 1.12-3.0.1:
+			 - Various blocks in RFTools could no longer be infused and also didn't show their current infusion value (already infused blocks would still do their bonus however)
+
+	Mekanism (went from Mekanism-1.12.2-9.4.11.346.jar to Mekanism-1.12.2-9.4.13.349.jar):
+		Mekanism-1.12.2-9.4.13.349.jar:
+			[db3bebe](https://github.com/aidancbrady/Mekanism/commit/db3bebee13d989961632e446f9fff5181cd7a4b5) - ensure PacketDataRequest doesn't load worlds [9b15e37](https://github.com/aidancbrady/Mekanism/commit/9b15e379b98e078e3d9423ee97765155288b6555) - Complain to log if orphan transmitter clash & make sure Orphan pathfinder doesnt load chunks [30dbcfc](https://github.com/aidancbrady/Mekanism/commit/30dbcfc646c42a8604a02859e90566535bd0a95e) - ensure cached tile data in transmitter is correct [73cc1d9](https://github.com/aidancbrady/Mekanism/commit/73cc1d9488a23c6c988a069d4a7d49f85d050486) - force client sync when transmitter network changes [3e469fb](https://github.com/aidancbrady/Mekanism/commit/3e469fb40a2a086527cf14dbe9ba709f708a9bca) - bump version (9.4.13)
+		Mekanism-1.12.2-9.4.12.348.jar:
+			[c93f030](https://github.com/aidancbrady/Mekanism/commit/c93f030e471a273548c342674f56a3aff9b2edff) - null fixes for ItemBlockGenerator. Fixes [#5081](https://github.com/aidancbrady/Mekanism/issues/5081) [76346ef](https://github.com/aidancbrady/Mekanism/commit/76346efd29d610e21107657cc6d9472bdb49e71e) - bump version (9.4.12)
+
+	Mekanism Generators (went from MekanismGenerators-1.12.2-9.4.11.346.jar to MekanismGenerators-1.12.2-9.4.13.349.jar):
+		MekanismGenerators-1.12.2-9.4.13.349.jar:
+			[db3bebe](https://github.com/aidancbrady/Mekanism/commit/db3bebee13d989961632e446f9fff5181cd7a4b5) - ensure PacketDataRequest doesn't load worlds [9b15e37](https://github.com/aidancbrady/Mekanism/commit/9b15e379b98e078e3d9423ee97765155288b6555) - Complain to log if orphan transmitter clash & make sure Orphan pathfinder doesnt load chunks [30dbcfc](https://github.com/aidancbrady/Mekanism/commit/30dbcfc646c42a8604a02859e90566535bd0a95e) - ensure cached tile data in transmitter is correct [73cc1d9](https://github.com/aidancbrady/Mekanism/commit/73cc1d9488a23c6c988a069d4a7d49f85d050486) - force client sync when transmitter network changes [3e469fb](https://github.com/aidancbrady/Mekanism/commit/3e469fb40a2a086527cf14dbe9ba709f708a9bca) - bump version (9.4.13)
+		MekanismGenerators-1.12.2-9.4.12.348.jar:
+			[c93f030](https://github.com/aidancbrady/Mekanism/commit/c93f030e471a273548c342674f56a3aff9b2edff) - null fixes for ItemBlockGenerator. Fixes [#5081](https://github.com/aidancbrady/Mekanism/issues/5081) [76346ef](https://github.com/aidancbrady/Mekanism/commit/76346efd29d610e21107657cc6d9472bdb49e71e) - bump version (9.4.12)
+
+	Mekanism Tools (went from MekanismTools-1.12.2-9.4.11.346.jar to MekanismTools-1.12.2-9.4.13.349.jar):
+		MekanismTools-1.12.2-9.4.13.349.jar:
+			[db3bebe](https://github.com/aidancbrady/Mekanism/commit/db3bebee13d989961632e446f9fff5181cd7a4b5) - ensure PacketDataRequest doesn't load worlds [9b15e37](https://github.com/aidancbrady/Mekanism/commit/9b15e379b98e078e3d9423ee97765155288b6555) - Complain to log if orphan transmitter clash & make sure Orphan pathfinder doesnt load chunks [30dbcfc](https://github.com/aidancbrady/Mekanism/commit/30dbcfc646c42a8604a02859e90566535bd0a95e) - ensure cached tile data in transmitter is correct [73cc1d9](https://github.com/aidancbrady/Mekanism/commit/73cc1d9488a23c6c988a069d4a7d49f85d050486) - force client sync when transmitter network changes [3e469fb](https://github.com/aidancbrady/Mekanism/commit/3e469fb40a2a086527cf14dbe9ba709f708a9bca) - bump version (9.4.13)
+		MekanismTools-1.12.2-9.4.12.348.jar:
+			[c93f030](https://github.com/aidancbrady/Mekanism/commit/c93f030e471a273548c342674f56a3aff9b2edff) - null fixes for ItemBlockGenerator. Fixes [#5081](https://github.com/aidancbrady/Mekanism/issues/5081) [76346ef](https://github.com/aidancbrady/Mekanism/commit/76346efd29d610e21107657cc6d9472bdb49e71e) - bump version (9.4.12)
+
+	Minecolonies (went from minecolonies-universal-1.12.2-0.8.8618.jar to minecolonies-1.12.2-0.8.9646.jar):
+		minecolonies-1.12.2-0.8.9646.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9646
+
+			 * Creating new inspection profile for use in the new Buildsystem. (#2557)
+		minecolonies-universal-1.12.2-0.8.9630.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9630
+
+			 * hotfix miner canceling other miner orders
+		minecolonies-universal-1.12.2-0.8.9621.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9621
+
+			 * Fix/several small fixes (#2550)
+			Builder now requests the correct color of beds and also places the correct color. Miner is now more efficient mining horizontally. Miner now closes all his open workorders. (Should reduce CPU and RAM load)
+		minecolonies-universal-1.12.2-0.8.9619.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9619
+
+			 * Rename EXPPERMODDEATH to EXPPERMOBDEATH - fixing a typo! (#2552)
+		minecolonies-universal-1.12.2-0.8.9602.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9602
+
+			No Changes detected!
+		minecolonies-universal-1.12.2-0.8.9540.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9540
+
+			 * Gbook fix (#2544)
+		minecolonies-universal-1.12.2-0.8.9393.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9393
+
+			 * Lang fixes, monster eggs hopefully fixed, the list of workers is now scrollable (#2527)
+			Add missing strings for the guard update Replaced hopefully all monster eggs in medieval warehouses lvl 5 The list of workers in the townhall is now scrollable * Birch Miner Rework (#2535)
+
+			Relocate Entrance to Miner hut on Level 1 and 2 Relocate Ladder by -90* across all build levels Raise Mine Shaft by 1 block
+		minecolonies-universal-1.12.2-0.8.9350.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.8.9350
+
+			 * Update Birch Baker (#2532)
+			Fixed builder request for spawn egg in Baker level 5
+
+	Minecraft Forge (went from 1.12.2-14.23.4.2707 to 1.12.2-14.23.4.2714):
+		1.12.2-14.23.4.2714:
+			bs2609: Add validation to recipe registry (#4957)
+		1.12.2-14.23.4.2713:
+			mezz: Fix flickering leaves when mods break the blurMipmap settings (#4997)
+		1.12.2-14.23.4.2712:
+			bs2609: Clear out stored errors after model loading finishes (#4938)
+		1.12.2-14.23.4.2711:
+			paul.fulham0: Fix AutomaticEventSubscriber error message (#4986)
+		1.12.2-14.23.4.2710:
+			mezz:
+				Always wrap mod creation errors in LoaderException
+				to make error message more clear
+		1.12.2-14.23.4.2709:
+			bs2609: Fix vertex lighter using stale normal data (#4917)
+		1.12.2-14.23.4.2708:
+			bs2609:
+				Fix structure template processors causing cascading world generation
+				(#4979)
+
+	Mystical Agriculture (went from mysticalagriculture-1.12-1.6.11.jar to mysticalagriculture-1.12-1.6.12.jar):
+		mysticalagriculture-1.12-1.6.12.jar:
+			Release 1.6.12
+
+			Changes:
+
+			 * Fixed essence coal blocks not having fuel values
+
+	Ore Excavation (went from OreExcavation-1.4.118.jar to OreExcavation-1.4.119.jar):
+		OreExcavation-1.4.119.jar:
+			Added support for Game Stages
+
+			Minor API change to make drops and mined positions accessible
+
+			Minor name change to undo command (more consistent for future commands)
+
+			Notes:
+
+			- Game stages can be configured in tool override and block group JSON files. There is also a default stage in the main config.
+
+			- If a tool/block/player fails the game stage check then no excavation event will be fired. This means that add-on mods cannot currently bypass the check.
+
+	Placebo (went from Placebo-1.12.2-1.3.4.jar to Placebo-1.12.2-1.4.0.jar):
+		Placebo-1.12.2-1.4.0.jar:
+			Adds code required for the upcoming deadly world port.
+
+	Plants (went from Plants-1.12.2-2.8.6.jar to Plants-1.12.2-2.9.1.jar):
+		Plants-1.12.2-2.9.1.jar:
+			Fixed broken dark crystal brick recipe.
+			Added fortune drops to Crystal Shards.
+		Plants-1.12.2-2.9.0.jar:
+			Crystal Torches have now been added! These were originally part of forgotten nature and have just taken a long time to make their way back here.
+			Plants' growing blocks should now properly post the forge pre/post grow events.
+		Plants-1.12.2-2.8.7.jar:
+			Fixed an edge case where slabs were showing as transparent.
+
+	PneumaticCraft: Repressurized (went from pneumaticcraft-repressurized-1.12.2-0.6.7-210.jar to pneumaticcraft-repressurized-1.12.2-0.6.8-219.jar):
+		pneumaticcraft-repressurized-1.12.2-0.6.8-219.jar:
+			 * Change to Drones and Security Upgrades (liquid protection): 1 Security Upgrade will now allow drones to swim through liquids, 2 Security Upgrades will create a temporary 3x3x3 air bubble around drones which are in a liquid, and 3+ Security Upgrades will permanently remove any liquids a drone flies through. Drones will still never pathfind through lava, though.
+			 * Fixed Computer Control program piece not getting registered with Open Computers installed
+			 * Fixed drones having their AI overridden by carried entities (Entity Import program piece)
+			 * Fixed inability to place Heat Frames on inventories
+			 * Fixed possible lockup (endless loop) on startup with drones
+			 * Fixed spurious "Drone has no UUID!" error messages on the client
+			 * Fixed occasional crashes when teleporting into areas with client-side (TESR) renderers
+
+	Quark (went from Quark-r1.4-123.jar to Quark-r1.4-125.jar):
+		Quark-r1.4-125.jar:
+			- Automation: Added Pistons Pushing and Pulling items. (Vazkii/quat)
+			- Automation: Added the Chute, a new block that instantly and precisely drops any items fed into it. (clone of the Open Crate from botania)
+			- Building: Added a config option to disable Vertical Stained Planks independently of Vertical Planks or Stained Planks.
+			- Client: Added new Observer Textures, taken from the Vanilla Tweaks resource pack.
+			- Client: Fixed Visual Stat Display rendering.
+			- Misc: Added Utility Recipes.
+			- Tweaks: Villagers can use double doors now. (palaster)
+			- World: Added Fossils spawning in the Nether lava lakes.
+		Quark-r1.4-124.jar:
+			- General: Fixed torches and other similar blocks being allowed on the sides of quark walls (palaster)
+			- Client: Fixed visual stat display removing the wrong part of the tooltip if construct's armory is loaded.
+			- Misc: Fixed a crash on startup with the slime in a bucket that showed up overnight for some reason D:
+			- Misc: Fixed a crash when using enchanted books in an anvil.
+			- Tweaks: Fixed a dupe with Glass Shards and the Vitreous Pickaxe from botania. (palaster)
+			- Tweaks: Fixed enderman anti cheese spawning ghost items in the client.
+
+	RFTools (went from RFTools - 1.12-7.51 to RFTools - 1.12-7.54):
+		RFTools - 1.12-7.54:
+			 - Fixed a crash with the storage tablet
+		RFTools - 1.12-7.53:
+			 - Fixed a problem with the matter transmitter incorrectly being handled like an inventory
+			 - Fixed the matter beamer not supporting item capabilities
+		RFTools - 1.12-7.52:
+			 - Various blocks could no longer be infused and also didn't show their current infusion value (already infused blocks would still do their bonus however)
+			 - Fixed a problem with the environmental controller bui
+
+	RFTools Control (went from RFToolsControl - 1.12-1.9.0 to RFToolsControl - 1.12-1.9.1):
+		RFToolsControl - 1.12-1.9.1:
+			 - Fixed a bug with the vector pop operation. It would always return an empty list
+
+	RandomPatches (went from RandomPatches 1.12.2-1.1.0.0 to RandomPatches 1.12.2-1.2.1.1):
+		RandomPatches 1.12.2-1.2.1.1:
+			Fix crash.
+		RandomPatches 1.12.2-1.2.0.0:
+			Fixed the read timeout implementation and added an option to set the KeepAlive packet interval.
+			Removed the FMLNetworkHandler patch as it was completely unnecessary.
+
+			Note: This version seemed to work in testing, but I'm marking it as Beta anyway in case there are issues.
+
+	Reborn Core (went from RebornCore-1.12.2-3.8.9.300-universal.jar to RebornCore-1.12.2-3.9.0.315-universal.jar):
+		RebornCore-1.12.2-3.9.0.315-universal.jar:
+			(drcrazy) #releaseBuild
+			(drcrazy) Removed Location and CoordTriplet deprecated classes.
+			(drcrazy) Fixed some warnings.
+			(drcrazy) Block dismantle by wrench got its sound back.
+			(modmuss50) Fix incorrect usage of item stack checking
+			(drcrazy) PowerAcceptor formatting + some work on TechReborn/TechReborn#1547
+			(drcrazy) Fixed a few warnings.
+			(drcrazy) Updated transformer upgrade logic. Closes TechReborn/TechReborn/#1550
+			(modmuss50) Always add cap to items even if forge power is disabled, fixes #1544
+			(drcrazy) Fixed license header.
+			(professorprospector) Merge branch '1.12' of [https://github.com/TechReborn/RebornCore](https://github.com/TechReborn/RebornCore) into 1.12
+			(drcrazy) Refactored getDrops to override newer method
+			(modmuss50) Merge branch '1.12' of [https://github.com/TechReborn/RebornCore](https://github.com/TechReborn/RebornCore) into 1.12
+			(modmuss50) Add command to dump all modids to a file
+			(drcrazy) More changes for block wrenching
+			(drcrazy) Moved wrenching logic to separate class
+			(prospector) Merge branch '1.12' of [https://github.com/TechReborn/RebornCore](https://github.com/TechReborn/RebornCore) into 1.12
+			(prospector) Add output libs task to gradle
+
+	Reliquary v1.3 (went from Reliquary-1.12.2-1.3.4.763.jar to Reliquary-1.12.2-1.3.4.767.jar):
+		Reliquary-1.12.2-1.3.4.767.jar:
+			Fixed formatting error in Altar's waila integration
+			A bit of optimization added for snow particles, hopefully should get rid of particle crashes and performance issues that happened to some people
+			Updated lantern of panaroia to be able to drain player's inventory or sojourner's staff of whatever torches are defined for sojourner's staff
+
+	Shadowfacts' Forgelin (went from Forgelin-1.7.2.jar to Forgelin-1.7.4.jar):
+		Forgelin-1.7.4.jar:
+			 * Fix issue with missing classes
+
+	Steve's Carts Reborn (went from StevesCarts-1.12.2-2.4.20.99.jar to StevesCarts-1.12.2-2.4.21.105.jar):
+		StevesCarts-1.12.2-2.4.21.105.jar:
+			(gorymoon) Fixed treetap not working well. Fixes #141 Updated some info and versions #releaseBuild
+			(gorymoon) Added ability to limit max drill size in config. Closes #145
+			(gorymoon) Made gui mouse scrollable, added reverse button, fixed solarpanel model and usage sides, fixed power observer scrolling
+			(gorymoon) Fixed drill drilling to much or stop drilling down, fixes #146 and probably fixes all the issues related to height and the drill
+			(gorymoon) Added ability to use any rail and fixed crashing when cyclic is installed. Fixes #150 and fixes #151
+
+	Storage Drawers (went from StorageDrawers-1.12.2-5.3.6.jar to StorageDrawers-1.12.2-5.3.7.jar):
+		StorageDrawers-1.12.2-5.3.7.jar:
+			 * Fix duplication bug when dropping container items
+
+	Tech Reborn (went from TechReborn-1.12.2-2.15.15.712-universal.jar to TechReborn-1.12.2-2.16.0.746-universal.jar):
+		TechReborn-1.12.2-2.16.0.746-universal.jar:
+			(drcrazy) #releaseBuild
+			(drcrazy) adv/diamond electric tools charge rate buff (#1558) (Kudos to YuRaNnNzZZ)
+			(drcrazy) Removed unused imports )
+			(modmuss50) Fix incorrect usage of item stack checking
+			(drcrazy) Shift for more info on powerbar. Closes FTBTeam/FTB-Continuum#261
+			(modmuss50) Remove range upgrade as it didnt do anything
+			(drcrazy) Speed up items charge.
+			(drcrazy) Fix crash with non-TR items charge.
+			(drcrazy) Fix for Assembly Machine JEI GUI progress. Closes #1555
+			(drcrazy) More formatting changes.
+			(drcrazy) Fusion reactor consumes resources. Fixes #1551 (#1556)
+			(drcrazy) Lot of formatting.
+			(drcrazy) Updated OC version.
+			(drcrazy) Fixed water mill animation.
+			(drcrazy) Fixed charging \ discharging items items. Closes #1547
+			(drcrazy) Corrected the ADVANCED_JACKHAMMER recipe (#1553)
+			(drcrazy) Made batteries charge configurable for non-basic batteries.
+			(professorprospector) Add Silk Touch to the rock cutter in the recipe and creative tab, so it's more obvious of what it does
+			(professorprospector) Merge remote-tracking branch 'origin/1.12' into 1.12
+			(professorprospector) Remove accidental refined diamond
+			(modmuss50) Fix #1546
+			(drcrazy) Updated wrenching logic for energy storages and casings. Closes #1543
+			(drcrazy) Updated wrenching for lamp and alarm
+			(drcrazy) Updated wrench logic for cables.
+			(professorprospector) New ore textures
+			(professorprospector) Merge branch '1.12' of [https://github.com/TechReborn/TechReborn](https://github.com/TechReborn/TechReborn) into 1.12
+			(professorprospector) Merge branch '1.12' of [https://github.com/TechReborn/TechReborn](https://github.com/TechReborn/TechReborn) into 1.12
+			(drcrazy) Updated block wrenching
+			(drcrazy) Fixed inventory drop for DSU. More work on #1543
+			(github) Update README.md
+			(drcrazy) Fixed build, but DSU blocks are not done yet.
+			(drcrazy) Updated wrenching logic. Some work for #1543
+			(prospector) Unify creative tabs
+			(prospector) Merge branch '1.12' of [https://github.com/TechReborn/TechReborn](https://github.com/TechReborn/TechReborn) into 1.12-v2.16
+			(prospector) Add a gradle task to output libs
+			(drcrazy) Fixed unused and override warnings.
+			(modmuss50) Test commit
+
+	The Lost Cities (went from LostCities - 1.12-2.0.9 to LostCities - 1.12-2.0.10):
+		LostCities - 1.12-2.0.10:
+			 - Removed some spam from the console
+
+	Toast Control (went from Toast Control-1.12.2-1.6.0.jar to Toast Control-1.12.2-1.7.0.jar):
+		Toast Control-1.12.2-1.7.0.jar:
+			Made my toast instance extend the vanilla toast instance, to work better with anyone else who may be trying to interact with them.
+
+	UniDict (went from UniDict-1.12.2-2.5c.jar to UniDict-1.12.2-2.5d.jar):
+		UniDict-1.12.2-2.5d.jar:
+			Fix: [TEIntegration for latest builds](https://github.com/WanionCane/UniDict/pull/98) thanks [@clienthax](https://github.com/clienthax)
+
+	Unloader (went from unloader-1.1.0.jar to unloader-1.2.0.jar):
+		unloader-1.2.0.jar:
+			Added a config file with a blacklist (that uses RegEx!)
+
+			For example if you wanted to blacklist all dimensions starting with myst just add myst.* to the blacklist.
+
+	Wireless Crafting Terminal (went from WirelessCraftingTerminal-1.12.2-3.9.64.jar to WirelessCraftingTerminal-1.12.2-3.9.67.jar):
+		WirelessCraftingTerminal-1.12.2-3.9.67.jar:
+			Fixed [#250](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/250), [#257](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/257), [#265](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/250)
+
+	XNet (went from XNet - 1.12-1.7.0 to XNet - 1.12-1.7.2):
+		XNet - 1.12-1.7.2:
+			 - Fixed a very stupid bug in the item handling when there were multiple extraction points and some of these were disabled by color mask and/or redstone mode. As soon as it tested one of those extraction points it would ignore all remaining extraction points if the conditions didn't match
+		XNet - 1.12-1.7.1:
+			 - Reduced power consumption of the wireless router. It was a bit too much. Changed the name of the config so that everyone will get the new values
+			 - New feature to extract a specific amount of items per tick
+
+	YNot (went from YNot 0.2.2 to YNot 0.2.3):
+		YNot 0.2.3:
+			 * Fixed compatibility with XNet 1.7.0+
+
+	[ANGRY PIXEL] The Betweenlands (went from The Betweenlands v3.3.8 to The Betweenlands v3.3.9):
+		The Betweenlands v3.3.9:
+			Additions/Changes:
+
+			 * Added new and improved sky rift variants
+			 * Added config to create custom portals
+			 * Added config to specify unsafe biomes for portal to avoid
+			 * Added config to let players start in the Betweenlands
+			 * Added config to let players always respawn in the Betweenlands instead of the Overworld
+			 * Added config item blacklist for Lurker Skin Pouch
+			 * Added Tomb Many Graves 2 compatibility for equipped items
+			 * Added event textures to Poison Ivy and Rubber Log
+			 * Slightly improved performance of equipped items
+			 * Dark Druid spawner under Druid Altar can now be reactivated by putting 4 saplings in the Druid Altar
+			 * Tar Minions no longer drown in Tar
+			 * Updated zh_CN localization
+			Fixes:
+
+			 * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
+			 * Fixed Gecko Cage having a cooldown after Gecko dies
+			 * Fixed a crash when certain items were rendered in Weedwood Workbench
+			 * Fixed Dynamic Trees saplings not detected as sapling when trying to create portal
+			 * Fixed Animator losing items when unloaded
+			 * Fixed Compost Block not giving 9 Compost when uncrafting
+			 * Fixed Middle Gem Blocks, Coral Block and Angry Betweenstone not glowing
+			 * Fixed apparent crash when entering the Betweenlands
+			 * Fixed Cragrock Tower areas sometimes overlapping in rare cases
+			 * Fixed incorrect description of the torch black-/whitelist config
+
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.4)
