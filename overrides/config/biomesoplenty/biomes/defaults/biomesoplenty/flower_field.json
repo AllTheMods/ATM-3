@@ -43,7 +43,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 50.0,
+      "amountPerChunk": 45.0,
       "enable": true,
       "generators": {}
     },
@@ -59,7 +59,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 25.0,
       "enable": true,
       "generators": {}
     },
@@ -74,21 +74,6 @@
       "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
     },
     "roots": {
       "with": {

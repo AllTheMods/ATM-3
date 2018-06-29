@@ -229,11 +229,43 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			woot: {
+				id: "guideapi:woot-guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "woot"
+				},
+				Damage: 0 as short
+			},
+			forestry: {
+				id: "forestry:book_forester",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "forestry"
+				},
+				Damage: 0 as short
+			},
 			openblocks: {
 				id: "openblocks:info_book",
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "openblocks"
+				},
+				Damage: 0 as short
+			},
+			conarm: {
+				id: "conarm:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "conarm"
+				},
+				Damage: 0 as short
+			},
+			thebetweenlands: {
+				id: "thebetweenlands:manual_hl",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "thebetweenlands"
 				},
 				Damage: 0 as short
 			}
@@ -286,7 +318,11 @@ print(" ==================================================== ");
 		<embers:codex>, 
 		<rftools:rftools_shape_manual>, 
 		<guideapi:mobtotems-mobtotems_guide>, 
-		<openblocks:info_book>
+		<openblocks:info_book>,
+		<forestry:book_forester>,
+		<guideapi:woot-guide>,
+		<thebetweenlands:manual_hl>,
+		<conarm:book>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {

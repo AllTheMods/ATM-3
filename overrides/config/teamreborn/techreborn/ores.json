@@ -7,10 +7,10 @@
       "blockName": "tile.techreborn:ore",
       "blockNiceName": "Galena",
       "meta": 0,
-      "veinSize": 3,
-      "veinsPerChunk": 3,
-      "minYHeight": 30,
-      "maxYHeight": 75,
+      "veinSize": 8,
+      "veinsPerChunk": 16,
+      "minYHeight": 10,
+      "maxYHeight": 60,
       "shouldSpawn": true
     },
     {
@@ -31,7 +31,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn:ore",
@@ -41,16 +41,16 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn:ore",
       "blockNiceName": "Bauxite",
       "meta": 4,
-      "veinSize": 1,
-      "veinsPerChunk": 1,
-      "minYHeight": 1,
-      "maxYHeight": 1,
+      "veinSize": 6,
+      "veinsPerChunk": 10,
+      "minYHeight": 10,
+      "maxYHeight": 60,
       "shouldSpawn": false
     },
     {

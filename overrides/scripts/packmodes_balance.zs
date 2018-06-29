@@ -116,6 +116,7 @@ print(" ====================================================== ");
 		<ore:basicPump>.add(<rangedpumps:pump>);
 		<ore:basicPump>.add(<mekanism:machineblock:12>);
 		<ore:basicPump>.add(<immersiveengineering:metal_device0:5>);
+		<ore:basicPump>.add(<industrialforegoing:fluid_pump>);
 	
 	//====== Mek Digital Miner ======
 	//
@@ -226,6 +227,7 @@ print(" ====================================================== ");
 		var BRAngelsite = <bigreactors:minerals:0>;
 		var BRBentonite = <bigreactors:minerals:1>;
 		var BRGraphite = <bigreactors:ingotmetals:2>;
+		var MAGraphite = <mysticalagriculture:graphite_essence>;
 		var BRLudicrite = <bigreactors:blockmetals:4>;
 		var BRCyanDust = <bigreactors:dustmetals:1>;
 		var BRBlueDust = <bigreactors:dustmetals:3>;
@@ -312,6 +314,11 @@ print(" ====================================================== ");
 	//Graphite
 		 recipes.remove(BRGraphite);
 		 recipes.addShaped("crtgraphite", BRGraphite, [[TRCarbonPlate, TRCarbonPlate]]);
+		 recipes.addShaped(BRGraphite, [
+		[MAGraphite, MAGraphite, MAGraphite],
+		[null, null ,null ],
+		[MAGraphite, MAGraphite, MAGraphite]
+		]);
 	
 	//Blutonium Processing
 		recipes.removeShaped(BRBlutonium);
@@ -527,7 +534,7 @@ print(" ====================================================== ");
 	recipes.remove(<opencomputers:upgrade:4>);
 	recipes.addShaped(<opencomputers:upgrade:4>, [
 		[<ic2:plate:11>, <thermalfoundation:material:833>, <ic2:plate:11>],
-		[<opencomputers:component:15>, <abyssalcraft:transmutationgem>, <opencomputers:component:15>],
+		[<opencomputers:component:15>, <abyssalcraft:transmutationgem:*>, <opencomputers:component:15>],
 		[<ic2:plate:11>, <thermalfoundation:material:833>, <ic2:plate:11>]
 		]);
 
@@ -535,7 +542,7 @@ print(" ====================================================== ");
 	recipes.remove(<mekanism:anchorupgrade>);
 	recipes.addShaped(<mekanism:anchorupgrade>, [
 		[<opencomputers:upgrade:14>, <ic2:plate:17>, <opencomputers:upgrade:14>],
-		[<ic2:plate:17>, <abyssalcraft:transmutationgem>, <ic2:plate:17>],
+		[<ic2:plate:17>, <abyssalcraft:transmutationgem:*>, <ic2:plate:17>],
 		[<thermalfoundation:material:295>, <ic2:plate:17>, <thermalfoundation:material:295>]
 		]);
 	

@@ -273,12 +273,12 @@
     {
       "target": "yellow",
       "weight": 30,
-      "id": "OD:stoneLimestone"
+      "id": "chisel:limestone2:7"
     },
     {
       "target": "white",
       "weight": 30,
-      "id": "OD:stoneMarble"
+      "id": "chisel:marble2:7"
     },
     {
       "target": "brown",
@@ -294,6 +294,16 @@
       "target": "light_blue",
       "weight": 8,
       "id": "minecraft:packed_ice"
+    },
+    {
+      "target": "light_blue",
+      "weight": 8,
+      "id": "immersivehempcraft:hemcraft_hardened"
+    },
+    {
+      "target": "brown",
+      "weight": 15,
+      "id": "biomesoplenty:dirt"
     },
     {
       "target": "white",

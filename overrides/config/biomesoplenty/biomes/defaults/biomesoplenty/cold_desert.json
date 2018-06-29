@@ -1,6 +1,6 @@
 {
   "canGenerateRivers": false,
-  "beachBiomeLocation": "minecraft:beaches",
+  "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
@@ -69,21 +69,6 @@
       "enable": true,
       "radiusFalloff": 0.5,
       "innerRadius": 1.0
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
     },
     "roots": {
       "with": {

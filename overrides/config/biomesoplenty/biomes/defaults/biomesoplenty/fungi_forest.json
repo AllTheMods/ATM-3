@@ -47,7 +47,7 @@
         }
       },
       "generationAttempts": 16,
-      "amountPerChunk": 1.25,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "brown_mushrooms": {
@@ -61,8 +61,8 @@
     },
     "big_red_mushroom": {
       "minHeight": 5,
-      "maxHeight": 25,
-      "amountPerChunk": 25.0,
+      "maxHeight": 10,
+      "amountPerChunk": 30.0,
       "enable": true
     },
     "red_mushrooms": {
@@ -98,6 +98,6 @@
     }
   },
   "weights": {
-    "hell": 75
+    "hell": 5
   }
 }

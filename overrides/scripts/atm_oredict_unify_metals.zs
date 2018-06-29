@@ -197,12 +197,21 @@ function fixMetals (
 
 //====== Manual Fix Stuff ======
 //
+	// Bronze
 	<ore:blockBronze>.add(<techreborn:storage:14>);
 	recipes.addShapeless(<thermalfoundation:material:163>*9, [<techreborn:storage:14>]);
 	recipes.remove(<mekanism:nugget:2>);
 	recipes.remove(<mekanism:ingot:2>);
 	recipes.remove(<mekanism:basicblock:1>);
-
+	
+	// Iridium
+	var iridium = <thermalfoundation:material:135>;
+	var iridiumNugget = <thermalfoundation:material:199>;
+	recipes.addShapeless(iridium, [iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget]);
+	recipes.addShapeless(iridiumNugget*9, [iridium]);
+	recipes.addShapeless(<techreborn:nuggets:7>*9, [iridium]);
+	recipes.remove(<techreborn:ingot:7>);
+	recipes.remove(<techreborn:nuggets:7>);
 
 //====== Process Metals ======
 // NOT YET ENABLED

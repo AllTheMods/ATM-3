@@ -1,0 +1,39 @@
+[
+    {
+        "mode": "ADD",
+        "result": "atmtweaks:item_material,1,1",
+        "catalyst": "forestry:royal_jelly",
+        "energy": 1250000,
+        "tier": 2,
+        "ingredients": [
+            "actuallyadditions:item_fertilizer",
+            "ore:fertilizer",
+            "thermalfoundation:fertilizer,1,2",
+            "ore:powderMana"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_block",
+            "minecraft:dragon_egg",
+            "atmtweaks:item_material,1,1",
+            "atmtweaks:item_material,1,1"
+        ]
+    }
+]

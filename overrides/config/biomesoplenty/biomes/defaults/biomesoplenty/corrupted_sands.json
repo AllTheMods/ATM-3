@@ -33,15 +33,6 @@
       "emptyChance": 0.25,
       "layerSize": 3
     },
-    "netherrack_splatter": {
-      "with": {
-        "block": "minecraft:netherrack",
-        "properties": {}
-      },
-      "generationAttempts": 128,
-      "amountPerChunk": 5.0,
-      "enable": true
-    },
     "thorns": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -50,7 +41,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 20.0,
+      "amountPerChunk": 3.0,
       "enable": true
     },
     "dead_grass": {
@@ -64,24 +55,27 @@
       "amountPerChunk": 5.0,
       "enable": true
     },
-    "quicksand": {
-      "liquid": {
-        "block": "biomesoplenty:sand",
+    "bramble": {
+      "with": {
+        "block": "biomesoplenty:bramble_plant",
         "properties": {
-          "level": "0"
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
         }
       },
-      "amountPerChunk": 5.0,
+      "generationAttempts": 128,
+      "amountPerChunk": 40.0,
+      "maxHeight": 6,
       "enable": true,
-      "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
-      }
+      "minLength": 15,
+      "maxLength": 30
     }
   },
   "weights": {
-    "hell": 75
+    "hell": 5
   }
 }

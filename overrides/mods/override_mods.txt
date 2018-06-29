@@ -1,4 +1,0 @@
-http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar
-https://unascribed.com/foamfix/FoamFix-1.12.2-0.9.4-Anarchy.jar
-https://github.com/WesCook/Nutrition/releases/download/v3.0.0/Nutrition-1.12.2-3.0.0.jar
-https://github.com/CreeperShift/WirelessCharger/releases/download/1.3.0/WirelessCharger-1.3.0.jar

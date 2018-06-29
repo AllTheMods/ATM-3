@@ -40,7 +40,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 6.0,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",
@@ -57,8 +57,8 @@
           "variant": "eyebulb"
         }
       },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.7,
+      "generationAttempts": 16,
+      "amountPerChunk": 1.0,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",
@@ -67,9 +67,23 @@
           "variant": "eyebulb"
         }
       }
+    },
+    "bones": {
+      "minHeight": 1,
+      "with": {
+        "block": "minecraft:bone_block",
+        "properties": {
+          "axis": "y"
+        }
+      },
+      "generationAttempts": 12,
+      "amountPerChunk": 1.5,
+      "maxHeight": 4,
+      "enable": true,
+      "randomDirection": false
     }
   },
   "weights": {
-    "hell": 75
+    "hell": 5
   }
 }

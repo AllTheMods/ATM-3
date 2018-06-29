@@ -1,0 +1,9 @@
+All the Mods 3 9.4 v5.9.4 to All the Mods 3 v5.9.4b
+
+Added:
+	- WorldEdit
+
+Removed:
+	- DiscordSuite
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.3)

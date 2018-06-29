@@ -31,6 +31,17 @@
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
   "generators": {
+    "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
+      "enable": true
+    },
     "hot_springs": {
       "liquid": {
         "block": "biomesoplenty:hot_spring_water",
@@ -47,6 +58,33 @@
         }
       }
     },
+    "leaf_piles": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "leafpile"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "flowers": {
+      "amountPerChunk": 1.5,
+      "enable": true,
+      "generators": {}
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
     "medium_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",
@@ -58,15 +96,15 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "shrubs": {
+    "clover_patches": {
       "with": {
         "block": "biomesoplenty:plant_0",
         "properties": {
-          "variant": "shrub"
+          "variant": "cloverpatch"
         }
       },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "generationAttempts": 128,
+      "amountPerChunk": 0.3,
       "enable": true
     },
     "brown_mushrooms": {
@@ -100,21 +138,6 @@
       "amountPerChunk": 0.4,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
     "algae": {
       "with": {
         "block": "biomesoplenty:coral",
@@ -125,6 +148,17 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.0,
+      "enable": true
+    },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "trees": {
@@ -164,6 +198,15 @@
       "amountPerChunk": 1.5,
       "enable": true,
       "generators": {}
+    },
+    "lily": {
+      "with": {
+        "block": "minecraft:waterlily",
+        "properties": {}
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true
     },
     "topaz": {
       "minHeight": 4,
@@ -217,75 +260,6 @@
       },
       "generationAttempts": 16,
       "amountPerChunk": 0.4,
-      "enable": true
-    },
-    "glowshrooms": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "glowshroom"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 1.5,
-      "enable": true
-    },
-    "leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "leafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "flowers": {
-      "amountPerChunk": 1.5,
-      "enable": true,
-      "generators": {}
-    },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "clover_patches": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "cloverpatch"
-        }
-      },
-      "generationAttempts": 128,
-      "amountPerChunk": 0.3,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "lily": {
-      "with": {
-        "block": "minecraft:waterlily",
-        "properties": {}
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     }
   },

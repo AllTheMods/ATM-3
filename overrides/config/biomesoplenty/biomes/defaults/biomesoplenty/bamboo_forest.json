@@ -70,49 +70,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
-    "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 30.0,
-      "enable": true,
-      "generators": {}
-    },
     "ferns": {
       "with": {
         "block": "minecraft:tallgrass",
@@ -151,6 +108,34 @@
       "amountPerChunk": 12.0,
       "maxHeight": 32,
       "enable": true
+    },
+    "algae": {
+      "with": {
+        "block": "biomesoplenty:coral",
+        "properties": {
+          "level": "15",
+          "variant": "algae"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 30.0,
+      "enable": true,
+      "generators": {}
     },
     "river_cane": {
       "minHeight": 1,

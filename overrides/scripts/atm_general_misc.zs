@@ -14,13 +14,12 @@ print(" ============================================================== ");
 //
 	var planks = <ore:plankWood>;
 	val logs = <ore:logWood>;
-
+	var ingot_cast = <tconstruct:cast_custom:0>;
 
 //====== Cyclic Remove Item ======
 //
 	//remove corrupted chorus fruit to balance flight
 	recipes.remove(<cyclicmagic:corrupted_chorus>);
-
 
 //====== Marble Dust ======
 //
@@ -93,35 +92,6 @@ print(" ============================================================== ");
 		[null, <ore:stickSteel>, null],
 		[null, <ore:stickSteel>, null]
 		]);
-		
-	//Obsidian
-	var obsidianAxes = [
-		<actuallyadditions:item_axe_obsidian>,
-		<mekanismtools:obsidianaxe>,
-		<tconstruct:axe_head>.withTag({Material: "obsidian"}),
-		<tconstruct:broad_axe_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianAxe>.addItems(obsidianAxes);
-	var obsidianPickaxes = [
-		<actuallyadditions:item_pickaxe_obsidian>,
-		<mekanismtools:obsidianpickaxe>,
-		<tconstruct:pick_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianPickaxe>.addItems(obsidianPickaxes);
-	var obsidianShovels = [
-		<actuallyadditions:item_shovel_obsidian>,
-		<mekanismtools:obsidianshovel>,
-		<tconstruct:excavator_head>.withTag({Material: "obsidian"}),
-		<tconstruct:shovel_head>.withTag({Material: "obsidian"})
-	] as IItemStack[];
-	<ore:obsidianShovel>.addItems(obsidianShovels);
-	recipes.remove(<mekanismtools:obsidianpaxel>);
-	recipes.addShaped(<mekanismtools:obsidianpaxel>, [
-		[<ore:obsidianAxe>, <ore:obsidianPickaxe>, <ore:obsidianShovel>],
-		[null, <ore:stickWood>, null],
-		[null, <ore:stickWood>, null]
-	]);
-	
 	//Bronze
 	var bronzeAxes = [
 		<ic2:bronze_axe>,
@@ -233,6 +203,7 @@ print(" ============================================================== ");
 	var crystalCertusPure = <appliedenergistics2:material:10>;
 	var siliconAE = <appliedenergistics2:material:5>;
 	var siliconRS = <refinedstorage:silicon>;
+	var siliconEIO = <enderio:item_material:5>;
 	
 	//QoL new ways to get SkyStone Dust
 	mods.mekanism.enrichment.addRecipe(blockSkyS, dustSkySt);
@@ -252,7 +223,8 @@ print(" ============================================================== ");
 	recipes.addShapeless(pressEngi, [pressCalc, dustSkySt, dustSkySt]);
 	recipes.addShapeless(pressCalc, [pressSili, dustSkySt, dustSkySt]);
 	recipes.addShapeless(siliconAE, [siliconRS]);
-	recipes.addShapeless(siliconRS, [siliconAE]);
+	recipes.addShapeless(siliconRS, [siliconEIO]);
+	recipes.addShapeless(siliconEIO, [siliconAE]);
 	
 	//Empowerer recipes (using function to make 4x recipes to accept any press as input)
 	empPressRecipe(siliconAE,                 pressSili, [48,  55,  73]);
@@ -367,5 +339,101 @@ print(" ============================================================== ");
 		[<ore:ingotIron>, null, null]
 		]);
 
+//====== TR LED Lamp ======
+//
+recipes.remove(<techreborn:lamp_led>);
+	recipes.addShaped(<techreborn:lamp_led>, [
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+		[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <minecraft:glowstone_dust>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})],
+		[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+		]);
 
+//====== Enderman Skull ======
+//
+    var enderEssence = <mysticalagriculture:enderman_essence>;
+    var blankSkull = <mysticalagriculture:crafting:15>;
+    recipes.addShaped(<enderio:block_enderman_skull>, [
+        [enderEssence, enderEssence, enderEssence],
+        [enderEssence, blankSkull,   enderEssence], 
+        [enderEssence, enderEssence, enderEssence]
+        ]);
 
+//====== Super-Frame Corner ======
+//
+recipes.remove(<funkylocomotion:mass_frame_corner>);
+	recipes.addShaped(<funkylocomotion:mass_frame_corner>, [
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>],
+		[null, <funkylocomotion:pusher:1>, null], 
+		[<ore:ingotElectrum>, null, <ore:ingotElectrum>]
+		]);
+
+//====== Creative Flight Modifier ======
+//
+recipes.remove(<environmentaltech:modifier_creative_flight>);
+	recipes.addShaped(<environmentaltech:modifier_creative_flight>, [
+		[<minecraft:elytra>, <simplyjetpacks:itemjetpack:18>, <minecraft:elytra>],
+		[<actuallyadditions:item_wings_of_the_bats>, <extrautils2:angelring:0>, <actuallyadditions:item_wings_of_the_bats>], 
+		[<advancedrocketry:itemupgrade:1>, <rftools:flight_module>, <advancedrocketry:itemupgrade:1>]
+		]);
+
+//====== Readding the Chest Variances ======
+//
+recipes.remove(<minecraft:chest>);
+	recipes.addShaped(<minecraft:chest>, [
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+		[<ore:plankWood>, null, <ore:plankWood>], 
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]);
+
+	recipes.addShaped(<minecraft:chest>*4, [
+		[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+		[<ore:logWood>, null, <ore:logWood>], 
+		[<ore:logWood>, <ore:logWood>, <ore:logWood>]
+		]);
+
+//====== Fixing Unbaked Talisman ======
+//
+var unbaked_talisman = <terraqueous:item_main:3>;
+var clay_ball = <minecraft:clay_ball>;
+var feather = <ore:feather>;
+var endium = <ore:gemEndimium>;
+recipes.remove(unbaked_talisman);
+	recipes.addShaped(unbaked_talisman, [
+		[feather, endium, feather],
+		[clay_ball, clay_ball, clay_ball]
+		]);
+
+//====== Removing Wrong Blocks ======
+//	
+	recipes.remove(<mekanism:basicblock:1>);
+	recipes.remove(<mekanism:basicblock:3>);
+	recipes.remove(<mekanism:basicblock:5>);
+	recipes.remove(<mekanism:basicblock:12>);
+	recipes.remove(<mekanism:basicblock:13>);
+	recipes.remove(<actuallyadditions:block_misc:5>);
+	recipes.remove(<chisel:block_charcoal2:1>);
+
+//====== Add Invar Casting Recipes ======
+//	
+	var invar = <thermalfoundation:material:162>;
+	var invar_block = <thermalfoundation:storage_alloy:2>;
+	var molten_invar = <liquid:invar>;
+	mods.tconstruct.Casting.addTableRecipe(invar, ingot_cast, molten_invar, 144);
+	mods.tconstruct.Casting.addBasinRecipe(invar_block, invar_block, molten_invar, 1296);
+	
+//====== Add Iridium Casting Recipes ======
+//
+	var iridium = <thermalfoundation:material:135>;
+	var iridium_block = <thermalfoundation:storage:7>;
+	var molten_iridium = <liquid:iridium>;
+	mods.tconstruct.Casting.addTableRecipe(iridium, ingot_cast, molten_iridium, 144);
+	mods.tconstruct.Casting.addBasinRecipe(iridium_block, iridium_block, molten_iridium, 1296);
+	
+//====== Add Xnet Description ======
+//	
+		<xnet:controller>.addTooltip(
+					format.underline(format.aqua(
+					"Does not need any power to operate or work."
+					)));
+	mods.jei.JEI.addDescription(<xnet:controller>, "Xnet controller has been configured to not use any power at all",
+											 "However it has 100k of internal capacity for RF power, which you can ignore, it does not need to be charged");
