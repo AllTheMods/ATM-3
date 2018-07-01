@@ -1,0 +1,76 @@
+All the Mods 3 v5.9.8b to All the Mods 3 v5.9.8c
+
+Updated:
+	Astral Sorcery (went from AstralSorcery-1.12.2-1.9.1.jar to AstralSorcery-1.12.2-1.9.2.jar):
+		AstralSorcery-1.12.2-1.9.2.jar:
+			Additions:
+			- Ingame Configuration for all of AS' configurations
+			- Added Patreon-Effects for some Patrons (The rest didn't tell me what they want yet :V)
+			Fixes:
+
+			- Fix client crash when breaking blocks out of sync with evorsio cape
+
+			- Fix Amulet-Capability attaching itself to empty itemstacks
+
+			- Fix world generation crash with structure controllers not getting a specific type set during population
+
+			- Fix client desync on containment chalice after pulling fluid out of it via pipes (same for lightwell btw)
+
+			- Fix crystal disappearing from ritual pedestal after relogging in SP
+
+			- Change gateway target ordering so it'll always show closest gateway first if they're in the same direction (to avoid some gateways being inaccessible through certain other gateways)
+
+			- Fix ritual pedestal chunk-update rates in SP
+
+			- Fix infinite loop if worldtime is negative (GC why you do this..)
+
+	Construct's Armory (went from conarm-1.12.2-1.0.1.1.jar to conarm-1.12.2-1.0.1.2.jar):
+		conarm-1.12.2-1.0.1.2.jar:
+			## [1.0.1.2] - 2018.06.30
+			### Fixed
+			- Polished modifier overwriting toughness values [#77](https://github.com/TheIllusiveC4/ConstructsArmory/issues/77)
+			- Combustible trait setting fire to entities that are immune to fire
+			- JEI not interpreting Armor Forge subtypes correctly [#71](https://github.com/TheIllusiveC4/ConstructsArmory/issues/71)
+			- Armor models clipping on some player skins
+			- Crashing on outdated Forge versions by updating the dependency version
+			- Crashing with ArrayIndexOutOfBoundsException with Blood Magic's Living Armor [#75](https://github.com/TheIllusiveC4/ConstructsArmory/issues/75)
+
+	DiscordSuite (went from DiscordSuite-2.2.2.jar to DiscordSuite-2.2.4.jar):
+		DiscordSuite-2.2.4.jar:
+			Fix odd crash with curse manifest
+
+	Just Enough Items (JEI) (went from jei_1.12.2-4.10.0.200.jar to jei_1.12.2-4.10.0.201.jar):
+		4.10.0:
+			* Update pt_BR lang (#1280)
+			* Updated Polish translation (#1273)
+			* Fix spacing between search field and config button
+			* Fix support for adding/hiding recipes at runtime
+			* Remove accidental file
+			* GUI refactor. Draw borders around recipes. Recipes GUI scales to screen height.
+			* Fix #1245 Ghost ingredient dragging continues after gui is closed, causing issues
+			* Fix #1186 Ghost items from JEI overlap items held on the player cursor
+
+	Reborn Core (went from RebornCore-1.12.2-3.9.0.315-universal.jar to RebornCore-1.12.2-3.9.2.319-universal.jar):
+		RebornCore-1.12.2-3.9.2.319-universal.jar:
+			(modmuss50) Add back missing method #releaseBuild
+		RebornCore-1.12.2-3.9.1.318-universal.jar:
+			(modmuss50) #releaseBuild
+			(modmuss50) Merge branch '1.12' of [https://github.com/TechReborn/RebornCore](https://github.com/TechReborn/RebornCore) into 1.12
+			(modmuss50) Fixed [https://github.com/TechReborn/TechReborn/issues/1560](https://github.com/TechReborn/TechReborn/issues/1560)
+			(drcrazy) Fix for HUD energy value and active state
+
+	Rustic (went from rustic-1.0.5.jar to rustic-1.0.6.jar):
+		rustic-1.0.6.jar:
+			 * Updated dependency info
+			 * Fixed certain herbs sometimes not dropping anything when harvested
+			 * Fixed the brewing barrel GUI displaying a bucket icon in the auxiliary input slot even though it can't accept barrels
+			 * Fixed a crash caused by moving any of the mod's TileEntities
+			 * Changed which blocks lattices can connect to
+			 * Cleaned up some code
+
+Downgraded:
+	Applied Energistics 2 (went from appliedenergistics2-rv6-alpha-1.jar to appliedenergistics2-rv5-stable-11.jar):
+		appliedenergistics2-rv6-alpha-1.jar:
+			 Feature #3232: Rework custom recipe system - fscanFeature #3510: Initial Fluid Integration. Cells, Import/Export/Storage Bus, Fluid Terminal - BrockWS, DrummerMCFeature #3543: Added fluid models - yuehFeature #3564: Added ME Fluid Interface - fscanChanges #3383: Updated Cell Registry safety and docs. - yuehChanges #3384: IAEStack#fuzzyComparison now compares the same subtypes. - yuehChanges #3392: Replaced LinkedList with ArrayList or ArrayDeque when applicable. - yuehChanges #3399: Updated Grid API - yuehChanges #3434: Replaces all custom number comparisons with java provided ones. - yuehChanges #3539: Changed fluid cells to better match the item ones. - yuehChanges #3567: Updated fluid interface GUI and other fluid related textures. - yuehFixes #3449: Fix CellInventory to not mess with the item definition - fscanFixes #3459: Just open the inventory if raytrace misses. - fscanFixes #3462: Remove call to neighborChanged() - kylevFixes #3476: Correctly handle an empty top namepress. - yuehFixes #3478: Changes the way xp drops from Certus Ore blocks - fscanFixes #3490: Use cached recipe before reaching out to CraftingManager - yuehFixes #3504: Fixes issue with Fluid Channel not being sent changes. - BrockWSFixes #3520: Correct order for sort by mod and general code cleanup - yuehFixes #3535, Fixes #3486: Fixes crash when either quartz types are disabled and prevent cascading worldgen. - fscanFixes #3544: Fixes interface shift-clicking to generate correct onChangeInventory events - fscanFixes #3545: Fixes DriveBakedModel to not crash when SLOT_STATE is null - fscanFixes #3548: Fix AEBaseTile to respect overridden markDirty implementations. - fscanFixes #3556: Only extract insertable fluid amount. - yuehFixes #3560: Render the fluid stacksize for ME fluid slots. - yueh
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.4)

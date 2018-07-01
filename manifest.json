@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "All the Mods 3",
-  "version": "v5.9.8b",
+  "version": "v5.9.8c",
   "author": "atmteam",
   "projectID": 269708,
   "files": [
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2577020,
+      "fileID": 2578014,
       "required": true
     },
     {
@@ -332,7 +332,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 2577127,
+      "fileID": 2543840,
       "required": true
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2576171,
+      "fileID": 2578055,
       "required": true
     },
     {
@@ -422,7 +422,7 @@
     },
     {
       "projectID": 287683,
-      "fileID": 2576885,
+      "fileID": 2578152,
       "required": true
     },
     {
@@ -437,7 +437,7 @@
     },
     {
       "projectID": 282743,
-      "fileID": 2560527,
+      "fileID": 2577684,
       "required": true
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "projectID": 256141,
-      "fileID": 2563385,
+      "fileID": 2577808,
       "required": true
     },
     {
@@ -987,7 +987,7 @@
     },
     {
       "projectID": 241721,
-      "fileID": 2573295,
+      "fileID": 2578281,
       "required": true
     },
     {
