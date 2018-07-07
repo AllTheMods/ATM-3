@@ -3,15 +3,17 @@
 
 <!-- 
 
-These are the build-in recipes. You cannot change this file, it is a
+These are the built-in recipes. You cannot change this file, it is a
 reference for you only and will be generated every time the game starts.
 
 To make changes to the recipes, copy the recipes you want to change to
 a file in the 'user' folder. To disable a recipe, add an attribute "disabled"
 and set it to true, e.g.: <recipe name="Gear" disabled="true" />
 
-You can also disabled all build in recipes, so that only your files in the
-'user' folder will be loaded.
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
 
 Item specifications can reference an alias, an ore dictionary name, a
 block or an item. You can force the type by prefixing the value with
@@ -261,6 +263,32 @@ XML editor will display that as tooltips when editing this file.
       <input name="obsidian"/>
       <output name="ingotEndSteel"/>
     </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Cookie" required="true">
+    <alloying energy="2000">
+      <input name="FLOUR"/>
+      <input name="minecraft:dye:3"/>
+      <output name="minecraft:cookie" amount="8"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Cake" required="true">
+    <alloying energy="2000">
+      <input name="FLOUR" amount="3"/>
+      <input name="oredict:egg" />
+      <output name="itemCakeBase" amount="2"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Cake" required="true">
+    <crafting>
+      <grid size="3x2">
+        <item name="minecraft:milk_bucket" /><item name="minecraft:milk_bucket" /><item name="minecraft:milk_bucket" />
+        <item name="minecraft:sugar"/><item name="itemCakeBase"/><item name="minecraft:sugar"/>
+      </grid>
+      <output name="item:minecraft:cake" />
+    </crafting>
   </recipe>
 
   <recipe name="Photovoltaic Powder" required="true">
