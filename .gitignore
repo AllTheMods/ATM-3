@@ -3,3 +3,7 @@ overrides/config/Chikachi/discordintegration.json
 *.jar
 
 overrides/config/teamreborn/configData\.nbt
+
+overrides/config/AppliedEnergistics2/aerecipes/items\.csv
+
+overrides/config/AppliedEnergistics2/items\.csv
