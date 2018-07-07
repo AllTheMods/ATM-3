@@ -1,0 +1,82 @@
+{
+  "Discord APP ID": "462280508068331522",
+  "Rich Presence Profiles": {
+    "default": {
+      "Activation Event": "JUST_STARTED",
+      "Game State": "Just Started",
+      "Details": "Waiting for Mod to init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "juststrtedbig",
+      "Big Image Hover Text": "Starting up",
+      "Small Image Key": "juststartedsmall",
+      "Small Image Hover Text": "Hi",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.getUserName();RichPresence.state +\u003d \u0027 Minecraft v\u0027+Helper.cancellUpdateIfMatch(Helper.getMCVERSION(),null);"
+    },
+    "preInit": {
+      "Activation Event": "PRE_INIT",
+      "Game State": "Pre-Init.",
+      "Details": "Forge Loading in pre-init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "preinitbig",
+      "Big Image Hover Text": "This won\u0027t take long",
+      "Small Image Key": "preinitsmall",
+      "Small Image Hover Text": "pre-init",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "init": {
+      "Activation Event": "INIT",
+      "Game State": "Init.",
+      "Details": "Forge Loading in init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "initbig",
+      "Big Image Hover Text": "Working on it",
+      "Small Image Key": "initsmall",
+      "Small Image Hover Text": "init",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "postInit": {
+      "Activation Event": "POST_INIT",
+      "Game State": "Post-Init.",
+      "Details": "Forge Loading in post-init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "postinitbig",
+      "Big Image Hover Text": "Almost there",
+      "Small Image Key": "postinitsmall",
+      "Small Image Hover Text": "post-init",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "mainMenu": {
+      "Activation Event": "MAIN_MENU_REACHED",
+      "Game State": "In main menu.",
+      "Details": "Idle",
+      "Start Time Delay": 0,
+      "Big Image Key": "mainmenu",
+      "Big Image Hover Text": "Surfing the menus",
+      "Small Image Key": "mainmenu",
+      "Small Image Hover Text": "main-menu",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getUserName(),null)+\u0027 has nothing to do.\u0027;"
+    },
+    "serverAboutToStart": {
+      "Activation Event": "SERVER_ABOUT_TO_START",
+      "Game State": "Loading Screen",
+      "Details": "Loading Single Player Server",
+      "Start Time Delay": 0,
+      "Big Image Key": "serverabouttostartbig",
+      "Big Image Hover Text": "Getting ready to roll",
+      "Small Image Key": "serverabouttostartsmall",
+      "Small Image Hover Text": "server-about-to-start",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027Loading World \\\u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getWorldName(),null)+\u0027\\\u0027\u0027;"
+    },
+    "serverStarted": {
+      "Activation Event": "SERVER_STARTED",
+      "Game State": "In-game",
+      "Details": "Playing Single Player",
+      "Start Time Delay": 0,
+      "Big Image Key": "serverstartedbig",
+      "Big Image Hover Text": "Currently causing havoc ;)",
+      "Small Image Key": "serverstartedsmall",
+      "Small Image Hover Text": "in-game",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027In the \\\u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getDimensionName(),null)+\u0027\\\u0027\u0027;RichPresence.state +\u003d \u0027(\u0027+Helper.cancellUpdateIfMatch(Helper.getWorldName(),null)+\u0027)\u0027"
+    }
+  }
+}
