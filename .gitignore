@@ -11,3 +11,5 @@ overrides/config/AppliedEnergistics2/items\.csv
 overrides/config/randomtweaks/data\.json
 
 overrides/config/thaumicjei_itemstack_aspects\.json
+
+overrides/config/jei/worldSettings\.cfg
