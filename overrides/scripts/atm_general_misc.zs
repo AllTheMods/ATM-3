@@ -437,3 +437,8 @@ recipes.remove(unbaked_talisman);
 					)));
 	mods.jei.JEI.addDescription(<xnet:controller>, "Xnet controller has been configured to not use any power at all",
 											 "However it has 100k of internal capacity for RF power, which you can ignore, it does not need to be charged");
+											 
+//====== Remove Refined Obsidian Dust From Smeltery ======
+//
+	mods.tconstruct.Melting.removeRecipe(<liquid:refinedobsidian>, <mekanism:otherdust:5>);
+	
