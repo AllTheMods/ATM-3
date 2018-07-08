@@ -117,3 +117,12 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 		<rustic:slate>
 		]);
 	<ore:stoneSlate>.addAll(<ore:blockSlate>);
+	
+//====== Bookshelf ======
+//
+	recipes.remove(<minecraft:bookshelf>);
+	recipes.addShaped(<minecraft:bookshelf>, [
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+		[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]);
