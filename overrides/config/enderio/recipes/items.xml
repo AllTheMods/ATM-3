@@ -3,15 +3,17 @@
 
 <!-- 
 
-These are the build-in recipes. You cannot change this file, it is a
+These are the built-in recipes. You cannot change this file, it is a
 reference for you only and will be generated every time the game starts.
 
 To make changes to the recipes, copy the recipes you want to change to
 a file in the 'user' folder. To disable a recipe, add an attribute "disabled"
 and set it to true, e.g.: <recipe name="Gear" disabled="true" />
 
-You can also disabled all build in recipes, so that only your files in the
-'user' folder will be loaded.
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
 
 Item specifications can reference an alias, an ore dictionary name, a
 block or an item. You can force the type by prefixing the value with
@@ -132,6 +134,48 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="End Steel Helmet" required="true">
+    <crafting>
+      <grid size="3x2">
+        <item name="END_STEEL" /><item name="END_STEEL" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item name="GUARDIAN_DIODE" /><item name="END_STEEL" />
+      </grid>
+      <output name="enderio:item_end_steel_helmet" />
+    </crafting>
+  </recipe>
+
+  <recipe name="End Steel Chestplate" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="END_STEEL" /><item name="GUARDIAN_DIODE" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item name="END_STEEL" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item name="END_STEEL" /><item name="END_STEEL" />
+      </grid>
+      <output name="enderio:item_end_steel_chestplate" />
+    </crafting>
+  </recipe>
+
+  <recipe name="End Steel Leggings" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="END_STEEL" /><item name="END_STEEL" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item name="GUARDIAN_DIODE" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item /><item name="END_STEEL" />
+      </grid>
+      <output name="enderio:item_end_steel_leggings" />
+    </crafting>
+  </recipe>
+
+  <recipe name="End Steel Boots" required="true">
+    <crafting>
+      <grid size="3x2">
+        <item name="END_STEEL" /><item name="GUARDIAN_DIODE" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item /><item name="END_STEEL" />
+      </grid>
+      <output name="enderio:item_end_steel_boots" />
+    </crafting>
+  </recipe>
+
   <recipe name="Glider Wing" required="true">
     <crafting>
       <grid size="3x3">
@@ -206,6 +250,17 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="End Steel Sword" required="true">
+    <crafting>
+      <grid size="1x3">
+        <item name="END_STEEL" />
+        <item name="END_STEEL" />
+        <item name="itemInfinityRod" />
+      </grid>
+      <output name="enderio:item_end_steel_sword" />
+    </crafting>
+  </recipe>
+
   <recipe name="Dark Pickaxe" required="true">
     <crafting>
       <grid size="3x3">
@@ -227,6 +282,28 @@ XML editor will display that as tooltips when editing this file.
       <output name="enderio:item_dark_steel_axe" />
     </crafting>
   </recipe>
+
+  <recipe name="End Pickaxe" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="END_STEEL" /><item name="END_STEEL" /><item name="END_STEEL" />
+        <item /><item name="itemInfinityRod" /><item />
+        <item /><item name="itemInfinityRod" /><item />
+      </grid>
+      <output name="enderio:item_end_steel_pickaxe" />
+    </crafting>
+  </recipe>
+  
+  <recipe name="End Axe" required="true">
+    <crafting>
+      <grid size="2x3">
+        <item name="END_STEEL" /><item name="END_STEEL" />
+        <item name="END_STEEL" /><item name="itemInfinityRod" />
+        <item /><item name="itemInfinityRod" />
+      </grid>
+      <output name="enderio:item_end_steel_axe" />
+    </crafting>
+  </recipe>
   
   <recipe name="Dark Bow" required="true">
     <crafting>
@@ -236,6 +313,17 @@ XML editor will display that as tooltips when editing this file.
         <item /><item name="NUTRITIOUS_STICK"/><item name="string"/>
       </grid>
       <output name="enderio:item_dark_steel_bow" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Ender Bow" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item /><item name="itemInfinityRod" /><item name="string"/>
+        <item name="SKELETAL_CONTRACTOR"/><item/><item name="string"/>
+        <item /><item name="itemInfinityRod"/><item name="string"/>
+      </grid>
+      <output name="enderio:item_end_steel_bow" />
     </crafting>
   </recipe>
   

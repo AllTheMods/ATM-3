@@ -253,6 +253,22 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			ebwizardry: {
+				id: "ebwizardry:wizard_handbook",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "ebwizardry"
+				},
+				Damage: 0 as short
+			},
+			practicallogistics2: {
+				id: "practicallogistics2:plguide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "practicallogistics2"
+				},
+				Damage: 0 as short
+			},
 			conarm: {
 				id: "conarm:book",
 				Count: 1 as byte,
@@ -321,8 +337,10 @@ print(" ==================================================== ");
 		<openblocks:info_book>,
 		<forestry:book_forester>,
 		<guideapi:woot-guide>,
-		<thebetweenlands:manual_hl>,
-		<conarm:book>
+		<ebwizardry:wizard_handbook>,
+		<practicallogistics2:plguide>,
+		<conarm:book>,
+		<thebetweenlands:manual_hl>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {

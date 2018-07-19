@@ -6,17 +6,12 @@
       "items": [
         {
           "item": "minecraft:soul_sand",
-          "count": 3
+          "count": 4
         },
         {
           "item": "minecraft:skull",
           "data": 1,
-          "count": 2
-        },
-		{
-          "item": "atmtweaks:item_material",
-          "data": 1,
-          "count": 1
+          "count": 3
         }
       ],
       "fluids": []

@@ -1,0 +1,260 @@
+All the Mods 3 v5.9.8a to All the Mods 3 v5.9.8b
+
+Updated:
+	Forestry (went from forestry_1.12.2-5.8.0.308.jar to forestry_1.12.2-5.8.0.311.jar):
+		5.8.0:
+			* BuildCraft support (#2158) - therealfarfetchd
+			* Update TileEntityDataFixable log from 'info' to 'debug' - Nedelosk
+			* Fix Tile Entity Registration - Nedelosk
+			* prevent effect damage underwater (#2149) - temp1011
+			* fix broken texture in butterfly model #2171 (#2173) - temp1011
+			* add kill count to butterfly kill command (#2174) - temp1011
+			* Update zh_cn.lang (#2169) - Urey. Xue
+			* Fix broken Flower Cache synchronisation to the client and disk - Nedelosk
+			* fix a bug in hasFlowersCache (#2168) - temp1011
+			* fix log not formatting correctly #2023 (#2164) - temp1011
+			* Clean Up Analyzer Provider - Nedelosk
+			* Fix #2159 Minecart Apiary Gui Crash - Nedelosk
+			* Update ForestryPacket.java - Nedelosk
+			* Fix #2157 Crash on attempt to break Dehumidifier while camouflaged as block from Chisel - Nedelosk
+			* Fix #2160 Remove @SideOnly(Side.CLIENT) from IAlyzerPlugin - Nedelosk
+			* Better zh_cn.lang translation file update. (#2146) Better zh_cn.lang translation file update. - src_resources
+			* Add config for global biome blacklisting for trees and bees (#2150) - temp1011
+			* clean up some config comments (#2153) - temp1011
+			* Cleanup (#2138) - temp1011
+			* Improve and Clean Up Gui Elements - Nedelosk
+			* fixed the localization names for the StorageJeiPlugin - rosebeats
+			* fix ic2 crash with apiculture #2139 - temp1011
+			* use new maven for teslaAPI (#2133) - temp1011
+			* Improve Industrialcraft2 plugin (#2057) - temp1011
+			* Update frames.json (#2137) - Jason Carrete
+			* Fix Manual Multi-Farms placing humus - Nedelosk
+			* Fix #1525 Balance Electric Engine Circuits - Nedelosk
+			* Fix #1914 Forestry Not Playing Right with Fast Leaf Rendering Options. - Nedelosk
+			* Fix #2021 Multifarm configurable without board bug - Nedelosk
+			* Add configuration for crates (#2047) - temp1011
+			* Fixed Backpacks Localization (#2120) - Dmitriy Medvedev
+			* use mod log rather than fml log (#2129) - temp1011
+			* Fix #2130 Can't insert Immersive engineering industrial hemp into crop multifarm block - Nedelosk
+			* Fix #2113 Conduits / Itemducts not working with alveary - Nedelosk
+			* Fix #2114 Limit crafting operations to 64 crafts per shift-click - mezz
+			* Clean up code (#2053) - temp1011
+			* Make tree gen be configurable (#2046) - temp1011
+			* small fix for a JEI log error (#2110) - temp1011
+			* small fix comb recipes (#2112) - temp1011
+			* Fix #2082 Unable to put fuel into the fermenter - Nedelosk
+			* Add lang file back - Nedelosk
+			* Remove lang files - Nedelosk
+			* Remove outdated lang files and lowercase the names of the other files - Nedelosk
+			* Update Lang files to 1.12 - Nedelosk
+			* Update README.md - mezz
+			* Rename LANG.md to README.md - mezz
+			* Move lang files in to the main project (#2104) - temp1011
+			* Fix Machine Hit Particles - Nedelosk
+			* Fix #1503 Machine Breaking Particle Speed - Nedelosk
+			* Start removing metadata from code in preparation for 1.13 (#2068) - temp1011
+			* Add config to let capsules be reusable (#2066) * Add config option to make capsules non consumable * Fix naming - temp1011
+			* Tweak ash texture (#1902) * Make ash less confusing * Updated textures - Jose
+			* Add IMC for registering flowers (#2027) - temp1011
+			* Tech reborn plugin (#2078) * Add Plugin Tech Reborn - temp1011
+			* fix crash when raytrace result is null #2090 (#2105) - temp1011
+			* fix wrong localisation key for habitat locator #2100 (#2106) - temp1011
+			* Add missing code - Nedelosk
+			* Fix book entry loading after reloading the resource manager - Nedelosk
+			* Fix #2094, Fix #2096 Wrong entry order and Clean Up resource loading - Nedelosk
+			* Fix #2095 Duplicated Book Entries - Nedelosk
+			* Fix #2087 Issue with guide book - Nedelosk
+			* Update README (#2080) - temp1011
+			* Optimise Worldgen Hives (#2063) - temp1011
+			* Fix #2077 Crash from disabling the Arboriculture Module - Nedelosk
+			* Add more methods to ModuleHelper - Nedelosk
+			* Clean Up Book - Nedelosk
+			* Add missing Side Only Annotations Fix #2076 - Nedelosk
+			* Fix extra drop from greenhouse window (#2072) - temp1011
+			* Update Forge and Mappings (#2075) - temp1011
+			* Add Guide Book and Analyzer Screen (#2073) - Nedelosk
+			* Make butterflies obey mob spawning gamerules - temp1011
+			* Don't drop xp orbs into world directly - temp1011
+			* Remove Chisel Plugin - temp1011
+			* Replace Forestry IRC link with discord badge - mezz
+			* resolve conflict - temp1011
+			* Fix #2037 Add Comparator Support for Engines - Nedelosk
+			* Fix #2042 Another crash with butterflies - Nedelosk
+			* Fix #2040 Villager AI Crashes Server - Nedelosk
+			* Add AI for Apiarist to Replace Bees in Village Bee Houses (#2001) - temp1011
+			* Fix Broken Ore Dictionary Registration - temp1011
+			* Fix JEI errors for disabled modules - temp1011
+			* Register Charcoal Block with Ore Dictionary - temp1011
+			* Remove test, use Enum instead of ordinal - temp1011
+			* Add potted plants as flowers for bees - temp1011
+			* Stop peat fired engine outputting ash through power side - temp1011
+			* Improve logic - temp1011
+			* Make Apiarist Armour Repairable - temp1011
+			* formatting, re-include config - temp1011
+			* Move self pollination into main pollination method - Only happens if normal pollination can't occur - Will not cause return otherwise would worsen chance for cross pollination - temp1011
+			* Add self-pollination of leaves near bees - temp1011
+			* minor ShapedRecipeCustom optimization - Adrian Siekierka
+			* Fix #1997 Actually Additions Integration - Nedelosk
+			* Close #1859, Close #1858 Add Natura huge glowshrooms farm support - Nedelosk
+			* Update Lang - Nedelosk
+			* Fix "X-Ray" Leaves and wrong leaf particle color - Nedelosk
+			* Fix #1959 Forestry leaves causing server crash - Nedelosk
+			* Fix #1962 Wood Pile fire spread might be a bit too aggressive - Nedelosk
+			* Fix #1974 Add Support for Animania wool types in recipes - Nedelosk
+			* Fix #1982 Wrong drop Greenhouse Window - Nedelosk
+			* Fix #1975 Farm blocks change type on world reload - Nedelosk
+			* Fix #1963 Forestry leaves confuse minimap mods - Nedelosk
+			* Fix #1984 Server crash when placing an arboretum - Nedelosk
+			* Fix #1993, Fix #1972 Managed Succulent Farm doesn't work and Farm multiblock causing chunks to be loaded - Nedelosk
+			* Fix #1988 Arborist's Chests causing suffocation damage - Nedelosk
+			* Fix #1989 "X-Ray" Leaves - Nedelosk
+			* More correct method - temp1011
+			* formatting - temp1011
+			* Fix crash if HarvestCraft present but Apiculture disabled - temp1011
+			* Add oredict for bronze gear in sorting pipe recipe - temp1011
+			* Fix #1969 Multiblock farms server-crash - Nedelosk
+			* Fix return statement - temp1011
+			* Woops - temp1011
+			* Added whitelist for dimension generation too - temp1011
+			* merge (#1) * Reintroduce the old-style farm * Remove Unused Files * Fix #1945 Database duping trees / bees * Fix broken model baker uvs * Improve Farm Logic System and add ring farm layout * Rebalance electron tubes and add ender farm * Improve fertilizer config and Clean Up * Clean Up API * Add missing farm logic localisation * Add missing fluid handler capability to the planter * Remove unneeded GL state changes * Update Lang * Fix #1955 Add Filter Sorting to fix a server sided bug * Make cultivation farms more expensive * Round fertilizer values * Add deprecated circuit replacement and Version 5.8 - temp1011
+			* Add deprecated circuit replacement and Version 5.8 - Nedelosk
+			* fix imports - temp1011
+			* Add IMC messages for mods to blacklist dimensions in - temp1011
+			* Round fertilizer values - Nedelosk
+			* Make cultivation farms more expensive - Nedelosk
+			* Fix #1955 Add Filter Sorting to fix a server sided bug - Nedelosk
+			* Update Lang - Nedelosk
+			* Remove unneeded GL state changes - Nedelosk
+			* Add missing fluid handler capability to the planter - Nedelosk
+			* Add missing farm logic localisation - Nedelosk
+			* Clean Up API - Nedelosk
+			* Improve fertilizer config and Clean Up - Nedelosk
+			* Pull from branch 'mc-1.12' - Nedelosk
+			* Rebalance electron tubes and add ender farm - Nedelosk
+			* Improve Farm Logic System and add ring farm layout - Nedelosk
+			* Fix broken model baker uvs - Nedelosk
+			* Fix #1945 Database duping trees / bees - Nedelosk
+			* Update Lang - Nedelosk
+			* Improve genetic filter implementation - Nedelosk
+			* Move the filter logic to a separate interface - Nedelosk
+			* Change default filter rule - Nedelosk
+			* Improve Filter collision box - Nedelosk
+			* Remove unused texture - Nedelosk
+			* Add sorting block (Genetic Filter) - Nedelosk
+			* Add more Dimension Config Blacklists for world generation (#1942) - temp1011
+			* Removing overworked bees mechanic, cap production modifier at 16x (#1946) - temp1011
+			* Remove Unused Files - Nedelosk
+			* Reintroduce the old-style farm - Nedelosk
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Adds dimension blacklist for hive generation. - phillipasmith1995
+			* Move the worktable into a separate module - Nedelosk
+			* Should be all of them (hopefully) - temp1011
+			* Add power config for analyzer - temp1011
+			* Fix #1061 Squeezer is very "liberal" regarding oredict in Recipes - Nedelosk
+			* Update Lang Git-Module - Nedelosk
+			* Fix #1937 Backpacks do not hold previously defined items - Nedelosk
+			* Fix #1399 Add Hive Generation Blacklist - Nedelosk
+			* Fix #1884 Tin can / wax capsule cannot pick up fluid blocks in world - Nedelosk
+			* Fix Crate Registration - Nedelosk
+			* Fix #1916 Client Crash with new version - Nedelosk
+			* Fix #1874 Crash when adding bee to BQM quest / chestloot - Nedelosk
+			* Fix #1920 Crate registration only on client side - Nedelosk
+			* No biome check - temp1011
+			* Fix #1919 Butterfly Model throws NullPointerException - Nedelosk
+			* Improve Database Recipe - Nedelosk
+			* Fix hive flammability Hive placed in the overworld burned whereas hive placed in nether did not in my tests. Hopefully this works better. - temp1011
+			* Fix #1932 Client Tile Updates Depending On Apiculture Module - Nedelosk
+			* Woops - temp1011
+			* add damage option to hives based on config - temp1011
+			* update config in apiculture - temp1011
+			* make non hellish hives flammable - temp1011
+			* Fix "Invalid property value detected" error logs from Buildcraft - mezz
+			* Fix #1918 Fix #1912 packet handler issue with latest Forge (14.23.1.2574+) - Nedelosk
+			* Fix Broken Sockets - Nedelosk
+			* Fix #1907 Electric engine doesn't update configuration properly - Nedelosk
+			* Fix #1901 Custom Backpack Model Registration - Nedelosk
+			* Fix #1906 Willow leaves can be used to create an x-ray - Nedelosk
+			* Fix resurrected ender dragons having no AI (#1908) - Remy A
+			* Revert "Slightly improve render performance of genetic items (bee, trees, etc)" This reverts commit 3df3d9121e51fca16e8a02b19ddb8e1a2b1d5bc6. - mezz
+			* Fix #1893 False Module Container ID - Nedelosk
+			* Slightly improve render performance of genetic items (bee, trees, etc) - mezz
+			* Stop viscous fluids from making water flowing sounds - mezz
+			* Fix #1890 NPE with Quark - Nedelosk
+			* Fix backward compatibility - Nedelosk
+			* Clean Up Module System - Nedelosk
+			* Fix Module System - Nedelosk
+			* Fix Api - Nedelosk
+			* Improve Module System - Nedelosk
+			* Fix GreenhouseEventHandler - Nedelosk
+			* Change the plugin system to a module system and split up modules -Changed plugin system to a module -Renamed forestry plugins to modules -Mod integration plugins are still called plugins -Moved the woodpile from the arboriculture module to the charcoal module -Moved the backpacks from the storage module to the backpacks module -Moved the crates from the storage module to the creates module -Added the database module with a new storage block for individuals -Added a species plugin interface to handle the database gui -Added some alyzer methods to the species plugin to move the alyzer integration later to it - Nedelosk
+			* Update Lang - Nedelosk
+			* Move some classes to the api and fix broken api classes - Nedelosk
+			* Remove experimental code - Nedelosk
+			* Remove unused resources - Nedelosk
+			* Change the plugin system to a module system and slit up modules -Moved the woodpile from the arboriculture module to the charcoal module -Moved the backpacks from the storage module to the backpacks module -Moved the crates from the storage module to the creates module -Added the database module with a new storage for individuals -Added a gui element system to improve the alyzer api -Added a species plugin interface to handle the database gui -Added some alyzer methods to the species plugin to move the alyzer integration later to it - Nedelosk
+			* Fix #1866 Block State Interaction Issues With Pokecube and Forestry - Nedelosk
+			* Fix Mystical Agriculture Inferium Seeds and update Integration - Nedelosk
+			* Fix #1860 Mystical Agriculture Integration (Could not find item) - Nedelosk
+			* Fix #1856 Non Glass Fluids in Thermionic Fabricator are not getting used up. - Nedelosk
+			* Fix #1863 Bottler does not empty bottles - Nedelosk
+
+	Integration Foregoing (went from IntegrationForegoing-1.12.2-1.7.jar to IntegrationForegoing-1.12.2-1.7.1.jar):
+		IntegrationForegoing-1.12.2-1.7.1.jar:
+			 * Requires Industrial Foregoing (at least 1.6.5)
+			 * Switched to use the deprecated getDrops method for Rustic herbs, fixed the problem with getting little to no drops from herbs in Plant Gatherer and closes [#28](https://github.com/JackyyTV/IntegrationForegoing/issues/28)
+			 * Renamed registry names for a couple of straw drinking handlers to resolve conflicts with Biomes O' Plenty (You might see missing registry entries error from Forge after upgrading to this version in existing worlds, but that can be ignored as it doesn't affect anything)
+			 * Rewritten a big portion of the integrations internal logging
+			Added integration(s):
+
+			 * Biomes O' Plenty: Straw drinking, Laser Drill entries and Bioreactor entries
+
+	[ANGRY PIXEL] The Betweenlands (went from The Betweenlands v3.3.9 to The Betweenlands v3.3.10):
+		The Betweenlands v3.3.10:
+			Additions/Changes:
+
+			 * Infuser now plays an animation and sound when creating an "invalid" infusion
+			 * Updated zh_CN and ru_RU translations
+			Fixes:
+
+			 * Fixed buckets with rubber filled from modded tanks not smeltable
+			 * Fixed equipment items visible in spectator mode and overlapping with offhand slot when primary hand is set to left
+			 * Fixed Infuser losing contents when reloading world
+
+Downgraded:
+	Minecraft Forge (went from 1.12.2-14.23.4.2715 to 1.12.2-14.23.4.2725):
+		1.12.2-14.23.4.2725:
+			bs2609:
+				Fix player movement status not syncing across dimension change
+				(MC-10657) (#4974)
+		1.12.2-14.23.4.2724:
+			kinglemming:
+				Fix ISpecialArmor to allow for "Unblockable" damage to be handled if the
+				armor opts in. (#4964)
+			bs2609:
+				Fix some ClassCastExceptions incorrectly being logged in FML handshake.
+				(#4972)
+		1.12.2-14.23.4.2723:
+			LexManos: Fix NPE when sleeping in some custom beds. Closes #4956
+			LexManos:
+				Fix FML entity network spawning not using EntityBuilder's facctory.
+				Closes #4845 and #4846
+		1.12.2-14.23.4.2721:
+			LexManos:
+				Added Fluid Place Block Event for when fluid changes blocks in world.
+				(#4627)
+		1.12.2-14.23.4.2719:
+			LexManos: Cleanup licenses
+		1.12.2-14.23.4.2718:
+			tterrag1098: Fix MC-234: Z-fighting when viewing break animation side-on (#4928)
+			latvianmodder: Added Item#readNBTShareTag(ItemStack, NBTTagCompound) (#4932)
+			bs2609: Switch from trove to fastutil collections (#4933)
+			UnRealDinnerbone: Add Farmland Trample Event  (#4895)
+		1.12.2-14.23.4.2717:
+			bs2609:
+				Clean up some dimension manager code and add a command to list
+				dimensions (#4902)
+		1.12.2-14.23.4.2716:
+			bs2609: Change item model loading priority to fix model conflicts (#4898)
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.9.4)
