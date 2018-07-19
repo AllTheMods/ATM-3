@@ -284,6 +284,14 @@ print(" ==================================================== ");
 					"akashictome:definedMod": "thebetweenlands"
 				},
 				Damage: 0 as short
+			},
+			guideapi: {
+				id: "guideapi:inventorygenerators-guide_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "guideapi"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -341,6 +349,7 @@ print(" ==================================================== ");
 		<practicallogistics2:plguide>,
 		<conarm:book>,
 		<thebetweenlands:manual_hl>
+		<guideapi:inventorygenerators-guide_book>
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
