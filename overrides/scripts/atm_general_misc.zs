@@ -442,3 +442,11 @@ recipes.remove(unbaked_talisman);
 //
 	mods.tconstruct.Melting.removeRecipe(<liquid:refinedobsidian>, <mekanism:otherdust:5>);
 	
+//====== Fix Pneumaticraft Ammo ======
+//
+	recipes.remove(<pneumaticcraft:gun_ammo>);
+	recipes.addShaped(<pneumaticcraft:gun_ammo>, [
+		[<ore:gunpowder>, <ore:ingotIronCompressed>, null],
+		[<ore:ingotGold>, null, null]
+		]);
+	
