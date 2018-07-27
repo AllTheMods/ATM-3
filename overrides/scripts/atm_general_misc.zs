@@ -447,6 +447,7 @@ recipes.remove(unbaked_talisman);
 	recipes.remove(<pneumaticcraft:gun_ammo>);
 	recipes.addShaped(<pneumaticcraft:gun_ammo>, [
 		[<ore:gunpowder>, <ore:ingotIronCompressed>, null],
-		[<ore:ingotGold>, null, null]
+		[<ore:ingotGold>, null, null],
+		[null, null, null]
 		]);
 	
