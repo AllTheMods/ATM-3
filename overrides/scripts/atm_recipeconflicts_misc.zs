@@ -219,15 +219,7 @@ print(" ======================================================== ");
 //(Soft Pretzel) <harvestcraft:softpretzelitem:0> * 1 conflicts with [Shapeless] (Crackers) <harvestcraft:crackersitem:0> * 1
 	recipes.remove(<harvestcraft:crackersitem:0>);
 	recipes.addShapeless(<harvestcraft:crackersitem:0>, [<harvestcraft:crackeritem:0>, <harvestcraft:crackeritem:0>]);
-	
-//(Trash Can (Fluid)) <extrautils2:trashcanfluid:0> * 1 conflicts with [Shaped] (Fluid Trash Can) <quantumstorage:trashcanfluid:0> * 1
-	recipes.remove(<extrautils2:trashcanfluid:0>);
-	recipes.addShapeless(<extrautils2:trashcanfluid:0>, [<quantumstorage:trashcanfluid:0>]);
-	
-//(Trash Can) <extrautils2:trashcan:0> * 1 conflicts with [Shaped] (Trash Can) <quantumstorage:trashcan:0> * 1
-	recipes.remove(<extrautils2:trashcan:0>);
-	recipes.addShapeless(<extrautils2:trashcan:0>, [<quantumstorage:trashcan:0>]);
-	
+
 //(Uranium Seeds) <mysticalagriculture:uranium_seeds:0> * 1 conflicts with [Shaped] (Yellorium Seeds) <mysticalagriculture:yellorium_seeds:0> * 1
 	recipes.remove(<mysticalagriculture:yellorium_seeds:0>);
 

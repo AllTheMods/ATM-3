@@ -18,12 +18,3 @@ print(" ======================================================== ");
 	furnace.addRecipe(<bigreactors:dustmetals:2>, <ore:dustCharcoal>, 1);
 	furnace.addRecipe(<bigreactors:blockmetals:2>, <ore:blockCoal>, 1);
 	furnace.addRecipe(<bigreactors:blockmetals:2>, <ore:blockCharcoal>, 1);
-
-
-//====== Quantum Disk SIMPLIFIED ======
-//
-	recipes.remove(<quantumstorage:quantumstoragedisk>.withTag({Items: [], Stored: 0, Protocol: 1}));
-	recipes.addShapeless(<quantumstorage:quantumstoragedisk>.withTag({Items: [], Stored: 0, Protocol: 1}), [
-		<quantumstorage:quantumcrafter>, <minecraft:nether_star>
-	]);
-
