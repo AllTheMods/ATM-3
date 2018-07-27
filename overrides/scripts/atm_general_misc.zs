@@ -451,3 +451,13 @@ recipes.remove(unbaked_talisman);
 		[null, null, null]
 		]);
 	
+
+	//====== Fix Materializer ======
+//
+	recipes.remove(<abyssalcraft:materializer>);
+   recipes.addShaped(<abyssalcraft:materializer>, [
+   [<abyssalcraft:ethbrick>, <abyssalcraft:ethbrick>, <abyssalcraft:ethbrick>],
+   [<abyssalcraft:ethbrick>, <minecraft:obsidian>, <abyssalcraft:ethbrick>],
+   [<abyssalcraft:ingotblock:3>, <forge:bucketfilled>, <abyssalcraft:ingotblock:3>]
+   ]);
+	
