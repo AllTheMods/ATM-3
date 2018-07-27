@@ -15,7 +15,6 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["quark_journeymap_icons.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
