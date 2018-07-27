@@ -453,11 +453,11 @@ recipes.remove(unbaked_talisman);
 	
 
 	//====== Fix Materializer ======
-//
+   //
 	recipes.remove(<abyssalcraft:materializer>);
    recipes.addShaped(<abyssalcraft:materializer>, [
-   [<abyssalcraft:ethbrick>, <abyssalcraft:ethbrick>, <abyssalcraft:ethbrick>],
-   [<abyssalcraft:ethbrick>, <minecraft:obsidian>, <abyssalcraft:ethbrick>],
-   [<abyssalcraft:ingotblock:3>, <forge:bucketfilled>, <abyssalcraft:ingotblock:3>]
+   [<ore:ingotEthaxiumBrick>, <ore:ingotEthaxiumBrick>, <ore:ingotEthaxiumBrick>],
+   [<ore:ingotEthaxiumBrick>, <ore:obsidian>, <ore:ingotEthaxiumBrick>],
+   [<ore:blockEthaxium>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <ore:blockEthaxium>]
    ]);
 	
