@@ -1,0 +1,12 @@
+{
+  "music.menu": {
+    "category": "music",
+    "replace": true,
+      "sounds": [
+        {
+       "name": "music/menu/atm",
+       "stream": true
+     }
+     ]
+  }
+}
