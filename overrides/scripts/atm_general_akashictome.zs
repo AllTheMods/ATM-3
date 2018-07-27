@@ -348,7 +348,7 @@ print(" ==================================================== ");
 		<ebwizardry:wizard_handbook>,
 		<practicallogistics2:plguide>,
 		<conarm:book>,
-		<thebetweenlands:manual_hl>
+		<thebetweenlands:manual_hl>,
 		<guideapi:inventorygenerators-guide_book>
 		] as IItemStack[];
 
