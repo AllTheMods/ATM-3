@@ -587,7 +587,6 @@ print(" ====================================================== ");
 		[<minecraft:dye:4>, <environmentaltech:diode>, <minecraft:dye:4>],
 		[<minecraft:quartz>, <minecraft:dye:4>, <minecraft:quartz>]
 	]);
-	
 	recipes.addShaped(<environmentaltech:solar_cell_erodium>, [
 		[null, null, null],
 		[<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>],
@@ -613,3 +612,6 @@ print(" ====================================================== ");
 		[<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>],
 		[<environmentaltech:solar_cell_ionite>, photo, <environmentaltech:solar_cell_ionite>]
 		]);
+//====== Coal Ore Removal =====
+//
+	mods.mekanism.combiner.removeRecipe(<minecraft:coal_ore>);
