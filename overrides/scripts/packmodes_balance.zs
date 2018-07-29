@@ -571,3 +571,45 @@ print(" ====================================================== ");
 		[<extrautils2:ingredients:16>, contractLasso,                      <extrautils2:ingredients:16>],
 		[<magicbees:resource:7>,       <notenoughwands:advanced_wandcore>, <magicbees:resource:7>]
 		]);
+//====== Slight Env. Tech Solar Nerf ======
+//
+	var photo = <environmentaltech:photovoltaic_cell>;
+	
+	recipes.remove(photo);
+	recipes.remove(<environmentaltech:solar_cell_erodium>);
+	recipes.remove(<environmentaltech:solar_cell_kyronite>);
+	recipes.remove(<environmentaltech:solar_cell_pladium>);
+	recipes.remove(<environmentaltech:solar_cell_ionite>);
+	recipes.remove(<environmentaltech:solar_cell_aethium>);
+	
+	recipes.addShaped(photo, [
+		[<minecraft:quartz>, <minecraft:dye:4>, <minecraft:quartz>],
+		[<minecraft:dye:4>, <environmentaltech:diode>, <minecraft:dye:4>],
+		[<minecraft:quartz>, <minecraft:dye:4>, <minecraft:quartz>]
+	]);
+	
+	recipes.addShaped(<environmentaltech:solar_cell_erodium>, [
+		[null, null, null],
+		[<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>],
+		[<environmentaltech:solar_cell_litherite>, photo, <environmentaltech:solar_cell_litherite>]
+		]);
+	recipes.addShaped(<environmentaltech:solar_cell_kyronite>, [
+		[null, null, null],
+		[<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>],
+		[<environmentaltech:solar_cell_erodium>, photo, <environmentaltech:solar_cell_erodium>]
+		]);
+	recipes.addShaped(<environmentaltech:solar_cell_pladium>, [
+		[null, null, null],
+		[<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>],
+		[<environmentaltech:solar_cell_kyronite>, photo, <environmentaltech:solar_cell_kyronite>]
+		]);
+	recipes.addShaped(<environmentaltech:solar_cell_ionite>, [
+		[null, null, null],
+		[<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>],
+		[<environmentaltech:solar_cell_pladium>, photo, <environmentaltech:solar_cell_pladium>]
+		]);
+	recipes.addShaped(<environmentaltech:solar_cell_aethium>, [
+		[null, null, null],
+		[<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>],
+		[<environmentaltech:solar_cell_ionite>, photo, <environmentaltech:solar_cell_ionite>]
+		]);
