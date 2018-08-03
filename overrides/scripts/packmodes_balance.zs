@@ -64,12 +64,8 @@ print(" ====================================================== ");
 			
 	//====== Draco Chest ======
 	//
-		recipes.remove(<draconicevolution:wyvern_chest>);
-		recipes.addShaped(<draconicevolution:wyvern_chest>, [
-			[<ore:blockDraconium>,    <draconicevolution:wyvern_core:*>,        <ore:blockDraconium>],
-			[<minecraft:nether_star>, normalRing,                               <minecraft:nether_star>],
-			[<ore:blockDraconium>,    <draconicevolution:wyvern_energy_core:*>, <ore:blockDraconium>]
-			]);
+		// Angel ring was moved from the wyvern to the draconic chestplate
+		// That recipe is a fusion crafting one.
 			
 	//====== Botania Tiara ======
 	//

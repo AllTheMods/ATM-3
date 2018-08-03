@@ -11,5 +11,23 @@
             "thermalfoundation:fertilizer,1,2",
             "ore:powderMana"
         ]
-    }
+    },
+	{
+		"mode": "REMOVE",
+		"result": "draconicevolution:draconic_chest",
+		"catalyst": "draconicevolution:wyvern_chest"
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_chest",
+		"catalyst": "draconicevolution:wyvern_chest",
+		"energy": 3750000,
+		"tier": 2,
+		"ingredients": [
+			"draconicevolution:draconic_block",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:awakened_core",
+			"extrautils2:angelring"
+		]
+	}
 ]
