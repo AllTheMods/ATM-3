@@ -357,7 +357,7 @@ print(" ==================================================== ");
 		<practicallogistics2:plguide>,
 		<conarm:book>,
 		<thebetweenlands:manual_hl>,
-		<guideapi:inventorygenerators-guide_book>
+		<guideapi:inventorygenerators-guide_book>,
 		<valkyrielib:guide>
 		] as IItemStack[];
 
