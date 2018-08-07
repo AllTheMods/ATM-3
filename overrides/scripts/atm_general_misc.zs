@@ -460,4 +460,11 @@ recipes.remove(unbaked_talisman);
    [<ore:ingotEthaxiumBrick>, <ore:obsidian>, <ore:ingotEthaxiumBrick>],
    [<ore:blockEthaxium>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <ore:blockEthaxium>]
    ]);
+   
 	
+//====== Angel Ring Message for Draconic Crafting ======
+//
+	<extrautils2:angelring:0>.addTooltip(
+	"Use this ring for making the draconic chestplate."
+	);
+		
