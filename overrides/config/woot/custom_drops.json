@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "mobs": [
+    {
+      "mobName": "minecraft:ender_dragon",
+      "drops": [
+        {
+          "drop": {
+            "item": "minecraft:dragon_egg",
+			"data": 0,
+            "count": 1
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 25, 33, 33, 50 ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:elytra",
+			"data": 0,
+            "count": 1
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 5, 10, 15, 20 ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:dragon_breath",
+			"data": 0
+          },
+          "sizes": [ 1, 2, 2, 3 ],
+          "chances": [ 25, 33, 33, 50 ]
+        },
+        {
+          "drop": {
+            "item": "draconicevolution:dragon_heart",
+			"data": 0
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 10, 20, 33, 66 ]
+        },
+        {
+          "drop": {
+            "item": "draconicevolution:draconium_dust",
+			"data": 0
+          },
+          "sizes": [ 5, 5, 5, 10 ],
+          "chances": [ 10, 15, 20, 25 ]
+        }
+      ]
+    },
+	{
+      "mobName": "draconicevolution:chaosguardian",
+      "drops": [
+        {
+          "drop": {
+            "item": "draconicevolution:chaos_shard",
+			"data": 0
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 10, 20, 30, 40 ]
+        },
+        {
+          "drop": {
+            "item": "draconicevolution:dragon_heart",
+			"data": 0
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 10, 20, 33, 66 ]
+        },
+        {
+          "drop": {
+            "item": "draconicevolution:draconium_dust",
+			"data": 0
+          },
+          "sizes": [ 50, 50, 50, 100 ],
+          "chances": [ 10, 15, 20, 25 ]
+        }
+      ]
+    }
+  ]
+}

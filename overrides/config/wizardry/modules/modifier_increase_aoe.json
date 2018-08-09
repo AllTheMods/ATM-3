@@ -1,0 +1,20 @@
+{
+  "item": "minecraft:emerald",
+  "modifiers": [
+    {
+      "attribute": "area",
+      "operation": "add",
+      "amount": 1
+    },
+    {
+      "attribute": "mana",
+      "operation": "multiply",
+      "amount": 1.2
+    },
+    {
+      "attribute": "burnout",
+      "operation": "multiply",
+      "amount": 1.2
+    }
+  ]
+}

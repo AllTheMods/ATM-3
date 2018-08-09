@@ -1,0 +1,222 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:atm.png",
+            "posX" : -220,
+            "posY" : -100,
+            "width" : 0,
+            "height" : 0,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -20,
+            "posY" : 30,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:singleplayer.png",
+			"textOffsetY":-2,
+			"textOffsetX":5,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 30,
+            "width" : 120,
+            "height" : 30,
+            "texture" : "mainmenu:multiplayer.png",
+            "textOffsetY":-2,
+			"textOffsetX":7,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "Make a Server":
+        {
+            "text" : "Make a Server",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -20,
+            "posY" : 60,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:akliz.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/allthemods"
+            }
+        },
+		
+		        "Discord":
+        {
+            "text" : "Discord",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 60,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:discord.png",
+			"textOffsetY":-2,
+			"textOffsetX":5,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/FdFDVWb"
+            }
+        },
+		
+		        "Reddit":
+        {
+            "text" : "Reddit",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -20,
+            "posY" : 90,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:reddit.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" :  
+            {
+                "type" : "openLink",
+                "link" : "http://www.reddit.com/r/allthemods"
+            }
+        },
+
+            
+        "options":
+        {
+            "text" : "Options",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 90,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:settings.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -20,
+            "posY" : 120,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:quit.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" :  
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Languages",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 120,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:lang.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+         
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 180,
+            "posY" : 200,
+            "width" : 0,
+            "height" : 0,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"alignment" : "middle"
+		}
+    }
+    }
+}
