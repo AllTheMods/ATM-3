@@ -3,3 +3,10 @@
 
 # Make ZenScript files format like Java
 *.zs linguist-language=Java
+
+# Binary files not to mess with
+*.png binary
+*.jpg binary
+*.jar binary
+*.zip binary
+*.gif binary
