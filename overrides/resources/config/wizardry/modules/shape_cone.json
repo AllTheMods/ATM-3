@@ -1,0 +1,9 @@
+{
+  "item": "minecraft:gunpowder",
+  "mana": { "base": 300 },
+  "burnout": { "base": 200 },
+  "cooldown": { "base": 30 },
+  "chargupup": { "base": 5 },
+  "range": { "base": 5, "min": 5, "max": 16 },
+  "potency": { "base": 5, "min": 5, "max": 32 }
+}

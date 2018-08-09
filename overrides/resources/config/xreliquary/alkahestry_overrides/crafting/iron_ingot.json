@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 2,
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result_count": 64
+}

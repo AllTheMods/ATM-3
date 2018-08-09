@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "mainmenu:atm3Logo.png",
+            "image" : "mainmenu:atm.png",
             "posX" : -220,
             "posY" : -100,
             "width" : 0,
@@ -24,7 +24,7 @@
             "posY" : 30,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:singleplayerButton.png",
+			"texture" : "mainmenu:singleplayer.png",
 			"textOffsetY":-2,
 			"textOffsetX":5,
             "action" : 
@@ -44,7 +44,7 @@
             "posY" : 30,
             "width" : 120,
             "height" : 30,
-            "texture" : "mainmenu:multiplayerButton.png",
+            "texture" : "mainmenu:multiplayer.png",
             "textOffsetY":-2,
 			"textOffsetX":7,
             "action" : 
@@ -64,7 +64,7 @@
             "posY" : 60,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:aklizButton.png",
+			"texture" : "mainmenu:akliz.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" : 
@@ -84,7 +84,7 @@
             "posY" : 60,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:discordButton.png",
+			"texture" : "mainmenu:discord.png",
 			"textOffsetY":-2,
 			"textOffsetX":5,
             "action" : 
@@ -104,7 +104,7 @@
             "posY" : 90,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:redditButton.png",
+			"texture" : "mainmenu:reddit.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" :  
@@ -125,7 +125,7 @@
             "posY" : 90,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:settingsButton.png",
+			"texture" : "mainmenu:settings.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" : 
@@ -145,7 +145,7 @@
             "posY" : 120,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:quitButton.png",
+			"texture" : "mainmenu:quit.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" :  
@@ -164,7 +164,7 @@
             "posY" : 120,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:langButton.png",
+			"texture" : "mainmenu:lang.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" : 
@@ -214,7 +214,7 @@
     {
 		"background":
 		{
-			"image" : "mainmenu:atm3Background.png",
+			"image" : "mainmenu:background.png",
 			"alignment" : "middle"
 		}
     }

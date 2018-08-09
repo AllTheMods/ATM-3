@@ -1,0 +1,9 @@
+{
+  "item": "minecraft:rotten_flesh",
+  "primary_color": "381700",
+  "secondary_color": "8e0000",
+  "mana": { "base": 500 },
+  "burnout": { "base": 500 },
+  "cooldown": { "base": 500 },
+  "duration": { "base": 5, "min": 5, "max": 30 }
+}

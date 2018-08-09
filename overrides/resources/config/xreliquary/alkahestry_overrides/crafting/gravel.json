@@ -1,0 +1,10 @@
+{
+    "type": "xreliquary:alkahestry_crafting",
+    "charge": 1,
+    "ingredients": [
+        {
+            "item": "minecraft:gravel"
+        }
+    ],
+    "result_count": 64
+}
