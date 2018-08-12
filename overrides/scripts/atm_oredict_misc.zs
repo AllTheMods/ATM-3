@@ -126,3 +126,12 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 		[<minecraft:book>, <minecraft:book>, <minecraft:book>],
 		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]);
+
+//====== Conductive Iron Thruster ======
+//
+	recipes.remove(<simplyjetpacks:metaitemmods:4>);
+	recipes.addShaped(<simplyjetpacks:metaitemmods:4>, [
+		[<enderio:item_alloy_ingot:4>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:4>],
+		[<enderio:item_redstone_conduit>, <enderio:item_basic_capacitor>, <enderio:item_redstone_conduit>],
+		[<teslacorelib:gear_wood>, <minecraft:redstone>, <teslacorelib:gear_wood>]
+	]);
