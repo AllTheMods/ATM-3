@@ -4,7 +4,7 @@
     "replace": true,
       "sounds": [
         {
-       "name": "music/menu/atm",
+       "name": "music/menu/atmmain",
        "stream": true
      }
      ]
