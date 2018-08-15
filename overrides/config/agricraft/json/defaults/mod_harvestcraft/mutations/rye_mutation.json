@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/rye_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "rye_plant",
+  "parent1": "barley_plant",
+  "parent2": "wheat_plant"
+}

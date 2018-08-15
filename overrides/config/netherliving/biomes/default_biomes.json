@@ -1,0 +1,48 @@
+{
+  "biomes": [
+    {
+      "biomeName": "netherliving:cocytus",
+      "weight": 7,
+      "properties": {
+        "soul_sand": false,
+        "gravel": false,
+        "fire": false,
+        "glowstone": false,
+        "magma": false
+      }
+    },
+    {
+      "biomeName": "netherliving:swamp",
+      "weight": 12,
+      "properties": {
+        "soul_sand": true,
+        "gravel": true,
+        "fire": true,
+        "glowstone": true,
+        "magma": true
+      }
+    },
+    {
+      "biomeName": "netherliving:oasis",
+      "weight": 4,
+      "properties": {
+        "soul_sand": true,
+        "gravel": true,
+        "fire": false,
+        "glowstone": true,
+        "magma": false
+      }
+    },
+    {
+      "biomeName": "minecraft:hell",
+      "weight": 24,
+      "properties": {
+        "soul_sand": true,
+        "gravel": true,
+        "fire": true,
+        "glowstone": true,
+        "magma": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/red_mushroom_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "red_mushroom_plant",
+  "parent1": "potato_plant",
+  "parent2": "carrot_plant"
+}

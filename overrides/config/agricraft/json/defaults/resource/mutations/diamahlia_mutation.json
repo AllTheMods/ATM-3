@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/diamahlia_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "diamahlia_plant",
+  "parent1": "aurigold_plant",
+  "parent2": "nitorwart_plant"
+}

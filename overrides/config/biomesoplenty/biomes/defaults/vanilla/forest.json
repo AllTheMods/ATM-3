@@ -50,17 +50,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "clover_patches": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "cloverpatch"
-        }
-      },
-      "generationAttempts": 128,
-      "amountPerChunk": 0.15,
-      "enable": true
-    },
     "amber": {
       "minHeight": 4,
       "with": {
@@ -83,11 +72,6 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "generators": {}
     },
     "toadstools": {
       "with": {

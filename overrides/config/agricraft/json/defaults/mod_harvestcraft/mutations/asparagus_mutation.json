@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/asparagus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "asparagus_plant",
+  "parent1": "scallion_plant",
+  "parent2": "corn_plant"
+}

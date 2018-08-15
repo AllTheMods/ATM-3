@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/ginger_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "ginger_plant",
+  "parent1": "mustard_plant",
+  "parent2": "peanut_plant"
+}

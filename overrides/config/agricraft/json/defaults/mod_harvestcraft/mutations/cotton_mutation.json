@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/cotton_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "cotton_plant",
+  "parent1": "barley_plant",
+  "parent2": "soybean_plant"
+}

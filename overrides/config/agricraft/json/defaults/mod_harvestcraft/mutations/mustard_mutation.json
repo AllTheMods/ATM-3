@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/mustard_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "mustard_plant",
+  "parent1": "chilipepper_plant",
+  "parent2": "bean_plant"
+}

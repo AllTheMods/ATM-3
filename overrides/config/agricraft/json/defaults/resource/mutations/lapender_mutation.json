@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/lapender_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "lapender_plant",
+  "parent1": "ferranium_plant",
+  "parent2": "potato_plant"
+}

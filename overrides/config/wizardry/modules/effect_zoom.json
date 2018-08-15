@@ -2,8 +2,14 @@
   "item": "wizardry:fairy_wings",
   "primary_color": "f442ce",
   "secondary_color": "41d9f4",
-  "mana": { "base": 500 },
-  "burnout": { "base": 300 },
-  "cooldown": { "base": 400 },
+  "mana": {
+    "base": 50
+  },
+  "burnout": {
+    "base": 30
+  },
+  "cooldown": {
+    "base": 10
+  },
   "range": { "base": 10, "min": 10, "max": 32 }
 }

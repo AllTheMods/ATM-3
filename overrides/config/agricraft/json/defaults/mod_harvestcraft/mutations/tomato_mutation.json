@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/tomato_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "tomato_plant",
+  "parent1": "sweetpotato_plant",
+  "parent2": "carrot_plant"
+}

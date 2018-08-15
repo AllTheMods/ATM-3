@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/pumpkin_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "pumpkin_plant",
+  "parent1": "carrot_plant",
+  "parent2": "potato_plant"
+}

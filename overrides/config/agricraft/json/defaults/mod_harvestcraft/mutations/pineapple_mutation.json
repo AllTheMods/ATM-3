@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/pineapple_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "pineapple_plant",
+  "parent1": "bambooshoot_plant",
+  "parent2": "cantaloupe_plant"
+}

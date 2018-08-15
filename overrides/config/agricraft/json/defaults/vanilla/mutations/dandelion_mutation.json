@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/dandelion_mutation.json",
+  "enabled": true,
+  "chance": 0.75,
+  "child": "dandelion_plant",
+  "parent1": "pumpkin_plant",
+  "parent2": "wheat_plant"
+}

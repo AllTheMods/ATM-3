@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/artichoke_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "artichoke_plant",
+  "parent1": "asparagus_plant",
+  "parent2": "lettuce_plant"
+}

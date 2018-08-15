@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/rutabaga_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "rutabaga_plant",
+  "parent1": "beet_plant",
+  "parent2": "turnip_plant"
+}

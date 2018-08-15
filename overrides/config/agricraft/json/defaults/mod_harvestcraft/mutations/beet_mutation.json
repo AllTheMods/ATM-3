@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/beet_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "beet_plant",
+  "parent1": "radish_plant",
+  "parent2": "carrot_plant"
+}

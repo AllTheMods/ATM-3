@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/barley_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "barley_plant",
+  "parent1": "wheat_plant",
+  "parent2": "sugarcane_plant"
+}

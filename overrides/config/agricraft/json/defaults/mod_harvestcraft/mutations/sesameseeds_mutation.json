@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/sesameseeds_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "sesameseed_plant",
+  "parent1": "rice_plant",
+  "parent2": "coffee_plant"
+}
