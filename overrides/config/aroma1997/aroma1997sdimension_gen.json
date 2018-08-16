@@ -11,16 +11,6 @@
 	},
 	{
 		"type": "oreGen",
-		"identifier": "clay_ore",
-		"enabled": true,
-		"amount": 0.5,
-		"size": 20,
-		"minHeight": 60,
-		"maxHeight": 80,
-		"ore": "aroma1997sdimension:miningore:1"
-	},
-	{
-		"type": "oreGen",
 		"identifier": "emerald_ore",
 		"enabled": true,
 		"amount": 6.0,
@@ -35,9 +25,9 @@
 		"enabled": true,
 		"amount": 2.0,
 		"size": 4,
-		"minHeight": 30,
-		"maxHeight": 80,
-		"ore": "minecraft:emerald_ore"
+		"minHeight": 20,
+		"maxHeight": 60,
+		"ore": "aroma1997sdimension:miningore:1"
 	},
 	{
 		"type": "oreGen",
@@ -47,28 +37,19 @@
 		"size": 20,
 		"minHeight": 60,
 		"maxHeight": 80,
-		"ore": "aroma1997sdimension:miningore:1"
+		"ore": "aroma1997sdimension:miningore:0"
 	},
 	{
 		"type": "lakes",
 		"identifier": "lava_lake",
-		"enabled": false,
+		"enabled": true,
 		"targetBlock": "minecraft:lava"
 	},
 	{
 		"type": "lakes",
 		"identifier": "water_lake",
-		"enabled": false,
+		"enabled": true,
 		"targetBlock": "minecraft:water"
-	},
-	{
-		"type": "oreReplace",
-		"identifier": "removeDiamonds",
-		"enabled": false,
-		"targetBlock": "minecraft:diamond_ore",
-		"originalBlock": [
-			"minecraft:stone"
-		]
 	},
 	{
 		"type": "grass",
@@ -79,8 +60,8 @@
 		"type": "oreReplace",
 		"identifier": "oreGenDebug",
 		"_comment": "If you want this to work properly, this needs to be the last block in the json file.",
-		"enabled": false,
-		"targetBlock": "minecraft:air",
+		"enabled": true,
+		"targetBlock": "minecraft:stone:0",
 		"originalBlock": [
 			"minecraft:stone",
 			"minecraft:stone:1",
@@ -90,7 +71,6 @@
 			"minecraft:stone:5",
 			"minecraft:stone:6",
 			"minecraft:dirt",
-			"minecraft:grass",
 			"minecraft:gravel"
 		]
 	}
