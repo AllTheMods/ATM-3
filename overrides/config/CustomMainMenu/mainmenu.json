@@ -74,7 +74,7 @@
             }
         },
 		
-		        "Discord":
+		"Discord":
         {
             "text" : "Discord",
 			"normalTextColor" : "6579300",
@@ -94,7 +94,7 @@
             }
         },
 		
-		        "Reddit":
+		"Reddit":
         {
             "text" : "Reddit",
 			"normalTextColor" : "6579300",
@@ -114,7 +114,6 @@
             }
         },
 
-            
         "options":
         {
             "text" : "Options",
@@ -188,25 +187,50 @@
             }
         }
     },
-    
+	
     "labels":
     {
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+            "posX" : -200,
+            "posY" : -12,
             "color" : -1,
-            "alignment" : "bottom_right"
+            "alignment" : "bottom_right",
+			"action" : 
+            {
+                "type" : "refresh"
+			}
+        },
+		
+		"custommusic":
+        {
+            "text" : "Custom title music composed by Joe",
+			"hoverText" : "Custom title music composed by Joe",
+			"anchor" : "middle",
+			"alignment" : "button",
+            "posX" : 100,
+            "posY" : 160,
+            "color" : 13165025,
+			"hoverColor" : 8243425,
+			"action" : 
+            {
+				"type" : "openLink",
+                "link" : "https://www.youtube.com/watch?v=HVnu0LjCwbU"
+            }
         },
         
         "fml":
         {
             "text" : "",
-            "posX" : 2,
+            "posX" : 4,
             "posY" : -40,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_left",
+			"action" : 
+            {
+                "type" : "refresh"
+			}
         }
     },
     
