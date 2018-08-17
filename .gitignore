@@ -1,17 +1,26 @@
+# no private server information or api keys
 overrides/config/shadowfacts/DiscordChat/DiscordChat.conf
 overrides/config/Chikachi/discordintegration.json
+
+# no mod binaries
 *.jar
 
-overrides/config/teamreborn/configData\.nbt
-
-overrides/config/AppliedEnergistics2/aerecipes/items\.csv
-
-overrides/config/AppliedEnergistics2/items\.csv
-
-overrides/config/randomtweaks/data\.json
-
-overrides/config/thaumicjei_itemstack_aspects\.json
-
+# Client side or "default" configs not needed
+overrides/config/AppliedEnergistics2/aerecipes
+overrides/config/agricraft/json/defaults
+overrides/config/biomesoplenty/biomes/defaults
+overrides/config/tellme
+overrides/config/wizardry
 overrides/config/jei/worldSettings\.cfg
-
+overrides/config/betterfps\.json
+overrides/config/LLOverlayReloaded\.cfg
+overrides/config/InvTweaks\.cfg
+overrides/config/InvTweaksTree\.txt
+overrides/config/InvTweaksRules\.txt
+overrides/config/MoreOverlays\.cfg
+overrides/config/MouseTweaks\.cfg
+overrides/config/teamreborn/configData\.nbt
+overrides/config/AppliedEnergistics2/items\.csv
+overrides/config/randomtweaks/data\.json
+overrides/config/thaumicjei_itemstack_aspects\.json
 overrides/config/brandon3055/contributors\.json
