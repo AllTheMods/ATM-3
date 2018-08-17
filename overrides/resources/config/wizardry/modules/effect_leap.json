@@ -1,8 +1,0 @@
-{
-  "item": "minecraft:rabbit_foot",
-  "primary_color": "FFFFFF",
-  "secondary_color": "FFFFFF",
-  "mana": { "base": 50 },
-  "burnout": { "base": 20 },
-  "potency": { "base": 1, "min": 1, "max": 64 } 
-}

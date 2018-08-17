@@ -73,5 +73,14 @@
 			"minecraft:dirt",
 			"minecraft:gravel"
 		]
+	},
+	{
+		"type": "oreReplace",
+		"identifier": "removeDiamonds",
+		"enabled": false,
+		"targetBlock": "minecraft:diamond_ore",
+		"originalBlock": [
+			"minecraft:stone"
+		]
 	}
 ]
