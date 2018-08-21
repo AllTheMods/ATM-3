@@ -567,6 +567,8 @@ print(" ====================================================== ");
 		[<extrautils2:ingredients:16>, contractLasso,                      <extrautils2:ingredients:16>],
 		[<magicbees:resource:7>,       <notenoughwands:advanced_wandcore>, <magicbees:resource:7>]
 		]);
+		
+		
 //====== Slight Env. Tech Solar Nerf ======
 //
 	var photo = <environmentaltech:photovoltaic_cell>;
@@ -608,6 +610,23 @@ print(" ====================================================== ");
 		[<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>],
 		[<environmentaltech:solar_cell_ionite>, photo, <environmentaltech:solar_cell_ionite>]
 		]);
-//====== Coal Ore Removal =====
+		
+		
+//====== Coal Ore Removal ======
 //
 	mods.mekanism.combiner.removeRecipe(<minecraft:coal_ore>);
+	
+//====== Tech Reborn Change ======
+//
+	recipes.remove(<techreborn:solar_panel:4>);
+	recipes.removeShaped(<techreborn:solar_panel:3>,[
+	[<*>,<*>,<*>],
+	[<*>,<*>,<*>],
+	[<*>,<ore:machineBlockAdvanced>,<*>]
+	]);
+	
+	recipes.addShaped("QuantumSolarPanel", <techreborn:solar_panel:4>, [
+	[<ore:dustDiamond>, <ore:glassReinforced>, <ore:dustDiamond>],
+	[<ore:glassReinforced>, <techreborn:solar_panel:3>, <ore:glassReinforced>],
+	[<techreborn:part:0>, <techreborn:machine_frame:2>, <techreborn:part:0>]
+	]);
