@@ -317,5 +317,5 @@ print(" ======================================================== ");
 	
 //====== Ender Pearl Powder ======
 //
-	recipes.removeShapeless(<techreborn:dust:20>, <enderio:item_material:20>*9);
-	recipes.removeShapeless(<portalgun:item_dust_ender_pearl>, <enderio:item_material:28>*9);
+	recipes.removeShaped(<techreborn:dust:20>);
+	recipes.removeShaped(<portalgun:item_dust_ender_pearl>);
