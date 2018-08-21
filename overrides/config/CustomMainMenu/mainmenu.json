@@ -110,7 +110,7 @@
             "action" :  
             {
                 "type" : "openLink",
-                "link" : "http://www.reddit.com/r/allthemods"
+                "link" : "https://www.reddit.com/r/allthemods/"
             }
         },
         
