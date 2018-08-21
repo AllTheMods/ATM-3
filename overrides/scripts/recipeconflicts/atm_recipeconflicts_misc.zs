@@ -313,3 +313,9 @@ print(" ======================================================== ");
 		]);	
 
 	<ore:stickIron>.add(<tconstruct:tool_rod>.withTag({Material: "iron"}));
+
+	
+//====== Ender Pearl Powder ======
+//
+	recipes.removeShapeless(<techreborn:dust:20>, <enderio:item_material:20>*9);
+	recipes.removeShapeless(<portalgun:item_dust_ender_pearl>, <enderio:item_material:28>*9);
