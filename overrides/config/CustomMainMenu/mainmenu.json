@@ -21,7 +21,7 @@
 			"hoverTextColor" : "0",
 			"shadow" : "false",
             "posX" : -20,
-            "posY" : 30,
+            "posY" : 0,
             "width" : 120,
             "height" : 30,
 			"texture" : "mainmenu:singleplayer.png",
@@ -41,7 +41,7 @@
 			"hoverTextColor" : "0",
 			"shadow" : "false",
             "posX" : 100,
-            "posY" : 30,
+            "posY" : 0,
             "width" : 120,
             "height" : 30,
             "texture" : "mainmenu:multiplayer.png",
@@ -61,7 +61,7 @@
 			"hoverTextColor" : "0",
 			"shadow" : "false",
             "posX" : -20,
-            "posY" : 60,
+            "posY" : 30,
             "width" : 120,
             "height" : 30,
 			"texture" : "mainmenu:akliz.png",
@@ -81,7 +81,7 @@
 			"hoverTextColor" : "0",
 			"shadow" : "false",
             "posX" : 100,
-            "posY" : 60,
+            "posY" : 30,
             "width" : 120,
             "height" : 30,
 			"texture" : "mainmenu:discord.png",
@@ -101,7 +101,7 @@
 			"hoverTextColor" : "0",
 			"shadow" : "false",
             "posX" : -20,
-            "posY" : 90,
+            "posY" : 60,
             "width" : 120,
             "height" : 30,
 			"texture" : "mainmenu:reddit.png",
@@ -113,6 +113,26 @@
                 "link" : "http://www.reddit.com/r/allthemods"
             }
         },
+        
+        "Github":
+        {
+            "text" : "Github",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 60,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:github.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" :  
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/AllTheMods/ATM-3"
+            }
+        },
 
         "options":
         {
@@ -120,7 +140,7 @@
 			"normalTextColor" : "6579300",
 			"hoverTextColor" : "0",
 			"shadow" : "false",
-            "posX" : 100,
+            "posX" : -20,
             "posY" : 90,
             "width" : 120,
             "height" : 30,
@@ -134,22 +154,23 @@
             }
         },
         
-        "quit":
+        "mods":
         {
-            "text" : "Quit",
+            "text" : "Mod Options",
 			"normalTextColor" : "6579300",
 			"hoverTextColor" : "0",
 			"shadow" : "false",
-            "posX" : -20,
-            "posY" : 120,
+            "posX" : 100,
+            "posY" : 90,
             "width" : 120,
             "height" : 30,
-			"texture" : "mainmenu:quit.png",
+			"texture" : "mainmenu:mods.png",
 			"textOffsetY":-2,
 			"textOffsetX":8,
             "action" :  
             {
-                "type" : "quit"
+                "type" : "openGui",
+                "gui" : "mods"
             }
         },
         
@@ -159,7 +180,7 @@
 			"normalTextColor" : "6579300",
 			"hoverTextColor" : "0",
 			"shadow" : "false",
-            "posX" : 100,
+            "posX" : -20,
             "posY" : 120,
             "width" : 120,
             "height" : 30,
@@ -172,12 +193,33 @@
                 "gui" : "languages"
             }
         },
-         
+        
+
+        
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : "6579300",
+			"hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : 100,
+            "posY" : 120,
+            "width" : 120,
+            "height" : 30,
+			"texture" : "mainmenu:quit.png",
+			"textOffsetY":-2,
+			"textOffsetX":8,
+            "action" :  
+            {
+                "type" : "quit"
+            }
+        },
+        
         "refresh":
         {
             "text" : "",
             "posX" : 180,
-            "posY" : 200,
+            "posY" : 170,
             "width" : 0,
             "height" : 0,
             "texture" : "custommainmenu:textures/gui/buttons.png",
