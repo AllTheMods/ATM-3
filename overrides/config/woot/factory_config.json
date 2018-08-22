@@ -6,11 +6,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "value": 1
         }
       ]
     },
@@ -19,15 +15,11 @@
       "configs": [
         {
           "tag": "spawn_units",
-          "value": 40
+          "value": 0
         },
         {
           "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "value": 1
         }
       ]
     },
@@ -36,7 +28,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -45,11 +37,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "value": 1
         }
       ]
     },
@@ -62,7 +50,7 @@
         },
         {
           "tag": "spawn_units",
-          "value": 500
+          "value": 0
         },
         {
           "tag": "factory_tier",
@@ -70,52 +58,19 @@
         },
         {
           "tag": "spawn_ticks",
-          "value": 6000
+          "value": 144000
         },
         {
           "tag": "mass_1_param",
-          "value": 2
+          "value": 1
         },
         {
           "tag": "mass_2_param",
-          "value": 2
+          "value": 1
         },
         {
           "tag": "mass_3_param",
-          "value": 3
-        },
-        {
-          "tag": "mass_fx",
           "value": 2
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:wither",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 4
-        },
-        {
-          "tag": "spawn_units",
-          "value": 500
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1200
-        },
-        {
-          "tag": "mass_1_param",
-          "value": 2
-        },
-        {
-          "tag": "mass_2_param",
-          "value": 2
-        },
-        {
-          "tag": "mass_3_param",
-          "value": 3
         },
         {
           "tag": "mass_fx",
@@ -132,7 +87,7 @@
         },
         {
           "tag": "spawn_units",
-          "value": 5000
+          "value": 500000
         },
         {
           "tag": "factory_tier",
@@ -140,7 +95,7 @@
         },
         {
           "tag": "spawn_ticks",
-          "value": 12000
+          "value": 576000
         },
         {
           "tag": "mass_1_param",
@@ -160,54 +115,36 @@
         }
       ]
     },
-	{
-      "mobName": "thermalfoundation:basalz",
-      "configs": [
-        {
-          "tag": "spawn_units",
-          "value": 20
-        },
-        {
-          "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
-        }
-      ]
-    },
     {
-      "mobName": "thermalfoundation:blitz",
+      "mobName": "minecraft:wither",
       "configs": [
         {
-          "tag": "spawn_units",
-          "value": 20
+          "tag": "factory_tier",
+          "value": 4
         },
         {
-          "tag": "factory_tier",
-          "value": 3
+          "tag": "spawn_units",
+          "value": 1
         },
         {
           "tag": "spawn_ticks",
-          "value": 1000
-        }
-      ]
-    },
-    {
-      "mobName": "thermalfoundation:blizz",
-      "configs": [
-        {
-          "tag": "spawn_units",
-          "value": 40
+          "value": 400
         },
         {
-          "tag": "factory_tier",
+          "tag": "mass_1_param",
+          "value": 2
+        },
+        {
+          "tag": "mass_2_param",
           "value": 3
         },
         {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "tag": "mass_3_param",
+          "value": 4
+        },
+        {
+          "tag": "mass_fx",
+          "value": 4
         }
       ]
     },
@@ -216,11 +153,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "value": 1
         }
       ]
     },
@@ -229,7 +162,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 3
+          "value": 1
         }
       ]
     },
@@ -238,7 +171,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -247,7 +180,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -256,7 +189,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -265,7 +198,7 @@
       "configs": [
         {
           "tag": "factory_tier",
-          "value": 2
+          "value": 1
         }
       ]
     }
@@ -283,8 +216,13 @@
     "twilightforest:giant_miner",
     "twilightforest:armored_giant"
   ],
-  "entitywhitelist": [  ],
-  "itemmodblacklist": [  ],
-  "itemblacklist": [  ]
+  "entitywhitelist": [
+  ],
+  "itemmodblacklist": [ 
+	"ebwizardry"
+  ],
+  "itemblacklist": [
+	"ebwizardry:spell_book"
+  ]
 }
 
