@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "mobconfigs": [
+    {
+      "mobName": "minecraft:villager",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:wither_skeleton",
+      "configs": [
+        {
+          "tag": "spawn_units",
+          "value": 0
+        },
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:magma_cube",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:enderman",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:ender_dragon",
+      "configs": [
+        {
+          "tag": "death_xp",
+          "value": 500
+        },
+        {
+          "tag": "spawn_units",
+          "value": 0
+        },
+        {
+          "tag": "factory_tier",
+          "value": 4
+        },
+        {
+          "tag": "spawn_ticks",
+          "value": 144000
+        },
+        {
+          "tag": "mass_1_param",
+          "value": 1
+        },
+        {
+          "tag": "mass_2_param",
+          "value": 1
+        },
+        {
+          "tag": "mass_3_param",
+          "value": 2
+        },
+        {
+          "tag": "mass_fx",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "mobName": "draconicevolution:chaosguardian",
+      "configs": [
+        {
+          "tag": "death_xp",
+          "value": 5000
+        },
+        {
+          "tag": "spawn_units",
+          "value": 500000
+        },
+        {
+          "tag": "factory_tier",
+          "value": 4
+        },
+        {
+          "tag": "spawn_ticks",
+          "value": 576000
+        },
+        {
+          "tag": "mass_1_param",
+          "value": 1
+        },
+        {
+          "tag": "mass_2_param",
+          "value": 1
+        },
+        {
+          "tag": "mass_3_param",
+          "value": 2
+        },
+        {
+          "tag": "mass_fx",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:wither",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 4
+        },
+        {
+          "tag": "spawn_units",
+          "value": 1
+        },
+        {
+          "tag": "spawn_ticks",
+          "value": 400
+        },
+        {
+          "tag": "mass_1_param",
+          "value": 2
+        },
+        {
+          "tag": "mass_2_param",
+          "value": 3
+        },
+        {
+          "tag": "mass_3_param",
+          "value": 4
+        },
+        {
+          "tag": "mass_fx",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:villager_golem",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:guardian",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:blaze",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:witch",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:ghast",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:zombie_pigman",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "entitymodblacklist": [
+    "botania"
+  ],
+  "entityblacklist": [
+    "twilightforest:naga",
+    "twilightforest:minoshroom",
+    "twilightforest:hydra",
+    "twilightforest:ur_ghast",
+    "twilightforest:yeti_alpha",
+    "twilightforest:snow_queen",
+    "twilightforest:giant_miner",
+    "twilightforest:armored_giant"
+  ],
+  "entitywhitelist": [
+  ],
+  "itemmodblacklist": [ 
+	"ebwizardry"
+  ],
+  "itemblacklist": [
+	"ebwizardry:spell_book"
+  ]
+}
+
