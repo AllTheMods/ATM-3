@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/glowstone_ingot_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "glowstone_ingot_plant",
   "plant_name": "Glowstone Ingot",
   "seed_name": "Glowstone Ingot Seeds",

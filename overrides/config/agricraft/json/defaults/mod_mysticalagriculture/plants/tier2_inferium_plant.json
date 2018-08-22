@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/tier2_inferium_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "tier2_inferium_plant",
   "plant_name": "Tier2 Inferium Crop",
   "seed_name": "Tier2 Inferium Seeds",

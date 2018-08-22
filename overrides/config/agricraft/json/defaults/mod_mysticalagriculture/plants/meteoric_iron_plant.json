@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/meteoric_iron_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "meteoric_iron_plant",
   "plant_name": "Meteoric Iron Crop",
   "seed_name": "Meteoric Iron Seeds",

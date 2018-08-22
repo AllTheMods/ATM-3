@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/apatite_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "apatite_plant",
   "plant_name": "Apatite Crop",
   "seed_name": "Apatite Seeds",

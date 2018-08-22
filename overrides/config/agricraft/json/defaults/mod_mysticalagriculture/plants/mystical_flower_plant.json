@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/mystical_flower_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "mystical_flower_plant",
   "plant_name": "Mystical Flower Crop",
   "seed_name": "Mystical Flower Seeds",

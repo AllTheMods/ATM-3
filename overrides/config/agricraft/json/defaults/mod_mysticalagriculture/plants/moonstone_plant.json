@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/moonstone_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "moonstone_plant",
   "plant_name": "Moonstone Crop",
   "seed_name": "Moonstone Seeds",

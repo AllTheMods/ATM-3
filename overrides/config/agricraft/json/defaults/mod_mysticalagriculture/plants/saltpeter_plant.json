@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/saltpeter_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "saltpeter_plant",
   "plant_name": "Saltpeter Crop",
   "seed_name": "Saltpeter Seeds",

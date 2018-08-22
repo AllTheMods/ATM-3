@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/rock_crystal_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "rock_crystal_plant",
   "plant_name": "Rock Crystal Crop",
   "seed_name": "Rock Crystal Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/iridium_ore_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "iridium_ore_plant",
   "plant_name": "Iridium Ore Crop",
   "seed_name": "Iridium Ore Seeds",

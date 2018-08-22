@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/soularium_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "soularium_plant",
   "plant_name": "Soularium Crop",
   "seed_name": "Soularium Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/quartz_enriched_iron_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "quartz_enriched_iron_plant",
   "plant_name": "Quartz Enriched Iron Crop",
   "seed_name": "Quartz Enriched Iron Seeds",

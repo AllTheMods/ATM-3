@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/ardite_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "ardite_plant",
   "plant_name": "Ardite Crop",
   "seed_name": "Ardite Seeds",

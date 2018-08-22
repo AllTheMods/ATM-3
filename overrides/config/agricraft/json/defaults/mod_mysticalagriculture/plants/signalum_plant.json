@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/signalum_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "signalum_plant",
   "plant_name": "Signalum Crop",
   "seed_name": "Signalum Seeds",

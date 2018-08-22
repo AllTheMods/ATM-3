@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/draconium_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "draconium_plant",
   "plant_name": "Draconium",
   "seed_name": "Draconium Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/blizz_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "blizz_plant",
   "plant_name": "Blizz Crop",
   "seed_name": "Blizz Seeds",

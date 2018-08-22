@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/manasteel_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "manasteel_plant",
   "plant_name": "Manasteel",
   "seed_name": "Manasteel Seeds",

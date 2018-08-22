@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/coal_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "coal_plant",
   "plant_name": "Coal Crop",
   "seed_name": "Coal Seeds",

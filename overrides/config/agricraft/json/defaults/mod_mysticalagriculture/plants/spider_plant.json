@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/spider_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "spider_plant",
   "plant_name": "Spider Crop",
   "seed_name": "Spider Seeds",

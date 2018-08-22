@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/silicon_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "silicon_plant",
   "plant_name": "Silicon Crop",
   "seed_name": "Silicon Seeds",

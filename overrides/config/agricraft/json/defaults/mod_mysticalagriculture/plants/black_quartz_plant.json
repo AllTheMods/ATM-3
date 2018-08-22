@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/black_quartz_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "black_quartz_plant",
   "plant_name": "Black Quartz Crop",
   "seed_name": "Black Quartz Seeds",

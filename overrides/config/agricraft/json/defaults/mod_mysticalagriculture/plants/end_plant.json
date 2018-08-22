@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/end_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "end_plant",
   "plant_name": "End Crop",
   "seed_name": "End Seeds",

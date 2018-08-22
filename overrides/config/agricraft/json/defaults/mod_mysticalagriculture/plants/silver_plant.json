@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/silver_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "silver_plant",
   "plant_name": "Silver Crop",
   "seed_name": "Silver Seeds",

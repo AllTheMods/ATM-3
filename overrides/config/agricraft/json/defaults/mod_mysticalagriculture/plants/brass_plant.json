@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/brass_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "brass_plant",
   "plant_name": "Brass Crop",
   "seed_name": "Brass Seeds",
