@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/guardian_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "guardian_plant",
   "plant_name": "Guardian Crop",
   "seed_name": "Guardian Seeds",

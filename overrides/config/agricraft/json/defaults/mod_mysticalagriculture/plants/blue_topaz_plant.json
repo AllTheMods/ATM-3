@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/blue_topaz_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "blue_topaz_plant",
   "plant_name": "Blue Topaz Crop",
   "seed_name": "Blue Topaz Seeds",

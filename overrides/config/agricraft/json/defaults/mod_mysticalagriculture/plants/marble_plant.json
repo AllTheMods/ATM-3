@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/marble_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "marble_plant",
   "plant_name": "Marble",
   "seed_name": "Marble Seeds",

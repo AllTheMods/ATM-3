@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/cold_iron_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "cold_iron_plant",
   "plant_name": "Cold-Iron Crop",
   "seed_name": "Cold-Iron Seeds",

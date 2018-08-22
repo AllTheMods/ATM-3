@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/blaze_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "blaze_plant",
   "plant_name": "Blaze Crop",
   "seed_name": "Blaze Seeds",

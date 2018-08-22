@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/star_steel_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "star_steel_plant",
   "plant_name": "Star-Steel Crop",
   "seed_name": "Star-Steel Seeds",

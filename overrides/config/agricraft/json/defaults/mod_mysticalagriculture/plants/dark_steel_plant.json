@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/dark_steel_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "dark_steel_plant",
   "plant_name": "Dark Steel Crop",
   "seed_name": "Dark Steel Seeds",

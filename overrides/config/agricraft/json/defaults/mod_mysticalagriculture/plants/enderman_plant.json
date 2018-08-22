@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/enderman_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "enderman_plant",
   "plant_name": "Enderman Crop",
   "seed_name": "Enderman Seeds",

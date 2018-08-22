@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagradditions/tier6_inferium_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "tier6_inferium_plant",
   "plant_name": "Tier6 Inferium Crop",
   "seed_name": "Tier6 Inferium Seeds",

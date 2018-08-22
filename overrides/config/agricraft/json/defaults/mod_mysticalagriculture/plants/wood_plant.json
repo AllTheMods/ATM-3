@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/wood_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "wood_plant",
   "plant_name": "Wood Crop",
   "seed_name": "Wood Seeds",

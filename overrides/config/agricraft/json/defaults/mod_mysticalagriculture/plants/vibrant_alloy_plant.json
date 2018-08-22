@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/vibrant_alloy_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "vibrant_alloy_plant",
   "plant_name": "Vibrant Alloy Crop",
   "seed_name": "Vibrant Alloy Seeds",

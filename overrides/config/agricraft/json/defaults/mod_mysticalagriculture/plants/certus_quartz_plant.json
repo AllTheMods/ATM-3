@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/certus_quartz_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "certus_quartz_plant",
   "plant_name": "Certus Quartz",
   "seed_name": "Certus Quartz Seeds",

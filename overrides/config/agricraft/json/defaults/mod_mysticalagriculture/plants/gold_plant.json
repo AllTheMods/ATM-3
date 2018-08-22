@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/gold_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "gold_plant",
   "plant_name": "Gold Crop",
   "seed_name": "Gold Seeds",

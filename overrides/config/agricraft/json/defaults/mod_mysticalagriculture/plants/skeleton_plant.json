@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/skeleton_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "skeleton_plant",
   "plant_name": "Skeleton Crop",
   "seed_name": "Skeleton Seeds",

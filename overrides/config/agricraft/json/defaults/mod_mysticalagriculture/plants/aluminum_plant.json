@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/aluminum_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "aluminum_plant",
   "plant_name": "Aluminum Crop",
   "seed_name": "Aluminum Seeds",

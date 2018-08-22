@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/platinum_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "platinum_plant",
   "plant_name": "Platinum Crop",
   "seed_name": "Platinum Seeds",

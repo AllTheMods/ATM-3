@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/basalt_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "basalt_plant",
   "plant_name": "Basalt",
   "seed_name": "Basalt Seeds",

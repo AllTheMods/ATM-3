@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/redstone_alloy_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "redstone_alloy_plant",
   "plant_name": "Redstone Alloy Crop",
   "seed_name": "Redstone Alloy Seeds",

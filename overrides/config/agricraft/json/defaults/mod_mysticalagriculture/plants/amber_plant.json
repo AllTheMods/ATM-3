@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/amber_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "amber_plant",
   "plant_name": "Amber",
   "seed_name": "Amber Seeds",

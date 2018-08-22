@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/emerald_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "emerald_plant",
   "plant_name": "Emerald Crop",
   "seed_name": "Emerald Seeds",

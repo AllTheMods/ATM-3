@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/ender_biotite_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "ender_biotite_plant",
   "plant_name": "Ender Biotite Crop",
   "seed_name": "Ender Biotite Seeds",

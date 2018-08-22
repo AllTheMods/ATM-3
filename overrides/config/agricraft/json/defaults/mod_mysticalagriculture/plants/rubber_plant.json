@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/rubber_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "rubber_plant",
   "plant_name": "Rubber",
   "seed_name": "Rubber Seeds",

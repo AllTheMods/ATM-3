@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/glowstone_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "glowstone_plant",
   "plant_name": "Glowstone Crop",
   "seed_name": "Glowstone Seeds",

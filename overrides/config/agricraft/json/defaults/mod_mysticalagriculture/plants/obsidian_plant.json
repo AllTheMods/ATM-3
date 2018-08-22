@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/obsidian_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "obsidian_plant",
   "plant_name": "Obsidian Crop",
   "seed_name": "Obsidian Seeds",

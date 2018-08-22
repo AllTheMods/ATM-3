@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/starmetal_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "starmetal_plant",
   "plant_name": "Starmetal Crop",
   "seed_name": "Starmetal Seeds",

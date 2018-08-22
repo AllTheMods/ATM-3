@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/adamantine_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "adamantine_plant",
   "plant_name": "Adamantine Crop",
   "seed_name": "Adamantine Seeds",

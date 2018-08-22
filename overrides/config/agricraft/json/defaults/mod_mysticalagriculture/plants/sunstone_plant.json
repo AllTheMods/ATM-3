@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/sunstone_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "sunstone_plant",
   "plant_name": "Sunstone Crop",
   "seed_name": "Sunstone Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/sapphire_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "sapphire_plant",
   "plant_name": "Sapphire",
   "seed_name": "Sapphire Seeds",

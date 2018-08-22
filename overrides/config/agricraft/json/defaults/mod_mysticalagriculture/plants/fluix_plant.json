@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/fluix_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "fluix_plant",
   "plant_name": "Fluix",
   "seed_name": "Fluix Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/slime_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "slime_plant",
   "plant_name": "Slime Crop",
   "seed_name": "Slime Seeds",

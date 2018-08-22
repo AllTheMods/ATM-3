@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/experience_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "experience_plant",
   "plant_name": "Experience Crop",
   "seed_name": "Experience Seeds",

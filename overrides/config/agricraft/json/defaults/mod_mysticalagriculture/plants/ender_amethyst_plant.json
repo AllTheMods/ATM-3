@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/ender_amethyst_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "ender_amethyst_plant",
   "plant_name": "Ender Amethyst",
   "seed_name": "Ender Amethyst Seeds",

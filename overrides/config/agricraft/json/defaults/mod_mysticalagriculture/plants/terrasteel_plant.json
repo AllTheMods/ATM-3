@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/terrasteel_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "terrasteel_plant",
   "plant_name": "Terrasteel",
   "seed_name": "Terrasteel Seeds",

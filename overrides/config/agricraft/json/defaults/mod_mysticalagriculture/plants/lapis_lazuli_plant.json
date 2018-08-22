@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/lapis_lazuli_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "lapis_lazuli_plant",
   "plant_name": "Lapis Lazuli Crop",
   "seed_name": "Lapis Lazuli Seeds",

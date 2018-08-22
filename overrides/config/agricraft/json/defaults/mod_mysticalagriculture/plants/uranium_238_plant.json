@@ -1,6 +1,6 @@
 {
   "path": "mod_mysticalagriculture/plants/uranium_238_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "uranium_238_plant",
   "plant_name": "Uranium 238 Crop",
   "seed_name": "Uranium 238 Seeds",
