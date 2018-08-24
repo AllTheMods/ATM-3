@@ -615,6 +615,7 @@ print(" ====================================================== ");
 //====== Coal Ore Removal ======
 //
 	mods.mekanism.combiner.removeRecipe(<minecraft:coal_ore>);
+
 	
 //====== Tech Reborn Change ======
 //
@@ -631,3 +632,10 @@ print(" ====================================================== ");
 		[<ore:glassReinforced>, <ore:dustDiamond>, <ore:glassReinforced>],
 		[<ore:circuitAdvanced>, <techreborn:solar_panel:2>, <ore:circuitAdvanced>]
 	]);
+
+	
+//====== Disable AgriCraft Clippers ======
+// Disabled until it can be reviewed further (i.e. duping MA crops)
+//
+    recipes.remove(<agricraft:clipper>);
+
