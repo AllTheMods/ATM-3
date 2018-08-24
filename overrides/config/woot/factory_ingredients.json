@@ -32,6 +32,16 @@
         {
           "item": "draconicevolution:awakened_core",
           "count": 1
+        },
+        {
+          "item": "atmtweaks:item_material",
+          "data": 9,
+          "count": 1
+        },
+        {
+          "item": "atmtweaks:item_material",
+          "data": 10,
+          "count": 1
         }
       ],
       "fluids": [ ]

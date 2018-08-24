@@ -9,7 +9,7 @@
             "item": "minecraft:dragon_egg"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 1, 1, 1, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
@@ -23,41 +23,79 @@
             "item": "draconicevolution:dragon_heart"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 1, 1, 1, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
+        },
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+            "data": 1
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
+        },
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+			"data": 9
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
+        },
+		{
+          "drop": {
+            "item": "wct:infinity_booster_card"
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
         },
         {
           "drop": {
             "item": "draconicevolution:draconium_dust"
           },
           "sizes": [ 10, 20, 30, 40 ],
-          "chances": [ 25, 50, 75, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
         }
       ]
     },
     {
       "mobName": "draconicevolution:chaosguardian",
       "drops": [
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+            "data": 1
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 5, 10, 15, 100 ]
+        },
         {
           "drop": {
             "item": "draconicevolution:chaos_shard",
             "data": 0
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 1, 1, 1, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
             "item": "draconicevolution:dragon_heart"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 1, 1, 1, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
+        },
+		{
+          "drop": {
+            "item": "wct:infinity_booster_card"
+          },
+          "sizes": [ 1, 1, 1, 10 ],
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
             "item": "draconicevolution:draconium_dust"
           },
           "sizes": [ 50, 50, 50, 100 ],
-          "chances": [ 25, 50, 75, 100 ]
+          "chances": [ 5, 10, 15, 100 ]
         }
       ]
     },
