@@ -638,4 +638,5 @@ print(" ====================================================== ");
 // Disabled until it can be reviewed further (i.e. duping MA crops)
 //
     recipes.remove(<agricraft:clipper>);
+	<agricraft:clipper>.addTooltip(format.aqua("Disabled by modpack"));
 
