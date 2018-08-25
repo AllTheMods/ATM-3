@@ -1,0 +1,18 @@
+// This file stores rank definitions.
+// 
+// [name]
+// permission: value
+// 
+// Add [name extends parent_name] to make this rank include all permissions from parent_name rank.
+// Add [name is default_player_rank] or [name is default_op_rank] to make this rank default for players/ops that don't have a rank set explicitly.
+// 
+// For more info visit https://guides.latmod.com/ftbutilities/ranks/
+// To see the list of permission nodes, open all_permissions.html in browser or all_permissions_full_list.txt
+
+[player is default_player_rank]
+example.permission: true
+example.other_permission: false
+command.ftbutilities.back: false
+
+[admin is default_op_rank]
+example.other_permission: true
