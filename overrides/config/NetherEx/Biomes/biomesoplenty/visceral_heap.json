@@ -1,0 +1,81 @@
+{
+  "biome": "biomesoplenty:visceral_heap",
+  "weight": 4,
+  "enabled": true,
+  "genDefaultFeatures": true,
+  "entities": [
+    {
+      "entity": "minecraft:ghast",
+      "creatureType": "monster",
+      "weight": 50,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:zombie_pigman",
+      "creatureType": "monster",
+      "weight": 100,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:magma_cube",
+      "creatureType": "monster",
+      "weight": 2,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:enderman",
+      "creatureType": "monster",
+      "weight": 1,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "ebwizardry:evil_wizard",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:blaze",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "quark:wraith",
+      "creatureType": "monster",
+      "weight": 60,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    }
+  ],
+  "features": []
+}
