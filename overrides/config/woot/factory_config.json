@@ -2,46 +2,6 @@
   "version": 1,
   "mobconfigs": [
     {
-      "mobName": "minecraft:villager",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:wither_skeleton",
-      "configs": [
-        {
-          "tag": "spawn_units",
-          "value": 0
-        },
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:magma_cube",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:enderman",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
       "mobName": "minecraft:ender_dragon",
       "configs": [
         {
@@ -145,60 +105,6 @@
         {
           "tag": "mass_fx",
           "value": 4
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:villager_golem",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:guardian",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:blaze",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:witch",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:ghast",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:zombie_pigman",
-      "configs": [
-        {
-          "tag": "factory_tier",
-          "value": 1
         }
       ]
     }
