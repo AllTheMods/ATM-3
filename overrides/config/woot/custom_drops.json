@@ -6,74 +6,154 @@
       "drops": [
         {
           "drop": {
-            "item": "minecraft:dragon_egg",
-			"data": 0,
-            "count": 1
+            "item": "minecraft:dragon_egg"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 25, 33, 33, 50 ]
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
-            "item": "minecraft:elytra",
-			"data": 0,
-            "count": 1
+            "item": "minecraft:dragon_breath"
+          },
+          "sizes": [ 2, 4, 6, 8 ],
+          "chances": [ 25, 50, 75, 100 ]
+        },
+        {
+          "drop": {
+            "item": "draconicevolution:dragon_heart"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 5, 10, 15, 20 ]
+          "chances": [ 5, 10, 15, 100 ]
+        },
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+            "data": 1
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
+        },
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+			"data": 9
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
+        },
+		{
+          "drop": {
+            "item": "wct:infinity_booster_card"
+          },
+          "sizes": [ 0, 0, 0, 1 ],
+          "chances": [ 0, 0, 0, 100 ]
         },
         {
           "drop": {
-            "item": "minecraft:dragon_breath",
-			"data": 0
+            "item": "draconicevolution:draconium_dust"
           },
-          "sizes": [ 1, 2, 2, 3 ],
-          "chances": [ 25, 33, 33, 50 ]
-        },
-        {
-          "drop": {
-            "item": "draconicevolution:dragon_heart",
-			"data": 0
-          },
-          "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 10, 20, 33, 66 ]
-        },
-        {
-          "drop": {
-            "item": "draconicevolution:draconium_dust",
-			"data": 0
-          },
-          "sizes": [ 5, 5, 5, 10 ],
-          "chances": [ 10, 15, 20, 25 ]
+          "sizes": [ 10, 20, 30, 40 ],
+          "chances": [ 5, 10, 15, 100 ]
         }
       ]
     },
-	{
+    {
       "mobName": "draconicevolution:chaosguardian",
       "drops": [
+		{
+          "drop": {
+            "item": "atmtweaks:item_material",
+            "data": 1
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 5, 10, 15, 100 ]
+        },
         {
           "drop": {
             "item": "draconicevolution:chaos_shard",
-			"data": 0
+            "data": 0
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 10, 20, 30, 40 ]
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
-            "item": "draconicevolution:dragon_heart",
-			"data": 0
+            "item": "draconicevolution:dragon_heart"
           },
           "sizes": [ 1, 1, 1, 1 ],
-          "chances": [ 10, 20, 33, 66 ]
+          "chances": [ 5, 10, 15, 100 ]
+        },
+		{
+          "drop": {
+            "item": "wct:infinity_booster_card"
+          },
+          "sizes": [ 1, 1, 1, 10 ],
+          "chances": [ 5, 10, 15, 100 ]
         },
         {
           "drop": {
-            "item": "draconicevolution:draconium_dust",
-			"data": 0
+            "item": "draconicevolution:draconium_dust"
           },
           "sizes": [ 50, 50, 50, 100 ],
-          "chances": [ 10, 15, 20, 25 ]
+          "chances": [ 5, 10, 15, 100 ]
+        }
+      ]
+    },
+    {
+      "mobName": "erebus:erebus.antlion_boss",
+      "drops": [
+        {
+          "drop": {
+            "item": "erebus:materials",
+            "data": 64
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        },
+        {
+          "drop": {
+            "item": "erebus:war_hammer"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        },
+        {
+          "drop": {
+            "item": "erebus:antlion_egg"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        }
+      ]
+    },
+    {
+      "mobName": "erebus:erebus.tarantula_mini_boss",
+      "drops": [
+        {
+          "drop": {
+            "item": "erebus:tarantula_egg"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        },
+        {
+          "drop": {
+            "item": "erebus:spider_t_shirt"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        }
+      ]
+    },
+    {
+      "mobName": "thaumcraft:wisp",
+      "drops": [
+        {
+          "drop": {
+            "item": "thaumcraft:crystal_essence"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100 ]
         }
       ]
     }
