@@ -11,6 +11,14 @@
 
 Does "All The Mods" really contain ALL THE MODS? No, of course not: *[Modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
 
+# Other ATM Modpacks
+[![ATM](http://cf.way2muchnoise.eu/full_242462_downloads.svg) All The Mods](https://minecraft.curseforge.com/projects/all-the-mods)
+--
+[![ATM3 Lite](http://cf.way2muchnoise.eu/full_274129_downloads.svg) All The Mods 3: Lite](https://minecraft.curseforge.com/projects/atm-3-lite)
+--
+[![ATM Remix](http://cf.way2muchnoise.eu/full_301845_downloads.svg) All The Mods 3: Remix](https://minecraft.curseforge.com/projects/all-the-mods-3-remix)
+--
+
 # Money / Donations
 All The Mods has never been about making money, we just love playing games and making cool modpacks and contributing to the modded community. We understand that sometimes people like to "say thanks" so by request we have setup a Patreon with some perks and are considering expanding some ATM branded merchandise as well. Any money that we do get is used to "give back" such as hosting free public ATM servers.
 
