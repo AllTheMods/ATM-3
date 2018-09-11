@@ -1,6 +1,6 @@
 [![Logo Image](https://i.imgur.com/R3RgVCP.png)](https://minecraft.curseforge.com/members/ATMTeam/projects)
 
-[![CurseForge](http://cf.way2muchnoise.eu/full_269708_downloads.svg)](https://minecraft.curseforge.com/projects/all-the-mods-3) [![Discord](https://img.shields.io/discord/254530689225981953.svg?&label=discord)](https://discordapp.com/invite/rbSZNDQ) [![Subreddit](https://img.shields.io/badge/subreddit-r%2Fallthemods-red.svg)](https://reddit.com/r/allthemods) [![GitHub Contributors](https://img.shields.io/github/contributors/AllTheMods/ATM-3.svg)](https://github.com/AllTheMods/ATM-3/graphs/contributors) [![GitHub Issues](https://img.shields.io/github/issues/AllTheMods/ATM-3.svg)](https://github.com/AllTheMods/ATM3-Remix/issues)
+[![CurseForge](http://cf.way2muchnoise.eu/full_269708_downloads.svg)](https://minecraft.curseforge.com/projects/all-the-mods-3) [![Discord](https://img.shields.io/discord/254530689225981953.svg?&label=discord)](https://discordapp.com/invite/rbSZNDQ) [![Subreddit](https://img.shields.io/badge/subreddit-r%2Fallthemods-red.svg)](https://reddit.com/r/allthemods) [![GitHub Contributors](https://img.shields.io/github/contributors/AllTheMods/ATM-3.svg)](https://github.com/AllTheMods/ATM-3/graphs/contributors) [![GitHub Issues](https://img.shields.io/github/issues/AllTheMods/ATM-3.svg)](https://github.com/AllTheMods/ATM-3/issues)
 
 # All The Mods 3
 **All the Mods** started out as a private pack for just a few friends of mine that turned into something others wanted to play!
