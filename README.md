@@ -8,7 +8,9 @@
 # All The Mods 3
 **All the Mods** started out as a private pack for just a few friends of mine that turned into something others wanted to play! It has all the basics that most other "big name" packs include but with a nice mix of some newer or lesser-known mods as well. For example; Thaumcraft, Ender IO, Thermal Expansion for the big names and Rustic, Traverse and FastWorkBench for the not as well known! In **All the Mods 3** we will continue the tradition of adding many new mods while going for more stability.
 
-Does "All The Mods" really contain ALL THE MODS? No, of course not:<br/>*[Modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
+Does "All The Mods" really contain ALL THE MODS? No, of course not:
+<br/>
+*[Modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*
 
 # Other ATM Modpacks
 [![ATM](http://cf.way2muchnoise.eu/full_242462_downloads.svg) All The Mods](https://minecraft.curseforge.com/projects/all-the-mods)
