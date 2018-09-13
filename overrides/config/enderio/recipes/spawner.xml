@@ -3,10 +3,23 @@
 
 <!-- 
 
-These are the build-in recipes. You cannot change this file, it is a
+These are the built-in recipes. You cannot change this file, it is a
 reference for you only and will be generated every time the game starts.
 
-For more information, see base.xml.
+To make changes to the recipes, copy the recipes you want to change to
+a file in the 'user' folder.
+
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
+
+Recipes that have entities that cannot be
+found in-game are either skipped or an error, depending on their "required"
+attribute.
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
 
  -->
 
@@ -53,7 +66,7 @@ For more information, see base.xml.
       <entity name="minecraft:vex"                 costMultiplier="1.0" disabled="false"/> <!-- Vex -->
       <entity name="minecraft:villager"            costMultiplier="1.0" disabled="true"/> <!-- Villager -->
       <entity name="minecraft:villager_golem"      costMultiplier="10"  disabled="true"/> <!-- Iron Golem -->
-      <entity name="minecraft:vindication_illager" costMultiplier="30"  disabled="false"/> <!-- Vindicator -->
+      <entity name="minecraft:vindication_illager" costMultiplier="15"  disabled="false"/> <!-- Vindicator -->
       <entity name="minecraft:witch"               costMultiplier="5.0" disabled="false"/> <!-- Witch -->
       <entity name="minecraft:wither"              costMultiplier="50"  disabled="true"/> <!-- Wither -->
       <entity name="minecraft:wither_skeleton"     costMultiplier="20"  disabled="false"/> <!-- Wither Skeleton -->
@@ -66,6 +79,7 @@ For more information, see base.xml.
     </spawning>
   </recipe>
 
+<!-- TODO: Move this to using enderio-zoo -->
   <recipe name="Spawner, Ender Zoo" required="false">
     <spawning>
       <entity name="enderzoo:concussioncreeper"    costMultiplier="1.5" disabled="false"/>
