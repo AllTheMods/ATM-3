@@ -571,3 +571,18 @@ print(" ====================================================== ");
 		[<extrautils2:ingredients:16>, contractLasso,                      <extrautils2:ingredients:16>],
 		[<magicbees:resource:7>,       <notenoughwands:advanced_wandcore>, <magicbees:resource:7>]
 		]);
+
+
+//====== Quantum Disc BALANCE ======
+//
+	recipes.remove(<quantumstorage:quantumstoragedisk>.withTag({Items: [], Stored: 0, Protocol: 1}));
+	recipes.addShapeless(<quantumstorage:quantumstoragedisk>.withTag({Items: [], Stored: 0, Protocol: 1}), [
+		<appliedenergistics2:storage_cell_16k>, <atmtweaks:item_material:8>
+	]);
+	
+	recipes.remove(<quantumstorage:quantumcrafter>);
+	recipes.addShaped(<quantumstorage:quantumcrafter>, [
+		[<minecraft:iron_ingot>, <appliedenergistics2:storage_cell_16k>, <minecraft:iron_ingot>], 
+		[<minecraft:iron_ingot>, <atmtweaks:item_material:8>, <minecraft:iron_ingot>], 
+		[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+		]);

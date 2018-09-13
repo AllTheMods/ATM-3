@@ -64,7 +64,7 @@ print(" ====================================================== ");
 	var opinium = <extrautils2:opinium:8>;
 	var embersWildfire = <embers:wildfire_core>;
 	var corporea = <botania:corporeaindex>;
-	var soulShard = <soulshardsrespawn:soul_shard>.withTag({binding: {kills: 1600}});
+	var soulShard = <soulshardstow:soul_shard>.withTag({Tier: 5});
 	var blockIvory = <psi:psi_decorative:8>;
 	var gaiaIngot = <botania:manaresource:14>;
 	var infusedDiamond = <rftools:infused_diamond>;

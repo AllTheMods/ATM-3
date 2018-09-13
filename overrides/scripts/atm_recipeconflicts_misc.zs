@@ -238,11 +238,32 @@ print(" ======================================================== ");
 	// mini chest works from oak chest, not conflicting in practice
 
 
+//======Minecolony Builder conflict ======
+//
+	recipes.remove(<minecolonies:sceptergold>);
+	recipes.addShaped(<minecolonies:sceptergold>, [
+		[null,            <ore:cobblestone>, <ore:cobblestone>],
+		[null,            <ore:stickWood>,   <ore:cobblestone>],
+		[<ore:stickWood>, null,              null]
+		]);
+
+
 //====== diamond nugget =====
 // conflicts with open computers diamond chip
 //
 	recipes.remove(<techreborn:nuggets:24>);
 	recipes.remove(<thermalfoundation:material:16>);
+
+
+//====== Minecolonies Scan Tool ======
+// conflicting with iron builder's wand
+//
+	recipes.remove(<minecolonies:sceptersteel>);
+	recipes.addShaped(<minecolonies:sceptersteel>, [
+		[null, <ore:paneGlass>, <ore:ingotIron>],
+		[null, <ore:stickWood>, <ore:paneGlass>],
+		[<ore:stickWood>, null, null]
+		]);
 
 
 //====== Interchangeable TR/IC2 machine frames ======
