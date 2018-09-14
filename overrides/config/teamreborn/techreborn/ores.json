@@ -11,16 +11,16 @@
       "veinsPerChunk": 16,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn:ore",
       "blockNiceName": "Iridium",
       "meta": 1,
-      "veinSize": 3,
-      "veinsPerChunk": 3,
-      "minYHeight": 5,
-      "maxYHeight": 60,
+      "veinSize": 2,
+      "veinsPerChunk": 2,
+      "minYHeight": 20,
+      "maxYHeight": 40,
       "shouldSpawn": true
     },
     {
@@ -41,7 +41,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": false
+      "shouldSpawn": true
     },
     {
       "blockName": "tile.techreborn:ore",
