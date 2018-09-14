@@ -2,9 +2,10 @@
   "generateTechRebornFeatures": true,
   "generateOres": true,
   "retroGenOres": false,
+  "overworldOresInModdedDims": true,
   "overworldOres": [
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Galena",
       "meta": 0,
       "veinSize": 8,
@@ -14,7 +15,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Iridium",
       "meta": 1,
       "veinSize": 2,
@@ -24,7 +25,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Ruby",
       "meta": 2,
       "veinSize": 6,
@@ -34,7 +35,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Sapphire",
       "meta": 3,
       "veinSize": 6,
@@ -44,7 +45,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Bauxite",
       "meta": 4,
       "veinSize": 6,
@@ -54,7 +55,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Lead",
       "meta": 12,
       "veinSize": 6,
@@ -64,7 +65,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Silver",
       "meta": 13,
       "veinSize": 6,
@@ -74,7 +75,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore2",
+      "blockName": "tile.techreborn.ore2",
       "blockNiceName": "Copper",
       "meta": 0,
       "veinSize": 8,
@@ -84,7 +85,7 @@
       "shouldSpawn": false
     },
     {
-      "blockName": "tile.techreborn:ore2",
+      "blockName": "tile.techreborn.ore2",
       "blockNiceName": "Tin",
       "meta": 1,
       "veinSize": 8,
@@ -96,7 +97,7 @@
   ],
   "neatherOres": [
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Pyrite",
       "meta": 5,
       "veinSize": 6,
@@ -106,7 +107,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Cinnabar",
       "meta": 6,
       "veinSize": 6,
@@ -116,7 +117,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Sphalerite",
       "meta": 7,
       "veinSize": 6,
@@ -128,7 +129,7 @@
   ],
   "endOres": [
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Tungsten",
       "meta": 8,
       "veinSize": 6,
@@ -138,7 +139,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Sheldonite",
       "meta": 9,
       "veinSize": 6,
@@ -148,7 +149,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Peridot",
       "meta": 10,
       "veinSize": 6,
@@ -158,7 +159,7 @@
       "shouldSpawn": true
     },
     {
-      "blockName": "tile.techreborn:ore",
+      "blockName": "tile.techreborn.ore",
       "blockNiceName": "Sodalite",
       "meta": 11,
       "veinSize": 6,
@@ -174,6 +175,7 @@
     "clusterSize": 7,
     "sapRarity": 10,
     "spireHeight": 4,
-    "treeBaseHeight": 5
+    "treeBaseHeight": 5,
+    "rubberTreeBiomeBlacklist": []
   }
 }
