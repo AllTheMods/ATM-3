@@ -5,7 +5,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 #packmode normal simplified
 
-
 print(" =================== General Tweaks / Fixes =================== ");
 print(" ============================================================== ");
 
@@ -445,4 +444,13 @@ recipes.remove(unbaked_talisman);
 //====== SkyStone Tooltip ======
 //
 	blockSkyS.addTooltip(format.aqua("You can find it only in Mining World dimension, where AE2 meteors will spawn."));
+
+//====== Scornful Oblivion ======
+//
+   recipes.remove(<magicbees:resource:11>);
+   recipes.addShaped(<magicbees:resource:11>, [
+      [<magicbees:resource:8>, <minecraft:skull:1>, <magicbees:resource:9>],
+      [<minecraft:skull:1>, <minecraft:dragon_egg>.reuse(), <minecraft:skull:1>], 
+      [<magicbees:resource:9>, <minecraft:skull:1>, <magicbees:resource:8>]
+		]);
 
