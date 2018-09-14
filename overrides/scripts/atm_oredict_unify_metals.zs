@@ -212,6 +212,9 @@ function fixMetals (
 	recipes.addShapeless(<techreborn:nuggets:7>*9, [iridium]);
 	recipes.remove(<techreborn:ingot:7>);
 	recipes.remove(<techreborn:nuggets:7>);
+	
+	// Brass
+	recipes.addShapeless("BrassFix", <techreborn:ingot:1>, [<thaumcraft:ingot:2>]);
 
 //====== Process Metals ======
 // NOT YET ENABLED
