@@ -453,4 +453,13 @@ recipes.remove(unbaked_talisman);
       [<minecraft:skull:1>, <minecraft:dragon_egg>.reuse(), <minecraft:skull:1>], 
       [<magicbees:resource:9>, <minecraft:skull:1>, <magicbees:resource:8>]
 		]);
-
+      
+//====== Beer Mug ======
+//
+   recipes.remove(<extratrees:drink>);
+   recipes.addShaped(<extratrees:drink>, [
+      [null, null, null],
+      [null, <forestry:beeswax>, null],
+      [null, <minecraft:glass>, null]
+      ]);
+      
