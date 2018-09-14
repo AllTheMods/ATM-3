@@ -340,12 +340,24 @@ print(" ======================================================== ");
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null]
 		]);	
-
 	<ore:stickIron>.add(<tconstruct:tool_rod>.withTag({Material: "iron"}));
-
 	
 //====== Ender Pearl Powder ======
 //
 	recipes.removeShaped(<techreborn:dust:20>);
 	recipes.removeShaped(<portalgun:item_dust_ender_pearl>);
+   
+//====== Wax Capsule ======
+//
+   recipes.remove(<forestry:capsule>);
+   recipes.addShaped(<forestry:capsule> * 3, [
+      [null, null, null],
+      [<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], 
+      [null, null, null]
+      ]);
+   recipes.addShaped(<forestry:capsule> * 3, [
+      [null, null, null],[<forestry:beeswax>,
+      <forestry:beeswax>, <forestry:beeswax>],
+      [null, null, null]
+      ]);
 	
