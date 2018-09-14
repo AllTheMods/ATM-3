@@ -441,4 +441,8 @@ recipes.remove(unbaked_talisman);
 //====== Remove Refined Obsidian Dust From Smeltery ======
 //
 	mods.tconstruct.Melting.removeRecipe(<liquid:refinedobsidian>, <mekanism:otherdust:5>);
-	
+		
+//====== SkyStone Tooltip ======
+//
+	blockSkyS.addTooltip(format.aqua("You can find it only in Mining World dimension, where AE2 meteors will spawn."));
+
