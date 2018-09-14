@@ -6423,5 +6423,6 @@ Updated:
 Removed:
 	- Gotta Go Fast
 	- OldJavaWarning
+	- SimpleHarvest
 
 * Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.10.3)
