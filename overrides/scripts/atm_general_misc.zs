@@ -456,8 +456,8 @@ recipes.remove(unbaked_talisman);
       
 //====== Beer Mug ======
 //
-   recipes.remove(<extratrees:drink>);
-   recipes.addShaped(<extratrees:drink>, [
+   mods.forestry.ThermionicFabricator.removeCast(<extratrees:drink>);
+   recipes.addShaped(<extratrees:drink> * 8, [
       [null, null, null],
       [null, <forestry:beeswax>, null],
       [null, <minecraft:glass>, null]
