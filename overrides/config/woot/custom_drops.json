@@ -35,14 +35,6 @@
 		{
           "drop": {
             "item": "atmtweaks:item_material",
-            "data": 1
-          },
-          "sizes": [ 0, 0, 0, 1 ],
-          "chances": [ 0, 0, 0, 100 ]
-        },
-		{
-          "drop": {
-            "item": "atmtweaks:item_material",
 			"data": 9
           },
           "sizes": [ 0, 0, 0, 1 ],
