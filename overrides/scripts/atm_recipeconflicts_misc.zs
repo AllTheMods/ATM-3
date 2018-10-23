@@ -19,6 +19,7 @@ print(" ======================================================== ");
 	var strings = <ore:string>;
 	var cobweb = <minecraft:web>;
 	var marble = <ore:stoneMarble>;
+	var inscab = <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte});
 
 
 //====== Misc Tool/Armor Conflicts ======
@@ -361,3 +362,18 @@ print(" ======================================================== ");
       [null, null, null]
       ]);
 	
+//====== Alarm, Incandescent lamp ======
+//
+   recipes.remove(<techreborn:lamp_incandescent>);
+   recipes.remove(<techreborn:alarm>);
+   recipes.addShaped(<techreborn:lamp_incandescent>,
+      [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+      [<ic2:cable>, <ic2:crafting:13>, <ic2:cable>],
+      [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+      ]);
+   recipes.addShaped(<techreborn:alarm>,
+      [[<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>],
+      [inscab, <ore:blockRedstone>, inscab],
+      [<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>]
+      ]);
+   
