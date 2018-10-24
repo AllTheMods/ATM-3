@@ -6,15 +6,10 @@
       "items": [
         {
           "item": "minecraft:soul_sand",
-          "count": 3
+          "count": 2
         },
         {
           "item": "minecraft:skull",
-          "data": 1,
-          "count": 2
-        },
-		{
-          "item": "atmtweaks:item_material",
           "data": 1,
           "count": 1
         }
@@ -26,20 +21,10 @@
       "items": [
         {
           "item": "minecraft:end_crystal",
-          "count": 2
-        },
-		{
-          "item": "atmtweaks:item_material",
-          "data": 1,
-          "count": 1
+          "count": 3
         }
       ],
-        "fluids": [
-            {
-                "fluid": "ender",
-                "mb": 1000
-            }
-        ]
+      "fluids": []
     },
     {
       "mobName": "draconicevolution:chaosguardian",
@@ -48,22 +33,18 @@
           "item": "draconicevolution:awakened_core",
           "count": 1
         },
-		{
+        {
           "item": "atmtweaks:item_material",
-          "data": 1,
+          "data": 9,
+          "count": 1
+        },
+        {
+          "item": "atmtweaks:item_material",
+          "data": 10,
           "count": 1
         }
       ],
-        "fluids": [
-			{
-                "fluid": "ender",
-                "mb": 4000
-            },
-            {
-                "fluid": "pyrotheum",
-                "mb": 1000
-            }
-        ]
+      "fluids": [ ]
     }
   ]
 }

@@ -57,7 +57,7 @@ print(" ====================================================== ");
 	var rftRarity6 = <rftoolsdim:dimlet_control_circuit:6>;
 
 	//Orb Vars
-	var rootsTimeSpell = <roots:petal_dust>.withTag({spell: "spell_oxeye_daisy"});
+	var rootsTimeSpell = <roots:petal_dust>.withTag({spell: "spell_oxeye_daisy"}).onlyWithTag({spell:"spell_oxeye_daisy"});
 	var manaBiscuit = <botania:manacookie>;
 	var starShard = <mysticalagradditions:stuff>;
 	var alfglass = <botania:elfglass>;
@@ -70,7 +70,7 @@ print(" ====================================================== ");
 	var infusedDiamond = <rftools:infused_diamond>;
 	var dustManaTE = <thermalfoundation:material:1028>;
 	var sacredLight = <mobtotems:sacred_light>;
-	var manaTabFull = <botania:manatablet>.withTag({mana: 500000});
+	var manaTabFull = <botania:manatablet>.withTag({mana: 500000}).onlyWithTag({mana:500000});
 	//var gaiaHead = <botania:gaiahead>;
 	var runePride = <ore:runePrideB>;
 	var runeEnvy = <ore:runeEnvyB>;

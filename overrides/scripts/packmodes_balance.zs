@@ -586,3 +586,19 @@ print(" ====================================================== ");
 		[<minecraft:iron_ingot>, <atmtweaks:item_material:8>, <minecraft:iron_ingot>], 
 		[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
 		]);
+	
+	
+//====== Tech Reborn Change ======
+//
+	recipes.remove(<techreborn:solar_panel:4>);
+	recipes.remove(<techreborn:solar_panel:3>);
+	recipes.addShaped("QuantumSolarPanel", <techreborn:solar_panel:4>, [
+		[<ore:dustDiamond>, <ore:glassReinforced>, <ore:dustDiamond>],
+		[<ore:glassReinforced>, <techreborn:solar_panel:3>, <ore:glassReinforced>],
+		[<techreborn:part:0>, <techreborn:machine_frame:2>, <techreborn:part:0>]
+	]);
+	recipes.addShaped("UltimateSolarPanel", <techreborn:solar_panel:3>, [
+		[<ore:dustDiamond>, <ore:glassReinforced>, <ore:dustDiamond>],
+		[<ore:glassReinforced>, <ore:dustDiamond>, <ore:glassReinforced>],
+		[<ore:circuitAdvanced>, <techreborn:solar_panel:2>, <ore:circuitAdvanced>]
+	]);

@@ -24,3 +24,6 @@ overrides/config/AppliedEnergistics2/items\.csv
 overrides/config/randomtweaks/data\.json
 overrides/config/thaumicjei_itemstack_aspects\.json
 overrides/config/brandon3055/contributors\.json
+overrides/config/enderio/recipes/examples/recipes\.xsd
+overrides/config/enderio/recipes/recipes\.xsd
+overrides/config/enderio/recipes/user/recipes\.xsd

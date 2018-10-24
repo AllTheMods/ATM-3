@@ -161,7 +161,7 @@
             <atmosphereDensity>195</atmosphereDensity>
             <biomeIds>advancedrocketry:alien forest</biomeIds>
         </planet>
-        <planet name="Gallifrey" DIMID="33">
+        <planet name="Gallifrey" DIMID="47">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.6525768,0.8529489</skyColor>

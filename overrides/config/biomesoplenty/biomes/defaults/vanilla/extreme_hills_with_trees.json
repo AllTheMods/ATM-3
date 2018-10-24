@@ -65,11 +65,6 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 0.3,
-      "enable": true,
-      "generators": {}
     }
   }
 }

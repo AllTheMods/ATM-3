@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 
+<!-- 
+
+These are the built-in recipes. You cannot change this file, it is a
+reference for you only and will be generated every time the game starts.
+
+To make changes to the recipes, copy the recipes you want to change to
+a file in the 'user' folder. To disable a recipe, add an attribute "disabled"
+and set it to true, e.g.: <recipe name="Gear" disabled="true" />
+
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
+
+Item specifications can reference an alias, an ore dictionary name, a
+block or an item. You can force the type by prefixing the value with
+"oredict:", "block:" or "item:". Recipes that have items that cannot be
+found in-game are either skipped or an error, depending on their "required"
+attribute.
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
+
+ -->
+
   <!-- Iron -->
 
   <recipe name="Sagmill: oreIron Ore" required="true">
@@ -2610,18 +2635,6 @@
     </sagmilling>
   </recipe>
 
-
-<!-- Temp Fix For Exnihilo having wrong oredict -->
-  
-  <recipe name="Sagmill: Yellorium Ore" required="false">
-    <sagmilling energy="3600">
-      <input name="oreYellorium" />
-      <output name="dustYellorium" amount="2" />
-      <output name="dustCyanite" chance="0.05" required="false" />
-      <output name="minecraft:cobblestone" chance="0.15" />
-    </sagmilling>
-  </recipe>
-  
 <!-- Tiny Progessions -->
   
   <recipe name="Sagmill: Tiny Progressions Lava Ore" required="false">
@@ -2659,7 +2672,7 @@
 
   <recipe name="Sagmill: Resonate End Stone" required="false">
     <sagmilling energy="5000">
-      <input name="oreFluidEnder" />
+      <input name="oreClathrateEnder" />
       <output name="crystalEnder" amount="2" />
       <output name="crystalEnder" amount="2" chance="0.25" />
       <output name="minecraft:end_stone" chance="0.15" />
@@ -2668,17 +2681,27 @@
 
   <recipe name="Sagmill: Oil Sand" required="false">
     <sagmilling energy="2000">
-      <input name="oreFluidCrudeOilSand" />
+      <input name="thermalfoundation:ore_fluid:0" />
       <output name="crystalCrudeOil" amount="2" />
       <output name="crystalCrudeOil" amount="2" chance="0.25" />
       <output name="thermalfoundation:material:833" amount="1" chance="0.15"/>
       <output name="minecraft:sand" chance="0.15" />
     </sagmilling>
   </recipe>
+ 
+  <recipe name="Sagmill: Oil Red Sand" required="false">
+    <sagmilling energy="2000">
+      <input name="thermalfoundation:ore_fluid:5" />
+      <output name="crystalCrudeOil" amount="2" />
+      <output name="crystalCrudeOil" amount="2" chance="0.25" />
+      <output name="thermalfoundation:material:833" amount="1" chance="0.15"/>
+      <output name="minecraft:sand:1" chance="0.15" />
+    </sagmilling>
+  </recipe>
 
   <recipe name="Sagmill: Oil Shale" required="false">
     <sagmilling energy="2000">
-      <input name="oreFluidCrudeOilShale" />
+      <input name="oreClathrateOilShale" />
       <output name="crystalCrudeOil" amount="2" />
       <output name="crystalCrudeOil" amount="2" chance="0.25" />
       <output name="minecraft:flint" amount="1" chance="0.15"/>
@@ -2688,7 +2711,7 @@
 
   <recipe name="Sagmill: Destabilized Redstone Ore" required="false">
     <sagmilling energy="3600">
-      <input name="oreFluidRedstone" />
+      <input name="oreClathrateRedstone" />
       <output name="crystalRedstone" amount="2" />
       <output name="crystalRedstone" amount="2" chance="0.25" />
       <output name="itemCinnabar" amount="1" chance="0.5"/>
@@ -2698,7 +2721,7 @@
   
   <recipe name="Sagmill: Energized Glowstone Ore" required="false">
     <sagmilling energy="2000">
-      <input name="oreFluidGlowstone" />
+      <input name="oreClathrateGlowstone" />
       <output name="crystalGlowstone" amount="2" />
       <output name="crystalGlowstone" amount="2" chance="0.25" />
       <output name="dustSulfer" amount="1" chance="0.5"/>

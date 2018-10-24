@@ -5,7 +5,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 #packmode normal simplified
 
-
 print(" =================== General Tweaks / Fixes =================== ");
 print(" ============================================================== ");
 
@@ -437,3 +436,30 @@ recipes.remove(unbaked_talisman);
 					)));
 	mods.jei.JEI.addDescription(<xnet:controller>, "Xnet controller has been configured to not use any power at all",
 											 "However it has 100k of internal capacity for RF power, which you can ignore, it does not need to be charged");
+											 
+//====== Remove Refined Obsidian Dust From Smeltery ======
+//
+	mods.tconstruct.Melting.removeRecipe(<liquid:refinedobsidian>, <mekanism:otherdust:5>);
+		
+//====== SkyStone Tooltip ======
+//
+	blockSkyS.addTooltip(format.aqua("You can find it only in Mining World dimension, where AE2 meteors will spawn."));
+
+//====== Scornful Oblivion ======
+//
+   recipes.remove(<magicbees:resource:11>);
+   recipes.addShaped(<magicbees:resource:11>, [
+      [<magicbees:resource:8>, <minecraft:skull:1>, <magicbees:resource:9>],
+      [<minecraft:skull:1>, <minecraft:dragon_egg>.reuse(), <minecraft:skull:1>], 
+      [<magicbees:resource:9>, <minecraft:skull:1>, <magicbees:resource:8>]
+		]);
+      
+//====== Beer Mug ======
+//
+   mods.forestry.ThermionicFabricator.removeCast(<extratrees:drink>);
+   recipes.addShaped(<extratrees:drink> * 8, [
+      [null, null, null],
+      [null, <forestry:beeswax>, null],
+      [null, <minecraft:glass>, null]
+      ]);
+      

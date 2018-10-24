@@ -552,4 +552,4 @@ print(" ========================================================== ");
 	recipes.addShapeless("trappedchestoredict1", <minecraft:trapped_chest>, [ChestTrapped]);
 	recipes.addShapeless("chestoredict1", <minecraft:chest>, [Chest]);
 	recipes.addShapeless("bedoredict1", <minecraft:bed>, [<ore:bed>]);
-  recipes.addShapeless("wooddoororedict1", <minecraft:wooden_door>, [Door]);
+	recipes.addShapeless("wooddoororedict1", <minecraft:wooden_door>, [Door]);

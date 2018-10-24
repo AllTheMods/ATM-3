@@ -19,6 +19,7 @@ print(" ======================================================== ");
 	var strings = <ore:string>;
 	var cobweb = <minecraft:web>;
 	var marble = <ore:stoneMarble>;
+	var inscab = <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte});
 
 
 //====== Misc Tool/Armor Conflicts ======
@@ -340,5 +341,39 @@ print(" ======================================================== ");
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null]
 		]);	
-
 	<ore:stickIron>.add(<tconstruct:tool_rod>.withTag({Material: "iron"}));
+	
+//====== Ender Pearl Powder ======
+//
+	recipes.removeShaped(<techreborn:dust:20>);
+	recipes.removeShaped(<portalgun:item_dust_ender_pearl>);
+   
+//====== Wax Capsule ======
+//
+   recipes.remove(<forestry:capsule>);
+   recipes.addShaped(<forestry:capsule> * 3, [
+      [null, null, null],
+      [<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], 
+      [null, null, null]
+      ]);
+   recipes.addShaped(<forestry:capsule> * 3, [
+      [null, null, null],[<forestry:beeswax>,
+      <forestry:beeswax>, <forestry:beeswax>],
+      [null, null, null]
+      ]);
+	
+//====== Alarm, Incandescent lamp ======
+//
+   recipes.remove(<techreborn:lamp_incandescent>);
+   recipes.remove(<techreborn:alarm>);
+   recipes.addShaped(<techreborn:lamp_incandescent>,
+      [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+      [<ic2:cable>, <ic2:crafting:13>, <ic2:cable>],
+      [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+      ]);
+   recipes.addShaped(<techreborn:alarm>,
+      [[<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>],
+      [inscab, <ore:blockRedstone>, inscab],
+      [<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>]
+      ]);
+   

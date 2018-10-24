@@ -27,3 +27,18 @@ print(" ======================================================== ");
 		<quantumstorage:quantumcrafter>, <minecraft:nether_star>
 	]);
 
+//====== Custom "growth essence" ======
+//
+	// Maybe be changed later so not as hard (since its simplified)
+	var GrowEssence = <atmtweaks:item_material:1>;
+	var TFFert = <thermalfoundation:fertilizer:2>;
+	var IFFert = <industrialforegoing:fertilizer>;
+	var AAFert = <actuallyadditions:item_fertilizer>;
+	var NotchApple = <minecraft:golden_apple:1>;
+	var RoyalJelly = <forestry:royal_jelly>;
+	var ManaPowder = <botania:manaresource:23>;
+
+	mods.actuallyadditions.Empowerer.addRecipe(GrowEssence,
+		RoyalJelly,
+		AAFert, IFFert, TFFert, ManaPowder,
+		100000, 1200, [0.0, 0.6, 0.1]);	
