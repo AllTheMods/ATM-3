@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "All the Mods 3",
-  "version": "v5.11.0",
+  "version": "v5.11.1",
   "author": "atmteam",
   "projectID": 269708,
   "files": [
@@ -67,7 +67,7 @@
     },
     {
       "projectID": 244559,
-      "fileID": 2618507,
+      "fileID": 2619932,
       "required": true
     },
     {
