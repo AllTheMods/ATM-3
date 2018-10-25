@@ -376,4 +376,12 @@ print(" ======================================================== ");
       [inscab, <ore:blockRedstone>, inscab],
       [<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>]
       ]);
-   
+	
+//====== Iron Frame ======
+//
+   recipes.remove(<advgenerators:iron_frame>);
+   recipes.addShaped(<advgenerators:iron_frame> * 2,
+      [[<ore:ingotIron>, null, <ore:ingotIron>],
+      [null, null, null],
+      [<ore:ingotIron>, null, <ore:ingotIron>]]);
+	
