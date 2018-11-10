@@ -86,6 +86,20 @@ print(" ====================================================== ");
 	//Some recipes return one of the parts of the star to make it less grindy to make multiple
 	//Some recipes don't consume the star at all
 
+
+//====== Wither Essence ======
+//
+    var witheringSoul = <mysticalagradditions:stuff:1>;
+    var dropOfEvil = <extrautils2:ingredients:10>;
+    var witherDustBlock = <ore:blockWither>;
+	
+	recipes.addShaped("atmWitherEssence", <atmtweaks:item_material:10>, [
+        [witheringSoul,	  witheringSoul,   witheringSoul],
+        [witherDustBlock, witherDustBlock, witherDustBlock],
+        [dropOfEvil,      witherDustBlock, dropOfEvil]
+	]);
+	
+	
 //===== Overloaded energy core ======
 //
 	<ore:fusionExtreme>.add(fusionCoil);
