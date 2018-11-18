@@ -1,0 +1,65 @@
+All the Mods 3 v5.11.1 to All the Mods 3 v5.11.2
+
+Downgraded:
+	CraftTweaker (went from CraftTweaker2-1.12-4.1.11 to CraftTweaker2-1.12-4.1.9):
+		CraftTweaker2-1.12-4.1.11:
+			updated ZS head
+
+			Some missing IIngredient#getInternal implementations
+
+			recipes.replaceAllOccurences now supports an optional parameter that specifies recipes for which outputs shoudl be changed (uses IngredientAny in case no output was provided)
+
+			Loaders now can be delayed/frozen until the mod that froze them calls the frozen alias. This should allow for mods to prevent a loader from being loaded to early by other mods. They now need to subscribe to the load_finished event, if they want to get the post-finished loader stage though.
+
+			Added blockstate handling
+
+			Fixed NBT matching (again!)
+
+			Fixed recipe removal
+		CraftTweaker2-1.12-4.1.10:
+			Fixed JEI hide overriding item additions
+
+			Added a new loglevel called default.
+
+			-People can use that logger, and packdevs can disable its outputs entirely.
+			-All the other loggers wont be affected if the pack dev choses to disable
+			-that logger.
+
+			Added INVALIDATED loader stage
+
+			Added LoaderSkip info and AfterMerge info to default loader
+
+			Refactored CrTLoadingStartedEvent's signature
+
+			ODE.add can now remove entries from the MCOreDictEntry Blacklist
+
+			Made the block harvest event use weighted stacks
+
+			made tooltips hardcoded to either shift key
+
+			Changed how RemoveRecipeShaped works
+
+			Add getRayTrace to IEntity
+
+			Added onPlayerInteractBlock to IEventManager
+
+			- Callthrough to onPlayerRightClickBlock due to naming inconsistense
+			- See #595 for info
+
+			Fixed NPE in SlotRecipe
+
+			Make sure ActionRemoveRecipesNoIngredients runs before the other recipe removals
+
+			CTGUI: Inputs now also use withTag to make the items look better in JEI
+
+			performance improvements when looping over items (need to be implemented by the mod author, if you're a crt addon dev, look here: [https://github.com/CraftTweaker/CraftTweaker/pull/600](https://github.com/CraftTweaker/CraftTweaker/pull/600))
+
+			Fix NPE for getSubItems when no creativeTab was found.
+
+			fix creative tab searching
+
+			furnace.all shouldn't crash anymore on empty stacks
+
+			gave IEntityXP a setter for the value
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.11.1)

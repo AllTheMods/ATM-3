@@ -463,3 +463,37 @@ recipes.remove(unbaked_talisman);
       [null, <minecraft:glass>, null]
       ]);
       
+//====== Missing Dusts from Grains ======
+//
+   recipes.addShaped(<thermalfoundation:material:768>,
+      [[<extrabees:misc:18>, <extrabees:misc:18>, null],
+      [<extrabees:misc:18>, <extrabees:misc:18>, null],
+      [null, null, null]]);
+   recipes.addShaped(<techreborn:dust:54>,
+      [[<extrabees:misc:15>, <extrabees:misc:15>, null],
+      [<extrabees:misc:15>, <extrabees:misc:15>, null], 
+      [null, null, null]]);
+   recipes.addShaped(<techreborn:dust:59>, 
+      [[<extrabees:misc:14>, <extrabees:misc:14>, null],
+      [<extrabees:misc:14>, <extrabees:misc:14>, null],
+      [null, null, null]]);
+   recipes.addShaped(<thermalfoundation:material:66>, 
+      [[<extrabees:misc:8>, <extrabees:misc:8>, null],
+      [<extrabees:misc:8>, <extrabees:misc:8>, null],
+      [null, null, null]]);
+   recipes.addShaped(<ic2:crushed:6>,
+      [[<extrabees:misc:27>, <extrabees:misc:27>, null],
+      [<extrabees:misc:27>, <extrabees:misc:27>, null], 
+      [null, null, null]]);
+   recipes.addShaped(<thermalfoundation:material:67>,
+      [[<extrabees:misc:13>, <extrabees:misc:13>, null],
+      [<extrabees:misc:13>, <extrabees:misc:13>, null], 
+      [null, null, null]]);
+   recipes.addShaped(<thermalfoundation:material:70>,
+      [[<extrabees:misc:9>, <extrabees:misc:9>, null],
+      [<extrabees:misc:9>, <extrabees:misc:9>, null], 
+      [null, null, null]]);
+   recipes.addShaped(<thermalfoundation:material>,
+      [[<extrabees:misc:6>, <extrabees:misc:6>, null],
+      [<extrabees:misc:6>, <extrabees:misc:6>, null],
+      [null, null, null]]);
