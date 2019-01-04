@@ -287,7 +287,7 @@ print(" ====================================================== ");
 		//Nuclearcraft
 		recipes.addShaped(<bigreactors:reactorcontroller>, [
 			[<bigreactors:reactorcasing>, <bigreactors:reactorcasing>, <bigreactors:reactorcasing>],
-			[<bigreactors:reactorcasing>, <nuclearcraft:fission_controller_new_idle>, <bigreactors:reactorcasing>],
+			[<bigreactors:reactorcasing>, <nuclearcraft:fission_controller_new_fixed>, <bigreactors:reactorcasing>],
 			[<bigreactors:reactorcasing>, <bigreactors:reactorcasing>, <bigreactors:reactorcasing>]
 			]);
 		//Mek
