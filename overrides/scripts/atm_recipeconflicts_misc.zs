@@ -241,8 +241,8 @@ print(" ======================================================== ");
 
 //======Minecolony Builder conflict ======
 //
-	recipes.remove(<minecolonies:sceptergold>);
-	recipes.addShaped(<minecolonies:sceptergold>, [
+	recipes.remove(<structurize:sceptergold>);
+	recipes.addShaped(<structurize:sceptergold>, [
 		[null,            <ore:cobblestone>, <ore:cobblestone>],
 		[null,            <ore:stickWood>,   <ore:cobblestone>],
 		[<ore:stickWood>, null,              null]
@@ -259,8 +259,8 @@ print(" ======================================================== ");
 //====== Minecolonies Scan Tool ======
 // conflicting with iron builder's wand
 //
-	recipes.remove(<minecolonies:sceptersteel>);
-	recipes.addShaped(<minecolonies:sceptersteel>, [
+	recipes.remove(<structurize:sceptersteel>);
+	recipes.addShaped(<structurize:sceptersteel>, [
 		[null, <ore:paneGlass>, <ore:ingotIron>],
 		[null, <ore:stickWood>, <ore:paneGlass>],
 		[<ore:stickWood>, null, null]
