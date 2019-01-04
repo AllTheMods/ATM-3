@@ -353,29 +353,11 @@ print(" ====================================================== ");
 		
 	recipes.remove(<mekanismgenerators:reactor>);
 	
-	//Mek
-	recipes.addShaped(<mekanismgenerators:reactor>, [
-		[<ore:circuitUltimate>, <mekanism:basicblock2:3>.withTag({tier: 3}), <ore:circuitUltimate>],
-		[<mekanismgenerators:reactor:2>, <mekanism:gastank>.withTag({tier: 3}), <mekanismgenerators:reactor:2>],
-		[<mekanismgenerators:reactor:2>, <ore:shardLead>, <mekanismgenerators:reactor:2> ]
-		]);
-	//Nuclearcraft
-	recipes.addShaped(<mekanismgenerators:reactor>, [
-		[<ore:nuclearcraftDepletedRod>, <mekanism:energycube>.withTag({tier: 3}), <ore:nuclearcraftDepletedRod>],
-		[<mekanismgenerators:reactor:2>, <mekanism:gastank>.withTag({tier: 3}), <mekanismgenerators:reactor:2>],
-		[<mekanismgenerators:reactor:2>, <ore:nuclearcraftDepletedRod>, <mekanismgenerators:reactor:2> ]
-		]);
-	//IC2
-	recipes.addShaped(<mekanismgenerators:reactor>, [
-		[<ore:ic2DepletedRod>, <mekanism:energycube>.withTag({tier: 3}), <ore:ic2DepletedRod>],
-		[<mekanismgenerators:reactor:2>, <mekanism:gastank>.withTag({tier: 3}), <mekanismgenerators:reactor:2>],
-		[<mekanismgenerators:reactor:2>, <ore:ic2DepletedRod>, <mekanismgenerators:reactor:2> ]
-		]);
-	//BigReactors
-	recipes.addShaped(<mekanismgenerators:reactor>, [
-		[<bigreactors:ingotmetals:4>, <mekanism:energycube>.withTag({tier: 3}), <bigreactors:ingotmetals:4>],
-		[<mekanismgenerators:reactor:2>, <mekanism:gastank>.withTag({tier: 3}), <mekanismgenerators:reactor:2>],
-		[<mekanismgenerators:reactor:2>, <bigreactors:reactorcontroller>, <mekanismgenerators:reactor:2> ]
+	// Mek Reactor
+	recipes.addShaped("BRMekReactor", <mekanismgenerators:reactor>, [
+		[<ore:ic2DepletedRod>, <mekanismgenerators:reactor:2>, <bigreactors:ingotmetals:4>],
+		[<mekanismgenerators:reactor:1>, <nuclearcraft:fusion_core>, <mekanismgenerators:reactor:1>],
+		[<mekanismgenerators:reactor:1>, <bigreactors:reactorcontroller>, <mekanismgenerators:reactor:1> ]
 		]);
 
 
