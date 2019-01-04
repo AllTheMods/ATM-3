@@ -300,23 +300,6 @@ print(" ============================================================== ");
 	recipes.addShaped(<minecraft:cookie>, [[<minecraft:wheat>, <minecraft:dye:3>, <minecraft:wheat>]]);
 
 
-//====== End Dragon Dimlet ======
-//
-	val dimletDragon = <rftoolsdim:known_dimlet:3>.withTag({dkey: "minecraft:ender_dragon"});
-	recipes.addShaped(dimletDragon, [
-		[<atmtweaks:item_material:1>, <mysticalagradditions:stuff:2>, <astralsorcery:itemcraftingcomponent:1>],
-		[<rftoolsdim:dimlet_control_circuit:6>, <minecraft:dragon_egg>, <minecraft:skull:5>],
-		[<atmtweaks:item_material:1>, <mysticalagradditions:stuff:2>, <astralsorcery:itemcraftingcomponent:1>]
-		]);
-
-	//metadata to item
-	dimletDragon.addTooltip(format.aqua("NOT crafted in the dimlet workbench"));
-	mods.jei.JEI.addDescription(dimletDragon, "Syringe has been disabled for ender dragons. Instead, a dragon mob dimlet can be crafted with a normal recipe instead");
-
-	//add the full book to JEI as it's own entry
-	mods.jei.JEI.addItem(dimletDragon);
-
-
 //====== Natura Flamestring ======
 //
 	<ore:fieryItem>.addAll(<ore:slimecrystalMagma>);
