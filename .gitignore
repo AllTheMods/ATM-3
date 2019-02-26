@@ -33,7 +33,4 @@ overrides/config/enderio/recipes/*
 !overrides/config/enderio/recipes/user
 overrides/config/enderio/recipes/user/*
 !overrides/config/enderio/recipes/user/user_recipes\.xml
-
-
-
-
+overrides/config/InvTweaks/InvTweaksTree\.txt\.bak
