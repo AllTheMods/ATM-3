@@ -23,11 +23,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "flowers": {
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "generators": {}
-    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",

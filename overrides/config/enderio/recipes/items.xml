@@ -73,7 +73,7 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Yeta Wrench" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="ELECTRICAL_STEEL" /><item name="" /><item name="ELECTRICAL_STEEL" />
+        <item name="ELECTRICAL_STEEL" /><item /><item name="ELECTRICAL_STEEL" />
         <item /><item name="GEAR_STONE" /><item />
         <item /><item name="ELECTRICAL_STEEL" /><item />
       </grid>
@@ -220,22 +220,11 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Dark Treetap, IC2" required="false">
+  <recipe name="Dark Treetap" required="false">
     <crafting>
       <grid>
         <item /><item name="GEAR_DARKSTEEL" /><item />
-        <item name="DARK_STEEL" /><item name="ic2:treetap" /><item name="DARK_STEEL" />
-        <item name="DARK_STEEL_NUGGET" /><item /><item name="DARK_STEEL_NUGGET" />
-      </grid>
-      <output name="enderio:item_dark_steel_treetap" />
-    </crafting>
-  </recipe>
-
-  <recipe name="Dark Treetap, TR" required="false">
-    <crafting>
-      <grid>
-        <item /><item name="GEAR_DARKSTEEL" /><item />
-        <item name="DARK_STEEL" /><item name="techreborn:treetap" /><item name="DARK_STEEL" />
+        <item name="DARK_STEEL" /><item name="ic2:treetap, ic2:itemtreetap, techreborn:treetap" /><item name="DARK_STEEL" />
         <item name="DARK_STEEL_NUGGET" /><item /><item name="DARK_STEEL_NUGGET" />
       </grid>
       <output name="enderio:item_dark_steel_treetap" />
@@ -306,7 +295,7 @@ XML editor will display that as tooltips when editing this file.
       <output name="enderio:item_dark_steel_pickaxe" />
     </crafting>
   </recipe>
-  
+
   <recipe name="Dark Axe" required="true">
     <crafting>
       <grid size="2x3">
@@ -315,6 +304,28 @@ XML editor will display that as tooltips when editing this file.
         <item /><item name="stickWood" />
       </grid>
       <output name="enderio:item_dark_steel_axe" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Dark Crook" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="DARK_STEEL" /><item name="DARK_STEEL" /><item name="stickWood" />
+        <item /><item /><item name="stickWood" />
+        <item /><item /><item name="stickWood" />
+      </grid>
+      <output name="enderio:item_dark_steel_crook" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Dark Hand" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="DARK_STEEL" /><item name="DARK_STEEL" /><item name="DARK_STEEL" />
+        <item name="DARK_STEEL" /><item name="minecraft:diamond_hoe"/><item name="DARK_STEEL" />
+        <item name="DARK_STEEL_NUGGET" /><item name="DARK_STEEL_NUGGET" /><item name="DARK_STEEL_NUGGET" />
+      </grid>
+      <output name="enderio:item_dark_steel_hand" />
     </crafting>
   </recipe>
 
@@ -509,8 +520,8 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid size="3x3">
         <item name="ELECTRICAL_STEEL_NUGGET" /><item /><item name="ELECTRICAL_STEEL_NUGGET" />
-        <item name="ingotIron" /><item name="enderio:item_yeta_wrench" /><item name="ingotIron" />
-        <item name="ingotIron" /><item name="POWDER_INFINITY" /><item name="ingotIron" />
+        <item name="IRON" /><item name="enderio:item_yeta_wrench" /><item name="IRON" />
+        <item name="IRON" /><item name="POWDER_INFINITY" /><item name="IRON" />
       </grid>
       <output name="CONDUIT_PROBE" />
     </crafting>
@@ -524,6 +535,16 @@ XML editor will display that as tooltips when editing this file.
         <item /><item name="oredict:paper" /><item/>
       </grid>
       <output name="enderio:item_basic_item_filter" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Filter, Enchantment" required="true">
+    <crafting>
+      <shapeless>
+        <item name="enderio:item_basic_item_filter"/>
+        <item name="minecraft:enchanted_book"/>
+      </shapeless>
+      <output name="enderio:item_enchantment_filter_normal" />
     </crafting>
   </recipe>
 
@@ -591,6 +612,16 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="Filter, Enchantment, Big" required="true">
+    <crafting>
+      <shapeless>
+        <item name="enderio:item_big_item_filter"/>
+        <item name="minecraft:enchanted_book"/>
+      </shapeless>
+      <output name="enderio:item_enchantment_filter_big" />
+    </crafting>
+  </recipe>
+
   <recipe name="Filter, Big Advanced" required="true">
     <crafting>
       <grid size="1x3">
@@ -617,7 +648,7 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid size="3x3">
         <item name="REDSTONE_ALLOY"/><item name="oredict:paper" /><item name="REDSTONE_ALLOY"/>
-        <item name="oredict:paper" /><item name="oredict:ingotIron"/><item name="oredict:paper" />
+        <item name="oredict:paper" /><item name="IRON"/><item name="oredict:paper" />
         <item name="REDSTONE_ALLOY"/><item name="oredict:paper" /><item name="REDSTONE_ALLOY"/>
       </grid>
       <output name="REDSTONE_FILTER_BASE" />

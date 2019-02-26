@@ -278,7 +278,7 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Enchanter: draconicevolution:enchant_reaper" required="false" disabled="false">
     <enchanting>
       <input name="draconicevolution:draconium_block" amount="12"/>
-      <enchantment name="draconicevolution:enchant_reaper" costMultiplier="2"/>
+      <enchantment name="draconicevolution:enchant_reaper" costMultiplier="1"/>
     </enchanting>
   </recipe>
 
@@ -327,6 +327,28 @@ XML editor will display that as tooltips when editing this file.
     <enchanting>
       <input name="abyssalcraft:shadowgem" amount="1"/>
       <enchantment name="abyssalcraft:light_pierce" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <!-- Railcraft -->
+  <recipe name="Enchanter: railcraft:destruction" required="false" disabled="false">
+    <enchanting>
+      <input name="dustSulfur" amount="8"/>
+      <enchantment name="railcraft:destruction" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: railcraft:implosion" required="false" disabled="false">
+    <enchanting>
+      <input name="dustVoid" amount="3"/>
+      <enchantment name="railcraft:implosion" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: railcraft:wrecking" required="false" disabled="false">
+    <enchanting>
+      <input name="ingotSteel" amount="4"/>
+      <enchantment name="railcraft:wrecking" costMultiplier="1"/>
     </enchanting>
   </recipe>
 

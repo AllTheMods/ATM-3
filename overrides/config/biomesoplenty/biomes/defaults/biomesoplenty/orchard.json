@@ -89,7 +89,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 1.5,
       "enable": true,
       "generators": {}
     },
@@ -128,7 +128,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 5.0,
+      "amountPerChunk": 3.5,
       "enable": true,
       "generators": {}
     },

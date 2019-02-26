@@ -571,7 +571,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: oreDiamond Ore" required="true">
     <sagmilling energy="3600">
-      <input name="oreDiamond" />
+      <input name="oreDiamond, -railcraft:ore:2" />
       <output name="gemDiamond" amount="2" />
       <output name="gemDiamond" chance="0.25" />
       <output name="dustCoal" chance="0.05" />
@@ -600,7 +600,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: oreEmerald Ore" required="true">
     <sagmilling energy="3600">
-      <input name="oreEmerald" />
+      <input name="oreEmerald, -railcraft:ore:3" />
       <output name="gemEmerald" amount="2" />
       <output name="gemEmerald" chance="0.25" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -627,7 +627,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: oreLapis Ore" required="true">
     <sagmilling energy="3600">
-      <input name="oreLapis" />
+      <input name="oreLapis, -railcraft:ore:4" />
       <output name="minecraft:dye:4" amount="8" />
       <output name="minecraft:dye:4" chance="0.2" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -668,11 +668,11 @@ XML editor will display that as tooltips when editing this file.
     </sagmilling>
   </recipe>
 
-  <!-- Apatite (Forestry) -->
-
-  <recipe name="Sagmill: oreApatite Ore" required="false">
+ <!-- Apatite -->
+ 
+  <recipe name="Sagmill: Forestry Apatite Ore" required="false">
     <sagmilling energy="3600">
-      <input name="oreApatite" />
+      <input name="forestry:resources:0" />
       <output name="gemApatite" amount="12" />
       <output name="dustSulfur" chance="0.1" required="false" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -694,7 +694,19 @@ XML editor will display that as tooltips when editing this file.
       <output name="oreApatite" amount="4" />
     </sagmilling>
   </recipe>
+ 
+   <!-- Apatite (Other) -->
 
+  <recipe name="Sagmill: oreApatite Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreApatite, -forestry:resources:0, -silentgems:gemorelight:7" />
+      <output name="gemApatite" amount="2" />
+      <output name="gemApatite" chance="0.5" />
+      <output name="dustSulfur" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+ 
   <!-- CertusQuartz (AE2) -->
 
   <recipe name="Sagmill: appliedenergistics2:quartz_ore Ore" required="false">
@@ -780,7 +792,7 @@ XML editor will display that as tooltips when editing this file.
     <sagmilling energy="3600">
       <input name="oreSaltpeter" />
       <output name="dustSaltpeter" amount="4" />
-      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="minecraft:sand" chance="0.15" />
     </sagmilling>
   </recipe>
 
@@ -863,7 +875,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: oreTanzanite Ore" required="false">
     <sagmilling energy="3600">
-      <input name="oreTanzanite" />
+      <input name="oreTanzanite, -silentgems:gemoredark:10" />
       <output name="gemTanzanite" amount="2" />
       <output name="gemTanzanite" chance="0.5" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -883,7 +895,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: oreMalachite Ore" required="false">
     <sagmilling energy="3600">
-      <input name="oreMalachite" />
+      <input name="oreMalachite, -silentgems:gemoredark:6" />
       <output name="gemMalachite" amount="2" />
       <output name="gemMalachite" chance="0.5" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -2724,7 +2736,7 @@ XML editor will display that as tooltips when editing this file.
       <input name="oreClathrateGlowstone" />
       <output name="crystalGlowstone" amount="2" />
       <output name="crystalGlowstone" amount="2" chance="0.25" />
-      <output name="dustSulfer" amount="1" chance="0.5"/>
+      <output name="dustSulfur" amount="1" chance="0.5"/>
       <output name="minecraft:netherrack" chance="0.15" />
     </sagmilling>
   </recipe>
@@ -2825,7 +2837,7 @@ XML editor will display that as tooltips when editing this file.
 
   <recipe name="Sagmill: Sodalite Ore" required="false">
     <sagmilling energy="3600">
-      <input name="oreSodalite" />
+      <input name="oreSodalite, -silentgems:gemorelight:10" />
       <output name="dustSodalite" amount="2" />
       <output name="minecraft:endstone" chance="0.15" />
       <output name="dustAluminium" chance="0.1" />
