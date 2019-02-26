@@ -11,6 +11,11 @@
       "id": "OD_PREFIX:treeSapling"
     },
     {
+      "target": "sapling",
+      "weight": 4,
+      "id": "ic2:sapling"
+    },
+    {
       "target": "leaves",
       "weight": 48,
       "id": "OD_PREFIX:treeLeaves"

@@ -271,6 +271,16 @@
       "id": "environmentalmaterials:alabaster:15"
     },
     {
+      "target": "black",
+      "weight": 30,
+      "id": "environmentalmaterials:basalt"
+    },
+    {
+      "target": "gray",
+      "weight": 20,
+      "id": "environmentalmaterials:hardened_stone"
+    },
+    {
       "target": "yellow",
       "weight": 30,
       "id": "chisel:limestone2:7"
@@ -304,6 +314,51 @@
       "target": "brown",
       "weight": 15,
       "id": "biomesoplenty:dirt"
+    },
+    {
+      "target": "green",
+      "weight": 20,
+      "id": "thebetweenlands:betweenstone"
+    },
+    {
+      "target": "green",
+      "weight": 5,
+      "id": "thebetweenlands:generic_stone"
+    },
+    {
+      "target": "green",
+      "weight": 15,
+      "id": "thebetweenlands:pitstone"
+    },
+    {
+      "target": "light_gray",
+      "weight": 15,
+      "id": "thebetweenlands:limestone"
+    },
+    {
+      "target": "brown",
+      "weight": 7,
+      "id": "thebetweenlands:mud"
+    },
+    {
+      "target": "brown",
+      "weight": 7,
+      "id": "thebetweenlands:swamp_dirt"
+    },
+    {
+      "target": "green",
+      "weight": 7,
+      "id": "thebetweenlands:swamp_grass"
+    },
+    {
+      "target": "green",
+      "weight": 7,
+      "id": "thebetweenlands:slimy_dirt"
+    },
+    {
+      "target": "green",
+      "weight": 7,
+      "id": "thebetweenlands:slimy_grass"
     },
     {
       "target": "white",
