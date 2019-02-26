@@ -59,7 +59,7 @@ print(" ======================================================== ");
 //====== Adv Gen upgrade kit ======
 //
 	recipes.remove(<advgenerators:upgrade_kit>);
-	recipes.addShaped(<advgenerators:upgrade_kit>, [
+	recipes.addShaped("AdvGenUpgrade", <advgenerators:upgrade_kit>, [
 		[<ore:plateTin>, null, <ore:plateTin>],
 		[null, <ore:stickWood>, null],
 		[null, <ore:stickWood>, null]
@@ -70,7 +70,7 @@ print(" ======================================================== ");
 // default Plants2 recipes for 2x2 conflict with many mods, this resoles most/all
 //
 	recipes.remove(<plants2:plantball>);
-	recipes.addShapeless(<plants2:plantball>, [
+	recipes.addShapeless("plantball1", <plants2:plantball>, [
 		<ore:plant>, <ore:plant>, <ore:plant>,
 		<ore:plant>, <ore:plant>, <ore:plant>,
 		<ore:plant>, <ore:plant>, <ore:plant>
@@ -153,12 +153,12 @@ print(" ======================================================== ");
 //====== Harvestcraft Cotton ======
 // Extra recipe not needed, conflicts with seed recipe
 //
-	recipes.remove(<harvestcraft:cottonitem>);
+//	recipes.remove(<harvestcraft:cottonitem>);
 // ====== Boiler Casing ======
 // conflicts with Steel Gear
 //
 	recipes.remove(MekBoilerCasing);
-	recipes.addShaped(<mekanism:basicblock2:7> * 4, [
+	recipes.addShaped("MekBoiler", <mekanism:basicblock2:7> * 4, [
 		[null, <ore:ingotSteel>, null],
 		[<ore:ingotSteel>, <ore:plateSteel>, <ore:ingotSteel>],
 		[null, <ore:ingotSteel>, null]
@@ -168,7 +168,7 @@ print(" ======================================================== ");
 //====== Trowell ======
 //
 	recipes.remove(<waterstrainer:garden_trowel>);
-	recipes.addShapedMirrored(<waterstrainer:garden_trowel>, [
+	recipes.addShapedMirrored("WSTrowel", <waterstrainer:garden_trowel>, [
 		[null, <ore:dirt>, <ore:dirt>],
 		[null, <ore:stickWood>, <ore:dirt>],
 		[<ore:stickWood>, null, <ore:dirt>]
@@ -181,54 +181,46 @@ print(" ======================================================== ");
 
 //(Neutron Reflector) <techreborn:part:26> * 1 conflicts with [Shaped] (Neutron Reflector) <ic2:neutron_reflector:0> * 1
 	recipes.remove(<techreborn:part:26>);
-	recipes.addShapeless(<techreborn:part:26>, [<ic2:neutron_reflector:0>]);
+	recipes.addShapeless("Reflector", <techreborn:part:26>, [<ic2:neutron_reflector:0>]);
 
 //(Water Mill) <techreborn:water_mill:0> * 1 conflicts with [Shaped] (Water Mill) <ic2:te:10> * 2
 	recipes.remove(<ic2:te:10>);
-	recipes.addShapeless(<ic2:te:10>, [<techreborn:water_mill:0>]);
+	recipes.addShapeless("TRWaterMill", <ic2:te:10>, [<techreborn:water_mill:0>]);
 
 //(Barley Flour) <natura:materials:1> * 1 conflicts with [Shapeless] (Barley Seed) <harvestcraft:barleyseeditem:0> * 1
-	recipes.remove(<natura:materials:1>);
-	recipes.remove(<natura:materials:2>);
+	//recipes.remove(<natura:materials:1>);
+	//recipes.remove(<natura:materials:2>);
 	//mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
 	//mods.actuallyadditions.Crusher.addRecipe(  IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
 	// barley flour grinders
-	mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:1>, <natura:materials:0>, 400);
-	mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:1>, <harvestcraft:barleyitem>, 400);
-	mods.actuallyadditions.Crusher.addRecipe(<natura:materials:1>, <natura:materials:0>);
-	mods.actuallyadditions.Crusher.addRecipe(<natura:materials:1>, <harvestcraft:barleyitem>);
+	//mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:1>, <natura:materials:0>, 400);
+	//mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:1>, <harvestcraft:barleyitem>, 400);
+	//mods.actuallyadditions.Crusher.addRecipe(<natura:materials:1>, <natura:materials:0>);
+	//mods.actuallyadditions.Crusher.addRecipe(<natura:materials:1>, <harvestcraft:barleyitem>);
 	// wheat flour grinders
-	mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:2>, <minecraft:wheat>, 400);
-	mods.actuallyadditions.Crusher.addRecipe(<natura:materials:2>, <minecraft:wheat>);
+	//mods.thermalexpansion.Pulverizer.addRecipe(<natura:materials:2>, <minecraft:wheat>, 400);
+	//mods.actuallyadditions.Crusher.addRecipe(<natura:materials:2>, <minecraft:wheat>);
 
 //(Inactive Respawn Obelisk) <natura:respawn_obelisk:0> * 1 conflicts with [Shaped] (Oak Chest) <minecraft:chest:0> * 4
-	recipes.remove(<natura:respawn_obelisk>);
-	recipes.addShaped(<natura:respawn_obelisk>, [
-		[<natura:nether_logs:*>, <natura:nether_logs:*>, <natura:nether_logs:*>],
-		[<natura:nether_logs:*>, <minecraft:ender_pearl>, <natura:nether_logs:*>],
-		[<natura:nether_logs:*>, <natura:nether_logs:*>, <natura:nether_logs:*>]
-		]);
+//	recipes.remove(<natura:respawn_obelisk>);
+//	recipes.addShaped("Obelisk", <natura:respawn_obelisk>, [
+//		[<natura:nether_logs:*>, <natura:nether_logs:*>, <natura:nether_logs:*>],
+//		[<natura:nether_logs:*>, <minecraft:ender_pearl>, <natura:nether_logs:*>],
+//		[<natura:nether_logs:*>, <natura:nether_logs:*>, <natura:nether_logs:*>]
+//		]);
 
 //(Redstone Clock) <cyclicmagic:clock:0> * 1 conflicts with [Shaped] (Control Circuit) <advgenerators:controller:0> * 1
 	recipes.remove(<cyclicmagic:clock:0>);
-	recipes.addShaped(<cyclicmagic:clock:0>, [
+	recipes.addShaped("CMClock", <cyclicmagic:clock:0>, [
 		[<ore:ingotIron>,            <minecraft:redstone_torch>, <ore:ingotIron>],
 		[<minecraft:redstone_torch>, <ore:gemQuartz>,            <minecraft:redstone_torch>],
 		[<ore:ingotIron>,            <minecraft:redstone_torch>, <ore:ingotIron>]
 		]);
 
 //(Soft Pretzel) <harvestcraft:softpretzelitem:0> * 1 conflicts with [Shapeless] (Crackers) <harvestcraft:crackersitem:0> * 1
-	recipes.remove(<harvestcraft:crackersitem:0>);
-	recipes.addShapeless(<harvestcraft:crackersitem:0>, [<harvestcraft:crackeritem:0>, <harvestcraft:crackeritem:0>]);
-	
-//(Trash Can (Fluid)) <extrautils2:trashcanfluid:0> * 1 conflicts with [Shaped] (Fluid Trash Can) <quantumstorage:trashcanfluid:0> * 1
-	recipes.remove(<extrautils2:trashcanfluid:0>);
-	recipes.addShapeless(<extrautils2:trashcanfluid:0>, [<quantumstorage:trashcanfluid:0>]);
-	
-//(Trash Can) <extrautils2:trashcan:0> * 1 conflicts with [Shaped] (Trash Can) <quantumstorage:trashcan:0> * 1
-	recipes.remove(<extrautils2:trashcan:0>);
-	recipes.addShapeless(<extrautils2:trashcan:0>, [<quantumstorage:trashcan:0>]);
-	
+//	recipes.remove(<harvestcraft:crackersitem:0>);
+//	recipes.addShapeless("HarvestPretzel", <harvestcraft:crackersitem:0>, [<harvestcraft:crackeritem:0>, <harvestcraft:crackeritem:0>]);
+
 //(Uranium Seeds) <mysticalagriculture:uranium_seeds:0> * 1 conflicts with [Shaped] (Yellorium Seeds) <mysticalagriculture:yellorium_seeds:0> * 1
 	recipes.remove(<mysticalagriculture:yellorium_seeds:0>);
 
@@ -237,7 +229,6 @@ print(" ======================================================== ");
 
 //(Mini Chest) <extrautils2:minichest:0> * 9 conflicts with [Shapeless] (Oak Chest) <minecraft:chest:0> * 1
 	// mini chest works from oak chest, not conflicting in practice
-
 
 //======Minecolony Builder conflict ======
 //
@@ -248,13 +239,11 @@ print(" ======================================================== ");
 		[<ore:stickWood>, null,              null]
 		]);
 
-
 //====== diamond nugget =====
 // conflicts with open computers diamond chip
 //
 	recipes.remove(<techreborn:nuggets:24>);
 	recipes.remove(<thermalfoundation:material:16>);
-
 
 //====== Minecolonies Scan Tool ======
 // conflicting with iron builder's wand
@@ -270,25 +259,25 @@ print(" ======================================================== ");
 //====== Interchangeable TR/IC2 machine frames ======
 //
 	recipes.remove(<ic2:resource:12>);
-	recipes.addShaped(<ic2:resource:12>, [
+	recipes.addShaped("MachineFrame", <ic2:resource:12>, [
 		[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 		[<ore:plateIron>, null,            <ore:plateIron>],
 		[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 		]);
-	recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
-	recipes.addShapeless(<techreborn:machine_frame>, [<ic2:resource:12>]);
+	recipes.addShapeless("Ic2Frame", <ic2:resource:12>, [<techreborn:machine_frame>]);
+	recipes.addShapeless("TRFrame", <techreborn:machine_frame>, [<ic2:resource:12>]);
 
 
 //====== Interchangeable TR/IC2 Transformer Upgrade ======
 //
-	recipes.addShapeless(<techreborn:upgrades:1>, [<ic2:upgrade:1>]);
-	recipes.addShapeless(<ic2:upgrade:1>, [<techreborn:upgrades:1>]);
+	recipes.addShapeless("TRUpgrade", <techreborn:upgrades:1>, [<ic2:upgrade:1>]);
+	recipes.addShapeless("Ic2Upgrade", <ic2:upgrade:1>, [<techreborn:upgrades:1>]);
 
 
 //====== CC Modem (future block chisel) ======
 //
 	recipes.remove(<computercraft:cable:1>);
-	recipes.addShaped(<computercraft:cable:1>, [
+	recipes.addShaped("Modem", <computercraft:cable:1>, [
 		[<ore:stone>, <computercraft:cable>, <ore:stone>],
 		[<computercraft:cable>, <ore:dustRedstone>, <computercraft:cable>],
 		[<ore:stone>, <computercraft:cable>, <ore:stone>]
@@ -299,17 +288,16 @@ print(" ======================================================== ");
 //
 	recipes.remove(<minecraft:paper>);
 
-	recipes.addShapeless(<minecraft:paper>*1, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
-	recipes.addShaped(<minecraft:paper>*1, [[<ore:sugarcane>, <ore:sugarcane>, <ore:sugarcane>]]);
-	recipes.addShapedMirrored(<minecraft:paper>*3, [
+	recipes.addShapeless("PaperShapeless", <minecraft:paper>*1, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
+	recipes.addShaped("PaperShaped", <minecraft:paper>*1, [[<ore:sugarcane>, <ore:sugarcane>, <ore:sugarcane>]]);
+	recipes.addShapedMirrored("PaperShapedMirror", <minecraft:paper>*3, [
 		[<ore:cropRice>, null, null],
 		[null, <ore:cropRice>, null],
 		[null, null, <ore:cropRice>]
 		]);
-	recipes.addShapeless(<minecraft:paper>*6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <liquid:water>*1000]);
 
 	recipes.remove(<mekanism:cardboardbox>);
-	recipes.addShaped(<mekanism:cardboardbox>, [
+	recipes.addShaped("CardboardBox", <mekanism:cardboardbox>, [
 		[null, <storagedrawers:tape>.anyDamage(), null],
 		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>],
 		[<thermalfoundation:material:801>, <thermalfoundation:material:801>, <thermalfoundation:material:801>]
@@ -317,13 +305,13 @@ print(" ======================================================== ");
 	
 	//Rice Dough
 	recipes.remove(<actuallyadditions:item_misc:9>);
-	recipes.addShapeless(<actuallyadditions:item_misc:9>*2, [<ore:cropRice>, <ore:cropRice>, <ore:cropRice>, <ore:cropRice>]);
+	recipes.addShapeless("RiceDough", <actuallyadditions:item_misc:9>*2, [<ore:cropRice>, <ore:cropRice>, <ore:cropRice>, <ore:cropRice>]);
 
 
 //====== TiCo Moss ======
 //
 	recipes.remove(<tconstruct:materials:18>);
-	recipes.addShapeless(<tconstruct:materials:18>, [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>]);
+	recipes.addShapeless("TCMoss", <tconstruct:materials:18>, [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>]);
 
 
 //====== Iron Stick ======
@@ -331,47 +319,60 @@ print(" ======================================================== ");
 	recipes.remove(<immersiveengineering:material:1>);
 	recipes.remove(<rustic:chain>);
 	recipes.remove(<ore:stickIron>);
-	recipes.addShaped(<rustic:chain>*12, [
+	recipes.addShaped("Chain", <rustic:chain>*12, [
 		[<ore:ingotIron>, null, null],
 		[<ore:ingotIron>, null, null],
 		[<ore:ingotIron>, null, null]
 		]);	
-	recipes.addShaped(<immersiveengineering:material:1>*4, [
+	recipes.addShaped("IERod", <immersiveengineering:material:1>*4, [
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null],
 		[null, <ore:ingotIron>, null]
 		]);	
+
 	<ore:stickIron>.add(<tconstruct:tool_rod>.withTag({Material: "iron"}));
+
 	
 //====== Ender Pearl Powder ======
 //
-	recipes.removeShaped(<techreborn:dust:20>);
-	recipes.removeShaped(<portalgun:item_dust_ender_pearl>);
-   
-//====== Wax Capsule ======
+//add custom enderio recipe
+   recipes.addShaped(<techreborn:dust:20>, [
+      [<enderio:item_material:28>, <enderio:item_material:28>, <enderio:item_material:28>],
+      [<enderio:item_material:28>, <enderio:item_material:28>, <enderio:item_material:28>], 
+      [<enderio:item_material:28>, <enderio:item_material:28>, <enderio:item_material:28>]
+      ]);
+//fix miniature black hole
+   recipes.remove(<portalgun:item_miniature_black_hole>);
+   recipes.addShaped(<portalgun:item_miniature_black_hole>, [
+      [<ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>],
+      [<ore:dustEnderPearl>, <minecraft:nether_star>, <ore:dustEnderPearl>], 
+      [<ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>]
+      ]);
+
+//====== Relapse/Love Potions ======
 //
-   recipes.remove(<forestry:capsule>);
-   recipes.addShaped(<forestry:capsule> * 3, [
-      [null, null, null],
-      [<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], 
-      [null, null, null]
-      ]);
-   recipes.addShaped(<forestry:capsule> * 3, [
-      [null, null, null],[<forestry:beeswax>,
-      <forestry:beeswax>, <forestry:beeswax>],
-      [null, null, null]
-      ]);
+   recipes.addShapeless(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.relapse"}), [<minecraft:potion>.onlyWithTag({Potion: "extrautils2:xu2.love"})]);
+   recipes.addShapeless(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.love"}), [<minecraft:potion>.onlyWithTag({Potion: "extrautils2:xu2.relapse"})]);
+   
+//====== Iron Plate ======
+//
+   recipes.addShapeless("Iron Plate", <thermalfoundation:material:32>, [<ore:ingotIron>,<ic2:forge_hammer:*>]);
+
+//====== Item Rack ======
+//
+	recipes.remove(<tconstruct:rack:0>);
+	recipes.addShapeless("itemrack",<tconstruct:rack:0>, [<tconstruct:rack:1>]);
 	
 //====== Alarm, Incandescent lamp ======
 //
    recipes.remove(<techreborn:lamp_incandescent>);
    recipes.remove(<techreborn:alarm>);
-   recipes.addShaped(<techreborn:lamp_incandescent>,
+   recipes.addShaped("TRLamp", <techreborn:lamp_incandescent>,
       [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
       [<ic2:cable>, <ic2:crafting:13>, <ic2:cable>],
       [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
       ]);
-   recipes.addShaped(<techreborn:alarm>,
+   recipes.addShaped("TRAlarm", <techreborn:alarm>,
       [[<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>],
       [inscab, <ore:blockRedstone>, inscab],
       [<ore:ingotIron>, <ic2:cable>, <ore:ingotIron>]
@@ -380,8 +381,71 @@ print(" ======================================================== ");
 //====== Iron Frame ======
 //
    recipes.remove(<advgenerators:iron_frame>);
-   recipes.addShaped(<advgenerators:iron_frame> * 2,
+   recipes.addShaped("AdvGenFrame", <advgenerators:iron_frame> * 2,
       [[<ore:ingotIron>, null, <ore:ingotIron>],
       [null, null, null],
       [<ore:ingotIron>, null, <ore:ingotIron>]]);
 	
+//====== Uranium Ingot ======
+//
+	recipes.removeShapeless(<ic2:ingot:8>,[<ic2:resource:10>]);
+	
+	recipes.addShapeless("UraniumIngot",<ic2:ingot:8> * 10,[<ic2:resource:10>,<ic2:ingot:8>]);
+	recipes.addShaped("UraniumIngotToBlock",<ic2:resource:10>,
+	[[<ic2:ingot:8>, <ic2:ingot:8>, <ic2:ingot:8>],
+	[<ic2:ingot:8>, <ic2:ingot:8>, <ic2:ingot:8>],
+	[<ic2:ingot:8>, <ic2:ingot:8>, <ic2:ingot:8>]
+	]);
+	
+//====== Mystical Agriculture ======
+//
+   var mystsili = <mysticalagriculture:silicon_essence>;
+   var myststeel = <mysticalagriculture:steel_essence>;
+   var mystlead = <mysticalagriculture:lead_essence>;
+   var mystbronze = <mysticalagriculture:bronze_essence>;
+   var mystsilver = <mysticalagriculture:silver_essence>;
+   var mysttin = <mysticalagriculture:tin_essence>;
+   var mystcopper = <mysticalagriculture:copper_essence>;
+   recipes.remove(<nuclearcraft:gem:6>);
+   recipes.remove(<ic2:ingot:5>);
+   recipes.remove(<ic2:ingot:3>);
+   recipes.remove(<ic2:ingot:1>);
+   recipes.remove(<ic2:ingot:4>);
+   recipes.remove(<ic2:ingot:6>);
+   recipes.remove(<ic2:ingot:2>);
+   recipes.addShaped(<enderio:item_material:5> * 8,
+      [[mystsili, mystsili, mystsili],
+      [null, null, null],
+      [null, null, null]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:160> * 3,
+      [[myststeel, myststeel, myststeel],
+      [myststeel, null, myststeel], 
+      [myststeel, myststeel, myststeel]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:131> * 4,
+      [[mystlead, mystlead, mystlead],
+      [mystlead, null, mystlead],
+      [mystlead, mystlead, mystlead]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:163> * 4,
+      [[mystbronze, mystbronze, mystbronze],
+      [mystbronze, null, mystbronze],
+      [mystbronze, mystbronze, mystbronze]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:130> * 4,
+      [[mystsilver, mystsilver, mystsilver],
+      [mystsilver, null, mystsilver],
+      [mystsilver, mystsilver, mystsilver]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:129> * 4,
+      [[mysttin, mysttin, mysttin],
+      [mysttin, null, mysttin],
+      [mysttin, mysttin, mysttin]
+      ]);
+   recipes.addShaped(<thermalfoundation:material:128> * 6,
+      [[mystcopper, mystcopper, mystcopper],
+      [mystcopper, null, mystcopper],
+      [mystcopper, mystcopper, mystcopper]
+      ]);
+      

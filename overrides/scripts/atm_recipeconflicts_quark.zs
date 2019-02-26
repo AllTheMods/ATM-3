@@ -16,7 +16,7 @@ print(" ============================================================== ");
 //
 	var marble = <astralsorcery:blockmarble>;
 	recipes.removeShaped(<quark:marble:1>);
-	recipes.addShapeless(<quark:marble:1> * 8,
+	recipes.addShapeless("Marble", <quark:marble:1> * 8,
 		[marble, marble, marble, marble, marble, marble, marble, marble]
 		);
 

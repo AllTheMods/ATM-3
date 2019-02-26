@@ -74,7 +74,7 @@ print(" ============================================= ");
 		*/
 		var GrowEssence = <atmtweaks:item_material:1>;
 		
-		recipes.addShaped(hive, [
+		recipes.addShaped("Hive" + hive.displayName, hive, [
 			[special, casing, special],
 			[casing, GrowEssence, casing],
 			[special, casing, special]

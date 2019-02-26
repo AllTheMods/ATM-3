@@ -4,6 +4,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 #packmode normal simplified
+#modloaded akashictome
 
 
 print(" =================== Akashic Tome =================== ");
@@ -253,6 +254,14 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			ebwizardry: {
+				id: "ebwizardry:wizard_handbook",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "ebwizardry"
+				},
+				Damage: 0 as short
+			},
 			conarm: {
 				id: "conarm:book",
 				Count: 1 as byte,
@@ -266,6 +275,39 @@ print(" ==================================================== ");
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "thebetweenlands"
+				},
+				Damage: 0 as short
+			},
+			guideapi: {
+				id: "guideapi:inventorygenerators-guide_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "guideapi"
+				},
+				Damage: 0 as short
+			},
+			envtech: {
+				id: "valkyrielib:guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "envtech"
+				},
+				Damage: 0 as short
+			},
+			deepresonance: {
+				id: "deepresonance:dr_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "deepresonance"
+				},
+				Damage: 0 as short
+			},
+			gbook: {
+				id: "gbook:guidebook",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:defineMod": "gbook",
+					Book: "minecolonies:book/minecolonies.xml"
 				},
 				Damage: 0 as short
 			}
@@ -321,8 +363,11 @@ print(" ==================================================== ");
 		<openblocks:info_book>,
 		<forestry:book_forester>,
 		<guideapi:woot-guide>,
+		//<practicallogistics2:plguide>,
+		<conarm:book>,
 		<thebetweenlands:manual_hl>,
-		<conarm:book>
+		<guideapi:inventorygenerators-guide_book>,
+		<valkyrielib:guide>,
 		] as IItemStack[];
 
 	for itemBook in addedBooks {

@@ -482,17 +482,17 @@ compressRecipes(
 
 //====== Compressed Nether Stars ======
 //
-	recipes.addShapeless(<minecraft:nether_star>*9, [<overloaded:nether_star_block>]);
+	recipes.addShapeless("NetherStarBlock", <minecraft:nether_star>*9, [<overloaded:nether_star_block>]);
 
 
 //====== Fix EXU2 recipes ======
 // 
 /*
-	recipes.addShapeless(<minecraft:dirt>*9,[<extrautils2:compresseddirt>]);
-	recipes.addShapeless(<minecraft:cobblestone>*9,[<extrautils2:compressedcobblestone>]);
-	recipes.addShapeless(<minecraft:sand>*9,[<extrautils2:compressedsand>]);
-	recipes.addShapeless(<minecraft:gravel>*9,[<extrautils2:compressedgravel>]);
-	recipes.addShapeless(<minecraft:netherrack>*9,[<extrautils2:compressednetherrack>]);
+	recipes.addShapeless("Dirt9x", <minecraft:dirt>*9,[<extrautils2:compresseddirt>]);
+	recipes.addShapeless("Cobble9x", <minecraft:cobblestone>*9,[<extrautils2:compressedcobblestone>]);
+	recipes.addShapeless("Sand9x", <minecraft:sand>*9,[<extrautils2:compressedsand>]);
+	recipes.addShapeless("Gravel9x", <minecraft:gravel>*9,[<extrautils2:compressedgravel>]);
+	recipes.addShapeless("Netherrack9x", <minecraft:netherrack>*9,[<extrautils2:compressednetherrack>]);
 */
 
 //====== Function for all crafting recipes ======

@@ -4,7 +4,7 @@ import crafttweaker.oredict.IOreDict as IOreDict;
 import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 
 #packmode normal simplified
-#ignoreBracketErrors
+//#ignoreBracketErrors
 
 print(" =================== ATC OreDict (wood) =================== ");
 print(" ========================================================== ");
@@ -88,29 +88,30 @@ print(" ========================================================== ");
 		<forestry:logs.fireproof.7:*>,
 		<forestry:logs.vanilla.fireproof.0:*>,
 		<forestry:logs.vanilla.fireproof.1:*>,
-		<harvestcraft:pamcinnamon:*>,
-		<harvestcraft:pammaple:*>,
+		//<harvestcraft:pamcinnamon:*>,
+		//<harvestcraft:pammaple:*>,
 		<minecraft:log:*>,
 		<minecraft:log2:*>,
-		<rainboaks:rainboak_log:*>,
+		//<rainboaks:rainboak_log:*>,
 		//<randomthings:spectrelog:*>,
 		<rustic:log:*>,
 		<techreborn:rubber_log:*>,
 		//<ic2:rubber_wood>,
 		<traverse:fir_log:*>,
-		<terraqueous:trunk1:*>,
-		<terraqueous:trunk2:*>,
+		//<terraqueous:trunk1:*>,
+		//<terraqueous:trunk2:*>,
 		<biomesoplenty:log_0>,
 		<biomesoplenty:log_1>,
 		<biomesoplenty:log_2>,
 		<biomesoplenty:log_3>,
 		<biomesoplenty:log_4>,
-		<natura:overworld_logs:*>,
-		<natura:overworld_logs2:*>,
-		<natura:redwood_logs:*>,
-		<natura:nether_logs:*>,
-		<natura:nether_logs2:*>,
-		<plants2:logs_0:*>,
+		//<natura:overworld_logs:*>,
+		//<natura:overworld_logs2:*>,
+		//<natura:redwood_logs:*>,
+		//<natura:nether_logs:*>,
+		//<natura:nether_logs2:*>,
+		<plants2:log_0:*>,
+		<plants2:nether_log:*>,
 		<plants2:crystal_log:*>,
 		<thaumcraft:log_greatwood:*>,
 		<thaumcraft:log_silverwood:*>,
@@ -172,7 +173,7 @@ print(" ========================================================== ");
 		<rustic:planks:*>,
 		<techreborn:rubber_planks:*>,
 		<traverse:fir_planks:*>,
-		<terraqueous:planks:*>
+		//<terraqueous:planks:*>
 	] as IItemStack[];
 	Plank.addItems(PlanksToAdd);
 
@@ -254,23 +255,23 @@ print(" ========================================================== ");
 //======Add to ore:buttonWood======
 //
 	var ButtonsToAdd = [
-		<natura:darkwood_button>,
-		<natura:sakura_button>,
-		<natura:hopseed_button>,
-		<natura:eucalyptus_button>,
-		<natura:willow_button>,
-		<natura:tiger_button>,
-		<natura:amaranth_button>,
-		<natura:silverbell_button>,
-		<natura:maple_button>,
-		<natura:nether_button>,
-		<abyssalcraft:dltbutton>,
+		//<natura:darkwood_button>,
+		//<natura:sakura_button>,
+		//<natura:hopseed_button>,
+		//<natura:eucalyptus_button>,
+		//<natura:willow_button>,
+		//<natura:tiger_button>,
+		//<natura:amaranth_button>,
+		//<natura:silverbell_button>,
+		//<natura:maple_button>,
+		//<natura:nether_button>,
+		//<abyssalcraft:dltbutton>,
 		<minecraft:wooden_button>,
-		<natura:darkwood_button>,
-		<natura:fusewood_button>,
-		<natura:bloodwood_button>,
-		<natura:ghostwood_button>,
-		<natura:redwood_button>
+		//<natura:darkwood_button>,
+		//<natura:fusewood_button>,
+		//<natura:bloodwood_button>,
+		//<natura:ghostwood_button>,
+		//<natura:redwood_button>
 	] as IItemStack[];
 	WoodButton.addItems(ButtonsToAdd);
 
@@ -358,11 +359,7 @@ print(" ========================================================== ");
 		//<attaineddrops2:seed:*>,
 		<cyclicmagic:sprout_seed:*>,
 		<embers:seed:*>,
-		//<gardenstuff:candelilla_seeds:*>,
-		//<growablecells:seedr16k:*>,
-		//<growablecells:seedr1k:*>,
-		//<growablecells:seedr4k:*>,
-		//<growablecells:seedr64k:*>,
+		/*
 		<harvestcraft:artichokeseeditem:*>,
 		<harvestcraft:asparagusseeditem:*>,
 		<harvestcraft:bambooshootseeditem:*>,
@@ -430,6 +427,7 @@ print(" ========================================================== ");
 		<harvestcraft:whitemushroomseeditem:*>,
 		<harvestcraft:wintersquashseeditem:*>,
 		<harvestcraft:zucchiniseeditem:*>,
+		*/
 		<immersiveengineering:seed:*>,
 		<minecraft:beetroot_seeds:*>,
 		<minecraft:melon_seeds:*>,
@@ -451,6 +449,7 @@ print(" ========================================================== ");
 //======Add to FishRaw======
 //
 	var RawFishToAdd = [
+		/*
 		<harvestcraft:catfishrawitem:*>,
 		<harvestcraft:crayfishrawitem:*>,
 		<harvestcraft:greenheartfishitem:*>,
@@ -481,6 +480,7 @@ print(" ========================================================== ");
 		<harvestcraft:walleyerawitem:*>,
 		<harvestcraft:sardinerawitem:*>,
 		<harvestcraft:musselrawitem:*>,
+		*/
 		<minecraft:fish:*>
 	] as IItemStack[];
 	FishRaw.addItems(RawFishToAdd);
@@ -498,6 +498,7 @@ print(" ========================================================== ");
 	var cookedFishHarvestcraft = [null] as IItemStack[];
 	if(loadedMods in "harvestcraft"){
 		cookedFishHarvestcraft = [
+			/*
 			<harvestcraft:cookedtofishitem:*>,
 			<harvestcraft:crayfishcookeditem:*>,
 			<harvestcraft:fishandchipsitem:*>,
@@ -519,6 +520,7 @@ print(" ========================================================== ");
 			<harvestcraft:coconutshrimpitem:*>,
 			<harvestcraft:shrimpokrahushpuppiesitem:*>,
 			<harvestcraft:turtlecookeditem:*>
+			*/
 		];
 	}
 	var cookedFishTinkers = [null] as IItemStack[];
@@ -529,7 +531,7 @@ print(" ========================================================== ");
 		];
 	}
 	FishCooked.addItems(cookedFishMinecraft);
-	FishCooked.addItems(cookedFishHarvestcraft);
+	//FishCooked.addItems(cookedFishHarvestcraft);
 	FishCooked.addItems(cookedFishTinkers);
 	<ore:fish>.addAll(FishCooked);
 
@@ -552,4 +554,9 @@ print(" ========================================================== ");
 	recipes.addShapeless("trappedchestoredict1", <minecraft:trapped_chest>, [ChestTrapped]);
 	recipes.addShapeless("chestoredict1", <minecraft:chest>, [Chest]);
 	recipes.addShapeless("bedoredict1", <minecraft:bed>, [<ore:bed>]);
-	recipes.addShapeless("wooddoororedict1", <minecraft:wooden_door>, [Door]);
+  recipes.addShapeless("wooddoororedict1", <minecraft:wooden_door>, [Door]);
+  
+  
+//====== Specific Furnace Recipes ======
+	furnace.addRecipe(<minecraft:coal:1>,<techreborn:rubber_log>);
+	furnace.addRecipe(<minecraft:coal:1>,<advancedrocketry:alienwood>);
