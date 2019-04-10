@@ -6,6 +6,7 @@
 
 # Binary files not to mess with
 *.png binary
+*.data binary
 *.jpg binary
 *.jar binary
 *.zip binary
