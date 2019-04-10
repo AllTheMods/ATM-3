@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Maven-Artifact: shetiphian.asm:ShetiPhian-ASM:1.12.0
+FMLCorePlugin: shetiphian.asm.TweakPlugin
+

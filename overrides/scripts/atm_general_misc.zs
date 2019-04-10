@@ -536,10 +536,3 @@ recipes.remove(<minecraft:chest>);
 //
    mods.thermalexpansion.Pulverizer.removeRecipe(<techreborn:dynamiccell>);
    mods.thermalexpansion.Pulverizer.addRecipe(<techreborn:smalldust:53>, <techreborn:dynamiccell>, 2500);
-	
-//====== Cobalt Block ======
-   recipes.addShaped(<tconstruct:metal>,
-       [[<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>],
-       [<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>],
-       [<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>]
-       ]);
