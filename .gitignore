@@ -8,6 +8,7 @@ overrides/mods/*.jar
 !overrides/mods/Flamingo-1\.12-v1\.11\.jar
 !overrides/mods/Nutrition-1\.12\.2-4\.0\.0\.jar
 !overrides/mods/Computronics-1\.12\.1-1\.6\.5\.jar
+overrides/mods/memory_repo/
 
 # Client side or "default" configs not needed
 overrides/config/AppliedEnergistics2/aerecipes
@@ -29,9 +30,8 @@ overrides/config/thaumicjei_itemstack_aspects\.json
 overrides/config/brandon3055/contributors\.json
 overrides/config/astralsorcery/amulet_enchantments\.cfg
 overrides/config/InvTweaks/InvTweaksTree\.txt\.bak
-# Some enderio magic to exclude only user_recipes
+
 overrides/config/enderio/recipes/
 !overrides/config/enderio/recipes/user
 overrides/config/enderio/recipes/user/
 !overrides/config/enderio/recipes/user/user_recipes\.xml
-
