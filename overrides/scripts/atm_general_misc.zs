@@ -312,7 +312,6 @@ print(" ============================================================== ");
 	//add the full book to JEI as it's own entry
 	mods.jei.JEI.addItem(dimletDragon);
 
-
 //====== Natura Flamestring ======
 //
 	<ore:fieryItem>.addAll(<ore:slimecrystalMagma>);
