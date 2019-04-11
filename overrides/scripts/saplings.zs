@@ -2,7 +2,9 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+
 #packmode normal simplified
+
 //      ================================================
 print(" =================== Saplings =================== ");
 print(" ================================================ ");
@@ -39,6 +41,7 @@ print(" ================================================ ");
 	var SaplingsToAdd = [
 		//<evilcraft:undead_sapling:32767>,
 		<forestry:sapling_ge:32767>,
+		/*
 		<harvestcraft:almond_sapling:32767>,
 		<harvestcraft:apple_sapling:32767>,
 		<harvestcraft:apricot_sapling:32767>,
@@ -75,6 +78,7 @@ print(" ================================================ ");
 		<harvestcraft:starfruit_sapling:32767>,
 		<harvestcraft:vanillabean_sapling:32767>,
 		<harvestcraft:walnut_sapling:32767>,
+		*/
 		<integrateddynamics:menril_sapling:32767>,
 		//<luckybeans:bean_sapling:32767>,
 		//<rainboaks:rainboak_sapling:32767>,
@@ -90,7 +94,7 @@ print(" ================================================ ");
 		<tconstruct:slime_sapling:32767>,
 		<rustic:sapling:32767>,
 		<minecraft:sapling:32767>,
-		<terraqueous:sapling:32767>
+		//<terraqueous:sapling:32767>
 	] as IItemStack[];
 	
 	Sapling.addItems(SaplingsToAdd);

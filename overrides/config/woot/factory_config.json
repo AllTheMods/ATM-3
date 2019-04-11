@@ -113,6 +113,7 @@
     "botania"
   ],
   "entityblacklist": [
+    "minecraft:evocation_illager",
     "twilightforest:naga",
     "twilightforest:minoshroom",
     "twilightforest:hydra",

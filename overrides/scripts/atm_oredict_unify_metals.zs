@@ -181,15 +181,15 @@ function fixMetals (
 	}
 
 	// conversion to "master" items from unsupported "alternative"
-	recipes.addShapeless(metalNugget*3, [oredictNugget, oredictNugget, oredictNugget]);
-	recipes.addShapeless(metalIngot*3, [oredictIngot, oredictIngot, oredictIngot]);
-	recipes.addShapeless(metalBlock*3, [oredictBlock, oredictBlock, oredictBlock]);
+	recipes.addShapeless("MetalNugget", metalNugget*3, [oredictNugget, oredictNugget, oredictNugget]);
+	recipes.addShapeless("MetalIngot", metalIngot*3, [oredictIngot, oredictIngot, oredictIngot]);
+	recipes.addShapeless("MetalBlock", metalBlock*3, [oredictBlock, oredictBlock, oredictBlock]);
 	
 	// add 3x3 recipes back
-	recipes.addShapeless(metalIngot*9, [oredictBlock]);
-	recipes.addShapeless(metalBlock, [oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot]);
-	recipes.addShapeless(metalNugget*9, [oredictIngot]);
-	recipes.addShapeless(metalIngot, [oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget]);
+	recipes.addShapeless("BlockToIngot", metalIngot*9, [oredictBlock]);
+	recipes.addShapeless("IngotToBlock", metalBlock, [oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot,oredictIngot]);
+	recipes.addShapeless("IngotToNugget", metalNugget*9, [oredictIngot]);
+	recipes.addShapeless("NuggetToIngot", metalIngot, [oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget,oredictNugget]);
 
 	return 0;
 }
@@ -199,7 +199,7 @@ function fixMetals (
 //
 	// Bronze
 	<ore:blockBronze>.add(<techreborn:storage:14>);
-	recipes.addShapeless(<thermalfoundation:material:163>*9, [<techreborn:storage:14>]);
+	recipes.addShapeless("ThermalBronze", <thermalfoundation:material:163>*9, [<techreborn:storage:14>]);
 	recipes.remove(<mekanism:nugget:2>);
 	recipes.remove(<mekanism:ingot:2>);
 	recipes.remove(<mekanism:basicblock:1>);
@@ -207,9 +207,9 @@ function fixMetals (
 	// Iridium
 	var iridium = <thermalfoundation:material:135>;
 	var iridiumNugget = <thermalfoundation:material:199>;
-	recipes.addShapeless(iridium, [iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget]);
-	recipes.addShapeless(iridiumNugget*9, [iridium]);
-	recipes.addShapeless(<techreborn:nuggets:7>*9, [iridium]);
+	recipes.addShapeless("Iridium", iridium, [iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget, iridiumNugget]);
+	recipes.addShapeless("IridiumNugget", iridiumNugget*9, [iridium]);
+	recipes.addShapeless("TRIridiumNugget", <techreborn:nuggets:7>*9, [iridium]);
 	recipes.remove(<techreborn:ingot:7>);
 	recipes.remove(<techreborn:nuggets:7>);
 	

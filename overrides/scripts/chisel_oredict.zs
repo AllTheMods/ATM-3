@@ -5,12 +5,13 @@ import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 
 #packmode normal simplified
 #priority 1
+#modloaded chisel
 
 //      ==============================================================
 print(" ======================== Chisel Fixes ======================== ");
 print(" ============================================================== ");
 
-print("Chisel Fixes currently disabled");
+print("Chisel Fixes partially disabled");
 /*
 
 
@@ -105,9 +106,18 @@ print("Chisel Fixes currently disabled");
 		var odName = oredInput.name as string;
 		var odItems = oredInput.itemArray as IItemStack[];
 		for x in odItems {
-			mods.chisel.Groups.addVariation(odName, x);
+			mods.chisel.Carving.addVariation(odName, x);
 		}
 	}
-
-
 */
+
+//====== Temporary Fix ======
+//
+
+// When I get time later, make into for loop - Fallen	
+	mods.chisel.Carving.addVariation("marble", <projectred-exploration:stone:0>);
+	mods.chisel.Carving.addVariation("marble", <projectred-exploration:stone:1>);
+	mods.chisel.Carving.addVariation("basalt", <projectred-exploration:stone:3>);
+	mods.chisel.Carving.addVariation("basalt", <projectred-exploration:stone:4>);
+
+	

@@ -12,28 +12,39 @@
             "ore:powderMana"
         ]
     },
-    {
-        "mode": "REMOVE",
-        "result": "draconicevolution:crafting_injector,1,2",
-        "catalyst": "draconicevolution:crafting_injector,1,1"
-    },
-    {
+	{
+		"mode": "REMOVE",
+		"result": "draconicevolution:draconic_chest",
+		"catalyst": "draconicevolution:wyvern_chest"
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_chest",
+		"catalyst": "draconicevolution:wyvern_chest",
+		"energy": 3750000,
+		"tier": 2,
+		"ingredients": [
+			"draconicevolution:draconic_block",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:awakened_core",
+			"extrautils2:angelring"
+		]
+	},
+	{
         "mode": "ADD",
-        "result": "draconicevolution:crafting_injector,1,2",
-        "catalyst": "draconicevolution:crafting_injector,1,1",
-        "energy": 1000000,
-        "tier": 1,
+        "result": "forestry:bee_queen_ge,1,0,{MaxH: 50, Mate: {Chromosomes: [{UID1: careerbees.energy, UID0: careerbees.energy, Slot: 0b}, {UID1: forestry.speedSlow, UID0: forestry.speedSlow, Slot: 1b}, {UID1: forestry.lifespanLong, UID0: forestry.lifespanLong, Slot: 2b}, {UID1: forestry.fertilityNormal, UID0: forestry.fertilityNormal, Slot: 3b}, {UID1: forestry.toleranceNone, UID0: forestry.toleranceNone, Slot: 4b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 5b}, {UID1: forestry.toleranceNone, UID0: forestry.toleranceNone, Slot: 6b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 7b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 8b}, {UID1: forestry.flowersVanilla, UID0: forestry.flowersVanilla, Slot: 9b}, {UID1: forestry.floweringSlow, UID0: forestry.floweringSlow, Slot: 10b}, {UID1: forestry.territoryAverage, UID0: forestry.territoryAverage, Slot: 11b}, {UID1: careerbees.effect.rf, UID0: careerbees.effect.rf, Slot: 12b}]}, Health: 50, IsAnalyzed: 0b, Genome: {Chromosomes: [{UID1: careerbees.energy, UID0: careerbees.energy, Slot: 0b}, {UID1: forestry.speedSlow, UID0: forestry.speedSlow, Slot: 1b}, {UID1: forestry.lifespanLong, UID0: forestry.lifespanLong, Slot: 2b}, {UID1: forestry.fertilityNormal, UID0: forestry.fertilityNormal, Slot: 3b}, {UID1: forestry.toleranceNone, UID0: forestry.toleranceNone, Slot: 4b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 5b}, {UID1: forestry.toleranceNone, UID0: forestry.toleranceNone, Slot: 6b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 7b}, {UID1: forestry.boolFalse, UID0: forestry.boolFalse, Slot: 8b}, {UID1: forestry.flowersVanilla, UID0: forestry.flowersVanilla, Slot: 9b}, {UID1: forestry.floweringSlow, UID0: forestry.floweringSlow, Slot: 10b}, {UID1: forestry.territoryAverage, UID0: forestry.territoryAverage, Slot: 11b}, {UID1: careerbees.effect.rf, UID0: careerbees.effect.rf, Slot: 12b}]}}",
+        "catalyst": "rustic:bee",
+        "energy": 167125000,
+        "tier": 3,
         "ingredients": [
-            "minecraft:nether_star",
-            "minecraft:nether_star",
-            "minecraft:nether_star",
-            "minecraft:nether_star",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:draconic_block",
-            "minecraft:dragon_egg",
-            "atmtweaks:item_material,1,1",
-            "atmtweaks:item_material,1,1"
+            "atmtweaks:item_material",
+            "thermalfoundation:material,1,893",
+            "techreborn:part,1,17",
+            "atmtweaks:item_material,1,9",
+			"atmtweaks:item_material,1,9",
+			"techreborn:part,1,17",
+			"thermalfoundation:material,1,893",
+			"nuclearcraft:electromagnet_supercooler_idle"
         ]
     }
 ]

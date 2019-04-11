@@ -6,9 +6,11 @@
 
 # Binary files not to mess with
 *.png binary
+*.data binary
 *.jpg binary
 *.jar binary
 *.zip binary
 *.gif binary
 *.ogg binary
-*.dat binary
+*.ttf binary
+*.schematic binary

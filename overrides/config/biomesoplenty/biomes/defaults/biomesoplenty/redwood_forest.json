@@ -4,8 +4,8 @@
   "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 1.0,
-  "variationAbove": 1.0,
+  "variationBelow": 4.0,
+  "variationAbove": 10.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -86,7 +86,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 5.0,
       "enable": true,
       "withTop": {
         "block": "minecraft:double_plant",
@@ -107,7 +107,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 4.0,
       "enable": true,
       "generators": {}
     },
@@ -121,7 +121,7 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": false
+      "enable": true
     },
     "roots": {
       "with": {
@@ -134,6 +134,17 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "sprouts": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "sprout"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
     "red_mushrooms": {
       "with": {
         "block": "minecraft:red_mushroom",
@@ -144,7 +155,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 10.0,
+      "amountPerChunk": 15.0,
       "enable": true,
       "generators": {}
     }

@@ -336,6 +336,21 @@
       "id": "OD:oreBrainstone"
     },
     {
+      "target": "white",
+      "weight": 223,
+      "id": "OD:oreTitaniumIron"
+    },
+    {
+      "target": "purple",
+      "weight": 333,
+      "id": "OD:oreSilicon"
+    },
+    {
+      "target": "white",
+      "weight": 95,
+      "id": "astralsorcery:blockcustomore:0"
+    },
+    {
       "target": "red",
       "weight": 200,
       "id": "OD:oreRuby"

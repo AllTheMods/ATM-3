@@ -310,7 +310,7 @@
             <biomeIds>biomesoplenty:outback,traverse:temperate_rainforest,minecraft:mutated_desert,minecraft:swampland,minecraft:savanna</biomeIds>
         </planet>
     </star>
-    <star name="Norse Mythology" temp="170" x="-200" y="80" size="1.0" numPlanets="0" numGasGiants="0">
+    <star name="Norse Mythology" temp="170" x="-200" y="80" size="1.0" numPlanets="0" numGasGiants="0" blackHole="true">
         <planet name="Asgard" DIMID="34">
             <isKnown>false</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>

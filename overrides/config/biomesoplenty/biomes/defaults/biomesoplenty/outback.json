@@ -49,7 +49,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 1.0,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "miners_delight": {
@@ -72,7 +72,7 @@
         }
       },
       "generationAttempts": 128,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 4.0,
       "enable": true
     },
     "dead_bushes": {
@@ -81,7 +81,7 @@
         "properties": {}
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 1.5,
       "enable": true
     },
     "grass": {
@@ -98,7 +98,7 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 0.2,
       "maxHeight": 2,
       "enable": true,
       "randomDirection": false

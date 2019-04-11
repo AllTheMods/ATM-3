@@ -1,7 +1,7 @@
 {
   "canGenerateRivers": false,
   "skyColor": 3420989,
-  "fogDensity": 0.145,
+  "fogDensity": 0.3,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 15.0,

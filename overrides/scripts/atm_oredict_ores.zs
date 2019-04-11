@@ -46,11 +46,11 @@ print(" ========================================================== ");
 	//ALUMINUM
 	<ore:oreAluminum>.addItems([
 		<embers:ore_aluminum>,
-		<techreborn:ore:4>,
+		//<techreborn:ore:4>,
 		<thermalfoundation:ore:4>,
 		<immersiveengineering:ore:1>
 		]);
-	<ore:oreBauxite>.addAll(<ore:oreAluminum>);
+	//<ore:oreBauxite>.addAll(<ore:oreAluminum>);
 	recipes.addShapeless("aluminumconvert", <immersiveengineering:ore:1>*2, [<ore:oreAluminum>, <ore:oreAluminum>]);
 	//IRIDIUM
 	<ore:oreIridium>.addItems([
@@ -173,5 +173,5 @@ print(" ========================================================== ");
 	<ore:dustUranium>.addItems([<bigreactors:dustmetals>, <immersiveengineering:metal:14>, <ic2:crushed:6>]);
 	<ore:dustYellorium>.addAll(<ore:dustUranium>);
 	<ore:crushedUranium>.addAll(<ore:dustUranium>);
-	recipes.addShapeless(<immersiveengineering:metal:14>, [<ore:dustUranium>]);
-	recipes.addShapeless(<ic2:crushed:6>*2, [<ore:dustUranium>, <ore:dustUranium>]);
+	recipes.addShapeless("IEUranium", <immersiveengineering:metal:14>, [<ore:dustUranium>]);
+	recipes.addShapeless("Ic2Uranium", <ic2:crushed:6>*2, [<ore:dustUranium>, <ore:dustUranium>]);

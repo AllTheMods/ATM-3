@@ -2,7 +2,9 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+
 #packmode normal simplified
+
 //      ==========================================================
 print(" =================== Misc OreDictionary =================== ");
 print(" ========================================================== ");
@@ -83,18 +85,18 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 
 //====== Worms ======
 //
-	recipes.addShapeless(<actuallyadditions:item_worm>, [<waterstrainer:worm>]);
-	recipes.addShapeless(<waterstrainer:worm>, [<actuallyadditions:item_worm>]);
+	recipes.addShapeless("AAWorm", <actuallyadditions:item_worm>, [<waterstrainer:worm>]);
+	recipes.addShapeless("WSWorm", <waterstrainer:worm>, [<actuallyadditions:item_worm>]);
 
 
 //====== Oredict Salt ======
 //
-	<ore:foodSalt>.addItems([<harvestcraft:saltitem>, <mekanism:salt>]);
+	//<ore:foodSalt>.addItems([<harvestcraft:saltitem>, <mekanism:salt>]);
 	<ore:dustSalt>.addAll(<ore:foodSalt>);
 	<ore:itemSalt>.addAll(<ore:foodSalt>);
 	//salt block use oredict
 	recipes.remove(<mekanism:saltblock>);
-	recipes.addShaped(<mekanism:saltblock>, [
+	recipes.addShaped("MekSalt", <mekanism:saltblock>, [
 		[<ore:dustSalt>, <ore:dustSalt>],
 		[<ore:dustSalt>, <ore:dustSalt>]
 		]);
@@ -121,8 +123,23 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 //====== Bookshelf ======
 //
 	recipes.remove(<minecraft:bookshelf>);
-	recipes.addShaped(<minecraft:bookshelf>, [
+	recipes.addShaped("Bookshelf", <minecraft:bookshelf>, [
 		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 		[<minecraft:book>, <minecraft:book>, <minecraft:book>],
 		[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]);
+	
+//====== IC2 Solar ======
+//
+	<ore:ic2SolarPanel>.addItems([<ic2:te:8>]);
+	
+//====== Quartz Dust ======
+//
+	<ore:dustQuartz>.addItems([<enderio:item_material:33>]);
+//manufactory fix
+   mods.nuclearcraft.manufactory.removeRecipeWithOutput([<nuclearcraft:gem_dust:2>]);
+   mods.nuclearcraft.manufactory.addRecipe([<minecraft:quartz>, <enderio:item_material:33>]);
+//grindstone fix
+   mods.astralsorcery.Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);
+   mods.astralsorcery.Grindstone.addRecipe(<minecraft:quartz>, <enderio:item_material:33>, 0.85f);
+

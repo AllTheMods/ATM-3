@@ -16,8 +16,8 @@ print(" ================================================ ");
 
 //====== TR <-> IC2 Box Convert ======
 //
-	recipes.addShapeless(<techreborn:scrapbox>, [<ic2:crafting:24>]);
-	recipes.addShapeless(<ic2:crafting:24>, [<techreborn:scrapbox>]);
+	recipes.addShapeless("TRScrap", <techreborn:scrapbox>, [<ic2:crafting:24>]);
+	recipes.addShapeless("Ic2Scrap", <ic2:crafting:24>, [<techreborn:scrapbox>]);
 
 
 //====== TR <-> IC2 Recycler Convert ======
@@ -713,6 +713,7 @@ print(" ================================================ ");
 	scrapbox.addScrapboxDrop(<minecraft:wool>); 
 	scrapbox.addScrapboxDrop(<minecraft:yellow_flower>); 
 	scrapbox.addScrapboxDrop(<morphtool:tool>); 
+	/*
 	scrapbox.addScrapboxDrop(<natura:amaranth_button>); 
 	scrapbox.addScrapboxDrop(<natura:amaranth_fence>); 
 	scrapbox.addScrapboxDrop(<natura:amaranth_fence_gate>); 
@@ -947,6 +948,7 @@ print(" ================================================ ");
 	scrapbox.addScrapboxDrop(<natura:willow_fence_gate>); 
 	scrapbox.addScrapboxDrop(<natura:willow_pressure_plate>); 
 	scrapbox.addScrapboxDrop(<natura:willow_trap_door>); 
+	*/
 	scrapbox.addScrapboxDrop(<opencomputers:adapter>); 
 	scrapbox.addScrapboxDrop(<opencomputers:assembler>); 
 	scrapbox.addScrapboxDrop(<opencomputers:cable>); 
@@ -1467,11 +1469,6 @@ print(" ================================================ ");
 	scrapbox.addScrapboxDrop(<traverse:red_autumnal_sapling>); 
 	scrapbox.addScrapboxDrop(<traverse:yellow_autumnal_leaves>); 
 	scrapbox.addScrapboxDrop(<traverse:yellow_autumnal_sapling>); 
-	scrapbox.addScrapboxDrop(<usefulnullifiers:energyvoidnullifierblock>); 
-	scrapbox.addScrapboxDrop(<usefulnullifiers:fluidvoidnullifierblock>); 
-	scrapbox.addScrapboxDrop(<usefulnullifiers:fluidvoidnullifieritem>); 
-	scrapbox.addScrapboxDrop(<usefulnullifiers:voidnullifierblock>); 
-	scrapbox.addScrapboxDrop(<usefulnullifiers:voidnullifieritem>); 
 	scrapbox.addScrapboxDrop(<waterstrainer:efficiency_meter>); 
 	scrapbox.addScrapboxDrop(<waterstrainer:garden_trowel>); 
 	scrapbox.addScrapboxDrop(<waterstrainer:net>); 
