@@ -1,9 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text eol=crlf
 
-# Make ZenScript files format like Java
-*.zs linguist-language=Java
-
 # Binary files not to mess with
 *.png binary
 *.data binary
