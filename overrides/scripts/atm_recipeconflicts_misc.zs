@@ -459,6 +459,16 @@ print(" ======================================================== ");
 		[<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]
 	]);
 	
+//====== Cactuc Planks ======
+//
+
+	recipes.remove(<structurize:blockcactusplank>);
+	recipes.addShaped("Cactus Plank", <structurize:blockcactusplank>*8, [
+		[null, <minecraft:cactus>, null],
+		[null, <minecraft:cactus>, null],
+		[null, null, null]
+	]);
+	
 	
 	
 	
