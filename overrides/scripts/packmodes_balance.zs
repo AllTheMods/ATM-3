@@ -221,7 +221,7 @@ print(" ====================================================== ");
 	//====== Variables ======
 	//
 		var BRAngelsite = <bigreactors:mineralanglesite>;
-		var BRBentonite = <bigreactors:mineralsbenitoite>;
+		var BRBentonite = <bigreactors:mineralbenitoite>;
 		var BRGraphite = <bigreactors:ingotgraphite>;
 		var MAGraphite = <mysticalagriculture:graphite_essence>;
 		var BRLudicrite = <bigreactors:blockludicrite>;
