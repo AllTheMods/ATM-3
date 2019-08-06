@@ -459,7 +459,7 @@ print(" ======================================================== ");
 		[<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]
 	]);
 	
-//====== Cactuc Planks ======
+//====== Cactus Planks ======
 //
 
 	recipes.remove(<structurize:blockcactusplank>);
@@ -469,12 +469,10 @@ print(" ======================================================== ");
 		[null, null, null]
 	]);
 	
+//====== Emerald Pickaxe ======
+//
+	recipes.addShapeless("EmeraldPick",<actuallyadditions:item_pickaxe_emerald>,[<cyclicmagic:emerald_pickaxe>]);
 	
-	
-	
-	
-	
-	
-	
+		
 	
       
