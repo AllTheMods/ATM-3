@@ -88,7 +88,7 @@ print(" ========================================================== ");
 	recipes.addShapeless("dimensionalconvert", <rftools:dimensional_shard_ore>*2, [<ore:oreDimensional>, <ore:oreDimensional>]);
 	//URANIUM/YELLORIUM
 	var uraniumOres = [
-		<bigreactors:brore>,
+		<bigreactors:oreyellorite>,
 		<ic2:resource:4>,
 		<immersiveengineering:ore:5>
 	] as IItemStack[];
@@ -170,8 +170,14 @@ print(" ========================================================== ");
 
 //====== Oredict some uranium stuff ======
 //
-	<ore:dustUranium>.addItems([<bigreactors:dustmetals>, <immersiveengineering:metal:14>, <ic2:crushed:6>]);
+	<ore:dustUranium>.addItems([<immersiveengineering:metal:14>, <ic2:crushed:6>]);
 	<ore:dustYellorium>.addAll(<ore:dustUranium>);
 	<ore:crushedUranium>.addAll(<ore:dustUranium>);
 	recipes.addShapeless("IEUranium", <immersiveengineering:metal:14>, [<ore:dustUranium>]);
 	recipes.addShapeless("Ic2Uranium", <ic2:crushed:6>*2, [<ore:dustUranium>, <ore:dustUranium>]);
+	
+//====== Remove oredicts from Cobalt ======
+//
+	// Some reason cobalt blocks gained extra oredict, so removal of this
+	<ore:oreCobalt>.remove(<tconstruct:metal:0>);
+	<ore:oreArdite>.remove(<tconstruct:metal:0>);

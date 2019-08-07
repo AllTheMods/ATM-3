@@ -1,0 +1,986 @@
+[
+  {
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.25,
+      "toughness": 1.5,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "leatherfrosttroll",
+    "itemName": "iceandfire:troll_leather_frost",
+    "meta": 0,
+    "color": 3228222,
+    "type": "DEFAULT",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "headMaterialStats": {
+      "durability": 160,
+      "harvestLevel": 3,
+      "attack": -1.0,
+      "miningspeed": 3.8999999,
+      "materialType": "head"
+    },
+    "handleMaterialStats": {
+      "modifier": 2.6,
+      "durability": 28,
+      "materialType": "handle"
+    },
+    "extraMaterialStats": {
+      "extraDurability": 100,
+      "materialType": "extra"
+    },
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.875,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "chitindesertmyrmex",
+    "itemName": "iceandfire:myrmex_desert_chitin",
+    "meta": 0,
+    "color": 5847042,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 15.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.0,
+      "modifier": 0.625,
+      "toughness": 2.25,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.875,
+      "materialType": "trim"
+    },
+    "identifier": "chitintandeathworm",
+    "itemName": "iceandfire:deathworm_chitin",
+    "meta": 0,
+    "color": 12895428,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "headMaterialStats": {
+      "durability": 160,
+      "harvestLevel": 3,
+      "attack": -1.0,
+      "miningspeed": 3.8999999,
+      "materialType": "head"
+    },
+    "handleMaterialStats": {
+      "modifier": 2.6,
+      "durability": 28,
+      "materialType": "handle"
+    },
+    "extraMaterialStats": {
+      "extraDurability": 100,
+      "materialType": "extra"
+    },
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.875,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "chitinjunglemyrmex",
+    "itemName": "iceandfire:myrmex_jungle_chitin",
+    "meta": 0,
+    "color": 153931,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalebronzedragon",
+    "itemName": "iceandfire:dragonscales_bronze",
+    "meta": 0,
+    "color": 8674606,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "prideful_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scaleblueseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_blue",
+    "meta": 0,
+    "color": 5592575,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scalepurpleseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_purple",
+    "meta": 0,
+    "color": 11141290,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalewhitedragon",
+    "itemName": "iceandfire:dragonscales_white",
+    "meta": 0,
+    "color": 16777215,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "writable2",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 15.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.0,
+      "modifier": 0.625,
+      "toughness": 2.25,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.875,
+      "materialType": "trim"
+    },
+    "identifier": "chitinwhitedeathworm",
+    "itemName": "iceandfire:deathworm_chitin",
+    "meta": 1,
+    "color": 16777215,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 15.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.0,
+      "modifier": 0.625,
+      "toughness": 2.25,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.875,
+      "materialType": "trim"
+    },
+    "identifier": "chitinbrowndeathworm",
+    "itemName": "iceandfire:deathworm_chitin",
+    "meta": 2,
+    "color": 8005929,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalegraydragon",
+    "itemName": "iceandfire:dragonscales_gray",
+    "meta": 0,
+    "color": 5592405,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "steady_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalesapphiredragon",
+    "itemName": "iceandfire:dragonscales_sapphire",
+    "meta": 0,
+    "color": 5592575,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scaletealseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_teal",
+    "meta": 0,
+    "color": 43690,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalebluedragon",
+    "itemName": "iceandfire:dragonscales_blue",
+    "meta": 0,
+    "color": 14809072,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "lightweight_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.25,
+      "toughness": 1.5,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "leatherforesttroll",
+    "itemName": "iceandfire:troll_leather_forest",
+    "meta": 0,
+    "color": 3752497,
+    "type": "DEFAULT",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "headMaterialStats": {
+      "durability": 288,
+      "harvestLevel": 4,
+      "attack": 8.0,
+      "miningspeed": 6.5,
+      "materialType": "head"
+    },
+    "handleMaterialStats": {
+      "modifier": 2.6,
+      "durability": 51,
+      "materialType": "handle"
+    },
+    "extraMaterialStats": {
+      "extraDurability": 180,
+      "materialType": "extra"
+    },
+    "identifier": "bonedragon",
+    "itemName": "iceandfire:dragonbone",
+    "meta": 0,
+    "color": 11184810,
+    "type": "DEFAULT",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalegreendragon",
+    "itemName": "iceandfire:dragonscales_green",
+    "meta": 0,
+    "color": 43520,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "shielding_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.25,
+      "toughness": 1.5,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "leathermountaintroll",
+    "itemName": "iceandfire:troll_leather_mountain",
+    "meta": 0,
+    "color": 3883584,
+    "type": "DEFAULT",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scalebronzeseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_bronze",
+    "meta": 0,
+    "color": 16755200,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalereddragon",
+    "itemName": "iceandfire:dragonscales_red",
+    "meta": 0,
+    "color": 11141120,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "autoforge_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "infernal_armor",
+        "traitPart": "core"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scaledeepblueseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_deepblue",
+    "meta": 0,
+    "color": 170,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scaleredseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_red",
+    "meta": 0,
+    "color": 16733525,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.0,
+      "modifier": 3.125,
+      "toughness": 3.75,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.75,
+      "materialType": "trim"
+    },
+    "identifier": "scalegreenseaserpent",
+    "itemName": "iceandfire:sea_serpent_scales_green",
+    "meta": 0,
+    "color": 43520,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "aquaspeed_armor",
+        "traitPart": "plates"
+      }
+    ]
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 36.0,
+      "modifier": 1.875,
+      "toughness": 3.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.5,
+      "materialType": "trim"
+    },
+    "identifier": "scalesilverdragon",
+    "itemName": "iceandfire:dragonscales_silver",
+    "meta": 0,
+    "color": 11184810,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": [
+      {
+        "traitName": "rough_armor",
+        "traitPart": "core"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "trim"
+      },
+      {
+        "traitName": "rough_armor",
+        "traitPart": "plates"
+      },
+      {
+        "traitName": "blessed_armor",
+        "traitPart": "core"
+      }
+    ]
+  }
+]

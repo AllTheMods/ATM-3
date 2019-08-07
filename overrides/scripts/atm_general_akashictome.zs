@@ -126,22 +126,6 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
-			roots1: {
-				id: "roots:spellcraft_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "roots1"
-				},
-				Damage: 0 as short
-			},
-			roots2: {
-				id: "roots:ritual_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "roots2"
-				},
-				Damage: 0 as short
-			},
 			opencomputers: {
 				id: "opencomputers:tool",
 				Count: 1 as byte,
@@ -199,12 +183,19 @@ print(" ==================================================== ");
 				Damage: 0 as short
 			},
 			roots: {
-				id: "roots:herblore_book",
+				id: "patchouli:guide_book",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "roots"
+					"patchouli:book": "roots_guide"
 				},
 				Damage: 0 as short
+			},
+			pneumaticcraft: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				},
 			},
 			embers: {
 				id: "embers:codex",
@@ -254,14 +245,6 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
-			ebwizardry: {
-				id: "ebwizardry:wizard_handbook",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "ebwizardry"
-				},
-				Damage: 0 as short
-			},
 			conarm: {
 				id: "conarm:book",
 				Count: 1 as byte,
@@ -291,14 +274,6 @@ print(" ==================================================== ");
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "envtech"
-				},
-				Damage: 0 as short
-			},
-			deepresonance: {
-				id: "deepresonance:dr_manual",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "deepresonance"
 				},
 				Damage: 0 as short
 			},
@@ -346,9 +321,7 @@ print(" ==================================================== ");
 		<extrautils2:book>, 
 		<thermalfoundation:tome_lexicon>, 
 		<guideapi:bloodmagic-guide>, 
-		<actuallyadditions:item_booklet>, 
-		<roots:spellcraft_book>, 
-		<roots:ritual_book>, 
+		<actuallyadditions:item_booklet>,  
 		<opencomputers:tool:4>, 
 		<cookingforblockheads:recipe_book:1>, 
 		<xnet:xnet_manual>, 
@@ -356,7 +329,8 @@ print(" ==================================================== ");
 		<integrateddynamics:on_the_dynamics_of_integration>, 
 		<wizardry:book>, 
 		<rftoolsdim:rftoolsdim_manual>, 
-		<roots:herblore_book>, 
+		<patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}),
+		<patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}), 
 		<embers:codex>, 
 		<rftools:rftools_shape_manual>, 
 		<guideapi:mobtotems-mobtotems_guide>, 

@@ -32,7 +32,7 @@ print(" ====================================================== ");
 
 	//Industrium vars
 	var fluxElectrumThing = <redstonearsenal:material:224>;
-	var ludicriteIngot = <bigreactors:ingotmetals:4>;
+	var ludicriteIngot = <bigreactors:ingotludicrite>;
 	var dracoCore = <draconicevolution:awakened_core>;
 	var beesGoldGrain = <extrabees:misc:7>;
 	var richSlag = <thermalfoundation:material:865>;
@@ -58,7 +58,7 @@ print(" ====================================================== ");
 	var advPressurePipes = <pneumaticcraft:advanced_pressure_tube>;
 
 	//Orb Vars
-	var rootsTimeSpell = <roots:petal_dust>.withTag({spell:"spell_oxeye_daisy"}).onlyWithTag({spell:"spell_oxeye_daisy"});
+	var rootsTimeSpell = <roots:spell_dust>.withTag({spell:"spell_time_stop"}).onlyWithTag({spell:"spell_time_stop"});
 	var manaBiscuit = <botania:manacookie>;
 	var starShard = <mysticalagradditions:stuff>;
 	var opinium = <extrautils2:opinium:8>;

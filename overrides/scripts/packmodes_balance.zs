@@ -220,14 +220,14 @@ print(" ====================================================== ");
 //====== EXTREME REACTORS BALANCE ======
 	//====== Variables ======
 	//
-		var BRAngelsite = <bigreactors:minerals:0>;
-		var BRBentonite = <bigreactors:minerals:1>;
-		var BRGraphite = <bigreactors:ingotmetals:2>;
+		var BRAngelsite = <bigreactors:mineralanglesite>;
+		var BRBentonite = <bigreactors:mineralbenitoite>;
+		var BRGraphite = <bigreactors:ingotgraphite>;
 		var MAGraphite = <mysticalagriculture:graphite_essence>;
-		var BRLudicrite = <bigreactors:blockmetals:4>;
-		var BRCyanDust = <bigreactors:dustmetals:1>;
-		var BRBlueDust = <bigreactors:dustmetals:3>;
-		var BRBlutonium = <bigreactors:ingotmetals:3>;
+		var BRLudicrite = <bigreactors:blockludicrite>;
+		var BRCyanDust = <bigreactors:dustcyanite>;
+		var BRBlueDust = <bigreactors:dustblutonium>;
+		var BRBlutonium = <bigreactors:ingotblutonium>;
 		var TRAdvAlloy = <ore:plateAdvancedAlloy>;
 		var ImmersiveElectrode = <immersiveengineering:graphite_electrode>; // Electrode
 		var ImmersiveSteelRod = <ore:stickSteel>;
@@ -300,7 +300,7 @@ print(" ====================================================== ");
 			[<ore:blockEnderium>, gaiaIngot, <ore:blockEnderium>],
 			[BRBlutonium, <ore:blockInsanium>, BRBlutonium]
 			]);
-		recipes.addShapeless("ludricriteShapeless", <bigreactors:ingotmetals:4>*9, [BRLudicrite]);
+		recipes.addShapeless("ludricriteShapeless", <bigreactors:ingotludicrite>*9, [BRLudicrite]);
 		recipes.addShapeless("LudicriteBlock", BRLudicrite, [
 			<ore:ingotLudicrite>, <ore:ingotLudicrite>, <ore:ingotLudicrite>,
 			<ore:ingotLudicrite>, <ore:ingotLudicrite>, <ore:ingotLudicrite>,
@@ -318,7 +318,6 @@ print(" ====================================================== ");
 	
 	//Blutonium Processing
 		recipes.removeShaped(BRBlutonium);
-		recipes.addShapeless("crtBRblufix", BRBlutonium * 9, [<bigreactors:blockmetals:3>]);
 		mods.thermalexpansion.Crucible.addRecipe(lCyanite, BRCyanDust, 200000);
 		mods.thermalexpansion.Refinery.addRecipe(lMenril, BRBlueDust, lCyanite, 200000);
 		BRBlueDust.addTooltip("Extracted from fluid cyanite");
@@ -340,7 +339,7 @@ print(" ====================================================== ");
 	
 	// Mek Reactor
 	recipes.addShaped("BRMekReactor", <mekanismgenerators:reactor>, [
-		[<ore:ic2DepletedRod>, <mekanismgenerators:reactor:2>, <bigreactors:ingotmetals:4>],
+		[<ore:ic2DepletedRod>, <mekanismgenerators:reactor:2>, <bigreactors:ingotludicrite>],
 		[<mekanismgenerators:reactor:1>, <nuclearcraft:fusion_core>, <mekanismgenerators:reactor:1>],
 		[<mekanismgenerators:reactor:1>, <bigreactors:reactorcontroller>, <mekanismgenerators:reactor:1> ]
 		]);

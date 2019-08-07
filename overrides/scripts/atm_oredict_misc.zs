@@ -143,3 +143,6 @@ Anything regarding oredict that doesn't need it's own dedicated script file
    mods.astralsorcery.Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);
    mods.astralsorcery.Grindstone.addRecipe(<minecraft:quartz>, <enderio:item_material:33>, 0.85f);
 
+//====== String ======
+//
+ <ore:cropFlax>.remove(<minecraft:string>);

@@ -417,35 +417,62 @@ print(" ======================================================== ");
       [[mystsili, mystsili, mystsili],
       [null, null, null],
       [null, null, null]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:160> * 3,
       [[myststeel, myststeel, myststeel],
       [myststeel, null, myststeel], 
       [myststeel, myststeel, myststeel]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:131> * 4,
       [[mystlead, mystlead, mystlead],
       [mystlead, null, mystlead],
       [mystlead, mystlead, mystlead]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:163> * 4,
       [[mystbronze, mystbronze, mystbronze],
       [mystbronze, null, mystbronze],
       [mystbronze, mystbronze, mystbronze]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:130> * 4,
       [[mystsilver, mystsilver, mystsilver],
       [mystsilver, null, mystsilver],
       [mystsilver, mystsilver, mystsilver]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:129> * 4,
       [[mysttin, mysttin, mysttin],
       [mysttin, null, mysttin],
       [mysttin, mysttin, mysttin]
-      ]);
+    ]);
    recipes.addShaped(<thermalfoundation:material:128> * 6,
       [[mystcopper, mystcopper, mystcopper],
       [mystcopper, null, mystcopper],
       [mystcopper, mystcopper, mystcopper]
-      ]);
+    ]);
+	
+//====== Weather Sensor ======
+//
+	
+	recipes.remove(<quark:rain_detector>);
+	recipes.addShaped("WeatherSensor", <quark:rain_detector>, [
+		[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+		[<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>],
+		[<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]
+	]);
+	
+//====== Cactus Planks ======
+//
+
+	recipes.remove(<structurize:blockcactusplank>);
+	recipes.addShaped("Cactus Plank", <structurize:blockcactusplank>*8, [
+		[null, <minecraft:cactus>, null],
+		[null, <minecraft:cactus>, null],
+		[null, null, null]
+	]);
+	
+//====== Emerald Pickaxe ======
+//
+	recipes.addShapeless("EmeraldPick",<actuallyadditions:item_pickaxe_emerald>,[<cyclicmagic:emerald_pickaxe>]);
+	
+		
+	
       
