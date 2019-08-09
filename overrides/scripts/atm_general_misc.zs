@@ -413,7 +413,7 @@ recipes.remove(<minecraft:chest>);
 	var invar_block = <thermalfoundation:storage_alloy:2>;
 	var molten_invar = <liquid:invar>;
 	mods.tconstruct.Casting.addTableRecipe(invar, ingot_cast, molten_invar, 144);
-	mods.tconstruct.Casting.addBasinRecipe(invar_block, invar_block, molten_invar, 1296);
+	mods.tconstruct.Casting.addBasinRecipe(invar_block, null, molten_invar, 1296);
 	
 //====== Add Iridium Casting Recipes ======
 //
@@ -421,7 +421,7 @@ recipes.remove(<minecraft:chest>);
 	var iridium_block = <thermalfoundation:storage:7>;
 	var molten_iridium = <liquid:iridium>;
 	mods.tconstruct.Casting.addTableRecipe(iridium, ingot_cast, molten_iridium, 144);
-	mods.tconstruct.Casting.addBasinRecipe(iridium_block, iridium_block, molten_iridium, 1296);
+	mods.tconstruct.Casting.addBasinRecipe(iridium_block, null, molten_iridium, 1296);
 	
 //====== Add Xnet Description ======
 //	
