@@ -181,3 +181,7 @@ print(" ========================================================== ");
 	// Some reason cobalt blocks gained extra oredict, so removal of this
 	<ore:oreCobalt>.remove(<tconstruct:metal:0>);
 	<ore:oreArdite>.remove(<tconstruct:metal:0>);
+
+//====== Remove oredict from Ardite ======
+//
+	<ore:oreArdite>.remove(<tconstruct:ore>);
