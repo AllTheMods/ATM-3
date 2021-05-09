@@ -186,7 +186,7 @@ print(" ==================================================== ");
 				id: "patchouli:guide_book",
 				Count: 1 as byte,
 				tag: {
-					"patchouli:book": "roots_guide"
+					"patchouli:book": "roots:roots_guide"
 				},
 				Damage: 0 as short
 			},
