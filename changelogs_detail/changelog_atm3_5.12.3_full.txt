@@ -1,0 +1,136 @@
+All the Mods 3 v5.12.2 to All the Mods 3 v5.12.2
+
+Updated 1 files:
+	Minecolonies (went from minecolonies-1.12.2-0.10.322-BETA-universal.jar to minecolonies-1.12.2-0.10.341-ALPHA-universal.jar):
+		minecolonies-1.12.2-0.10.341-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.341-ALPHA
+
+			 * Merge remote-tracking branch 'origin/schematics' into version/1.12
+			 * Fixed Dwarven Farmer
+			 * Replace Birch TH 5 with the correct one
+			 * Naming issue
+			 * Fixed Stone Cook
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * keep taiga at least for this merge, remove after nordic is ready.
+			 * Merge branch 'version/1.12' into schematics
+			 * Few schematic updates
+			 * Re-upload all schematics except Taiga and Dark Oak
+			 * Stone Townhall Fix
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Fixed naming on walls
+			 * New Mesa and Birch Buildings
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Remove Taiga
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Wooden Composter
+			 * Wooden Citizen
+			 * Wooden Townhall
+			 * Dark Oak Blacksmith
+			 * Merge remote-tracking branch 'origin/schematics' into Schematics
+			 * Merge remote-tracking branch 'origin/version/1.12' into schematics
+			 * Taiga Barracks
+			 * Merge remote-tracking branch 'origin/schematics' into Schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Rescans of wooden and stone
+			 * Merge branch 'version/1.12' into schematics
+			 * Fix schematics, 2 hotfixes, fix claim, fix scan command
+			 * Medieval Styles updated with new buildings and alternative buildings.
+			 * Chest to Rack update for Stone and other minor changes
+			 * Update Wooden Style for Racks
+			 * Fix Medieval Spruce Lumberjack 2
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Fix Stone cook 5 to remove music disc
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Re-scanned Dwarven barracks
+			 * Fix missing rack in Taiga Baker5
+			 * Fix Medieval Dark Oak WareHouse
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Add New Deco Wooden Wall, add some parks
+			 * Removed incorrect files, and rearranged decorations
+			 * Fix Medieval Birch Warehouse
+			 * Fix Dwarven Farmer
+			 * Taiga Townhall 1 fixed
+			 * Merge remote-tracking branch 'origin/schematics' into schematics
+			 * Merge branch 'version/1.12' into schematics
+			 * Fixes and Spacewars Sifter.
+		minecolonies-1.12.2-0.10.340-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.340-ALPHA
+
+			 * fix missing getBlock
+		minecolonies-1.12.2-0.10.339-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.339-ALPHA
+
+			 * hotfix request spam
+		minecolonies-1.12.2-0.10.337-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.337-ALPHA
+
+			 *
+			citizen wall workaround (#3775)
+
+			 *
+			citizen wall workaround
+		minecolonies-1.12.2-0.10.336-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.336-ALPHA
+
+			 *
+			setting the right home for guards. (#3770)
+
+			 *
+			setting the right worker home for guards.
+		minecolonies-1.12.2-0.10.335-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.335-ALPHA
+
+			 *
+			Minor fixes (#3767)
+
+			 *
+			fix th teleport
+
+			 *
+			bump structurize
+		minecolonies-1.12.2-0.10.334-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.334-ALPHA
+
+			 * Revert "Increase the size of the API and add an actuall API. (#3756)" (#3759)
+			This reverts commit 007c558f5cece4716504a5d9ce7f09b75cd048ae.
+		minecolonies-1.12.2-0.10.324-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.324-ALPHA
+
+			 * Schematics (#3723)
+			Tons of Schematic fixes
+		minecolonies-1.12.2-0.10.323-ALPHA-universal.jar:
+			Minecolonies Changelog
+
+			Version: 1.12.2-0.10.323-ALPHA
+
+			 * fix recipe detection (#3751)
+
+Removed 1 files:
+	- AOBD/JAOPCA ore chunks
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)

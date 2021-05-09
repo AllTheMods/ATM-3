@@ -437,10 +437,6 @@ print(" ========================================================== ");
 		//<resourcefulcrops:seed:*>,
 		//<roots:aubergine_seeds:*>,
 		//<roots:moontinged_seed:*>,
-		<rustic:apple_seeds:*>,
-		<rustic:chili_pepper_seeds:*>,
-		<rustic:grape_stem:*>,
-		<rustic:tomato_seeds:*>
 	] as IItemStack[];
 	<ore:listAllSeed>.addItems(SeedsToAdd);
 	<ore:listAllSeed>.addAll(Seed);

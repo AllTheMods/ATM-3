@@ -104,7 +104,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "small_lily": {
@@ -174,7 +174,7 @@
         }
       },
       "maxRadius": 8,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 10.0,
       "enable": true
     }
   },

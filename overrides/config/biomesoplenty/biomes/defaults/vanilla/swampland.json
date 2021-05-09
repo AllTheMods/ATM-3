@@ -188,7 +188,7 @@
         }
       },
       "maxRadius": 7,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 3.0,
       "enable": true
     }
   }
