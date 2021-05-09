@@ -6,10 +6,9 @@
   "variationBelow": 6.0,
   "variationAbove": 3.0,
   "seaFloorBlock": {
-    "block": "minecraft:dirt",
+    "block": "biomesoplenty:mud",
     "properties": {
-      "snowy": "false",
-      "variant": "dirt"
+      "variant": "mud"
     }
   },
   "fillerBlock": {

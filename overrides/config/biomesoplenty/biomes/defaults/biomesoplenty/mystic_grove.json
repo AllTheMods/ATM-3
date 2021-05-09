@@ -188,12 +188,6 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
-    "big_brown_mushroom": {
-      "minHeight": 5,
-      "maxHeight": 8,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
     "grass": {
       "amountPerChunk": 1.5,
       "enable": true,
