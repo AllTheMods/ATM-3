@@ -1,3 +1,26 @@
+# ATM3 v6.1.0
+
+### Mods Changed
+* Removed DiscordSuite
+
+### Config/Misc: 
+* Fixed roots guide book in akashic tome
+* Fixed astralsorcery ritual anchor ticking itself 
+* Increases max energy for the last woot power cell  (for upgraded chaos dragon woot farm)
+* Removed Ardite ore duplicate oredict entrie
+* Fixed mana dust beeing uncraftable
+* Enabled ore gen for advancedrocketry ores
+* Added mysticalworld guidebook to the akashic tome
+* Removed silver and copper from mystialworld from world generation
+
+
+<br/>  
+<br/>
+
+
+
+
+
 # ATM3 v5.9.1
 *Is it a hotfix? Is it a pack update? Nobody knows!*  
 ALWAYS BACKUP BEFORE YOU UPDATE   
