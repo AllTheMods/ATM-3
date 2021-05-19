@@ -175,13 +175,3 @@ print(" ========================================================== ");
 	<ore:crushedUranium>.addAll(<ore:dustUranium>);
 	recipes.addShapeless("IEUranium", <immersiveengineering:metal:14>, [<ore:dustUranium>]);
 	recipes.addShapeless("Ic2Uranium", <ic2:crushed:6>*2, [<ore:dustUranium>, <ore:dustUranium>]);
-	
-//====== Remove oredicts from Cobalt ======
-//
-	// Some reason cobalt blocks gained extra oredict, so removal of this
-	<ore:oreCobalt>.remove(<tconstruct:metal:0>);
-	<ore:oreArdite>.remove(<tconstruct:metal:0>);
-
-//====== Remove oredict from Ardite ======
-//
-	<ore:oreArdite>.remove(<tconstruct:ore>);
