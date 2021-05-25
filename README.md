@@ -15,6 +15,7 @@ Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 + [![All the Mods 4](http://cf.way2muchnoise.eu/316059.svg "ATM4") All The Mods 4 - ATM4](https://www.curseforge.com/minecraft/modpacks/all-the-mods-4)
 + [![All the Mods 5](http://cf.way2muchnoise.eu/357494.svg "ATM5") All The Mods 5 - ATM5](https://www.curseforge.com/minecraft/modpacks/all-the-mods-5)
 + [![All the Mods 6](http://cf.way2muchnoise.eu/381671.svg "ATM6") All The Mods 6 - ATM6](https://www.curseforge.com/minecraft/modpacks/all-the-mods-6)
++ [![All the Mods SLOP2](http://cf.way2muchnoise.eu/432480.svg "ATM6") All the Mods - Slice of Pi2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-slice-of-pi2-atm-slop2)
 + [![All the Mods 6S](http://cf.way2muchnoise.eu/442246.svg "ATM6") All the Mods 6 - To the Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-6-to-the-sky-atm6s)
   
 Need Help?
