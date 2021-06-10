@@ -7,12 +7,17 @@
 * Fixed roots guide book in akashic tome
 * Fixed astralsorcery ritual anchor ticking itself 
 * Increases max energy for the last woot power cell  (for upgraded chaos dragon woot farm)
-* Removed Ardite ore duplicate oredict entrie
+* Removed Ardite ore duplicate oredict entry
 * Fixed mana dust beeing uncraftable
 * Enabled ore gen for advancedrocketry ores
 * Added mysticalworld guidebook to the akashic tome
 * Removed silver and copper from mystialworld from world generation
 
+### New Forge
++ 2855
+
+### And of course...  
+* Updated All the Mods!
 
 <br/>  
 <br/>
