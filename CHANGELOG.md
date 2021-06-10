@@ -3,6 +3,8 @@
 ### Mods Changed
 * Removed DiscordSuite
 
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*  
+
 ### Config/Misc: 
 * Fixed roots guide book in akashic tome
 * Fixed astralsorcery ritual anchor ticking itself 
