@@ -186,7 +186,7 @@ print(" ==================================================== ");
 				id: "patchouli:guide_book",
 				Count: 1 as byte,
 				tag: {
-					"patchouli:book": "roots_guide"
+					"patchouli:book": "roots:roots_guide"
 				},
 				Damage: 0 as short
 			},
@@ -285,6 +285,14 @@ print(" ==================================================== ");
 					Book: "minecolonies:book/minecolonies.xml"
 				},
 				Damage: 0 as short
+			},
+				mysticalworld: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "mysticalworld:world_guide"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -342,6 +350,7 @@ print(" ==================================================== ");
 		<thebetweenlands:manual_hl>,
 		<guideapi:inventorygenerators-guide_book>,
 		<valkyrielib:guide>,
+		<patchouli:guide_book>.withTag({"patchouli:book": "mysticalworld:world_guide"})
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
