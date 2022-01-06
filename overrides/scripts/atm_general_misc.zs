@@ -540,5 +540,3 @@ recipes.remove(<minecraft:chest>);
 // removes brick recipes
 //
 	recipes.remove(<projectred-exploration:stone:1>);
-	var projectredMarble = <projectred-exploration:stone>;
-	recipes.addShapeless("projectred-exploration:blocks/marble_brick", <projectred-exploration:stone:1> * 4, [projectredMarble, projectredMarble, projectredMarble, projectredMarble]);
