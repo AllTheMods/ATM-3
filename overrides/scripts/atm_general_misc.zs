@@ -535,3 +535,8 @@ recipes.remove(<minecraft:chest>);
 //
    mods.thermalexpansion.Pulverizer.removeRecipe(<techreborn:dynamiccell>);
    mods.thermalexpansion.Pulverizer.addRecipe(<techreborn:smalldust:53>, <techreborn:dynamiccell>, 2500);
+
+//======  Project Red Exploration ======
+// removes brick recipes
+//
+	recipes.remove(<projectred-exploration:stone:1>);

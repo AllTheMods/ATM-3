@@ -58,7 +58,7 @@ print(" ====================================================== ");
 	var advPressurePipes = <pneumaticcraft:advanced_pressure_tube>;
 
 	//Orb Vars
-	var rootsTimeSpell = <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_time_stop",}}).onlyWithTag({spell_holder: {spell_0: "spell_time_stop",}});
+	var rootsTimeSpell = <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_time_stop"}}).onlyWithTag({spell_storage: {s: "roots:spell_time_stop"}});
 	var manaBiscuit = <botania:manacookie>;
 	var starShard = <mysticalagradditions:stuff>;
 	var opinium = <extrautils2:opinium:8>;

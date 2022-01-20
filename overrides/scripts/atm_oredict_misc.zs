@@ -146,3 +146,7 @@ Anything regarding oredict that doesn't need it's own dedicated script file
 //====== String ======
 //
  <ore:cropFlax>.remove(<minecraft:string>);
+
+ //====== Advanced Rocketry  warp core fix ======
+ //
+ <ore:blockWarpCoreRim>.add(<techreborn:storage:2>);
