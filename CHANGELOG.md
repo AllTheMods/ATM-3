@@ -1,3 +1,30 @@
+# ATM3 v6.1.1
+
+### Mods Changed
+* Added Spark
+
+*[full modlist](https://rawgit.com/AllTheMods/ATM-3/master/modlist.html)*  
+
+### Config/Misc: 
+* Upgraded to newest version of forge to stop the Log4j exploit from working
+* Fixed Mana dust recipe again
+* Disabled unused integrations
+* Fixed warp core multiblock from Advanced Rocketry
+* Enabled harvesting of craftable creative blocks
+* Astral sorcery marble bricks are now craftable with any kind of marble
+
+### New Forge
++ 2860
+
+### And of course...  
+* Updated All the Mods!
+
+<br/>  
+<br/>
+
+
+
+
 # ATM3 v6.1.0
 
 ### Mods Changed
